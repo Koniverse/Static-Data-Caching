@@ -2,10 +2,14 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
+const WEB_RUNNER_URL =  process.env.WEB_RUNNER_URL || 'https://swwrc.pages.dev';
+
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
 
-  const page = await virtualBrowser.openPage('https://swwrc.pages.dev')
+  const page = await virtualBrowser.openPage(WEB_RUNNER_URL )
+  console.log(`Opened page ${WEB_RUNNER_URL}`);
+
   const result = await page.evaluate(async () => {
     try {
       const koniState = window.SubWalletState;
