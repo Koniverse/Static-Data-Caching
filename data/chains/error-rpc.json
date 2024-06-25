@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -45,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "sakura",
+    "name": "Sakura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc.sakura.clover.finance"
     }
   }
 ]
