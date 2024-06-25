@@ -45,7 +45,7 @@ jobs:
 
       - name: Run scripts
         run: |
-          BRANCH=dev yarn export-error-rpc
+          NODE_ENV=development yarn export-error-rpc
 
       - name: Commit changes
         id: commit_changes

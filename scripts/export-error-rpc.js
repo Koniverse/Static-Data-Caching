@@ -17,7 +17,7 @@ const STATUS = {
 
 const getChains = async (url = URL_GET_CHAIN) => {
 
-  const fileName = process.env.BRANCH === 'main' ? 'list.json' : 'preview.json'
+  const fileName = process.env.NODE_ENV === 'production' ? 'list.json' : 'preview.json'
   const {success, data} = await createApiRequest({
     url: `${url}/${fileName}`,
     method: 'GET',
@@ -139,24 +139,29 @@ const getErrorRpc = async (chainInfo) => {
   return Object.fromEntries(Object.entries(errorRpcs).sort())
 }
 
-const checkHealthRpc = async () => {
-  const chains = await getChains()
-  const errorChain = []
-  await Bluebird.map(chains, async (chainInfo) => {
-    const errorRpcs = await getErrorRpc(chainInfo)
-    console.log('errorRpcs', chainInfo.name, errorRpcs)
-    if (!(Object.entries(errorRpcs).length === 0 && errorRpcs.constructor === Object)) {
-      errorChain.push({
-        slug: chainInfo.slug,
-        name: chainInfo.name,
-        status: chainInfo.chainStatus,
-        errorRpcs,
-      })
-    }
+export const checkHealthRpc = async () => {
+  try {
+    const chains = await getChains()
+    const errorChain = []
+    await Bluebird.map(chains, async (chainInfo) => {
+      const errorRpcs = await getErrorRpc(chainInfo)
+      console.log('errorRpcs', chainInfo.name, errorRpcs)
+      if (!(Object.entries(errorRpcs).length === 0 && errorRpcs.constructor === Object)) {
+        errorChain.push({
+          slug: chainInfo.slug,
+          name: chainInfo.name,
+          status: chainInfo.chainStatus,
+          errorRpcs,
+        })
+      }
 
-  }, {concurrency: 20})
+    }, {concurrency: 20})
 
-  writeFileSync(errorChain.sort((a, b) => (a.slug > b.slug) ? 1 : ((b.slug > a.slug) ? -1 : 0)), './data/chains/error-rpc.json')
+    writeFileSync(errorChain.sort((a, b) => (a.slug > b.slug) ? 1 : ((b.slug > a.slug) ? -1 : 0)), './data/chains/error-rpc.json')
+  } catch (err) {
+    console.log("Export error Rpc error", err)
+  }
+
 }
 
 setImmediate(async () => {

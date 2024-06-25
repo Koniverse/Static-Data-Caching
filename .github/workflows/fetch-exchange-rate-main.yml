@@ -1,7 +1,7 @@
 name: Fetch Exchange Rate Main
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch:
     branches:
       - main
@@ -14,7 +14,7 @@ on:
 concurrency: 'main'
 
 jobs:
-  health-check:
+  exchange-rate:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-22.04
     name: Fetch Exchange Rate
