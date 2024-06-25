@@ -16,6 +16,22 @@
     }
   },
   {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws"
+    }
+  },
+  {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -29,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "layerEdge_testnet",
-    "name": "LayerEdge Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
     }
   },
   {
