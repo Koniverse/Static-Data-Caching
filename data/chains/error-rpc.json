@@ -8,30 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,43 +24,11 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -100,7 +44,8 @@
     "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
+      "Crust Network": "wss://rpc.crust.network",
+      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
     }
   },
   {
@@ -112,46 +57,6 @@
     }
   },
   {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -160,35 +65,11 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -208,27 +89,19 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "shidenEvm",
+    "name": "Shiden - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+      "OnFinality": "https://shiden.api.onfinality.io/public"
     }
   },
   {
-    "slug": "sora_substrate",
-    "name": "SORA",
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub (Statemint)",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
     }
   }
 ]
