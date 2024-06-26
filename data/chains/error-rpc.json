@@ -1,10 +1,10 @@
 [
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
+    "slug": "3dpass",
+    "name": "3DPass",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "3dpass": "wss://rpc.3dpass.org"
     }
   },
   {
@@ -16,11 +16,11 @@
     }
   },
   {
-    "slug": "crust",
-    "name": "Crust",
+    "slug": "calamari_test",
+    "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust": "wss://crust-parachain.crustapps.net"
+      "calamari_test": "wss://c1.calamari.seabird.systems"
     }
   },
   {
@@ -29,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
-    }
-  },
-  {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
@@ -53,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com"
     }
   }
 ]
