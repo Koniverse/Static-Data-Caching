@@ -34,7 +34,7 @@ jobs:
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
         run: |
           yarn install
-          yarn fetch-data
+          NODE_ENV=development yarn fetch-data
 
       - name: Deploy to Cloudflare Pages
         id: cloudflare_deployment

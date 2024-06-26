@@ -83,7 +83,7 @@ const runBrowser = async () => {
     const promiseList = poolInfos.map((pool) => {
       const timeoutPromise = new Promise((resolve) => {
         setTimeout(() => {
-            resolve([]);
+          resolve([]);
         }, 60000);
       });
 
@@ -105,27 +105,29 @@ const runBrowser = async () => {
 
   data.forEach(([slug, targets]) => {
     if (targets.length > 0) {
-        writeJSONFile(`earning/targets/${slug}.json`, targets);
+      writeJSONFile(`earning/targets/${slug}.json`, targets);
     }
   });
 
   await virtualBrowser.close();
 };
 
-const main = async () => {
-  const errTimeout = setTimeout(() => {
-    throw new Error('Failed to fetch data');
-  }, 180000);
+export const fetchEarning = async () => {
+  try {
+    const errTimeout = setTimeout(() => {
+      throw new Error('Failed to fetch data');
+    }, 180000);
 
-  // Run browser
-  await runBrowser();
+    // Run browser
+    await runBrowser();
 
-  // Wait for 1 second
-  await new Promise((resolve) => {
-    setTimeout(resolve, 1000);
-  });
+    // Wait for 1 second
+    await new Promise((resolve) => {
+      setTimeout(resolve, 1000);
+    });
 
-  clearTimeout(errTimeout);
+    clearTimeout(errTimeout);
+  } catch (error) {
+    console.log("Fetch earning error", error)
+  }
 };
-
-main().catch(console.error);

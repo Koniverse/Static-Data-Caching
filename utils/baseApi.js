@@ -15,6 +15,7 @@ const createApiRequest = async ({url, method, data, params}) => {
       data: resp,
     }
   } catch (e) {
+    console.error(e?.message);
     const {response} = e
     const message = response ? response.statusText : e.message || e
     const _data = response ? response.data : ''

@@ -1,7 +1,7 @@
 name: Fetch Exchange Rate Dev
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch:
     branches:
       - dev
@@ -15,7 +15,7 @@ on:
 concurrency: 'dev'
 
 jobs:
-  health-check:
+  exchange-rate:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-22.04
     name: Fetch Exchange Rate
@@ -45,7 +45,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: '[CI Skip] Fetch Exchange Rate'
+          message: '[CI Skip] Fetch Exchange Rate (dev)'
 
       - name: Log commit changes
         run: |

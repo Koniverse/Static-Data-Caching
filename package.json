@@ -9,9 +9,9 @@
   "type": "module",
   "private": false,
   "scripts": {
-    "fetch-data": "node ./scripts/fetch-data.mjs",
-    "export-error-rpc": "node ./scripts/export-error-rpc.js",
-    "fetch-exchange-rate": "node ./scripts/fetch-exchange-rate.js"
+    "fetch-data": "node scripts/fetch-data.js",
+    "fetch-exchange-rate": "node ./scripts/fetch-exchange-rate.js",
+    "export-error-rpc": "node ./scripts/export-error-rpc.js"
   },
   "dependencies": {
     "@polkadot/api": "^11.2.1",

@@ -1,38 +1,29 @@
-name: RPC Health Check Dev
+name: Fetch Exchange Rate Main
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch:
     branches:
-      - dev
+      - main
     inputs:
       note:
-        description: 'Health check'
+        description: 'Fetch Exchange Rate'
         required: false
         default: ''
 
-concurrency: 'dev'
+concurrency: 'main'
 
 jobs:
-  health-check:
+  exchange-rate:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-22.04
-    name: RPC Health Check
+    name: Fetch Exchange Rate
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
-
-      - name: Set input data
-        id: input_data
-        run: |
-          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "target=latest" >> $GITHUB_OUTPUT
-          else
-            echo "target=beta" >> $GITHUB_OUTPUT
-          fi
 
       - uses: actions/setup-node@v3
         with:
@@ -45,7 +36,7 @@ jobs:
 
       - name: Run scripts
         run: |
-          NODE_ENV=development yarn export-error-rpc
+          EXCHANGE_RATE_API_KEY=${{ secrets.EXCHANGE_RATE_API_KEY }} yarn fetch-exchange-rate
 
       - name: Commit changes
         id: commit_changes
@@ -53,7 +44,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: '[CI Skip] Update error rpcs'
+          message: '[CI Skip] Fetch Exchange Rate ()'
 
       - name: Log commit changes
         run: |
@@ -68,6 +59,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: dev
+          branch: main
           directory: './data'
           wranglerVersion: '3'
