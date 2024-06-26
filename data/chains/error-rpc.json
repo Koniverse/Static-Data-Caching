@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://astar.api.onfinality.io/public"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -44,15 +52,8 @@
     "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "Crust Network": "wss://rpc.crust.network",
+      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
     }
   },
   {
@@ -69,6 +70,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crust": "wss://rpc-shadow.crust.network/"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub (Statemint)",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
     }
   }
 ]
