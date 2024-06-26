@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "https://astar.api.onfinality.io/public"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -54,6 +46,14 @@
     "errorRpcs": {
       "Crust Network": "wss://rpc.crust.network",
       "OnFinality": "wss://crust.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
