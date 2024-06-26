@@ -32,11 +32,43 @@
     }
   },
   {
+    "slug": "crust",
+    "name": "Crust",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust Network": "wss://rpc.crust.network"
+    }
+  },
+  {
     "slug": "darwinia2",
     "name": "Darwinia 2",
     "status": "ACTIVE",
     "errorRpcs": {
       "Darwinia Community": "wss://darwinia-rpc.darwiniacommunitydao.xyz"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -61,6 +93,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "shadow",
+    "name": "Crust Shadow",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://rpc-shadow.crust.network/"
     }
   }
 ]
