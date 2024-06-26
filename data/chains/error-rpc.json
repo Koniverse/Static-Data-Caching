@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://astar.api.onfinality.io/public"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,14 +40,6 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "logion",
     "name": "logion Standalone",
     "status": "ACTIVE",
@@ -61,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://rococo-asset-hub-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "shidenEvm",
+    "name": "Shiden - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "https://shiden.api.onfinality.io/public"
     }
   }
 ]
