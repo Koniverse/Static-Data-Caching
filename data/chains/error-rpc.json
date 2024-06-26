@@ -32,11 +32,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "crust",
+    "name": "Crust",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust Network": "wss://rpc.crust.network"
     }
   },
   {
@@ -56,11 +64,11 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
+    "slug": "shadow",
+    "name": "Crust Shadow",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
+      "Crust": "wss://rpc-shadow.crust.network/"
     }
   }
 ]
