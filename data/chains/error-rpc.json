@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -56,6 +48,14 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
@@ -69,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "rococo",
-    "name": "Rococo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://rococo-rpc.polkadot.io"
     }
   },
   {
