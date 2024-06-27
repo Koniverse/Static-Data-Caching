@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,14 +40,6 @@
     }
   },
   {
-    "slug": "crabParachain",
-    "name": "Crab2 Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crab": "wss://crab-rpc.darwinia.network/"
-    }
-  },
-  {
     "slug": "crust",
     "name": "Crust",
     "status": "ACTIVE",
@@ -56,11 +56,11 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia": "wss://asia-ws-opal.unique.network"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
