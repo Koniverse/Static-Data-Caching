@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,11 +64,27 @@
     }
   },
   {
+    "slug": "interlay",
+    "name": "Interlay",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-kusama.luckyfriday.io"
     }
   },
   {
@@ -69,6 +101,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crust": "wss://rpc-shadow.crust.network/"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Lucky Friday": "wss://rpc-asset-hub-kusama.luckyfriday.io"
     }
   }
 ]
