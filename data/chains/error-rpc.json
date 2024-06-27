@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -53,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crust Network": "wss://rpc.crust.network"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
