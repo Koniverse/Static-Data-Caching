@@ -40,6 +40,22 @@
     }
   },
   {
+    "slug": "crust",
+    "name": "Crust",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://crust-parachain.crustapps.net"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -61,14 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
