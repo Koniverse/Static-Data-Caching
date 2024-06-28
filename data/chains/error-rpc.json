@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -64,27 +64,11 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
