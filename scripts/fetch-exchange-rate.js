@@ -13,9 +13,13 @@ const fetchExchangeRateOnline = async () => {
     return data
 }
 
-const fetchExchangeRate= async () => {
-    const exchangeRate = await fetchExchangeRateOnline()
-    await writeFileSync(exchangeRate, './data/exchange-rate/data.json')
+export const fetchExchangeRate = async () => {
+    try {
+        const exchangeRate = await fetchExchangeRateOnline()
+        await writeFileSync(exchangeRate, './data/exchange-rate/data.json')
+    } catch (error) {
+        console.log("Fetch exchange rate error", error)
+    }
 }
 
 setImmediate(async () => {

@@ -1,17 +1,17 @@
-name: RPC Health Check Dev
+name: RPC Health Check Main
 on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
     branches:
-      - dev
+      - main
     inputs:
       note:
         description: 'Health check'
         required: false
         default: ''
 
-concurrency: 'dev'
+concurrency: 'main'
 
 jobs:
   health-check:
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
@@ -45,7 +45,7 @@ jobs:
 
       - name: Run scripts
         run: |
-          NODE_ENV=development yarn export-error-rpc
+          NODE_ENV=production yarn export-error-rpc
 
       - name: Commit changes
         id: commit_changes
@@ -68,6 +68,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: dev
+          branch: main
           directory: './data'
           wranglerVersion: '3'
