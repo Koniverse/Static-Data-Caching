@@ -32,11 +32,27 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "xlayer",
+    "name": "X Layer",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "X Layer OKX": "https://xlayerrpc.okx.com/"
     }
   }
 ]
