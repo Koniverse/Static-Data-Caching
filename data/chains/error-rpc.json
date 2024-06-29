@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -45,6 +37,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "xlayer",
+    "name": "X Layer",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "X Layer OKX": "https://xlayerrpc.okx.com/",
+      "X Layer": "https://rpc.xlayer.tech"
     }
   }
 ]
