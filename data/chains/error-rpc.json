@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -29,6 +21,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://public-rpc.mainnet.energywebx.com/ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://moonbeam.public.blastapi.io"
     }
   },
   {
