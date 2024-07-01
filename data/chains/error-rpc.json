@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "altair",
+    "name": "Altair",
     "status": "ACTIVE",
     "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -29,14 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
