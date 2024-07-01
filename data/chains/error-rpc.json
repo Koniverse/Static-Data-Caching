@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,11 +24,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "khala",
+    "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Phala": "wss://khala-api.phala.network/ws"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://moonbeam.public.blastapi.io"
     }
   },
   {
