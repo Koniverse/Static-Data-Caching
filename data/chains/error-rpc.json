@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
+    "slug": "acala",
+    "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     }
   },
   {
@@ -29,6 +29,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
