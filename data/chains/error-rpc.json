@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "acala_evm",
-    "name": "Acala - EVM",
+    "slug": "acala_testnet",
+    "name": "Acala Mandala TC7",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Acala": "https://eth-rpc-acala.aca-api.network"
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
+    }
+  },
+  {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
