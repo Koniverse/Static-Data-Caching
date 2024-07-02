@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala_evm",
+    "name": "Acala - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acala": "https://eth-rpc-acala.aca-api.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -21,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
