@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +24,11 @@
     }
   },
   {
-    "slug": "krest_network",
-    "name": "Krest Network",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
@@ -69,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
