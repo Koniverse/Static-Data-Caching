@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -29,14 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     }
   }
 ]
