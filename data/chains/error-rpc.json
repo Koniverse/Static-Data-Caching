@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -24,11 +32,11 @@
     }
   },
   {
-    "slug": "nftmart",
-    "name": "NFTMart",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "NFTMart": "wss://mainnet.nftmart.io/rpc/ws"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
