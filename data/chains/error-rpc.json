@@ -40,11 +40,27 @@
     }
   },
   {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
