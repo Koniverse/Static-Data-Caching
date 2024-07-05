@@ -32,11 +32,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Darwinia Network": "wss://rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "interlay",
+    "name": "Interlay",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://interlay-rpc.dwellir.com"
     }
   },
   {
@@ -53,22 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io"
-    }
-  },
-  {
-    "slug": "turing",
-    "name": "Turing",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://turing-rpc.dwellir.com"
     }
   }
 ]
