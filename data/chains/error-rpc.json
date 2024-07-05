@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
-    "slug": "acala_testnet",
-    "name": "Acala Mandala TC7",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
-    }
-  },
-  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -45,6 +29,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
