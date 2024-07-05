@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://arbitrum-one.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -29,6 +21,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
