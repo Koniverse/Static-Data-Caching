@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -52,7 +60,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io"
     }
   }
 ]
