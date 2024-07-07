@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala_testnet",
+    "name": "Acala Mandala TC7",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
+    }
+  },
+  {
     "slug": "atletaOlympia_testnet",
     "name": "Atleta Olympia",
     "status": "ACTIVE",
@@ -32,6 +40,22 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -45,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
