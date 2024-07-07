@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "atletaOlympia_testnet",
     "name": "Atleta Olympia",
     "status": "ACTIVE",
@@ -48,6 +40,14 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -61,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
