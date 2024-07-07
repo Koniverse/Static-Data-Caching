@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "atletaOlympia_testnet",
     "name": "Atleta Olympia",
     "status": "ACTIVE",
@@ -32,11 +40,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "interlay",
+    "name": "Interlay",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Kintsugi Labs": "wss://api.interlay.io/parachain"
     }
   },
   {
