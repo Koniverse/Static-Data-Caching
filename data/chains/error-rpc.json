@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -52,7 +60,8 @@
     "name": "Robonomics",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Airalab": "wss://kusama.rpc.robonomics.network/"
+      "Airalab": "wss://kusama.rpc.robonomics.network/",
+      "Samsara": "wss://robonomics.0xsamsara.com"
     }
   }
 ]
