@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "sora_ksm",
-    "name": "SORA Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Soramitsu": "wss://ws.parachain-collator-2.c2.sora2.soramitsu.co.jp"
     }
   }
 ]
