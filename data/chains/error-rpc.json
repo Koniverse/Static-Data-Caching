@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala_testnet",
+    "name": "Acala Mandala TC7",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   }
 ]
