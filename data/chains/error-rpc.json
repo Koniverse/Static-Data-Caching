@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -48,27 +56,11 @@
     }
   },
   {
-    "slug": "paseoTest",
-    "name": "Paseo Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/paseo"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot"
     }
   }
 ]
