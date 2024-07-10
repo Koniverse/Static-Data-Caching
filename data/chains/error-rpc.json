@@ -40,11 +40,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Crust Network": "wss://rpc.crust.network"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
