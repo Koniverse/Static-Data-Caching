@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS2": "wss://sys.dotters.network/bridgehub-kusama"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -48,11 +40,11 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -69,22 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://sys.ibp.network/statemine"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DottersNet": "wss://rpc.dotters.network/westend"
     }
   }
 ]
