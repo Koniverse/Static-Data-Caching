@@ -20,8 +20,7 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Astar": "wss://rpc.astar.network"
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -46,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
