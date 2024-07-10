@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP-GeoDNS2": "wss://sys.dotters.network/bridgehub-kusama"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -40,14 +48,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -61,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
     }
   }
 ]
