@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -48,11 +56,11 @@
     }
   },
   {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub",
+    "slug": "polkadex",
+    "name": "Polkadex",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   }
 ]
