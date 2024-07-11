@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "composableFinance",
-    "name": "Composable Finance",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Composable": "wss://rpc.composable.finance"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -45,6 +37,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
     }
   }
 ]
