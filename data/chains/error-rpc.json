@@ -20,7 +20,7 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -45,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
