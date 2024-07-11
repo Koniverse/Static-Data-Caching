@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,6 +48,14 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -56,11 +72,11 @@
     }
   },
   {
-    "slug": "polygon",
-    "name": "Polygon",
+    "slug": "rococo",
+    "name": "Rococo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
+      "Parity": "wss://rococo-rpc.polkadot.io"
     }
   }
 ]
