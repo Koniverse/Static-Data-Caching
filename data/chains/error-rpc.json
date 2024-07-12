@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "interlay",
+    "name": "Interlay",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -48,11 +56,11 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
+    "slug": "turingStaging",
+    "name": "Turing Staging",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
+      "Turing": "wss://rpc.turing-staging.oak.tech"
     }
   }
 ]
