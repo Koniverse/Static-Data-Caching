@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "analog_testnet",
-    "name": "Analog Testnet",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Analog": "wss://rpc.testnet.analog.one"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -29,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "hydradx_main",
-    "name": "Hydration",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
@@ -61,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
