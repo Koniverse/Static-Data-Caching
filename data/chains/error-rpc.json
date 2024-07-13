@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "analog_testnet",
+    "name": "Analog Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Analog": "wss://rpc.testnet.analog.one"
+    }
+  },
+  {
     "slug": "astar",
     "name": "Astar",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
