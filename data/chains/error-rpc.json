@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "analog_testnet",
     "name": "Analog Testnet",
     "status": "ACTIVE",
@@ -40,11 +32,11 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
@@ -53,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://hydradx-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
