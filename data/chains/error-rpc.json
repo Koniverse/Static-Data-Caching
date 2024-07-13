@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "atocha",
-    "name": "Atocha",
+    "slug": "acala_testnet",
+    "name": "Acala Mandala TC7",
     "status": "ACTIVE",
     "errorRpcs": {
-      "atocha": "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
