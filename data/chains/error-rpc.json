@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -36,7 +28,8 @@
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
+      "Kippu": "wss://kreivo.kippu.rocks/",
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -61,14 +54,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
