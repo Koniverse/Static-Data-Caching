@@ -24,19 +24,20 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Kippu": "wss://kreivo.kippu.rocks/",
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
