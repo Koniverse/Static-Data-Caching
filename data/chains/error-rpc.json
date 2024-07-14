@@ -12,7 +12,6 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
       "Blast": "wss://astar.public.blastapi.io"
     }
   },
@@ -33,11 +32,27 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
+    "slug": "odyssey",
+    "name": "Ares Odyssey",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "AresProtocol": "wss://odyssey.aresprotocol.io"
     }
   },
   {
