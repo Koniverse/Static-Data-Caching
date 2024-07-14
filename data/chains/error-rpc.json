@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
