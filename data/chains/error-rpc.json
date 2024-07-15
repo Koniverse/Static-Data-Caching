@@ -24,19 +24,20 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "okxTest",
+    "name": "X Layer testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testrpc": "https://testrpc.x1.tech/",
+      "X1testrpc": "https://x1testrpc.okx.com/"
     }
   },
   {
