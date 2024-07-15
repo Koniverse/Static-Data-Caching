@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -21,6 +37,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
