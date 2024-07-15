@@ -32,6 +32,15 @@
     }
   },
   {
+    "slug": "okxTest",
+    "name": "X Layer testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testrpc": "https://testrpc.x1.tech/",
+      "X1testrpc": "https://x1testrpc.okx.com/"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -45,14 +54,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
