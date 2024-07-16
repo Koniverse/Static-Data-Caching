@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://arbitrum-one.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,11 +48,19 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "fantom",
+    "name": "Fantom",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "BlastApi": "https://fantom-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "fantom_testnet",
+    "name": "Fantom Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
     }
   },
   {
@@ -48,11 +72,35 @@
     }
   },
   {
+    "slug": "moonbase",
+    "name": "Moonbase Alpha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://moonbase-alpha.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://moonbeam.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "optimism",
+    "name": "Optimism",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://optimism-mainnet.public.blastapi.io"
     }
   },
   {
@@ -72,11 +120,27 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
+    "slug": "polygon",
+    "name": "Polygon",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Composable": "wss://rpc.composablenodes.tech"
+      "Llamarpc": "https://polygon.llamarpc.com"
+    }
+  },
+  {
+    "slug": "shibuyaEvm",
+    "name": "Shibuya Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastAPI": "https://shibuya.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://shiden.public.blastapi.io"
     }
   },
   {
@@ -85,6 +149,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "vara_network",
+    "name": "Vara Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "wss://vara-mainnet.public.blastapi.io"
     }
   },
   {
