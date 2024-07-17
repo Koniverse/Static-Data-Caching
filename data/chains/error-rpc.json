@@ -32,11 +32,19 @@
     }
   },
   {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -69,22 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://shibuya-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "shibuyaEvm",
-    "name": "Shibuya Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastAPI": "https://shibuya.public.blastapi.io"
     }
   },
   {
