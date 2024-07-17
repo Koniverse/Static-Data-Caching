@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +32,11 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
