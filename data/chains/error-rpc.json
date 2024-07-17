@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -72,11 +64,12 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "Dwellir": "wss://shibuya-rpc.dwellir.com",
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
