@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -69,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://shibuya-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "shibuyaEvm",
+    "name": "Shibuya Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastAPI": "https://shibuya.public.blastapi.io"
     }
   },
   {
