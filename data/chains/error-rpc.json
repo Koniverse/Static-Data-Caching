@@ -32,19 +32,19 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
