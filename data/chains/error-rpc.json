@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -61,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
-    }
-  },
-  {
-    "slug": "vara_testnet",
-    "name": "Vara Network Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Vara": "wss://testnet.vara-network.io"
     }
   },
   {
