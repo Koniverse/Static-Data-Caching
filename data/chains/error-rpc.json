@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "basilisk",
+    "name": "Basilisk",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Basilisk ": "wss://rpc.basilisk.cloud"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -32,11 +40,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
