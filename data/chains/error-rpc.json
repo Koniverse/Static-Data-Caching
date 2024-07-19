@@ -48,6 +48,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -69,22 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
-    }
-  },
-  {
-    "slug": "rollux_testnet",
-    "name": "Rollux Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Rollux": "https://rpc-tanenbaum.rollux.com"
     }
   },
   {
