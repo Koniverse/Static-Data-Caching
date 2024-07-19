@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -69,14 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
