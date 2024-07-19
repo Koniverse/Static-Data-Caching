@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -53,6 +45,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
     }
   },
   {
