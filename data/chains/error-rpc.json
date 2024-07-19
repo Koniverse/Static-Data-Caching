@@ -12,7 +12,7 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -61,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
