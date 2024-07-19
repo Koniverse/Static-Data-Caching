@@ -48,27 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "kintsugi",
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
-    }
-  },
-  {
-    "slug": "nodle",
-    "name": "Nodle",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://nodle-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -93,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
