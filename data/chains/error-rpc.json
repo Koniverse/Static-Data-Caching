@@ -48,6 +48,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -72,11 +80,11 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "polygon",
+    "name": "Polygon",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
