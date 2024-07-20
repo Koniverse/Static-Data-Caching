@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -61,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
