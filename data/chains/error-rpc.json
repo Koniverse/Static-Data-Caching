@@ -56,19 +56,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "kintsugi",
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
