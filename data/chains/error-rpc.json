@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,14 +56,6 @@
     }
   },
   {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
-    }
-  },
-  {
     "slug": "encointer",
     "name": "Encointer",
     "status": "ACTIVE",
@@ -64,19 +64,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
     "slug": "kintsugi",
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
