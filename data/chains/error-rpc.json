@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "aleph_testnet_evm",
+    "name": "Aleph Zero Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Sepolia": "https://alephzero-sepolia.drpc.org/"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -53,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Encointer Association": "wss://kusama.api.encointer.org"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
