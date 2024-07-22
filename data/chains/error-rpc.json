@@ -8,19 +8,19 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "aleph_testnet_evm",
     "name": "Aleph Zero Testnet - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Sepolia": "https://alephzero-sepolia.drpc.org/"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -77,14 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     }
   },
   {
