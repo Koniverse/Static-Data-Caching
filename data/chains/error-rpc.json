@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -77,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
     }
   },
   {
