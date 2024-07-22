@@ -8,19 +8,19 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "aleph_testnet_evm",
     "name": "Aleph Zero Testnet - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Sepolia": "https://alephzero-sepolia.drpc.org/"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -56,6 +56,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -85,6 +93,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "vara_network",
+    "name": "Vara Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Vara Network": "wss://rpc.vara.network"
     }
   },
   {
