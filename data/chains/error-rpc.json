@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -77,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     }
   },
   {
