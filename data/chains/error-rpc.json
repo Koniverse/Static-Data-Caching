@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    }
+  },
+  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
