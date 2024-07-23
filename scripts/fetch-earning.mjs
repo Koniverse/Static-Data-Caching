@@ -4,7 +4,7 @@ import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
 const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://5f7a260b.swwrc.pages.dev/';
 
-console.log('Fetching data from', webRunnerURL);
+console.log('Fetching data from ', webRunnerURL);
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
