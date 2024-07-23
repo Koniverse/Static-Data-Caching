@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -56,11 +64,11 @@
     }
   },
   {
-    "slug": "hydradx_main",
-    "name": "Hydration",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://hydradx-rpc.dwellir.com"
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
