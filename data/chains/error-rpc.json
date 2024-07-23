@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,11 +40,27 @@
     }
   },
   {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
     }
   },
   {
@@ -56,11 +80,19 @@
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
