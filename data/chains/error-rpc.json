@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "acurast",
     "name": "Acurast Canary",
     "status": "ACTIVE",
@@ -56,19 +64,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "hydradx_main",
+    "name": "Hydration",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
@@ -85,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "pendulum",
+    "name": "Pendulum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
     }
   },
   {
