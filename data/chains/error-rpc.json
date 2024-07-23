@@ -56,6 +56,14 @@
     }
   },
   {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -69,14 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    }
-  },
-  {
-    "slug": "pendulum",
-    "name": "Pendulum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
     }
   },
   {
