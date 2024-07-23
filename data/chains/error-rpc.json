@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -53,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
