@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
@@ -48,6 +56,22 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -61,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "pendulum",
+    "name": "Pendulum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
     }
   },
   {
