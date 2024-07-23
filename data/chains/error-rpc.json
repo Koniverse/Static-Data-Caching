@@ -24,22 +24,6 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -80,14 +64,6 @@
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -96,19 +72,19 @@
     }
   },
   {
-    "slug": "origintrail",
-    "name": "NeuroWeb Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "TraceLabs": "wss://parachain-rpc.origin-trail.network"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "pendulum",
+    "name": "Pendulum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
     }
   },
   {
