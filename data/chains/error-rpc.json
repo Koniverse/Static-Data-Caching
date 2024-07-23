@@ -8,6 +8,15 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr",
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,6 +49,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -69,6 +86,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "https://asia-rpc.unique.network"
+    }
+  },
+  {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "UniqueAsia": "wss://asia-ws.unique.network/"
     }
   },
   {
