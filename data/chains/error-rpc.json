@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -93,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
