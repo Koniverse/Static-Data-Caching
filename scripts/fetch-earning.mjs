@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://58272d38.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://pr-3381--sw-web-runner.netlify.app/';
 
 console.log('Fetching data from', webRunnerURL);
 
