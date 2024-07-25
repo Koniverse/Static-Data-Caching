@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
     }
   },
   {
@@ -48,19 +64,11 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
+    "slug": "integritee",
+    "name": "Integritee Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
@@ -88,14 +96,6 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "syscoin_evm_testnet",
     "name": "Syscoin NEVM Testnet",
     "status": "ACTIVE",
@@ -116,7 +116,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
