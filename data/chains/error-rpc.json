@@ -8,27 +8,11 @@
     }
   },
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
-    }
-  },
-  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
     }
   },
   {
@@ -45,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -80,6 +56,14 @@
     }
   },
   {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -104,14 +88,6 @@
     }
   },
   {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "syscoin_evm_testnet",
     "name": "Syscoin NEVM Testnet",
     "status": "ACTIVE",
@@ -132,7 +108,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
