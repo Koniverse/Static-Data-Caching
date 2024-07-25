@@ -8,11 +8,27 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -45,22 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
