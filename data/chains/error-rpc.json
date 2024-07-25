@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    }
+  },
+  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -53,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
     }
   },
   {
@@ -96,11 +112,11 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
