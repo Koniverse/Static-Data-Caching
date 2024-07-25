@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
@@ -56,6 +48,14 @@
     }
   },
   {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "hydradx_main",
     "name": "Hydration",
     "status": "ACTIVE",
@@ -85,6 +85,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     }
   },
   {
