@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
@@ -77,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
