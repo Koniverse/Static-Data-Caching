@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -85,6 +85,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
