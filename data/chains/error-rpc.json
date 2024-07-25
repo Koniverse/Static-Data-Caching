@@ -48,14 +48,6 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -77,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
     }
   },
   {
