@@ -8,19 +8,19 @@
     }
   },
   {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
     }
   },
   {
@@ -56,11 +56,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "hydradx_main",
+    "name": "Hydration",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+      "Galactic Council": "wss://rpc.hydradx.cloud"
     }
   },
   {
@@ -88,11 +88,11 @@
     }
   },
   {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
+    "slug": "shiden",
+    "name": "Shiden",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
