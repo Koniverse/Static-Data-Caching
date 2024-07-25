@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "acurast",
     "name": "Acurast Canary",
     "status": "ACTIVE",
@@ -21,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
