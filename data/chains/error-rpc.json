@@ -48,11 +48,19 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "hydradx_main",
+    "name": "Hydration",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
@@ -69,14 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
     }
   },
   {
