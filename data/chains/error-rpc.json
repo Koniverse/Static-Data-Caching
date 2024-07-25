@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -56,14 +56,6 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -88,6 +80,22 @@
     }
   },
   {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "syscoin_evm_testnet",
     "name": "Syscoin NEVM Testnet",
     "status": "ACTIVE",
@@ -108,7 +116,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
