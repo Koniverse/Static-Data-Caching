@@ -8,27 +8,11 @@
     }
   },
   {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
       "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -64,6 +48,14 @@
     }
   },
   {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -80,14 +72,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -96,11 +80,11 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
