@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
@@ -45,22 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://eth-mainnet.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "hydradx_main",
-    "name": "Hydration",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
@@ -108,8 +100,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
