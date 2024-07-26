@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "integritee",
-    "name": "Integritee Network",
+    "slug": "centrifuge",
+    "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -80,11 +80,19 @@
     }
   },
   {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
@@ -108,7 +116,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
