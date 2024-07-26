@@ -48,14 +48,6 @@
     }
   },
   {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -77,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "rollux_evm",
+    "name": "Rollux",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Rollux": "https://rpc.rollux.com"
     }
   },
   {
