@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,14 +32,6 @@
     }
   },
   {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
-    }
-  },
-  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -61,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
@@ -96,6 +72,22 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "syscoin_evm_testnet",
     "name": "Syscoin NEVM Testnet",
     "status": "ACTIVE",
@@ -116,8 +108,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
