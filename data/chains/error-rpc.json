@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://eth-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -64,11 +72,11 @@
     }
   },
   {
-    "slug": "rollux_evm",
-    "name": "Rollux",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Rollux": "https://rpc.rollux.com"
+      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     }
   },
   {
