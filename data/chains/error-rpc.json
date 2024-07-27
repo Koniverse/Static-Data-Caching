@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -45,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     }
   },
   {
