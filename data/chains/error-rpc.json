@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,14 +56,6 @@
     }
   },
   {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -77,6 +77,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     }
   },
   {
