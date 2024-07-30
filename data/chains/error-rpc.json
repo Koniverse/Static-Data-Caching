@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
     }
   },
   {
@@ -48,19 +56,19 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     }
   },
   {
@@ -85,14 +93,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
