@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -16,27 +24,11 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -64,11 +56,11 @@
     }
   },
   {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
+    "slug": "krest_network",
+    "name": "Krest Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
@@ -96,11 +88,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
