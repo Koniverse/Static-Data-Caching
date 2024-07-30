@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "ajunaPolkadot",
     "name": "Ajuna Network",
     "status": "ACTIVE",
@@ -24,11 +32,11 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -37,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -88,14 +88,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -124,7 +116,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
