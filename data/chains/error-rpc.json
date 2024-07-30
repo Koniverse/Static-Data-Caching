@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "aleph",
+    "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
+      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
     }
   },
   {
@@ -24,19 +24,19 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -56,35 +56,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "khala",
+    "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kintsugi",
-    "name": "Kintsugi",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
     }
   },
   {
@@ -112,6 +88,14 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "syscoin_evm_testnet",
     "name": "Syscoin NEVM Testnet",
     "status": "ACTIVE",
@@ -132,8 +116,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
