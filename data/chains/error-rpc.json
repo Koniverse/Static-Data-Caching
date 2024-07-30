@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,27 +48,19 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1rpc": "https://1rpc.io/eth"
+    }
+  },
+  {
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet"
-    }
-  },
-  {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
     }
   },
   {
@@ -93,22 +93,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
