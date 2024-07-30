@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
+    "slug": "acala",
+    "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -21,6 +21,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -45,6 +53,38 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
@@ -92,7 +132,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
