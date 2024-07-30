@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +48,27 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
+    "slug": "centrifuge",
+    "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
