@@ -8,11 +8,43 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -56,6 +88,14 @@
     }
   },
   {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "krest_network",
     "name": "Krest Network",
     "status": "ACTIVE",
@@ -80,19 +120,27 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
