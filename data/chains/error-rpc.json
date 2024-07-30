@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,19 +40,11 @@
     }
   },
   {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
+    "slug": "centrifuge",
+    "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
-    }
-  },
-  {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -88,11 +72,19 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
