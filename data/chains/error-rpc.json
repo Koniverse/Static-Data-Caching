@@ -8,19 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
     }
   },
   {
@@ -37,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -72,14 +56,6 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -96,19 +72,19 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
