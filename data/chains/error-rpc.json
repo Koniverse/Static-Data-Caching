@@ -8,19 +8,19 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -69,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
