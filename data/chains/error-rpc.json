@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -21,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -56,14 +80,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -72,19 +88,11 @@
     }
   },
   {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     }
   },
   {
