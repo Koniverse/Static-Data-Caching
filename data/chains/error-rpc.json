@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,14 +24,6 @@
     }
   },
   {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -61,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
     }
   },
   {
@@ -85,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     }
   },
   {
