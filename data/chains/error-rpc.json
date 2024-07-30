@@ -8,12 +8,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
+    "slug": "amplitude",
+    "name": "Amplitude",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Blast": "wss://astar.public.blastapi.io"
+      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
     }
   },
   {
@@ -49,14 +48,6 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -78,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
