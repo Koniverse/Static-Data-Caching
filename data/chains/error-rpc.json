@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -24,11 +16,27 @@
     }
   },
   {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -45,22 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     }
   },
   {
@@ -116,7 +108,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
