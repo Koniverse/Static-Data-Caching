@@ -48,27 +48,27 @@
     }
   },
   {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
-    "slug": "karura",
-    "name": "Karura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     }
   },
   {
@@ -116,8 +116,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
