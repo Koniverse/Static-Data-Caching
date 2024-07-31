@@ -8,6 +8,15 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr",
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -69,14 +78,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "syscoin_evm_testnet",
-    "name": "Syscoin NEVM Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
