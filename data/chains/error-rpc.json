@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -32,11 +24,11 @@
     }
   },
   {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -56,19 +48,11 @@
     }
   },
   {
-    "slug": "karura",
-    "name": "Karura",
+    "slug": "krest_network",
+    "name": "Krest Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
@@ -88,14 +72,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -104,19 +80,11 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -140,8 +108,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
