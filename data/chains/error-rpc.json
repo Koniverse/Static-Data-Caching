@@ -48,14 +48,6 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -85,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "tangleTest",
+    "name": "Tangle Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Webb": "wss://testnet-rpc.tangle.tools"
     }
   },
   {
