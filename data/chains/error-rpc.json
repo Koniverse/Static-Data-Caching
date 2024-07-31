@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
     }
   },
   {
@@ -69,22 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
     }
   },
   {
