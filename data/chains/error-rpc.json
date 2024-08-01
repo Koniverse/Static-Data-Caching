@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -56,14 +48,6 @@
     }
   },
   {
-    "slug": "krest_network",
-    "name": "Krest Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -88,11 +72,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://shiden.api.onfinality.io/public-ws"
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -124,8 +108,7 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
