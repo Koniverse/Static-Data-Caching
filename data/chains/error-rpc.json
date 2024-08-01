@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -69,6 +77,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "syscoin_evm",
+    "name": "Syscoin NEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.syscoin.org"
+    }
+  },
+  {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
