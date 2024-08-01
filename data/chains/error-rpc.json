@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
-    }
-  },
-  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -77,6 +69,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "syscoin_evm",
+    "name": "Syscoin NEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.syscoin.org"
+    }
+  },
+  {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
