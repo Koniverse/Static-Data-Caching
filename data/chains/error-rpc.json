@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,19 +48,19 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
-    }
-  },
-  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
       "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
     }
   },
   {
@@ -72,19 +80,20 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
