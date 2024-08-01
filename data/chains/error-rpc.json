@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
+    "slug": "acala",
+    "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     }
   },
   {
@@ -48,22 +48,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -93,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "watr_mainnet",
+    "name": "Watr Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Watr": "wss://watr-rpc.watr-api.network"
     }
   },
   {
