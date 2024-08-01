@@ -8,6 +8,15 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr",
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -21,6 +30,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
     }
   },
   {
@@ -40,11 +57,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
     }
   },
   {
@@ -53,6 +70,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
     }
   },
   {
@@ -80,6 +105,23 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "rococo",
+    "name": "Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "syscoin_evm",
     "name": "Syscoin NEVM",
     "status": "ACTIVE",
@@ -101,6 +143,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://westend-rpc.polkadot.io"
     }
   },
   {
