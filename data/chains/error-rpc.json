@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -21,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
     }
   },
   {
@@ -77,22 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "syscoin_evm",
-    "name": "Syscoin NEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.syscoin.org"
-    }
-  },
-  {
-    "slug": "syscoin_evm_testnet",
-    "name": "Syscoin NEVM Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
