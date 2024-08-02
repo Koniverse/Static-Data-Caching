@@ -64,29 +64,19 @@
     }
   },
   {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
-    }
-  },
-  {
-    "slug": "unique_evm",
-    "name": "Unique - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EU": "https://eu-rpc.unique.network",
-      "US": "https://us-rpc.unique.network"
-    }
-  },
-  {
-    "slug": "unique_network",
-    "name": "Unique",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "UniqueEu": "wss://eu-ws.unique.network/",
-      "unique": "wss://us-ws.unique.network/"
     }
   },
   {
