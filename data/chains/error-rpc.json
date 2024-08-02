@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,14 +40,6 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -85,6 +69,24 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EU": "https://eu-rpc.unique.network",
+      "US": "https://us-rpc.unique.network"
+    }
+  },
+  {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "UniqueEu": "wss://eu-ws.unique.network/",
+      "unique": "wss://us-ws.unique.network/"
     }
   },
   {
