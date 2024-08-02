@@ -8,12 +8,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Blast": "wss://astar.public.blastapi.io"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -46,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
