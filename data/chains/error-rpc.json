@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
+    "slug": "acala",
+    "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     }
   },
   {
@@ -45,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
