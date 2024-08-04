@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
     "slug": "hydradx_main",
     "name": "Hydration",
     "status": "ACTIVE",
@@ -96,11 +88,27 @@
     }
   },
   {
+    "slug": "rococo",
+    "name": "Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://westend-rpc.polkadot.io"
     }
   },
   {
