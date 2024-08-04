@@ -48,22 +48,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -92,8 +76,15 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+    }
+  },
+  {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
     }
   },
   {
