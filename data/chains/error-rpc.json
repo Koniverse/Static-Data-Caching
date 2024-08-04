@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Helikon": "wss://rpc.helikon.io/hydradx"
+    }
+  },
+  {
     "slug": "hyperbridge",
     "name": "Hyperbridge",
     "status": "ACTIVE",
@@ -77,14 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
-    }
-  },
-  {
-    "slug": "rococo_assethub",
-    "name": "Rococo Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
     }
   },
   {
