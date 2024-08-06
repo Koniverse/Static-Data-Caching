@@ -12,7 +12,7 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
+      "1rpc": "https://1rpc.io/eth"
     }
   },
   {
@@ -61,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
