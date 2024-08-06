@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Blast": "https://astar.public.blastapi.io"
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -84,8 +84,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   },
   {
