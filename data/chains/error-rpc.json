@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,11 +40,27 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1rpc": "https://1rpc.io/eth"
+    }
+  },
+  {
     "slug": "hyperbridge",
     "name": "Hyperbridge",
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
