@@ -40,11 +40,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "manta_network",
+    "name": "Manta Atlantic",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
+      "Manta Network": "wss://ws.manta.systems"
     }
   },
   {
@@ -69,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "tomochain",
+    "name": "Viction",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "TomoChain": "https://rpc.tomochain.com"
     }
   },
   {
