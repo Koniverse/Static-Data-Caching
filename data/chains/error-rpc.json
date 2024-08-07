@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,11 +56,11 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
     }
   },
   {
@@ -85,6 +93,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   },
   {
