@@ -8,15 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -57,11 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -70,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -86,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
