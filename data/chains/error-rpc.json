@@ -40,11 +40,19 @@
     }
   },
   {
-    "slug": "hydradx_main",
-    "name": "Hydration",
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Helikon": "wss://rpc.helikon.io/hydradx"
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
