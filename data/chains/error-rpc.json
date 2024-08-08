@@ -8,31 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "https://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -101,7 +76,8 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
