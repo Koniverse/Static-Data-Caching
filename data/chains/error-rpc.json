@@ -12,7 +12,16 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr",
       "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "https://astar.public.blastapi.io"
     }
   },
   {
