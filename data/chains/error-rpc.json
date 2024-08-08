@@ -8,23 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr",
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -57,22 +40,6 @@
     }
   },
   {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
     "slug": "hyperbridge",
     "name": "Hyperbridge",
     "status": "ACTIVE",
@@ -94,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
