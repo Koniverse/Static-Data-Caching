@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +48,11 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
