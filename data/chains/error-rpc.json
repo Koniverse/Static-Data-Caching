@@ -4,7 +4,8 @@
     "name": "3DPass",
     "status": "ACTIVE",
     "errorRpcs": {
-      "3dpass": "wss://rpc.3dpass.org"
+      "3dpass": "wss://rpc.3dpass.org",
+      "3dpscan": "wss://rpc.3dpscan.io"
     }
   },
   {
@@ -13,6 +14,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1RPC": "wss://1rpc.io/astr"
     }
   },
   {
@@ -45,6 +62,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
