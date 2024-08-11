@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
     }
   },
   {
@@ -45,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
     }
   },
   {
