@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "botanixEvmTest",
-    "name": "Botanix Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Botanix Labs": "https://node.botanixlabs.dev"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -40,11 +32,19 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
+      "1rpc": "https://1rpc.io/eth"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
