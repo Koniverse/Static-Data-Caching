@@ -48,11 +48,27 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "centrifuge",
+    "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "frequency",
+    "name": "Frequency",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Frequency 1": "wss://1.rpc.frequency.xyz"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
