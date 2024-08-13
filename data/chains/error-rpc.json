@@ -48,11 +48,11 @@
     }
   },
   {
-    "slug": "frequency",
-    "name": "Frequency",
+    "slug": "khala",
+    "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Frequency 1": "wss://1.rpc.frequency.xyz"
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -69,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
