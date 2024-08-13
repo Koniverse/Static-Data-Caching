@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "aleph_testnet_evm",
-    "name": "Aleph Zero Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Sepolia": "https://alephzero-sepolia.drpc.org/"
-    }
-  },
-  {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,6 +21,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
     }
   },
   {
