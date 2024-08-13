@@ -32,14 +32,6 @@
     }
   },
   {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "botanixEvmTest",
     "name": "Botanix Testnet",
     "status": "ACTIVE",
@@ -53,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
