@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://arbitrum-one.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
