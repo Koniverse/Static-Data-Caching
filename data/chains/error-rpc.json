@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -77,6 +77,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "https://asia-rpc.unique.network"
+    }
+  },
+  {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "UniqueAsia": "wss://asia-ws.unique.network/"
     }
   },
   {
