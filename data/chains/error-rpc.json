@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala_evm",
+    "name": "Acala - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acala": "https://eth-rpc-acala.aca-api.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,27 +40,35 @@
     }
   },
   {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
-    }
-  },
-  {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
