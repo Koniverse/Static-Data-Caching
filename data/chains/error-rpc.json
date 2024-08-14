@@ -32,11 +32,27 @@
     }
   },
   {
-    "slug": "crabParachain",
-    "name": "Crab2 Parachain",
+    "slug": "centrifuge",
+    "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Crab": "wss://crab-rpc.darwinia.network/"
+      "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -45,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
     }
   },
   {
