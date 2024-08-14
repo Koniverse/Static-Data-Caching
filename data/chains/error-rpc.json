@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -45,6 +37,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
