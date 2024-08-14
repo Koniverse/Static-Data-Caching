@@ -32,27 +32,11 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
+      "1rpc": "https://1rpc.io/eth"
     }
   },
   {
@@ -61,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
-    }
-  },
-  {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
     }
   },
   {
