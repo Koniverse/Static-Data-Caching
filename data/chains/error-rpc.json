@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,6 +40,14 @@
     }
   },
   {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -64,6 +64,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -77,22 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
-    }
-  },
-  {
-    "slug": "unique_evm",
-    "name": "Unique - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Asia": "https://asia-rpc.unique.network"
-    }
-  },
-  {
-    "slug": "unique_network",
-    "name": "Unique",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "UniqueAsia": "wss://asia-ws.unique.network/"
     }
   },
   {
