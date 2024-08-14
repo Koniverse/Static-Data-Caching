@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "b2",
+    "name": "B² Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Bsquared": "https://rpc.bsquared.network"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
