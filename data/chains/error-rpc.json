@@ -8,19 +8,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
+    "slug": "altair",
+    "name": "Altair",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "wss://1rpc.io/astr"
-    }
-  },
-  {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
     }
   },
   {
@@ -40,6 +32,14 @@
     }
   },
   {
+    "slug": "botanixEvmTest",
+    "name": "Botanix Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Botanix Labs": "https://node.botanixlabs.dev"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -52,7 +52,8 @@
     "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
+      "1rpc": "https://1rpc.io/eth",
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
