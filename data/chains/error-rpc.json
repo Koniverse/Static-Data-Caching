@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,19 +48,11 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
+    "slug": "khala",
+    "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -72,6 +72,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -85,6 +93,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "watr_network",
+    "name": "Watr Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "watr": "wss://rpc.dev.watr.org"
     }
   },
   {
