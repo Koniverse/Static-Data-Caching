@@ -8,11 +8,35 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "b2",
+    "name": "B² Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt technology": "https://b2-mainnet.alt.technology"
+    }
+  },
+  {
+    "slug": "b2_testnet",
+    "name": "B² Network Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt Technology": "https://b2-testnet.alt.technology/"
     }
   },
   {
@@ -32,6 +56,22 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1rpc": "https://1rpc.io/eth"
+    }
+  },
+  {
+    "slug": "layerEdge_testnet",
+    "name": "LayerEdge Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -45,14 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
