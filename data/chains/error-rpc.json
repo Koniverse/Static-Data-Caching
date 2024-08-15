@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +32,27 @@
     }
   },
   {
+    "slug": "commune",
+    "name": "Commune AI",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Commune Node 1": "wss://commune-api-node-1.communeai.net"
+    }
+  },
+  {
     "slug": "dancebox",
     "name": "Dancebox",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
