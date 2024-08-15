@@ -16,11 +16,11 @@
     }
   },
   {
-    "slug": "b2",
-    "name": "B² Network",
+    "slug": "b2_testnet",
+    "name": "B² Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Alt technology": "https://b2-mainnet.alt.technology"
+      "Alt Technology": "https://b2-testnet.alt.technology/"
     }
   },
   {
@@ -37,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "1rpc": "https://1rpc.io/eth"
     }
   },
   {
