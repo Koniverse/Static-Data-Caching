@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
