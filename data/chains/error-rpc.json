@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "b2",
-    "name": "B² Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Alt technology": "https://b2-mainnet.alt.technology"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -53,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
