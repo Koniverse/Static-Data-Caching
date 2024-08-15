@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
     }
   },
   {
