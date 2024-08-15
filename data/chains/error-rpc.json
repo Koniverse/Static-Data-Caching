@@ -40,11 +40,19 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+      "1rpc": "https://1rpc.io/eth"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -61,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
-    }
-  },
-  {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
     }
   },
   {
