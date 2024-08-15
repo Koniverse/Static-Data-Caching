@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -52,7 +44,8 @@
     "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
+      "1rpc": "https://1rpc.io/eth",
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
