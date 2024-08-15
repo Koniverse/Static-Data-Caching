@@ -8,11 +8,35 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "b2",
+    "name": "B² Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt technology": "https://b2-mainnet.alt.technology"
+    }
+  },
+  {
+    "slug": "b2_testnet",
+    "name": "B² Network Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt Technology": "https://b2-testnet.alt.technology/"
     }
   },
   {
@@ -29,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "layerEdge_testnet",
+    "name": "LayerEdge Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
     }
   },
   {
