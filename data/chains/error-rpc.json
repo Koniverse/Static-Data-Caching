@@ -16,6 +16,23 @@
     }
   },
   {
+    "slug": "bevm",
+    "name": "BEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet 1": "https://rpc-mainnet-1.bevm.io",
+      "Mainnet 2": "https://rpc-mainnet-2.bevm.io"
+    }
+  },
+  {
+    "slug": "bevmTest",
+    "name": "BEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BEVM testnet": "https://testnet.bevm.io"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -45,6 +62,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
