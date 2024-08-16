@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    }
+  },
+  {
+    "slug": "karura",
+    "name": "Karura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
     }
   },
   {
