@@ -8,11 +8,35 @@
     }
   },
   {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "b2",
+    "name": "B² Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Bsquared": "https://rpc.bsquared.network"
+    }
+  },
+  {
+    "slug": "bevm",
+    "name": "BEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet 1": "https://rpc-mainnet-1.bevm.io"
     }
   },
   {
@@ -45,6 +69,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+    }
+  },
+  {
+    "slug": "kabocha",
+    "name": "Kabocha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "JelliedOwl": "wss://kabocha.jelliedowl.com"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
