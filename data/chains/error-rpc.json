@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,27 +24,11 @@
     }
   },
   {
-    "slug": "bittensor",
-    "name": "Bittensor",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "commune",
-    "name": "Commune AI",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Commune Node 1": "wss://commune-api-node-1.communeai.net"
     }
   },
   {
