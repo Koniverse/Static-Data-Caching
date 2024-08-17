@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -56,35 +64,11 @@
     }
   },
   {
-    "slug": "kintsugi",
-    "name": "Kintsugi",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
-    "slug": "nodle",
-    "name": "Nodle",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://nodle-parachain.api.onfinality.io/public-ws"
     }
   },
   {
