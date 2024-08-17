@@ -80,15 +80,6 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws",
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
@@ -101,7 +92,8 @@
     "name": "Zeitgeist",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+      "Dwellir": "wss://zeitgeist-rpc.dwellir.com",
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
