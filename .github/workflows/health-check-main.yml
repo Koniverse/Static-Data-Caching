@@ -1,7 +1,7 @@
 name: RPC Health Check Main
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:
     branches:
       - main

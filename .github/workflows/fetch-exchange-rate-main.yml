@@ -1,7 +1,7 @@
 name: Fetch Exchange Rate Main
 on:
   schedule:
-    - cron: "20 0 * * *"
+    - cron: "15 0 * * *"
   workflow_dispatch:
     branches:
       - main
