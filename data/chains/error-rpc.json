@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,19 +56,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
-    }
-  },
-  {
     "slug": "karura",
     "name": "Karura",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -77,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
