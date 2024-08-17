@@ -20,7 +20,7 @@
     "name": "Altair",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
     }
   },
   {
@@ -29,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
