@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.parachain.centrifuge.io"
-    }
-  },
-  {
     "slug": "dancebox",
     "name": "Dancebox",
     "status": "ACTIVE",
@@ -56,27 +48,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "1rpc": "https://1rpc.io/eth"
-    }
-  },
-  {
     "slug": "karura",
     "name": "Karura",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://karura.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
     }
   },
   {
