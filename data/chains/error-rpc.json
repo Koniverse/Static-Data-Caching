@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://acala-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -56,11 +40,19 @@
     }
   },
   {
-    "slug": "karura",
-    "name": "Karura",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://karura.api.onfinality.io/public-ws"
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
+    "slug": "fantom",
+    "name": "Fantom",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ankr": "https://rpc.ankr.com/fantom"
     }
   },
   {
@@ -69,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kippu": "wss://kreivo.kippu.rocks/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
