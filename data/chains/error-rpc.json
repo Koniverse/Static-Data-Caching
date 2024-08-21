@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
+    }
+  },
+  {
     "slug": "dancebox",
     "name": "Dancebox",
     "status": "ACTIVE",
@@ -40,27 +48,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "khala",
+    "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
-    "slug": "fantom",
-    "name": "Fantom",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -69,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AresProtocol": "wss://odyssey.aresprotocol.io"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
