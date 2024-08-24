@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
+    "slug": "altair",
+    "name": "Altair",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Blast": "https://astar.public.blastapi.io"
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
+    "slug": "analog_testnet",
+    "name": "Analog Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Analog": "wss://rpc.testnet.analog.one"
     }
   },
   {
@@ -48,11 +56,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "ipci",
+    "name": "DAO IPCI",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "viaAiralab": "wss://kusama.rpc.ipci.io"
     }
   },
   {
