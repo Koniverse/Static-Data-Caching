@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "analog_testnet",
+    "name": "Analog Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Analog": "wss://rpc.testnet.analog.one"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,19 +48,19 @@
     }
   },
   {
-    "slug": "dancebox",
-    "name": "Dancebox",
+    "slug": "heiko",
+    "name": "Heiko",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dancebox": "wss://fraa-dancebox-rpc.a.dancebox.tanssi.network"
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "ipci",
+    "name": "DAO IPCI",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
+      "viaAiralab": "wss://kusama.rpc.ipci.io"
     }
   },
   {
