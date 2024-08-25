@@ -56,11 +56,27 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
