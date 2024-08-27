@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "analog_testnet",
-    "name": "Analog Testnet",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Analog": "wss://rpc.testnet.analog.one"
+      "Blast": "wss://astar.public.blastapi.io"
     }
   },
   {
@@ -21,6 +21,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
     }
   },
   {
@@ -48,14 +56,6 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -77,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "https://rpc-sepolia.rockx.com/"
     }
   },
   {
