@@ -32,14 +32,6 @@
     }
   },
   {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "crownSterling",
     "name": "Crown Sterling",
     "status": "ACTIVE",
@@ -69,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "https://rpc-sepolia.rockx.com/"
     }
   },
   {
