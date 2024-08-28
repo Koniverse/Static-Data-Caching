@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -61,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "sepolia_ethereum",
-    "name": "Ethereum Sepolia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "https://rpc-sepolia.rockx.com/"
     }
   },
   {
