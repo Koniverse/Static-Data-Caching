@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
+    "slug": "acala",
+    "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
     }
   },
   {
@@ -21,14 +21,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
     }
   },
   {
