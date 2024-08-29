@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
     }
   },
   {
@@ -69,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "https://rpc-sepolia.rockx.com/"
     }
   },
   {
