@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
     }
   },
   {
@@ -72,19 +56,27 @@
     }
   },
   {
-    "slug": "sepolia_ethereum",
-    "name": "Ethereum Sepolia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "https://rpc-sepolia.rockx.com/"
-    }
-  },
-  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "watr_mainnet",
+    "name": "Watr Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "watr_mainnet_evm",
+    "name": "Watr Mainnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Watr": "wss://watr-rpc.watr-api.network"
     }
   },
   {
