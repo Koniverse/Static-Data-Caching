@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,11 +40,43 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
+    "slug": "imbue_network",
+    "name": "Imbue Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Imbue": "wss://kusama.imbuenetwork.com"
+    }
+  },
+  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
+    }
+  },
+  {
+    "slug": "kilt",
+    "name": "KILT Spiritnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
     }
   },
   {
@@ -53,6 +93,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   },
   {
