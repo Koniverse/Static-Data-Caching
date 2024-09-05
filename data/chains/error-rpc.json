@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "energy_web_x_rococo",
+    "name": "Energy Web X Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://public-rpc.testnet.energywebx.com/ws"
+    }
+  },
+  {
     "slug": "energy_web_x_testnet",
     "name": "EWX Staging Parachain",
     "status": "ACTIVE",
@@ -48,11 +56,19 @@
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      "MevBlocker": "https://rpc.mevblocker.io/"
+    }
+  },
+  {
+    "slug": "hashedNetwork",
+    "name": "Hashed Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hashed Systems 2": "wss://c2.hashed.network"
     }
   },
   {
@@ -93,14 +109,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     }
   },
   {
