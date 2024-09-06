@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astarEvm",
-    "name": "Astar - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "https://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -40,11 +32,43 @@
     }
   },
   {
+    "slug": "hashedNetwork",
+    "name": "Hashed Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
+    }
+  },
+  {
+    "slug": "kilt",
+    "name": "KILT Spiritnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
