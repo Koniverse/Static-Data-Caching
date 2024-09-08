@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
@@ -53,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
