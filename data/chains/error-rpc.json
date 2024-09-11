@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,19 +24,19 @@
     }
   },
   {
-    "slug": "botanixEvmTest",
-    "name": "Botanix Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Botanix Labs": "https://node.botanixlabs.dev"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -93,22 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://shibuya-rpc.dwellir.com"
     }
   },
   {
