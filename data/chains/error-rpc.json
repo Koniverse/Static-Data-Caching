@@ -32,11 +32,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -45,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
