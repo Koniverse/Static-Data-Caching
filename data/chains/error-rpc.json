@@ -32,27 +32,11 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
-    }
-  },
-  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -69,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kulupu",
+    "name": "Kulupu",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
     }
   },
   {
@@ -93,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "shibuyaEvm",
+    "name": "Shibuya Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastAPI": "https://shibuya.public.blastapi.io"
     }
   },
   {
