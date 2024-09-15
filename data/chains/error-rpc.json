@@ -56,14 +56,6 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -80,11 +72,35 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
+    "slug": "kulupu",
+    "name": "Kulupu",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
     "slug": "litmus",
     "name": "Litmus",
     "status": "ACTIVE",
     "errorRpcs": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
+    }
+  },
+  {
+    "slug": "mythos",
+    "name": "Mythos",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
     }
   },
   {
