@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Avail Turing ": "wss://turing-rpc.avail.so/ws"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -40,19 +48,27 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
