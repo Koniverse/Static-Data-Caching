@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -32,43 +40,11 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "bridgeHubPolkadot",
-    "name": "Polkadot Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://polkadot-bridge-hub-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "collectives",
-    "name": "Polkadot Collectives",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -96,19 +72,11 @@
     }
   },
   {
-    "slug": "kintsugi",
-    "name": "Kintsugi",
+    "slug": "kreivo",
+    "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kulupu",
-    "name": "Kulupu",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
