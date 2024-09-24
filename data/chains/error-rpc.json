@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -48,11 +40,27 @@
     }
   },
   {
+    "slug": "discovol",
+    "name": "Discovol",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
     "slug": "ethereum",
     "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
+    "slug": "fusotao",
+    "name": "Fusotao",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
     }
   },
   {
@@ -80,6 +88,14 @@
     }
   },
   {
+    "slug": "layerEdge_testnet",
+    "name": "LayerEdge Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
     "slug": "litmus",
     "name": "Litmus",
     "status": "ACTIVE",
@@ -96,11 +112,27 @@
     }
   },
   {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
