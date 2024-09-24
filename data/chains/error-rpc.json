@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -45,6 +37,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "discovol",
+    "name": "Discovol",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "fusotao",
+    "name": "Fusotao",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
     }
   },
   {
@@ -72,11 +80,11 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
+    "slug": "layerEdge_testnet",
+    "name": "LayerEdge Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
+      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
     }
   },
   {
