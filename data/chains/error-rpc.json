@@ -80,14 +80,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SubWallet": "wss://kusama-rpc.subwallet.app"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -117,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastApi": "https://polygon-mainnet.public.blastapi.io"
     }
   },
   {
