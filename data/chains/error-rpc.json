@@ -88,14 +88,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SubWallet": "wss://kusama-rpc.subwallet.app"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -125,6 +117,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "ternoaZkEvm_testnet",
+    "name": "Ternoa zkEVM+ Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
     }
   },
   {
