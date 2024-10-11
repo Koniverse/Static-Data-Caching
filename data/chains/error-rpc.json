@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "astarZkEvm",
-    "name": "Astar zkEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -37,6 +29,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
   {
@@ -133,14 +141,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "rollux_testnet",
-    "name": "Rollux Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Rollux": "https://rpc-tanenbaum.rollux.com"
     }
   },
   {
