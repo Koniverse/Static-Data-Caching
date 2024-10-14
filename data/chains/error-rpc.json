@@ -16,6 +16,22 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
+    "slug": "arbitrum_sepolia",
+    "name": "Arbitrum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+    }
+  },
+  {
     "slug": "astar",
     "name": "Astar",
     "status": "ACTIVE",
@@ -88,14 +104,6 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -109,14 +117,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
