@@ -16,30 +16,6 @@
     }
   },
   {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
-    }
-  },
-  {
-    "slug": "arbitrum_sepolia",
-    "name": "Arbitrum Sepolia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -144,6 +120,14 @@
     }
   },
   {
+    "slug": "okxTest",
+    "name": "X Layer testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testrpc": "https://testrpc.x1.tech/"
+    }
+  },
+  {
     "slug": "parallel",
     "name": "Parallel",
     "status": "ACTIVE",
@@ -152,11 +136,27 @@
     }
   },
   {
+    "slug": "paseoTest",
+    "name": "Paseo Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amforc": "wss://paseo.rpc.amforc.com"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polimec",
+    "name": "Polimec",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amforc": "wss://polimec.rpc.amforc.com"
     }
   },
   {
