@@ -64,6 +64,22 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -93,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -136,14 +160,6 @@
     }
   },
   {
-    "slug": "paseoTest",
-    "name": "Paseo Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amforc": "wss://paseo.rpc.amforc.com"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -152,19 +168,19 @@
     }
   },
   {
-    "slug": "polimec",
-    "name": "Polimec",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amforc": "wss://polimec.rpc.amforc.com"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
     "errorRpcs": {
       "Samsara": "wss://robonomics.0xsamsara.com"
+    }
+  },
+  {
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
     }
   },
   {
