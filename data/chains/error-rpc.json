@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -64,6 +72,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -96,6 +112,14 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -120,6 +144,14 @@
     }
   },
   {
+    "slug": "okxTest",
+    "name": "X Layer testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testrpc": "https://testrpc.x1.tech/"
+    }
+  },
+  {
     "slug": "parallel",
     "name": "Parallel",
     "status": "ACTIVE",
@@ -136,19 +168,19 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
+    "slug": "robonomics",
+    "name": "Robonomics",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
+      "Samsara": "wss://robonomics.0xsamsara.com"
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "rococo_assethub",
+    "name": "Rococo Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
     }
   },
   {
