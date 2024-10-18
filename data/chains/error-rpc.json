@@ -64,6 +64,14 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
     "slug": "ethereum",
     "name": "Ethereum",
     "status": "ACTIVE",
@@ -93,6 +101,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://khala-rpc.dwellir.com"
     }
   },
   {
@@ -141,6 +157,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "paseoTest",
+    "name": "Paseo Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://paseo-rpc.dwellir.com"
     }
   },
   {
