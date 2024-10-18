@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -112,14 +104,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -133,6 +117,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
+    }
+  },
+  {
+    "slug": "moonriver",
+    "name": "Moonriver",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://moonriver-rpc.dwellir.com"
     }
   },
   {
