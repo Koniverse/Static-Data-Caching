@@ -64,14 +64,6 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
-    }
-  },
-  {
     "slug": "ethereum",
     "name": "Ethereum",
     "status": "ACTIVE",
@@ -104,19 +96,19 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://khala-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -160,14 +152,6 @@
     }
   },
   {
-    "slug": "paseoTest",
-    "name": "Paseo Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://paseo-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -189,6 +173,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "ternoa_alphanet",
+    "name": "Ternoa Alphanet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "ternoa": "wss://alphanet.ternoa.com"
     }
   },
   {
