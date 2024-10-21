@@ -104,6 +104,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -117,14 +125,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
-    }
-  },
-  {
-    "slug": "moonriver",
-    "name": "Moonriver",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://moonriver-rpc.dwellir.com"
     }
   },
   {
