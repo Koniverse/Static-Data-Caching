@@ -64,14 +64,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
-    }
-  },
-  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -136,6 +128,14 @@
     }
   },
   {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "wss://asia-ws-opal.unique.network"
+    }
+  },
+  {
     "slug": "parallel",
     "name": "Parallel",
     "status": "ACTIVE",
@@ -165,6 +165,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "ternoaZkEvm_testnet",
+    "name": "Ternoa zkEVM+ Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
     }
   },
   {
