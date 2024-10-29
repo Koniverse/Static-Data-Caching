@@ -8,19 +8,19 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     }
   },
   {
@@ -124,7 +124,8 @@
     "name": "X Layer testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Testrpc": "https://testrpc.x1.tech/"
+      "Testrpc": "https://testrpc.x1.tech/",
+      "X1testrpc": "https://x1testrpc.okx.com/"
     }
   },
   {
@@ -160,11 +161,11 @@
     }
   },
   {
-    "slug": "ternoaZkEvm_testnet",
-    "name": "Ternoa zkEVM+ Testnet",
+    "slug": "shadow",
+    "name": "Crust Shadow",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
+      "Crust": "wss://rpc-shadow.crust.network/"
     }
   },
   {
