@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     }
   },
   {
@@ -145,6 +145,14 @@
     }
   },
   {
+    "slug": "polimec",
+    "name": "Polimec",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Polimec": "wss://rpc.polimec.org"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -158,14 +166,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shadow",
-    "name": "Crust Shadow",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust": "wss://rpc-shadow.crust.network/"
     }
   },
   {
