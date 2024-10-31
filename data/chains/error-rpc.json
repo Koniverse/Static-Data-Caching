@@ -64,6 +64,14 @@
     }
   },
   {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
+    }
+  },
+  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -190,6 +198,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "watr_network",
+    "name": "Watr Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "watr": "wss://rpc.dev.watr.org"
+    }
+  },
+  {
+    "slug": "watr_network_evm",
+    "name": "Watr Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "watr": "https://rpc.dev.watr.org"
     }
   },
   {
