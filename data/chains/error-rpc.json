@@ -16,11 +16,11 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -104,6 +104,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -177,14 +185,6 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
@@ -206,6 +206,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "watr_network",
+    "name": "Watr Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "watr": "wss://rpc.dev.watr.org"
+    }
+  },
+  {
+    "slug": "watr_network_evm",
+    "name": "Watr Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "watr": "https://rpc.dev.watr.org"
     }
   },
   {
