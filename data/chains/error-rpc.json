@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -61,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -161,6 +161,14 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -198,22 +206,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "watr_network",
-    "name": "Watr Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "watr": "wss://rpc.dev.watr.org"
-    }
-  },
-  {
-    "slug": "watr_network_evm",
-    "name": "Watr Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "watr": "https://rpc.dev.watr.org"
     }
   },
   {
