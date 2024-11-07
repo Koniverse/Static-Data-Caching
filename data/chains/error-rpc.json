@@ -48,6 +48,14 @@
     }
   },
   {
+    "slug": "bittensor",
+    "name": "Bittensor",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Opentensor": "wss://entrypoint-finney.opentensor.ai:443"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -85,14 +93,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -174,14 +174,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
