@@ -8,19 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "astar",
+    "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -93,14 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
     }
   },
   {
@@ -190,6 +174,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
