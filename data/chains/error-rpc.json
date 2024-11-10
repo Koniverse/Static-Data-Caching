@@ -16,11 +16,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+      "Atleta": "wss://testnet-rpc.atleta.network"
     }
   },
   {
@@ -64,6 +64,14 @@
     }
   },
   {
+    "slug": "curio",
+    "name": "Curio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Curio": "wss://parachain.curioinvest.com/"
+    }
+  },
+  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -101,14 +109,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -161,11 +161,11 @@
     }
   },
   {
-    "slug": "polimec",
-    "name": "Polimec",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Polimec": "wss://rpc.polimec.org"
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -206,22 +206,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "watr_network",
-    "name": "Watr Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "watr": "wss://rpc.dev.watr.org"
-    }
-  },
-  {
-    "slug": "watr_network_evm",
-    "name": "Watr Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "watr": "https://rpc.dev.watr.org"
     }
   },
   {
