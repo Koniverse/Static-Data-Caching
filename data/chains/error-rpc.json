@@ -16,22 +16,6 @@
     }
   },
   {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
-    }
-  },
-  {
-    "slug": "arbitrum_sepolia",
-    "name": "Arbitrum Sepolia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -72,27 +56,11 @@
     }
   },
   {
-    "slug": "curio",
-    "name": "Curio",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Curio": "wss://parachain.curioinvest.com/"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -120,19 +88,19 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -174,14 +142,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
