@@ -16,11 +16,11 @@
     }
   },
   {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
+    "slug": "acurast",
+    "name": "Acurast Canary",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
     }
   },
   {
@@ -64,14 +64,6 @@
     }
   },
   {
-    "slug": "curio",
-    "name": "Curio",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Curio": "wss://parachain.curioinvest.com/"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -109,6 +101,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -158,14 +158,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
