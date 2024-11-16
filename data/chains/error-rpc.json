@@ -24,6 +24,22 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisk",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Basilisk ": "wss://rpc.basilisk.cloud"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -48,6 +64,14 @@
     }
   },
   {
+    "slug": "bitcountry",
+    "name": "Bit.Country - Alpha Net",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -61,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -158,6 +190,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "ternoaZkEvm_testnet",
+    "name": "Ternoa zkEVM+ Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
     }
   },
   {
