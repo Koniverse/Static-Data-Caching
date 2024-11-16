@@ -8,11 +8,27 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "basilisk",
+    "name": "Basilisk",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Basilisk ": "wss://rpc.basilisk.cloud"
     }
   },
   {
