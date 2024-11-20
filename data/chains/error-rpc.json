@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "basilisk",
-    "name": "Basilisk",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Basilisk ": "wss://rpc.basilisk.cloud"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -80,6 +72,14 @@
     }
   },
   {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+    }
+  },
+  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -101,14 +101,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -158,14 +150,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
