@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "basilisk",
-    "name": "Basilisk",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Basilisk ": "wss://rpc.basilisk.cloud"
-    }
-  },
-  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -96,11 +88,19 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
+    "slug": "joystream",
+    "name": "Joystream",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
+      "Jsgenesis": "wss://rpc.joystream.org"
+    }
+  },
+  {
+    "slug": "kabocha",
+    "name": "Kabocha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "JelliedOwl": "wss://kabocha.jelliedowl.com"
     }
   },
   {
@@ -150,14 +150,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
