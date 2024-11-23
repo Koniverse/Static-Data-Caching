@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -36,6 +44,7 @@
     "name": "Bifrost Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws",
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
     }
   },
@@ -77,6 +86,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
     }
   },
   {
@@ -153,11 +170,13 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
+      "SubWallet": "wss://polkadot-rpc.subwallet.app"
     }
   },
   {
