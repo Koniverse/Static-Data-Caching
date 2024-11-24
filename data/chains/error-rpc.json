@@ -49,19 +49,19 @@
     }
   },
   {
-    "slug": "bitcountry",
-    "name": "Bit.Country - Alpha Net",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Metaverse Foundation": "wss://alphanet-rpc-gcp.bit.country"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "composableFinance",
+    "name": "Composable Finance",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Composable": "wss://rpc.composable.finance"
     }
   },
   {
@@ -86,14 +86,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
     }
   },
   {
@@ -170,13 +162,19 @@
     }
   },
   {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Composable": "wss://rpc.composablenodes.tech"
+    }
+  },
+  {
     "slug": "polkadot",
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "SubWallet": "wss://polkadot-rpc.subwallet.app"
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
