@@ -57,14 +57,6 @@
     }
   },
   {
-    "slug": "composableFinance",
-    "name": "Composable Finance",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Composable": "wss://rpc.composable.finance"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -162,19 +154,11 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
+    "slug": "polkadex",
+    "name": "Polkadex",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Composable": "wss://rpc.composablenodes.tech"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -191,6 +175,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "storyPublic_testnet",
+    "name": "Story Public Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Story Testnet": "https://testnet.storyrpc.io/"
     }
   },
   {
