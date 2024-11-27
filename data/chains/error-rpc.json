@@ -28,7 +28,7 @@
     "name": "Astar",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
+      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
     }
   },
   {
@@ -40,11 +40,12 @@
     }
   },
   {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
+    "slug": "avail_mainnet",
+    "name": "Avail",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
+      "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app",
+      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
     }
   },
   {
@@ -77,14 +78,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "centrifuge",
-    "name": "Centrifuge",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -177,28 +170,11 @@
     }
   },
   {
-    "slug": "peaq",
-    "name": "peaq",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://peaq.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws",
-      "SubWallet": "wss://polkadot-rpc.subwallet.app"
     }
   },
   {
@@ -215,22 +191,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
