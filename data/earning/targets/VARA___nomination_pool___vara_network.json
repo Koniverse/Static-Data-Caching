@@ -19,7 +19,7 @@
     "id": 62,
     "address": "kGi1Ui7VXBFmNxTVDbryg6seURUV3fKBSeDkky8nP3Pjwf6EG",
     "name": "SubWallet Official 03",
-    "bondedAmount": "6055680430372302400",
+    "bondedAmount": "6055688561525158250",
     "roles": {
       "depositor": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm",
       "root": "kGkWvacCtQwrRxPcsQJM2Mi1HGdp9e223bU2k8JVRCniyhbzm",
@@ -195,7 +195,7 @@
     "id": 50,
     "address": "kGi1Ui7VXBFmNxTVDbryfN5Mayo5TbMJRAqzWtvFWjpgfB2hq",
     "name": "SubWallet Official 02",
-    "bondedAmount": "6009916672160606381",
+    "bondedAmount": "6009921231418446586",
     "roles": {
       "depositor": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6",
       "root": "kGjCvG5HmCuUJf1XqXEo7giTkLeSJWaNSB7dfcs5KHvWsHKV6",
@@ -960,6 +960,38 @@
     "isCrowded": false
   },
   {
+    "id": 28,
+    "address": "kGi1Ui7VXBFmNxTVDbrye1cVJ13qDU5rY8zRjmBwbBcQyHrqk",
+    "name": "masterbald",
+    "bondedAmount": "74919917188163150",
+    "roles": {
+      "depositor": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
+      "root": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
+      "nominator": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
+      "bouncer": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk"
+    },
+    "memberCounter": 682,
+    "state": "Open",
+    "isProfitable": true,
+    "isCrowded": false
+  },
+  {
+    "id": 26,
+    "address": "kGi1Ui7VXBFmNxTVDbrydtUmp6SGHTRYNE6U2kVBn8ga6D9s5",
+    "name": "Coinbase",
+    "bondedAmount": "177070605128348176",
+    "roles": {
+      "depositor": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "root": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "nominator": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
+      "bouncer": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d"
+    },
+    "memberCounter": 1332,
+    "state": "Open",
+    "isProfitable": false,
+    "isCrowded": false
+  },
+  {
     "id": 46,
     "address": "kGi1Ui7VXBFmNxTVDbryf7ovdAZwba2g5M456sWjtdxzu1ccx",
     "name": "InfiniteYieldGarden ",
@@ -1116,38 +1148,6 @@
     },
     "memberCounter": 114,
     "state": "Destroying",
-    "isProfitable": false,
-    "isCrowded": false
-  },
-  {
-    "id": 28,
-    "address": "kGi1Ui7VXBFmNxTVDbrye1cVJ13qDU5rY8zRjmBwbBcQyHrqk",
-    "name": "masterbald",
-    "bondedAmount": "74919917188163150",
-    "roles": {
-      "depositor": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
-      "root": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
-      "nominator": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk",
-      "bouncer": "kGhMG54a7cmnYvFK2P41CJKLcYRHZd8eaPK4yXGKQRhfPsMRk"
-    },
-    "memberCounter": 682,
-    "state": "Open",
-    "isProfitable": true,
-    "isCrowded": false
-  },
-  {
-    "id": 26,
-    "address": "kGi1Ui7VXBFmNxTVDbrydtUmp6SGHTRYNE6U2kVBn8ga6D9s5",
-    "name": "Coinbase",
-    "bondedAmount": "177070605128348176",
-    "roles": {
-      "depositor": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "root": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "nominator": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d",
-      "bouncer": "kGiytjHP2FQFHVxG7xrVJxWQmA5LedgPyvaZiJWWjXVkAZL9d"
-    },
-    "memberCounter": 1332,
-    "state": "Open",
     "isProfitable": false,
     "isCrowded": false
   }
