@@ -16,19 +16,11 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Onfinality": "wss://aleph-zero.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -40,12 +32,11 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
+    "slug": "bajun",
+    "name": "Bajun Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "SubWallet Avail 2": "wss://mainnet-rpc-2.availspace.app",
-      "SubWallet Avail": "wss://mainnet-rpc.availspace.app"
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
     }
   },
   {
@@ -78,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
     }
   },
   {
@@ -129,6 +128,22 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
+    "slug": "kulupu",
+    "name": "Kulupu",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -142,6 +157,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
+    }
+  },
+  {
+    "slug": "neatcoin",
+    "name": "Neatcoin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Neatcoin": "wss://rpc.neatcoin.org/ws"
     }
   },
   {
@@ -159,6 +182,14 @@
     "errorRpcs": {
       "Testrpc": "https://testrpc.x1.tech/",
       "X1testrpc": "https://x1testrpc.okx.com/"
+    }
+  },
+  {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
     }
   },
   {
@@ -191,6 +222,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
