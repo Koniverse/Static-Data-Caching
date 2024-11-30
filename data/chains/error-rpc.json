@@ -24,6 +24,22 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RubyNode": "wss://avail-rpc.rubynodes.io/"
+    }
+  },
+  {
+    "slug": "bajun",
+    "name": "Bajun Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -53,6 +69,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
     }
   },
   {
@@ -88,27 +112,19 @@
     }
   },
   {
-    "slug": "joystream",
-    "name": "Joystream",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Jsgenesis": "wss://rpc.joystream.org"
-    }
-  },
-  {
-    "slug": "kabocha",
-    "name": "Kabocha",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl": "wss://kabocha.jelliedowl.com"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kulupu",
+    "name": "Kulupu",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
     }
   },
   {
@@ -125,6 +141,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "litmus": "wss://rpc.litmus-parachain.litentry.io"
+    }
+  },
+  {
+    "slug": "neatcoin",
+    "name": "Neatcoin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Neatcoin": "wss://rpc.neatcoin.org/ws"
     }
   },
   {
@@ -145,6 +169,14 @@
     }
   },
   {
+    "slug": "pangolin",
+    "name": "Pangolin",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
     "slug": "parallel",
     "name": "Parallel",
     "status": "ACTIVE",
@@ -161,6 +193,14 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -174,6 +214,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "storyPublic_testnet",
+    "name": "Story Public Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Story Testnet": "https://testnet.storyrpc.io/"
     }
   },
   {
