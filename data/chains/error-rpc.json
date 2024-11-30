@@ -16,19 +16,19 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RubyNode": "wss://avail-rpc.rubynodes.io/"
     }
   },
   {
@@ -112,27 +112,11 @@
     }
   },
   {
-    "slug": "kabocha",
-    "name": "Kabocha",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl": "wss://kabocha.jelliedowl.com"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -222,22 +206,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
-    }
-  },
-  {
-    "slug": "storyPublic_testnet",
-    "name": "Story Public Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Story Testnet": "https://testnet.storyrpc.io/"
     }
   },
   {
