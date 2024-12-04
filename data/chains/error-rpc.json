@@ -8,27 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RubyNode": "wss://avail-rpc.rubynodes.io/"
     }
   },
   {
@@ -88,11 +72,11 @@
     }
   },
   {
-    "slug": "fantom_testnet",
-    "name": "Fantom Testnet",
+    "slug": "ethereum",
+    "name": "Ethereum",
     "status": "ACTIVE",
     "errorRpcs": {
-      "FantomNetwork": "https://rpc.testnet.fantom.network/"
+      "Llamarpc": "https://eth.llamarpc.com"
     }
   },
   {
@@ -125,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
     }
   },
   {
@@ -198,6 +190,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
