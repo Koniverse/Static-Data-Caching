@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -72,14 +80,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://eth.llamarpc.com"
-    }
-  },
-  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -112,19 +112,19 @@
     }
   },
   {
-    "slug": "kintsugi",
-    "name": "Kintsugi",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kintsugi Labs": "wss://api-kusama.interlay.io/parachain"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -190,14 +190,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
