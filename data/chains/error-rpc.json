@@ -72,11 +72,11 @@
     }
   },
   {
-    "slug": "fantom_testnet",
-    "name": "Fantom Testnet",
+    "slug": "edgeware",
+    "name": "Edgeware",
     "status": "ACTIVE",
     "errorRpcs": {
-      "FantomNetwork": "https://rpc.testnet.fantom.network/"
+      "JelliedOwl": "wss://edgeware.jelliedowl.net"
     }
   },
   {
@@ -101,14 +101,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
-    }
-  },
-  {
-    "slug": "kabocha",
-    "name": "Kabocha",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl": "wss://kabocha.jelliedowl.com"
     }
   },
   {
@@ -214,6 +206,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Story Testnet": "https://testnet.storyrpc.io/"
+    }
+  },
+  {
+    "slug": "syscoin_evm",
+    "name": "Syscoin NEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.syscoin.org"
     }
   },
   {
