@@ -8,11 +8,27 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RubyNode": "wss://avail-rpc.rubynodes.io/"
     }
   },
   {
@@ -69,14 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
-    }
-  },
-  {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl": "wss://edgeware.jelliedowl.net"
     }
   },
   {
@@ -201,19 +209,19 @@
     }
   },
   {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
+    }
+  },
+  {
     "slug": "storyPublic_testnet",
     "name": "Story Public Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Story Testnet": "https://testnet.storyrpc.io/"
-    }
-  },
-  {
-    "slug": "syscoin_evm",
-    "name": "Syscoin NEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.syscoin.org"
     }
   },
   {
