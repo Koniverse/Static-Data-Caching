@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RubyNode": "wss://avail-rpc.rubynodes.io/"
+    }
+  },
+  {
     "slug": "bajun",
     "name": "Bajun Kusama",
     "status": "ACTIVE",
@@ -120,14 +128,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -182,6 +182,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
