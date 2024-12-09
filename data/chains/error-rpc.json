@@ -72,19 +72,19 @@
     }
   },
   {
+    "slug": "curio",
+    "name": "Curio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Curio": "wss://parachain.curioinvest.com/"
+    }
+  },
+  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
-    }
-  },
-  {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -190,14 +190,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
