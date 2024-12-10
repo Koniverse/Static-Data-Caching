@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -56,14 +64,6 @@
     }
   },
   {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
-    }
-  },
-  {
     "slug": "curio",
     "name": "Curio",
     "status": "ACTIVE",
@@ -109,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
