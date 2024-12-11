@@ -72,14 +72,6 @@
     }
   },
   {
-    "slug": "dbcchain",
-    "name": "DBC Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DBC Chain": "wss://info1.dbcwallet.io"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -206,6 +198,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
