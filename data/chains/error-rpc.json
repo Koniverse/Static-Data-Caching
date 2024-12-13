@@ -16,27 +16,11 @@
     }
   },
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RubyNode": "wss://avail-rpc.rubynodes.io/"
     }
   },
   {
@@ -77,14 +61,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "curio",
-    "name": "Curio",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Curio": "wss://parachain.curioinvest.com/"
     }
   },
   {
@@ -141,6 +117,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
+    "slug": "litentry",
+    "name": "Litentry",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Litentry": "wss://rpc.litentry-parachain.litentry.io"
     }
   },
   {
