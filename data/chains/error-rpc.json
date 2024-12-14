@@ -8,11 +8,19 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
+    "slug": "atocha",
+    "name": "Atocha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "atocha": "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
     }
   },
   {
@@ -104,6 +112,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -117,14 +133,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
-    "slug": "litentry",
-    "name": "Litentry",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Litentry": "wss://rpc.litentry-parachain.litentry.io"
     }
   },
   {
