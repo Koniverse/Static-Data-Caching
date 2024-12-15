@@ -16,6 +16,22 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
+    "slug": "atocha",
+    "name": "Atocha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "atocha": "wss://gateway.mainnet.octopus.network/atocha/jungxomf4hdcfocwcalgoiz64g9avjim"
+    }
+  },
+  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -104,6 +120,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -112,19 +136,19 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
-    "slug": "litentry",
-    "name": "Litentry",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Litentry": "wss://rpc.litentry-parachain.litentry.io"
     }
   },
   {
