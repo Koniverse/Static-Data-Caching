@@ -72,6 +72,22 @@
     }
   },
   {
+    "slug": "bounceBitEvm",
+    "name": "BounceBit",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BounceBit Api": "https://fullnode-mainnet.bouncebitapi.com/"
+    }
+  },
+  {
+    "slug": "bounceBitEvmTest",
+    "name": "BounceBit Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -124,7 +140,8 @@
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
+      "Kippu": "wss://kreivo.kippu.rocks/",
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -141,14 +158,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
-    "slug": "litentry",
-    "name": "Litentry",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Litentry": "wss://rpc.litentry-parachain.litentry.io"
     }
   },
   {
