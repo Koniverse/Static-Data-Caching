@@ -8,22 +8,6 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
-    }
-  },
-  {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -69,22 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bounceBitEvm",
-    "name": "BounceBit",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BounceBit Api": "https://fullnode-mainnet.bouncebitapi.com/"
-    }
-  },
-  {
-    "slug": "bounceBitEvmTest",
-    "name": "BounceBit Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
     }
   },
   {
@@ -140,8 +108,7 @@
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/",
-      "Virto": "wss://kreivo.io/"
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
@@ -215,6 +182,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polygonzkEvm_cardona",
+    "name": "Polygon zkEVM Cardona Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
     }
   },
   {
