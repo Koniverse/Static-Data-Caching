@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -124,8 +116,7 @@
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/",
-      "Virto": "wss://kreivo.io/"
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
@@ -202,6 +193,14 @@
     }
   },
   {
+    "slug": "polygonzkEvm_cardona",
+    "name": "Polygon zkEVM Cardona Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -215,6 +214,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint"
     }
   },
   {
