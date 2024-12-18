@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "arbitrum_sepolia",
+    "name": "Arbitrum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
+    "slug": "base_sepolia",
+    "name": "Base Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -69,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -185,18 +209,11 @@
     }
   },
   {
-    "slug": "polygonzkEvm_cardona",
-    "name": "Polygon zkEVM Cardona Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Airalab": "wss://kusama.rpc.robonomics.network/",
       "Samsara": "wss://robonomics.0xsamsara.com"
     }
   },
