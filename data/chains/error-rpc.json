@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "acala",
-    "name": "Acala",
+    "slug": "arbitrum_sepolia",
+    "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "LuckyFriday": "wss://rpc-acala.luckyfriday.io"
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -37,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+    }
+  },
+  {
+    "slug": "base_sepolia",
+    "name": "Base Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -77,6 +85,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-rpc.subwallet.app/ "
     }
   },
   {
@@ -193,14 +209,6 @@
     }
   },
   {
-    "slug": "polygonzkEvm_cardona",
-    "name": "Polygon zkEVM Cardona Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -214,30 +222,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
-    }
-  },
-  {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint"
     }
   },
   {
