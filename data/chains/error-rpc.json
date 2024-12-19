@@ -88,6 +88,14 @@
     }
   },
   {
+    "slug": "edgeware",
+    "name": "Edgeware",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "JelliedOwl": "wss://edgeware.jelliedowl.net"
+    }
+  },
+  {
     "slug": "ethereum",
     "name": "Ethereum",
     "status": "ACTIVE",
@@ -101,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
+    }
+  },
+  {
+    "slug": "g6_testnet",
+    "name": "G6 Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "G6 Testnet": "wss://testnet.g6.network/node"
     }
   },
   {
@@ -125,14 +141,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
