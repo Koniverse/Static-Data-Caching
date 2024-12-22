@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "bajun",
     "name": "Bajun Kusama",
     "status": "ACTIVE",
@@ -44,8 +52,7 @@
     "name": "Base Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public",
-      "Public Node": "https://base-sepolia-rpc.publicnode.com"
+      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -121,6 +128,14 @@
     }
   },
   {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
+    }
+  },
+  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
@@ -129,19 +144,19 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://kusama.public.curie.radiumblock.co/ws"
     }
   },
   {
