@@ -32,14 +32,6 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "bajun",
     "name": "Bajun Kusama",
     "status": "ACTIVE",
@@ -144,14 +136,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -214,6 +198,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
