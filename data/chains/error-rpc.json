@@ -128,19 +128,19 @@
     }
   },
   {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
+    }
+  },
+  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -209,14 +209,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -229,7 +221,6 @@
     "name": "Robonomics",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Airalab": "wss://kusama.rpc.robonomics.network/",
       "Samsara": "wss://robonomics.0xsamsara.com"
     }
   },
