@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -117,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "viaAiralab": "wss://kusama.rpc.ipci.io"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -222,14 +222,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
