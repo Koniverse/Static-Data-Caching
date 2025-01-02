@@ -80,6 +80,14 @@
     }
   },
   {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
+    }
+  },
+  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -112,11 +120,11 @@
     }
   },
   {
-    "slug": "khala",
-    "name": "Khala",
+    "slug": "jur_network",
+    "name": "Jur Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
+      "Jur Mainnet": "wss://mainnet.jur.io/"
     }
   },
   {
@@ -193,14 +201,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -222,14 +222,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
