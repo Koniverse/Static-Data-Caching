@@ -80,6 +80,14 @@
     }
   },
   {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
+    }
+  },
+  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -101,6 +109,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
@@ -198,14 +214,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
     }
   },
   {
