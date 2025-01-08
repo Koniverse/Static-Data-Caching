@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -44,7 +36,8 @@
     "name": "Bajun Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "AjunaNetwork": "wss://rpc-parachain.bajun.network"
+      "AjunaNetwork": "wss://rpc-parachain.bajun.network",
+      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -88,6 +81,14 @@
     }
   },
   {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+    }
+  },
+  {
     "slug": "crownSterling",
     "name": "Crown Sterling",
     "status": "ACTIVE",
@@ -112,19 +113,19 @@
     }
   },
   {
+    "slug": "g6_testnet",
+    "name": "G6 Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "G6 Testnet": "wss://testnet.g6.network/node"
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "hydradx_main",
-    "name": "Hydration",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://hydradx-rpc.dwellir.com"
     }
   },
   {
@@ -141,14 +142,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
-    }
-  },
-  {
-    "slug": "khala",
-    "name": "Khala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -246,6 +239,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia RPC": "https://rpc.sepolia.org"
     }
   },
   {
