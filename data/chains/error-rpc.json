@@ -81,14 +81,6 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
     "slug": "crownSterling",
     "name": "Crown Sterling",
     "status": "ACTIVE",
@@ -102,6 +94,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-mainnet.koni.studio/"
     }
   },
   {
@@ -129,6 +129,14 @@
     }
   },
   {
+    "slug": "invarch",
+    "name": "InvArch Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://invarch-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -142,6 +150,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
+    }
+  },
+  {
+    "slug": "khala",
+    "name": "Khala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -242,11 +258,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "sepolia_ethereum",
+    "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "Asia RPC": "https://rpc.sepolia.org"
     }
   },
   {
@@ -255,6 +271,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
+    }
+  },
+  {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "https://asia-rpc.unique.network"
+    }
+  },
+  {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "UniqueAsia": "wss://asia-ws.unique.network/"
     }
   },
   {
