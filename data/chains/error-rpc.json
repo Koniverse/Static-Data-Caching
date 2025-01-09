@@ -81,14 +81,6 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
     "slug": "crownSterling",
     "name": "Crown Sterling",
     "status": "ACTIVE",
@@ -102,6 +94,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ethereum": "https://eth-mainnet.koni.studio/"
     }
   },
   {
@@ -126,6 +126,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "invarch",
+    "name": "InvArch Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://invarch-rpc.dwellir.com"
     }
   },
   {
