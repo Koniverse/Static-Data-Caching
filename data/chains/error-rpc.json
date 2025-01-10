@@ -81,14 +81,6 @@
     }
   },
   {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -126,14 +118,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "invarch",
-    "name": "InvArch Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://invarch-rpc.dwellir.com"
     }
   },
   {
@@ -258,6 +242,14 @@
     }
   },
   {
+    "slug": "rollux_testnet",
+    "name": "Rollux Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -271,22 +263,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
-    }
-  },
-  {
-    "slug": "unique_evm",
-    "name": "Unique - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Asia": "https://asia-rpc.unique.network"
-    }
-  },
-  {
-    "slug": "unique_network",
-    "name": "Unique",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "UniqueAsia": "wss://asia-ws.unique.network/"
     }
   },
   {
