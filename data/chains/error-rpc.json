@@ -173,7 +173,7 @@
     "name": "Khala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://khala.api.onfinality.io/public-ws"
+      "Phala": "wss://khala-api.phala.network/ws"
     }
   },
   {
@@ -279,22 +279,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
