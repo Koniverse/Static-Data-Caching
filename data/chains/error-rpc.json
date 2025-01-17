@@ -89,14 +89,6 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ethereum": "https://eth-mainnet.koni.studio/"
-    }
-  },
-  {
     "slug": "fantom",
     "name": "Fantom",
     "status": "ACTIVE",
@@ -158,6 +150,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -263,14 +263,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
