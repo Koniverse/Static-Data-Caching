@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -81,14 +89,6 @@
     }
   },
   {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
-    }
-  },
-  {
     "slug": "discovol",
     "name": "Discovol",
     "status": "ACTIVE",
@@ -97,11 +97,19 @@
     }
   },
   {
-    "slug": "ethereum",
-    "name": "Ethereum",
+    "slug": "fantom",
+    "name": "Fantom",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ethereum": "https://eth-mainnet.koni.studio/"
+      "Ankr": "https://rpc.ankr.com/fantom"
+    }
+  },
+  {
+    "slug": "fantom_testnet",
+    "name": "Fantom Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ankr": "https://rpc.ankr.com/fantom_testnet"
     }
   },
   {
@@ -126,14 +134,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
-    "slug": "invarch",
-    "name": "InvArch Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://invarch-rpc.dwellir.com"
     }
   },
   {
