@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -150,14 +158,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
