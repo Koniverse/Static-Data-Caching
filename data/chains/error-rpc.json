@@ -161,14 +161,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -250,6 +242,14 @@
     }
   },
   {
+    "slug": "rococo",
+    "name": "Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "rococo_assethub",
     "name": "Rococo Asset Hub",
     "status": "ACTIVE",
@@ -263,6 +263,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "turing",
+    "name": "Turing",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Turing": "wss://rpc.turing.oak.tech"
     }
   },
   {
