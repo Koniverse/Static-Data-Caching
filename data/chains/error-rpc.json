@@ -81,6 +81,14 @@
     }
   },
   {
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "deBio",
     "name": "DeBio",
     "status": "ACTIVE",
@@ -185,6 +193,14 @@
     }
   },
   {
+    "slug": "mythos",
+    "name": "Mythos",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "neatcoin",
     "name": "Neatcoin",
     "status": "ACTIVE",
@@ -226,6 +242,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Phala": "wss://api.phala.network/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -242,14 +266,6 @@
     }
   },
   {
-    "slug": "rococo",
-    "name": "Rococo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://rococo-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "rococo_assethub",
     "name": "Rococo Asset Hub",
     "status": "ACTIVE",
@@ -262,23 +278,8 @@
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia RPC": "https://rpc.sepolia.org"
-    }
-  },
-  {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "turing",
-    "name": "Turing",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Turing": "wss://rpc.turing.oak.tech"
+      "Asia RPC": "https://rpc.sepolia.org",
+      "Europe RPC 2": "https://rpc2.sepolia.org"
     }
   },
   {
