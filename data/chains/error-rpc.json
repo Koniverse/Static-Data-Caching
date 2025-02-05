@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "acala_testnet",
+    "name": "Acala Mandala TC7",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
+    }
+  },
+  {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -78,14 +94,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "collectives",
-    "name": "Polkadot Collectives",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
     }
   },
   {
@@ -193,11 +201,11 @@
     }
   },
   {
-    "slug": "mythos",
-    "name": "Mythos",
+    "slug": "myriad",
+    "name": "Myriad",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+      "myriad": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0"
     }
   },
   {
@@ -242,6 +250,14 @@
     }
   },
   {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-people-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "phala",
     "name": "Phala",
     "status": "ACTIVE",
@@ -266,6 +282,14 @@
     }
   },
   {
+    "slug": "rococo",
+    "name": "Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://rococo-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "rococo_assethub",
     "name": "Rococo Asset Hub",
     "status": "ACTIVE",
@@ -280,6 +304,14 @@
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org",
       "Europe RPC 2": "https://rpc2.sepolia.org"
+    }
+  },
+  {
+    "slug": "subspace_gemini_3g",
+    "name": "Subspace Gemini 3g",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
     }
   },
   {
@@ -304,6 +336,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://westend-rpc.polkadot.io"
     }
   },
   {
