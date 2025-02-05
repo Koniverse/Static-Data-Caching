@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -70,6 +78,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io"
     }
   },
   {
@@ -185,6 +201,14 @@
     }
   },
   {
+    "slug": "myriad",
+    "name": "Myriad",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "myriad": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0"
+    }
+  },
+  {
     "slug": "neatcoin",
     "name": "Neatcoin",
     "status": "ACTIVE",
@@ -259,11 +283,11 @@
     }
   },
   {
-    "slug": "turing",
-    "name": "Turing",
+    "slug": "subspace_gemini_3g",
+    "name": "Subspace Gemini 3g",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Turing": "wss://rpc.turing.oak.tech"
+      "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
     }
   },
   {
