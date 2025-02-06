@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -81,14 +81,6 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -125,7 +117,8 @@
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom_testnet"
+      "Ankr": "https://rpc.ankr.com/fantom_testnet",
+      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
     }
   },
   {
@@ -271,6 +264,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "rollux_testnet",
+    "name": "Rollux Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Rollux": "https://rpc-tanenbaum.rollux.com"
     }
   },
   {
