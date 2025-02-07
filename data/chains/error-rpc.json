@@ -8,11 +8,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
     }
   },
   {
@@ -86,6 +86,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "curio",
+    "name": "Curio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Curio": "wss://parachain.curioinvest.com/"
     }
   },
   {
@@ -313,6 +321,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://westend-rpc.polkadot.io"
     }
   },
   {
