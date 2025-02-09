@@ -8,19 +8,11 @@
     }
   },
   {
-    "slug": "acala_testnet",
-    "name": "Acala Mandala TC7",
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Mandala": "wss://mandala-tc9-rpc.aca-staging.network"
-    }
-  },
-  {
-    "slug": "acurast",
-    "name": "Acurast Canary",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
     }
   },
   {
@@ -89,11 +81,35 @@
     }
   },
   {
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "curio",
+    "name": "Curio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Curio": "wss://parachain.curioinvest.com/"
     }
   },
   {
@@ -125,7 +141,8 @@
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom_testnet"
+      "Ankr": "https://rpc.ankr.com/fantom_testnet",
+      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
     }
   },
   {
@@ -174,6 +191,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -250,22 +275,6 @@
     }
   },
   {
-    "slug": "peopleKusama",
-    "name": "Kusama People",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-people-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Phala": "wss://api.phala.network/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -295,6 +304,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "rollux_testnet",
+    "name": "Rollux Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Rollux": "https://rpc-tanenbaum.rollux.com"
     }
   },
   {
