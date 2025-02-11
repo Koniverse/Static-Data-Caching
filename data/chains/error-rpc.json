@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -94,14 +86,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "curio",
-    "name": "Curio",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Curio": "wss://parachain.curioinvest.com/"
     }
   },
   {
@@ -313,6 +297,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "turing",
+    "name": "Turing",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Turing": "wss://rpc.turing.oak.tech"
     }
   },
   {
