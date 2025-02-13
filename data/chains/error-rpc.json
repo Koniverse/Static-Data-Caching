@@ -81,14 +81,6 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-bridge-hub-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -97,19 +89,11 @@
     }
   },
   {
-    "slug": "collectives",
-    "name": "Polkadot Collectives",
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "curio",
-    "name": "Curio",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Curio": "wss://parachain.curioinvest.com/"
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -191,14 +175,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -291,14 +267,6 @@
     }
   },
   {
-    "slug": "rococo",
-    "name": "Rococo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://rococo-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "rococo_assethub",
     "name": "Rococo Asset Hub",
     "status": "ACTIVE",
@@ -324,11 +292,35 @@
     }
   },
   {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
+    }
+  },
+  {
+    "slug": "storyOdyssey_testnet",
+    "name": "Story Odyssey Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Story Odyssey": "https://odyssey.storyrpc.io/"
+    }
+  },
+  {
     "slug": "subspace_gemini_3g",
     "name": "Subspace Gemini 3g",
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "turing",
+    "name": "Turing",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Turing": "wss://rpc.turing.oak.tech"
     }
   },
   {
@@ -353,14 +345,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://westend-rpc.polkadot.io"
     }
   },
   {
