@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -101,6 +101,7 @@
     "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/",
       "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
@@ -297,6 +298,14 @@
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org",
       "Europe RPC 2": "https://rpc2.sepolia.org"
+    }
+  },
+  {
+    "slug": "storyOdyssey_testnet",
+    "name": "Story Odyssey Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Story Odyssey": "https://odyssey.storyrpc.io/"
     }
   },
   {
