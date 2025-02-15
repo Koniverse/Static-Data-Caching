@@ -93,7 +93,7 @@
     "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
     }
   },
   {
@@ -283,20 +283,20 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org",
       "Europe RPC 2": "https://rpc2.sepolia.org"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
