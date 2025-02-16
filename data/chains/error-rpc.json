@@ -16,11 +16,27 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -37,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -210,6 +234,14 @@
     }
   },
   {
+    "slug": "nftmart",
+    "name": "NFTMart",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "NFTMart": "wss://mainnet.nftmart.io/rpc/ws"
+    }
+  },
+  {
     "slug": "odyssey",
     "name": "Ares Odyssey",
     "status": "ACTIVE",
@@ -281,6 +313,14 @@
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org",
       "Europe RPC 2": "https://rpc2.sepolia.org"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
