@@ -16,27 +16,11 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -110,6 +94,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
     }
   },
   {
@@ -313,14 +305,6 @@
     "errorRpcs": {
       "Asia RPC": "https://rpc.sepolia.org",
       "Europe RPC 2": "https://rpc2.sepolia.org"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
