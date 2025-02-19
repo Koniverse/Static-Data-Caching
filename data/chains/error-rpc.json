@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -283,12 +291,19 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "https://rootstock-mainnet.public.blastapi.io"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia RPC": "https://rpc.sepolia.org",
-      "Europe RPC 2": "https://rpc2.sepolia.org"
+      "1RPC": "https://1rpc.io/sepolia"
     }
   },
   {
@@ -345,6 +360,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "zkverify_testnet",
+    "name": "zkVerify Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "zkVerify": "wss://testnet-rpc.zkverify.io"
     }
   }
 ]
