@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -146,14 +154,6 @@
     }
   },
   {
-    "slug": "heiko",
-    "name": "Heiko",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -178,11 +178,27 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "laos_network",
+    "name": "LAOS Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
     }
   },
   {
@@ -296,6 +312,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shadow",
+    "name": "Crust Shadow",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://rpc-shadow.crust.network/"
     }
   },
   {
