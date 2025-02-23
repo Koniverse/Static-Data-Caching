@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -45,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -154,6 +154,14 @@
     }
   },
   {
+    "slug": "gen6_public",
+    "name": "Gen6 Public Chain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gen6": "wss://gen6.app:443/node"
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
@@ -183,6 +191,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -328,6 +344,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "tomochain",
+    "name": "Viction",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "TomoChain": "https://rpc.tomochain.com"
     }
   },
   {
