@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "bajun",
     "name": "Bajun Kusama",
     "status": "ACTIVE",
@@ -299,6 +291,14 @@
     }
   },
   {
+    "slug": "shibuyaEvm",
+    "name": "Shibuya Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlastAPI": "https://shibuya.public.blastapi.io"
+    }
+  },
+  {
     "slug": "storyOdyssey_testnet",
     "name": "Story Odyssey Testnet",
     "status": "ACTIVE",
@@ -312,14 +312,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
-    }
-  },
-  {
-    "slug": "ternoaZkEvm",
-    "name": "Ternoa zkEVM+",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Ternoa": "https://rpc-mainnet.zkevm.ternoa.network/"
     }
   },
   {
