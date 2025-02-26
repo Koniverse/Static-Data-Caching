@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "acurast",
+    "name": "Acurast Canary",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
+    }
+  },
+  {
     "slug": "ajunaPolkadot",
     "name": "Ajuna Network",
     "status": "ACTIVE",
@@ -16,27 +24,19 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://arbitrum-one.public.blastapi.io"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -53,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -194,6 +186,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -275,27 +275,11 @@
     }
   },
   {
-    "slug": "pendulum",
-    "name": "Pendulum",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pendulum": "wss://rpc-pendulum.prd.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastApi": "https://polygon-mainnet.public.blastapi.io"
     }
   },
   {
@@ -327,8 +311,7 @@
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia RPC": "https://rpc.sepolia.org",
-      "Europe RPC 2": "https://rpc2.sepolia.org"
+      "1RPC": "https://1rpc.io/sepolia"
     }
   },
   {
@@ -345,6 +328,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "tomochain",
+    "name": "Viction",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "TomoChain": "https://rpc.tomochain.com"
     }
   },
   {
@@ -385,14 +376,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "zkverify_testnet",
-    "name": "zkVerify Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "zkVerify": "wss://testnet-rpc.zkverify.io"
     }
   }
 ]
