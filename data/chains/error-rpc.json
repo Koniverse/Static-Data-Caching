@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
@@ -134,6 +142,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Hashed Systems 2": "wss://c2.hashed.network"
+    }
+  },
+  {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "hydradx_rococo",
+    "name": "Hydration Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hydration Nice": "wss://rpc.nice.hydration.cloud"
     }
   },
   {
@@ -247,6 +271,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
