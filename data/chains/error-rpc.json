@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "acurast",
-    "name": "Acurast Canary",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Acurast": "wss://acurast-canarynet-ws.prod.gke.papers.tech"
-    }
-  },
-  {
     "slug": "ajunaPolkadot",
     "name": "Ajuna Network",
     "status": "ACTIVE",
@@ -32,14 +24,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -53,15 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bajun",
-    "name": "Bajun Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "AjunaNetwork": "wss://rpc-parachain.bajun.network",
-      "OnFinality": "wss://bajun.api.onfinality.io/public-ws"
     }
   },
   {
@@ -102,6 +77,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
+    }
+  },
+  {
+    "slug": "celo_alfajores",
+    "name": "Celo Alfajores",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
     }
   },
   {
@@ -162,6 +145,30 @@
     }
   },
   {
+    "slug": "heiko",
+    "name": "Heiko",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parallel": "wss://heiko-rpc.parallel.fi"
+    }
+  },
+  {
+    "slug": "hydradx_rococo",
+    "name": "Hydration Rococo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hydration Nice": "wss://rpc.nice.hydration.cloud"
+    }
+  },
+  {
+    "slug": "imbue_network",
+    "name": "Imbue Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Imbue": "wss://kusama.imbuenetwork.com"
+    }
+  },
+  {
     "slug": "ipci",
     "name": "DAO IPCI",
     "status": "ACTIVE",
@@ -183,14 +190,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -256,6 +255,14 @@
     "errorRpcs": {
       "Testrpc": "https://testrpc.x1.tech/",
       "X1testrpc": "https://x1testrpc.okx.com/"
+    }
+  },
+  {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "wss://asia-ws-opal.unique.network"
     }
   },
   {
