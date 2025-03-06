@@ -80,6 +80,15 @@
     }
   },
   {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
@@ -88,11 +97,11 @@
     }
   },
   {
-    "slug": "celo_alfajores",
-    "name": "Celo Alfajores",
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
+      "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     }
   },
   {
@@ -161,14 +170,6 @@
     }
   },
   {
-    "slug": "hydradx_rococo",
-    "name": "Hydration Rococo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hydration Nice": "wss://rpc.nice.hydration.cloud"
-    }
-  },
-  {
     "slug": "imbue_network",
     "name": "Imbue Kusama",
     "status": "ACTIVE",
@@ -217,11 +218,11 @@
     }
   },
   {
-    "slug": "litmus",
-    "name": "Litmus",
+    "slug": "muse_testnet",
+    "name": "Muse Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "litmus": "wss://rpc.litmus-parachain.litentry.io"
+      "Parity": "wss://paseo-muse-rpc.polkadot.io"
     }
   },
   {
@@ -270,7 +271,6 @@
     "name": "Opal",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Asia": "wss://asia-ws-opal.unique.network",
       "NA": "wss://us-ws-opal.unique.network"
     }
   },
@@ -296,6 +296,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "quartz",
+    "name": "Quartz",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Unique US": "wss://us-ws-quartz.unique.network"
     }
   },
   {
@@ -327,7 +335,7 @@
     "name": "Sakura",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc.sakura.clover.finance"
+      "Finance": "wss://api-sakura.clover.finance"
     }
   },
   {
@@ -379,6 +387,14 @@
     }
   },
   {
+    "slug": "vara_network",
+    "name": "Vara Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "P2P.org": "wss://vara.substrate-rpc.p2p.org/"
+    }
+  },
+  {
     "slug": "watr_mainnet",
     "name": "Watr Mainnet",
     "status": "ACTIVE",
@@ -392,6 +408,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://westend.api.onfinality.io/public-ws"
     }
   },
   {
