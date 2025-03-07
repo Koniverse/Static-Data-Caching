@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Blast": "wss://astar.public.blastapi.io"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -218,14 +226,6 @@
     }
   },
   {
-    "slug": "muse_testnet",
-    "name": "Muse Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://paseo-muse-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "myriad",
     "name": "Myriad",
     "status": "ACTIVE",
@@ -267,14 +267,6 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "NA": "wss://us-ws-opal.unique.network"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -299,11 +291,19 @@
     }
   },
   {
-    "slug": "quartz",
-    "name": "Quartz",
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Unique US": "wss://us-ws-quartz.unique.network"
+      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Polygon Scan": "https://polygon-rpc.com/"
     }
   },
   {
