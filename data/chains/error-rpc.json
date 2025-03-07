@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
@@ -72,19 +80,19 @@
     }
   },
   {
+    "slug": "bitlayer",
+    "name": "Bitlayer",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Bitlayer": "https://rpc.bitlayer.org"
+    }
+  },
+  {
     "slug": "calamari_test",
     "name": "Calamari Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "calamari_test": "wss://c1.calamari.seabird.systems"
-    }
-  },
-  {
-    "slug": "celo_alfajores",
-    "name": "Celo Alfajores",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
     }
   },
   {
@@ -150,14 +158,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parallel": "wss://heiko-rpc.parallel.fi"
-    }
-  },
-  {
-    "slug": "hydradx_rococo",
-    "name": "Hydration Rococo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hydration Nice": "wss://rpc.nice.hydration.cloud"
     }
   },
   {
@@ -258,14 +258,6 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Asia": "wss://asia-ws-opal.unique.network"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -287,6 +279,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws"
     }
   },
   {
