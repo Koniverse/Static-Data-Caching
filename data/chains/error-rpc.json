@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
@@ -77,14 +69,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bitlayer",
-    "name": "Bitlayer",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Bitlayer": "https://rpc.bitlayer.org"
     }
   },
   {
@@ -282,14 +266,6 @@
     }
   },
   {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -311,6 +287,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "sakura",
+    "name": "Sakura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
