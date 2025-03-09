@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "wss://astar.public.blastapi.io"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -45,14 +37,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://turing.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -288,22 +272,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex_dot",
-    "name": "Polkadex Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Polygon Scan": "https://polygon-rpc.com/"
     }
   },
   {
