@@ -80,6 +80,14 @@
     }
   },
   {
+    "slug": "crownSterling",
+    "name": "Crown Sterling",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crown Sterling": "wss://blockchain.crownsterling.io"
+    }
+  },
+  {
     "slug": "deBio",
     "name": "DeBio",
     "status": "ACTIVE",
@@ -174,6 +182,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -287,14 +303,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "sakura",
-    "name": "Sakura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
