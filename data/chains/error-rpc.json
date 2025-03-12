@@ -1,21 +1,5 @@
 [
   {
-    "slug": "3dpass",
-    "name": "3DPass",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "3dpass": "wss://rpc.3dpass.org"
-    }
-  },
-  {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -56,22 +40,6 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
     "status": "ACTIVE",
@@ -102,14 +70,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crown Sterling": "wss://blockchain.crownsterling.io"
-    }
-  },
-  {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
     }
   },
   {
@@ -162,14 +122,6 @@
     }
   },
   {
-    "slug": "hashedNetwork",
-    "name": "Hashed Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -186,27 +138,11 @@
     }
   },
   {
-    "slug": "ipci",
-    "name": "DAO IPCI",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "viaAiralab": "wss://kusama.rpc.ipci.io"
-    }
-  },
-  {
     "slug": "jur_network",
     "name": "Jur Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
-    }
-  },
-  {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
     }
   },
   {
@@ -275,14 +211,6 @@
     }
   },
   {
-    "slug": "parallel",
-    "name": "Parallel",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -291,11 +219,11 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "picasso",
+    "name": "Picasso",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Onfinality": "wss://polkadot.api.onfinality.io/public-ws"
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
@@ -323,19 +251,11 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sakura",
     "name": "Sakura",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Finance": "wss://api-sakura.clover.finance"
+      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
@@ -371,27 +291,11 @@
     }
   },
   {
-    "slug": "turing",
-    "name": "Turing",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Turing": "wss://rpc.turing.oak.tech"
-    }
-  },
-  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
     "errorRpcs": {
       "Turing": "wss://rpc.turing-staging.oak.tech"
-    }
-  },
-  {
-    "slug": "vara_network",
-    "name": "Vara Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "P2P.org": "wss://vara.substrate-rpc.p2p.org/"
     }
   },
   {
@@ -408,22 +312,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://westend.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
