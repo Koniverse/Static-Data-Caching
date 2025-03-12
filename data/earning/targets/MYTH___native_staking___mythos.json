@@ -2,15 +2,16 @@
   {
     "address": "0x7D6ADF2585ddF3C9fB88EDa38cFcD72bB4Dd2eAD",
     "chain": "mythos",
-    "totalStake": "0",
+    "totalStake": 0,
     "ownStake": "0",
-    "otherStake": "0",
+    "otherStake": 0,
     "minBond": "500000000000000000000",
     "nominatorCount": 0,
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": null
   },
   {
     "address": "0xf8b793d9E18ddd55fD57E6903C12725588e19f05",
@@ -23,7 +24,8 @@
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 106.78109831629499
   },
   {
     "address": "0x000022130B6d088b93EC7657A3A22c0d4E3A4582",
@@ -36,7 +38,8 @@
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 6887.755033163266
   },
   {
     "address": "0xbCfEAB2F72B19273C7F3db0f1FadD468f462aCe3",
@@ -49,7 +52,8 @@
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 106.38118035939188
   },
   {
     "address": "0x8aa02C86B6d32571295070EBCF29cf17A487F78b",
@@ -62,7 +66,8 @@
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 107.93340466253564
   },
   {
     "address": "0x5a2DAd50472fa33D9E49d787D4b660fE2d3Be072",
@@ -75,32 +80,35 @@
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 117.2380000699626
   },
   {
     "address": "0xa781885b344F538c51dc457Acb815F3F94031710",
     "chain": "mythos",
-    "totalStake": "13832221346575445774312788",
+    "totalStake": "13832230346575445774312788",
     "ownStake": "0",
-    "otherStake": "13832221346575445774312788",
+    "otherStake": "13832230346575445774312788",
     "minBond": "500000000000000000000",
     "nominatorCount": 331,
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 36.59930338442031
   },
   {
     "address": "0xb9430a9eB3fCf6794AE9a328c65fa99ED5eCeBcd",
     "chain": "mythos",
-    "totalStake": "1185447756109877898044188",
+    "totalStake": "1260447756109877898044188",
     "ownStake": "0",
-    "otherStake": "1185447756109877898044188",
+    "otherStake": "1260447756109877898044188",
     "minBond": "500000000000000000000",
-    "nominatorCount": 22,
+    "nominatorCount": 23,
     "commission": 10,
     "blocked": false,
     "isVerified": false,
-    "isCrowded": false
+    "isCrowded": false,
+    "expectedReturn": 401.64298161785
   }
 ]
