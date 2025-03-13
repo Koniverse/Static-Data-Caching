@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -146,6 +154,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -251,11 +267,11 @@
     }
   },
   {
-    "slug": "sakura",
-    "name": "Sakura",
+    "slug": "rootstock",
+    "name": "Rootstock",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc.sakura.clover.finance"
+      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
@@ -264,6 +280,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
