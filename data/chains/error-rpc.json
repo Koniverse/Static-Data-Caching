@@ -4,15 +4,8 @@
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
+      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
     }
   },
   {
@@ -32,11 +25,28 @@
     }
   },
   {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "AllNodes": "wss://avail-turing-rpc.publicnode.com/"
+    }
+  },
+  {
+    "slug": "base_mainnet",
+    "name": "Base Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "PublicNode": "https://base.publicnode.com"
+    }
+  },
+  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public"
+      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public",
+      "Public Node": "https://base-sepolia-rpc.publicnode.com"
     }
   },
   {
@@ -54,14 +64,6 @@
     "errorRpcs": {
       "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
       "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
-    "slug": "calamari_test",
-    "name": "Calamari Staging",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "calamari_test": "wss://c1.calamari.seabird.systems"
     }
   },
   {
@@ -122,14 +124,6 @@
     }
   },
   {
-    "slug": "g6_testnet",
-    "name": "G6 Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "G6 Testnet": "wss://testnet.g6.network/node"
-    }
-  },
-  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -154,14 +148,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -170,11 +156,27 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Allnodes": "wss://kusama-rpc.publicnode.com"
+    }
+  },
+  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Allnodes": "wss://moonbeam-rpc.publicnode.com"
     }
   },
   {
@@ -235,11 +237,11 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
+      "Allnodes": "wss://polkadot-rpc.publicnode.com"
     }
   },
   {
@@ -267,27 +269,11 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
