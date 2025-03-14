@@ -1,21 +1,5 @@
 [
   {
-    "slug": "3dpass",
-    "name": "3DPass",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "3dpass": "wss://rpc.3dpass.org"
-    }
-  },
-  {
-    "slug": "ajunaPolkadot",
-    "name": "Ajuna Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://ajuna.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -56,27 +40,20 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://bifrost-parachain.api.onfinality.io/public-ws"
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://bifrost-polkadot.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "calamari_test",
-    "name": "Calamari Staging",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "calamari_test": "wss://c1.calamari.seabird.systems"
+      "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     }
   },
   {
@@ -129,22 +106,6 @@
     }
   },
   {
-    "slug": "g6_testnet",
-    "name": "G6 Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "G6 Testnet": "wss://testnet.g6.network/node"
-    }
-  },
-  {
-    "slug": "hashedNetwork",
-    "name": "Hashed Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hashed Systems 2": "wss://c2.hashed.network"
-    }
-  },
-  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -161,27 +122,11 @@
     }
   },
   {
-    "slug": "ipci",
-    "name": "DAO IPCI",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "viaAiralab": "wss://kusama.rpc.ipci.io"
-    }
-  },
-  {
     "slug": "jur_network",
     "name": "Jur Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
-    }
-  },
-  {
-    "slug": "kilt",
-    "name": "KILT Spiritnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://spiritnet.api.onfinality.io/public-ws"
     }
   },
   {
@@ -198,14 +143,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
-    "slug": "litmus",
-    "name": "Litmus",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "litmus": "wss://rpc.litmus-parachain.litentry.io"
     }
   },
   {
@@ -258,19 +195,19 @@
     }
   },
   {
-    "slug": "parallel",
-    "name": "Parallel",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://parallel-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
@@ -330,14 +267,6 @@
     }
   },
   {
-    "slug": "turing",
-    "name": "Turing",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Turing": "wss://rpc.turing.oak.tech"
-    }
-  },
-  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
@@ -359,14 +288,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://zeitgeist-rpc.dwellir.com"
     }
   }
 ]
