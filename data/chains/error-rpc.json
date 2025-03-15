@@ -1,11 +1,18 @@
 [
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
-      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -25,28 +32,11 @@
     }
   },
   {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "AllNodes": "wss://avail-turing-rpc.publicnode.com/"
-    }
-  },
-  {
-    "slug": "base_mainnet",
-    "name": "Base Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "PublicNode": "https://base.publicnode.com"
-    }
-  },
-  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public",
-      "Public Node": "https://base-sepolia-rpc.publicnode.com"
+      "BlockPi": "https://base-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -156,27 +146,11 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Allnodes": "wss://kusama-rpc.publicnode.com"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
-    "slug": "moonbeam",
-    "name": "Moonbeam",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Allnodes": "wss://moonbeam-rpc.publicnode.com"
     }
   },
   {
@@ -237,11 +211,11 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
+    "slug": "picasso",
+    "name": "Picasso",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Allnodes": "wss://polkadot-rpc.publicnode.com"
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
