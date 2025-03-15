@@ -1,5 +1,13 @@
 [
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -200,14 +208,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
