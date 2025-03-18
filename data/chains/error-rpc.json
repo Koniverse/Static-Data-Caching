@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "berachain_testnet",
+    "name": "Berachain bArtio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Berachain": "https://bartio.rpc.berachain.com/"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
@@ -203,14 +211,6 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -235,6 +235,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -256,6 +264,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "ternoa_alphanet",
+    "name": "Ternoa Alphanet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "ternoa": "wss://alphanet.ternoa.com"
     }
   },
   {
