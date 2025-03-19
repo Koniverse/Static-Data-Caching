@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -32,11 +40,35 @@
     }
   },
   {
+    "slug": "berachain_testnet",
+    "name": "Berachain bArtio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Berachain": "https://bartio.rpc.berachain.com/"
+    }
+  },
+  {
     "slug": "bevm_testnet",
     "name": "BEVM OP Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://bifrost-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
     }
   },
   {
@@ -54,14 +86,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
     }
   },
   {
@@ -85,7 +109,8 @@
     "name": "Fantom",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom"
+      "Ankr": "https://rpc.ankr.com/fantom",
+      "FTM_TOOLS": "https://rpc.ftm.tools"
     }
   },
   {
@@ -203,14 +228,6 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -256,6 +273,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "ternoa_alphanet",
+    "name": "Ternoa Alphanet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "ternoa": "wss://alphanet.ternoa.com"
     }
   },
   {
