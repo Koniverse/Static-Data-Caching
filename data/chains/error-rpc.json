@@ -48,6 +48,22 @@
     }
   },
   {
+    "slug": "bifrost",
+    "name": "Bifrost Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://bifrost-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
     "status": "ACTIVE",
@@ -62,14 +78,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "crownSterling",
-    "name": "Crown Sterling",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crown Sterling": "wss://blockchain.crownsterling.io"
     }
   },
   {
@@ -93,7 +101,8 @@
     "name": "Fantom",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom"
+      "Ankr": "https://rpc.ankr.com/fantom",
+      "FTM_TOOLS": "https://rpc.ftm.tools"
     }
   },
   {
@@ -208,6 +217,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
