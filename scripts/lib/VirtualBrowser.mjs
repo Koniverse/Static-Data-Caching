@@ -11,6 +11,7 @@ export class VirtualBrowser {
     if (!this.browser) {
       this.browser = await puppeteer.launch({
         headless: 'new',
+        protocolTimeout: 600_000
       });
     }
 
