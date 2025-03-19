@@ -48,6 +48,23 @@ const runBrowser = async () => {
       await koniState.eventService.waitChainReady;
       await koniState.chainService.enableChains(['mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet', 'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet']);
 
+      // Special case for moonbeam
+      const currentProvider = koniState.getChainStateByKey('moonbeam').currentProvider;
+      const targetProvider = 'Moonbeam Foundation';
+
+      if (currentProvider !== targetProvider) {
+        const chainInfo = koniState.getChainInfo('moonbeam');
+
+        await koniState.chainService.upsertChain({
+          mode: 'update',
+          chainEditInfo: {
+            slug: 'moonbeam',
+            currentProvider: targetProvider,
+            providers: chainInfo.providers,
+          }
+        })
+      }
+
       await new Promise((resolve) => {
         setTimeout(resolve, 180000);
       });
