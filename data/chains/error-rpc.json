@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
@@ -81,6 +89,14 @@
     }
   },
   {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+    }
+  },
+  {
     "slug": "deBio",
     "name": "DeBio",
     "status": "ACTIVE",
@@ -120,6 +136,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "fusotao": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2"
+    }
+  },
+  {
+    "slug": "hashedNetwork",
+    "name": "Hashed Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hashed Systems 1": "wss://c1.hashed.network"
     }
   },
   {
@@ -212,6 +236,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -220,11 +252,11 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
   {
