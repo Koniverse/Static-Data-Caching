@@ -8,6 +8,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -123,6 +131,14 @@
     }
   },
   {
+    "slug": "hashedNetwork",
+    "name": "Hashed Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hashed Systems 1": "wss://c1.hashed.network"
+    }
+  },
+  {
     "slug": "heiko",
     "name": "Heiko",
     "status": "ACTIVE",
@@ -212,19 +228,19 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
@@ -260,14 +276,6 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -276,11 +284,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
@@ -297,6 +305,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
