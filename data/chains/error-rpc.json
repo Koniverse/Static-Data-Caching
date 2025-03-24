@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "base_sepolia",
     "name": "Base Sepolia",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Berachain": "https://bartio.rpc.berachain.com/"
+    }
+  },
+  {
+    "slug": "bevmTest",
+    "name": "BEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BEVM testnet": "https://testnet.bevm.io"
     }
   },
   {
@@ -86,14 +86,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "darwinia2",
-    "name": "Darwinia 2",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
     }
   },
   {
@@ -236,14 +228,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -284,6 +268,14 @@
     }
   },
   {
+    "slug": "sakura",
+    "name": "Sakura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc.sakura.clover.finance"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -305,6 +297,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3g": "wss://rpc-0.gemini-3g.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "subspace_gemini_3h",
+    "name": "Subspace Gemini 3h",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
     }
   },
   {
