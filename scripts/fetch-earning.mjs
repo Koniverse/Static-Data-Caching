@@ -71,6 +71,7 @@ const runBrowser = async () => {
     const koniState = window.SubWalletState;
     const poolInfos = await koniState.earningService.getYieldPoolInfo();
 
+    console.log('poolInfos', poolInfos);
     const promiseList = poolInfos.map((pool) => {
       const timeoutPromise = new Promise((resolve) => {
         setTimeout(() => {
