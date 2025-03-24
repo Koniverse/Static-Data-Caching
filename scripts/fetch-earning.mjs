@@ -8,24 +8,6 @@ console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
-
-  const aprPromise = new Promise(function (resolve) {
-    fetch('https://stdot-apr.stellaswap.com/', {
-      method: 'GET'
-    }).then((res) => {
-      resolve(res.json());
-    }).catch(console.error);
-  });
-
-  const timeoutPromise = new Promise((resolve) => {
-    setTimeout(() => {
-      resolve([]);
-    }, 60000);
-  });
-
-  const res = await Promise.race([aprPromise, timeoutPromise]);
-  console.log('APR', res);
-
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
     try {
