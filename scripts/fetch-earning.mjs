@@ -7,8 +7,10 @@ const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://2830f585.swwrc.pages
 console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
+  console.log('whats wrong here', oldData.data['xcDOT___liquid_staking___stellaswap'])
   const virtualBrowser = VirtualBrowser.getInstance();
   const page = await virtualBrowser.openPage(webRunnerURL)
+  console.log('page', page)
   const result = await page.evaluate(async () => {
     try {
       const koniState = await new Promise((resolve) => {
@@ -31,7 +33,7 @@ const runBrowser = async () => {
       await koniState.chainService.enableChains(['mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet', 'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet']);
 
       await new Promise((resolve) => {
-        setTimeout(resolve, 180000);
+        setTimeout(resolve, 60000);
       });
 
       return await koniState.earningService.getYieldPoolInfo();
@@ -61,17 +63,19 @@ const runBrowser = async () => {
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
 
   const updateDate = new Date();
+  console.log('finalData', JSON.stringify(finalData));
+
   await writeJSONFile('earning/yield-pools.json', {
     lastUpdated: updateDate.getTime(),
     lastUpdatedTimestamp: updateDate.toISOString(),
     data: finalData
   });
-
+  console.log('was here');
+  
   const data = await page.evaluate(async () => {
     const koniState = window.SubWalletState;
     const poolInfos = await koniState.earningService.getYieldPoolInfo();
 
-    console.log('poolInfos', poolInfos);
     const promiseList = poolInfos.map((pool) => {
       const timeoutPromise = new Promise((resolve) => {
         setTimeout(() => {
@@ -108,7 +112,7 @@ export const fetchEarning = async () => {
   try {
     const errTimeout = setTimeout(() => {
       throw new Error('Failed to fetch data');
-    }, 360000);
+    }, 180000);
 
     // Run browser
     await runBrowser();
