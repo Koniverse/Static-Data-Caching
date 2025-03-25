@@ -2,15 +2,13 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://2830f585.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://66da2208.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
-  console.log('whats wrong here', oldData.data['xcDOT___liquid_staking___stellaswap'])
   const virtualBrowser = VirtualBrowser.getInstance();
   const page = await virtualBrowser.openPage(webRunnerURL)
-  console.log('page', page)
   const result = await page.evaluate(async () => {
     try {
       const koniState = await new Promise((resolve) => {
@@ -63,14 +61,12 @@ const runBrowser = async () => {
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
 
   const updateDate = new Date();
-  console.log('finalData', JSON.stringify(finalData));
 
   await writeJSONFile('earning/yield-pools.json', {
     lastUpdated: updateDate.getTime(),
     lastUpdatedTimestamp: updateDate.toISOString(),
     data: finalData
   });
-  console.log('was here');
   
   const data = await page.evaluate(async () => {
     const koniState = window.SubWalletState;
