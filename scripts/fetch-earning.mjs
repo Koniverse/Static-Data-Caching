@@ -8,6 +8,8 @@ console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
+  oldData['xcDOT___liquid_staking___stellaswap'] && delete oldData['xcDOT___liquid_staking___stellaswap'];
+
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
     try {
@@ -27,6 +29,7 @@ const runBrowser = async () => {
       // Disable online cache only
       koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
 
+      console.log('konistate', koniState.earningService.getYieldPoolInfo('xcDOT___liquid_staking___stellaswap'));
       await koniState.eventService.waitChainReady;
       await koniState.chainService.enableChains(['mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet', 'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet']);
 
