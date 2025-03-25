@@ -8,7 +8,7 @@ console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
-  oldData['xcDOT___liquid_staking___stellaswap'] && delete oldData['xcDOT___liquid_staking___stellaswap'];
+  delete oldData.data['xcDOT___liquid_staking___stellaswap'];
 
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
