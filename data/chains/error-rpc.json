@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Berachain": "https://bartio.rpc.berachain.com/"
+    }
+  },
+  {
+    "slug": "bevmTest",
+    "name": "BEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BEVM testnet": "https://testnet.bevm.io"
     }
   },
   {
@@ -236,14 +236,6 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
@@ -284,14 +276,6 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
     "slug": "storyOdyssey_testnet",
     "name": "Story Odyssey Testnet",
     "status": "ACTIVE",
@@ -308,11 +292,11 @@
     }
   },
   {
-    "slug": "syscoin_evm_testnet",
-    "name": "Syscoin NEVM Testnet",
+    "slug": "subspace_gemini_3h",
+    "name": "Subspace Gemini 3h",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Syscoin": "https://rpc.tanenbaum.io"
+      "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
     }
   },
   {
