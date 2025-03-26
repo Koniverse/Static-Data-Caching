@@ -56,22 +56,6 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://bifrost-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
     "status": "ACTIVE",
@@ -86,6 +70,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
     }
   },
   {
@@ -179,6 +171,14 @@
     }
   },
   {
+    "slug": "manta_network",
+    "name": "Manta Atlantic",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Manta Network": "wss://ws.manta.systems"
+    }
+  },
+  {
     "slug": "myriad",
     "name": "Myriad",
     "status": "ACTIVE",
@@ -236,14 +236,6 @@
     }
   },
   {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
@@ -273,14 +265,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
