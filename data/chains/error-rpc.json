@@ -89,6 +89,14 @@
     }
   },
   {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+    }
+  },
+  {
     "slug": "deBio",
     "name": "DeBio",
     "status": "ACTIVE",
@@ -179,6 +187,14 @@
     }
   },
   {
+    "slug": "manta_network",
+    "name": "Manta Atlantic",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Manta Network": "wss://ws.manta.systems"
+    }
+  },
+  {
     "slug": "myriad",
     "name": "Myriad",
     "status": "ACTIVE",
@@ -236,6 +252,14 @@
     }
   },
   {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
@@ -273,6 +297,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
