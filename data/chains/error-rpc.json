@@ -65,19 +65,19 @@
     }
   },
   {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+    }
+  },
+  {
     "slug": "collectives",
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "darwinia2",
-    "name": "Darwinia 2",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
     }
   },
   {
@@ -102,6 +102,7 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom",
+      "BlastApi": "https://fantom-mainnet.public.blastapi.io",
       "FTM_TOOLS": "https://rpc.ftm.tools"
     }
   },
@@ -171,14 +172,6 @@
     }
   },
   {
-    "slug": "manta_network",
-    "name": "Manta Atlantic",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Manta Network": "wss://ws.manta.systems"
-    }
-  },
-  {
     "slug": "myriad",
     "name": "Myriad",
     "status": "ACTIVE",
@@ -233,6 +226,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "picasso",
+    "name": "Picasso",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://picasso-rpc.dwellir.com"
     }
   },
   {
