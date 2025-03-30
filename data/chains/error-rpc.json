@@ -56,28 +56,28 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://bifrost-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://bifrost-polkadot-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
       "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
     }
   },
   {
@@ -102,6 +102,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "discovol": "wss://gateway.mainnet.octopus.network/discovol/afpft46l1egfhrv8at5pfyrld03zseo1"
+    }
+  },
+  {
+    "slug": "dockPosMainnet",
+    "name": "Dock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dock Association": "wss://mainnet-node.dock.io"
     }
   },
   {
@@ -160,6 +168,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -268,19 +284,19 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "shibuyaEvm",
-    "name": "Shibuya Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastAPI": "https://shibuya.public.blastapi.io"
     }
   },
   {
