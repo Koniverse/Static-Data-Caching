@@ -1,5 +1,13 @@
 [
   {
+    "slug": "3dpass",
+    "name": "3DPass",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "3dpscan": "wss://rpc.3dpscan.io"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -65,6 +73,22 @@
     }
   },
   {
+    "slug": "clover",
+    "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
     "slug": "collectives",
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
@@ -102,6 +126,7 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom",
+      "BlastApi": "https://fantom-mainnet.public.blastapi.io",
       "FTM_TOOLS": "https://rpc.ftm.tools"
     }
   },
@@ -152,14 +177,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -244,6 +261,14 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -265,14 +290,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
