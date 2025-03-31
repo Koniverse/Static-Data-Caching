@@ -1,5 +1,21 @@
 [
   {
+    "slug": "3dpass",
+    "name": "3DPass",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "3dpscan": "wss://rpc.3dpscan.io"
+    }
+  },
+  {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -21,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -53,15 +77,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
@@ -171,19 +186,19 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -244,6 +259,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -256,7 +279,16 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
   {
@@ -281,14 +313,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
