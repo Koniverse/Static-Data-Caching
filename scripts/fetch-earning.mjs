@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://f57f973a.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://2206e43c.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -52,9 +52,14 @@ const runBrowser = async () => {
     return acc;
   }, {});
 
-  const finalData = {
-    ...oldData.data,
-    ...poolInfo
+  const finalData = {};
+  for (const slug of Object.keys(oldData.data)) {
+    finalData[slug] = oldData.data[slug];
+  }
+  for (const slug of Object.keys(poolInfo)) {
+    if (!finalData[slug] || poolInfo[slug].lastUpdated > finalData[slug].lastUpdated) {
+      finalData[slug] = poolInfo[slug];
+    }
   }
 
   // Force remove CAPS___native_staking___ternoa_alphanet
