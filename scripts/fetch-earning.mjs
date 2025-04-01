@@ -4,11 +4,6 @@ import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
 const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://66da2208.swwrc.pages.dev/';
 
-console.log('Fetching data from', webRunnerURL);
-console.log('Check1', oldData.data['xcDOT___liquid_staking___stellaswap'])
-delete oldData.data['xcDOT___liquid_staking___stellaswap'];
-console.log('Check2', oldData.data['xcDOT___liquid_staking___stellaswap'])
-
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
   const page = await virtualBrowser.openPage(webRunnerURL)
@@ -55,9 +50,14 @@ const runBrowser = async () => {
     return acc;
   }, {});
 
-  const finalData = {
-    ...oldData.data,
-    ...poolInfo
+  const finalData = {};
+  for (const slug of Object.keys(oldData.data)) {
+    finalData[slug] = oldData.data[slug];
+  }
+  for (const slug of Object.keys(poolInfo)) {
+    if (!finalData[slug] || poolInfo[slug].lastUpdated > finalData[slug].lastUpdated) {
+      finalData[slug] = poolInfo[slug];
+    }
   }
 
   // Force remove CAPS___native_staking___ternoa_alphanet
