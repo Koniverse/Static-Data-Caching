@@ -52,13 +52,11 @@ const runBrowser = async () => {
     return acc;
   }, {});
 
-  const finalData = {};
-  for (const slug of Object.keys(oldData.data)) {
-    finalData[slug] = oldData.data[slug];
-  }
-  for (const slug of Object.keys(poolInfo)) {
-    if (!finalData[slug] || poolInfo[slug].lastUpdated > finalData[slug].lastUpdated) {
-      finalData[slug] = poolInfo[slug];
+  const finalData = structuredClone(oldData.data);
+
+  for (const [slug, value] of Object.entries(poolInfo)) {
+    if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
+      finalData[slug] = value;
     }
   }
 
