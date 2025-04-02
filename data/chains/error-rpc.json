@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -64,28 +80,11 @@
     }
   },
   {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
-    "slug": "clover",
-    "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -126,7 +125,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom",
-      "BlastApi": "https://fantom-mainnet.public.blastapi.io",
       "FTM_TOOLS": "https://rpc.ftm.tools"
     }
   },
@@ -245,6 +243,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -298,6 +304,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
