@@ -61,9 +61,12 @@ const runBrowser = async () => {
     return acc;
   }, {});
 
-  const finalData = {
-    ...oldData.data,
-    ...poolInfo
+  const finalData = structuredClone(oldData.data);
+
+  for (const [slug, value] of Object.entries(poolInfo)) {
+    if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
+      finalData[slug] = value;
+    }
   }
 
   // Force remove CAPS___native_staking___ternoa_alphanet
