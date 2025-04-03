@@ -8,19 +8,19 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://aleph-zero-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -40,11 +40,11 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
+    "slug": "aventus_testnet",
+    "name": "Aventus Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+      "Aventus": "wss://public-rpc.testnet.aventus.network"
     }
   },
   {
@@ -80,11 +80,36 @@
     }
   },
   {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
     "slug": "cess_testnet",
     "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "CESS network": "wss://testnet-rpc.cess.network/ws/"
+    }
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
     }
   },
   {
@@ -178,11 +203,35 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+    }
+  },
+  {
+    "slug": "laos_network",
+    "name": "LAOS Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
     }
   },
   {
@@ -243,14 +292,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -272,6 +313,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
+    }
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
@@ -304,14 +353,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
