@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "aventus_testnet",
     "name": "Aventus Testnet",
     "status": "ACTIVE",
@@ -77,15 +85,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
@@ -155,6 +154,14 @@
     }
   },
   {
+    "slug": "gen6_public",
+    "name": "Gen6 Public Chain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gen6": "wss://gen6.app:443/node"
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
@@ -184,14 +191,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -260,14 +259,6 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Europe": "wss://eu-ws-opal.unique.network"
-    }
-  },
-  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
@@ -276,11 +267,27 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -339,6 +346,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://statemine-rpc.dwellir.com"
     }
   },
   {
