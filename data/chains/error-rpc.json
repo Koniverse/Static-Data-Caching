@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://aleph-zero-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -89,24 +81,8 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
     "slug": "clover",
     "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -203,14 +179,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
@@ -224,14 +192,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
-    "slug": "laos_network",
-    "name": "LAOS Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
     }
   },
   {
@@ -281,6 +241,14 @@
     "errorRpcs": {
       "Testrpc": "https://testrpc.x1.tech/",
       "X1testrpc": "https://x1testrpc.okx.com/"
+    }
+  },
+  {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Europe": "wss://eu-ws-opal.unique.network"
     }
   },
   {
@@ -353,6 +321,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://statemine-rpc.dwellir.com"
     }
   },
   {
