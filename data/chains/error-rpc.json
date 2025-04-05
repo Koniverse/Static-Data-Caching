@@ -187,14 +187,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -241,14 +233,6 @@
     "errorRpcs": {
       "Testrpc": "https://testrpc.x1.tech/",
       "X1testrpc": "https://x1testrpc.okx.com/"
-    }
-  },
-  {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Europe": "wss://eu-ws-opal.unique.network"
     }
   },
   {
@@ -313,6 +297,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "sakura",
+    "name": "Sakura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
