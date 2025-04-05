@@ -8,14 +8,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://aleph-zero-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -37,14 +29,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -85,6 +69,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
@@ -154,14 +147,6 @@
     }
   },
   {
-    "slug": "gen6_public",
-    "name": "Gen6 Public Chain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Gen6": "wss://gen6.app:443/node"
-    }
-  },
-  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
@@ -199,14 +184,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Helixstreet": "wss://rpc-kusama.helixstreet.io"
     }
   },
   {
@@ -267,14 +244,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -295,7 +264,6 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -304,7 +272,6 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
