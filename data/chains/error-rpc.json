@@ -8,11 +8,35 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://aleph-zero-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://astar-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "https://astar-rpc.dwellir.com"
     }
   },
   {
@@ -81,8 +105,32 @@
     }
   },
   {
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://bridge-hub-polkadot-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "centrifuge",
+    "name": "Centrifuge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://centrifuge-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "clover",
     "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -94,6 +142,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "crabParachain",
+    "name": "Crab2 Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://darwiniacrab-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -139,6 +203,14 @@
     }
   },
   {
+    "slug": "frequency",
+    "name": "Frequency",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://frequency-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "fusotao",
     "name": "Fusotao",
     "status": "ACTIVE",
@@ -171,11 +243,27 @@
     }
   },
   {
+    "slug": "invarch",
+    "name": "InvArch Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://invarch-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "jur_network",
     "name": "Jur Network",
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
+    }
+  },
+  {
+    "slug": "kilt",
+    "name": "KILT Spiritnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://kilt-rpc.dwellir.com"
     }
   },
   {
@@ -192,6 +280,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
+    "slug": "litentry",
+    "name": "Heima",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://litentry-rpc.dwellir.com",
+      "Litentry": "wss://rpc.heima-parachain.heima.network"
     }
   },
   {
@@ -216,6 +313,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "NFTMart": "wss://mainnet.nftmart.io/rpc/ws"
+    }
+  },
+  {
+    "slug": "nodle",
+    "name": "Nodle",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://nodle-rpc.dwellir.com"
     }
   },
   {
@@ -244,6 +349,22 @@
     }
   },
   {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://people-kusama-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://phala-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -264,6 +385,7 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -272,6 +394,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadot-rpc.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -316,6 +439,14 @@
     }
   },
   {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://shibuya-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "statemine",
     "name": "Kusama Asset Hub",
     "status": "ACTIVE",
@@ -329,6 +460,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Story Odyssey": "https://odyssey.storyrpc.io/"
+    }
+  },
+  {
+    "slug": "subsocial_x",
+    "name": "Subsocial",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://subsocial-rpc.dwellir.com"
     }
   },
   {
@@ -364,6 +503,14 @@
     }
   },
   {
+    "slug": "turing",
+    "name": "Turing",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://turing-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "turingStaging",
     "name": "Turing Staging",
     "status": "ACTIVE",
@@ -385,6 +532,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://westend-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://asset-hub-westend-rpc.dwellir.com"
     }
   }
 ]
