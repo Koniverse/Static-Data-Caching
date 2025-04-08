@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "aventus_testnet",
     "name": "Aventus Testnet",
     "status": "ACTIVE",
@@ -88,16 +80,16 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
+    "slug": "clover",
+    "name": "Clover",
     "status": "ACTIVE",
     "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "Clover": "wss://rpc-para.clover.finance"
     }
   },
   {
-    "slug": "clover",
-    "name": "Clover",
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -267,14 +259,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -287,7 +271,6 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -377,6 +360,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "syscoin_evm",
+    "name": "Syscoin NEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.syscoin.org"
+    }
+  },
+  {
+    "slug": "tangle_evm",
+    "name": "Tangle EVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "https://rpc.tangle.tools/"
+    }
+  },
+  {
+    "slug": "ternoaZkEvm_testnet",
+    "name": "Ternoa zkEVM+ Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
     }
   },
   {
