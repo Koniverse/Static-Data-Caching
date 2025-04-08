@@ -72,6 +72,14 @@
     }
   },
   {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws"
+    }
+  },
+  {
     "slug": "bifrost_testnet",
     "name": "Bifrost Testnet",
     "status": "ACTIVE",
@@ -83,14 +91,6 @@
   {
     "slug": "clover",
     "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -187,19 +187,19 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -268,11 +268,18 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -281,7 +288,6 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Helixstreet": "wss://rpc-polkadot.helixstreet.io",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -290,7 +296,6 @@
     "name": "Polygon",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
@@ -311,14 +316,6 @@
     }
   },
   {
-    "slug": "rollux_evm",
-    "name": "Rollux",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Rollux": "https://rpc.rollux.com"
-    }
-  },
-  {
     "slug": "rollux_testnet",
     "name": "Rollux Testnet",
     "status": "ACTIVE",
@@ -332,14 +329,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
-    "slug": "sakura",
-    "name": "Sakura",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
@@ -380,6 +369,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "ternoaZkEvm_testnet",
+    "name": "Ternoa zkEVM+ Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
     }
   },
   {
