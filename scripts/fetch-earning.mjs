@@ -63,7 +63,7 @@ const runBrowser = async () => {
     }
   
     finalData[slug] = newValue;
-  }
+  }}
 
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
