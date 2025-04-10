@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "astarZkEvm",
+    "name": "Astar zkEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -80,16 +88,25 @@
     }
   },
   {
-    "slug": "clover",
-    "name": "Clover",
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
+    "slug": "bittensor_testnet",
+    "name": "Bittensor Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testnet": "wss://test.finney.opentensor.ai:443"
+    }
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -175,6 +192,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Imbue": "wss://kusama.imbuenetwork.com"
+    }
+  },
+  {
+    "slug": "invarch",
+    "name": "InvArch Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://invarch-rpc.dwellir.com"
     }
   },
   {
@@ -267,10 +292,19 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -287,6 +321,7 @@
     "name": "Polygon",
     "status": "ACTIVE",
     "errorRpcs": {
+      "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
@@ -339,6 +374,14 @@
     }
   },
   {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "storyOdyssey_testnet",
     "name": "Story Odyssey Testnet",
     "status": "ACTIVE",
@@ -368,14 +411,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Syscoin": "https://rpc.syscoin.org"
-    }
-  },
-  {
-    "slug": "tangle_evm",
-    "name": "Tangle EVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
