@@ -55,9 +55,14 @@ const runBrowser = async () => {
   const finalData = structuredClone(oldData.data);
 
   for (const [slug, value] of Object.entries(poolInfo)) {
-    if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
-      finalData[slug] = value;
+  if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
+    const newValue = structuredClone(value);
+  
+    if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApr) { // Sometime, bittensor native staking can get totalApr
+      newValue.statistic.totalApr = finalData[slug].statistic.totalApr;
     }
+  
+    finalData[slug] = newValue;
   }
 
   // Force remove CAPS___native_staking___ternoa_alphanet
