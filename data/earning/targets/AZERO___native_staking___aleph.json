@@ -1233,8 +1233,8 @@
     "ownStake": "26376000000000000",
     "otherStake": "11854913911296750",
     "nominatorCount": 4,
-    "commission": 5,
-    "expectedReturn": 13.892235589811728,
+    "commission": 0,
+    "expectedReturn": 14.623405884012346,
     "blocked": false,
     "isVerified": false,
     "minBond": "2000000000000000",
@@ -1481,5 +1481,21 @@
     "eraRewardPoint": "4118304",
     "topQuartile": false,
     "identity": "Forest West/key1"
+  },
+  {
+    "address": "5CM4QpQdkuknqSAy77ugmN3pJgMjBD2kTbE3yvoyQcDy46TR",
+    "totalStake": "25000000000000000",
+    "ownStake": "25000000000000000",
+    "otherStake": "0",
+    "nominatorCount": 0,
+    "commission": 5,
+    "expectedReturn": 0,
+    "blocked": false,
+    "isVerified": false,
+    "minBond": "2000000000000000",
+    "isCrowded": false,
+    "eraRewardPoint": "0",
+    "topQuartile": false,
+    "identity": "Staker Space"
   }
 ]
