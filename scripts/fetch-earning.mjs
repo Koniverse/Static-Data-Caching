@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://4e86a1f1.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://89848fa6.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -58,8 +58,8 @@ const runBrowser = async () => {
   if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
     const newValue = structuredClone(value);
   
-    if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApr) { // Sometime, bittensor native staking can get totalApr
-      newValue.statistic.totalApr = finalData[slug].statistic.totalApr;
+    if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApy) { // Sometime, bittensor native staking can't get totalApy
+      newValue.statistic.totalApy = finalData[slug].statistic.totalApy;
     }
   
     finalData[slug] = newValue;
