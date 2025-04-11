@@ -48,6 +48,14 @@
     }
   },
   {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Avail": "wss://zeref-api.slowops.xyz/ws"
+    }
+  },
+  {
     "slug": "aventus_testnet",
     "name": "Aventus Testnet",
     "status": "ACTIVE",
@@ -85,23 +93,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
-    "slug": "bittensor_testnet",
-    "name": "Bittensor Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Testnet": "wss://test.finney.opentensor.ai:443"
     }
   },
   {
@@ -219,14 +210,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -284,6 +267,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -321,7 +312,6 @@
     "name": "Polygon",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlastApi": "https://polygon-mainnet.public.blastapi.io",
       "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
@@ -374,14 +364,6 @@
     }
   },
   {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://statemint.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "storyOdyssey_testnet",
     "name": "Story Odyssey Testnet",
     "status": "ACTIVE",
@@ -411,6 +393,30 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Syscoin": "https://rpc.syscoin.org"
+    }
+  },
+  {
+    "slug": "tangle",
+    "name": "Tangle Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "wss://rpc.tangle.tools"
+    }
+  },
+  {
+    "slug": "tangleTest",
+    "name": "Tangle Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Webb": "wss://testnet-rpc.tangle.tools"
+    }
+  },
+  {
+    "slug": "tangle_evm",
+    "name": "Tangle EVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
