@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "alephTest",
+    "name": "Aleph Zero Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://aleph-zero-testnet-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -29,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "https://astar-zkevm-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
     }
   },
   {
@@ -96,8 +112,24 @@
     }
   },
   {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+    }
+  },
+  {
     "slug": "clover",
     "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -178,6 +210,22 @@
     }
   },
   {
+    "slug": "humanode",
+    "name": "Humanode",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Humanode": "wss://explorer-rpc-ws.mainnet.stages.humanode.io"
+    }
+  },
+  {
+    "slug": "humanodeEvm",
+    "name": "Humanode - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Humanode": "https://explorer-rpc-http.mainnet.stages.humanode.io"
+    }
+  },
+  {
     "slug": "imbue_network",
     "name": "Imbue Kusama",
     "status": "ACTIVE",
@@ -207,6 +255,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -280,14 +336,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -393,30 +441,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Syscoin": "https://rpc.syscoin.org"
-    }
-  },
-  {
-    "slug": "tangle",
-    "name": "Tangle Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "wss://rpc.tangle.tools"
-    }
-  },
-  {
-    "slug": "tangleTest",
-    "name": "Tangle Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Webb": "wss://testnet-rpc.tangle.tools"
-    }
-  },
-  {
-    "slug": "tangle_evm",
-    "name": "Tangle EVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
