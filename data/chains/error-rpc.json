@@ -105,19 +105,11 @@
     }
   },
   {
-    "slug": "clover",
-    "name": "Clover",
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -231,6 +223,7 @@
     "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
@@ -292,14 +285,6 @@
     }
   },
   {
-    "slug": "peaq_evm",
-    "name": "peaq EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Peaq": "https://evm.peaq.network/"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -312,6 +297,7 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -320,6 +306,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -380,19 +367,10 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
-    }
-  },
-  {
     "slug": "statemine",
     "name": "Kusama Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
       "Dwellir": "wss://statemine-rpc.dwellir.com"
     }
   },
@@ -474,6 +452,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     }
   }
 ]
