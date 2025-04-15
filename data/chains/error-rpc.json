@@ -32,6 +32,22 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -105,11 +121,27 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
+    }
+  },
+  {
+    "slug": "cloverEvm",
+    "name": "Clover - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc-para.clover.finance"
     }
   },
   {
@@ -219,15 +251,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
     "slug": "layerEdge_testnet",
     "name": "LayerEdge Testnet",
     "status": "ACTIVE",
@@ -277,11 +300,27 @@
     }
   },
   {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "NA": "wss://us-ws-opal.unique.network"
+    }
+  },
+  {
     "slug": "pangolin",
     "name": "Pangolin",
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
+    }
+  },
+  {
+    "slug": "peaq_evm",
+    "name": "peaq EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Peaq": "https://evm.peaq.network/"
     }
   },
   {
@@ -297,7 +336,6 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -306,7 +344,6 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -407,6 +444,14 @@
     }
   },
   {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
+    }
+  },
+  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
@@ -452,14 +497,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     }
   }
 ]
