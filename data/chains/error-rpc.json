@@ -112,24 +112,25 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
     "slug": "clover",
     "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -210,22 +211,6 @@
     }
   },
   {
-    "slug": "humanode",
-    "name": "Humanode",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Humanode": "wss://explorer-rpc-ws.mainnet.stages.humanode.io"
-    }
-  },
-  {
-    "slug": "humanodeEvm",
-    "name": "Humanode - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Humanode": "https://explorer-rpc-http.mainnet.stages.humanode.io"
-    }
-  },
-  {
     "slug": "imbue_network",
     "name": "Imbue Kusama",
     "status": "ACTIVE",
@@ -255,14 +240,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -323,14 +300,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -352,6 +321,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -361,6 +331,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Llamarpc": "https://polygon.llamarpc.com"
+    }
+  },
+  {
+    "slug": "quartz",
+    "name": "Quartz",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Unique US": "wss://us-ws-quartz.unique.network"
     }
   },
   {
@@ -404,11 +382,28 @@
     }
   },
   {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
+    }
+  },
+  {
     "slug": "statemine",
     "name": "Kusama Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
       "Dwellir": "wss://statemine-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
     }
   },
   {
@@ -441,6 +436,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Syscoin": "https://rpc.syscoin.org"
+    }
+  },
+  {
+    "slug": "syscoin_evm_testnet",
+    "name": "Syscoin NEVM Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
