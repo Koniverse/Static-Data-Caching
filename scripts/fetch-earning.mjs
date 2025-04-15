@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://2206e43c.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://89848fa6.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -65,9 +65,14 @@ const runBrowser = async () => {
 
   for (const [slug, value] of Object.entries(poolInfo)) {
     if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
-      finalData[slug] = value;
-    }
-  }
+      const newValue = structuredClone(value);
+
+      if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApy) { // Sometime, bittensor native staking can't get totalApy
+        newValue.statistic.totalApy = finalData[slug].statistic.totalApy;
+      }
+
+      finalData[slug] = newValue;
+    }}
 
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
