@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://amplitude-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -37,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
-    "slug": "atletaOlympia_testnet",
-    "name": "Atleta Olympia",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Atleta": "wss://testnet-rpc.atleta.network"
     }
   },
   {
@@ -109,23 +109,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
@@ -243,11 +226,27 @@
     }
   },
   {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://krest-rpc.dwellir.com"
+    }
+  },
+  {
     "slug": "kulupu",
     "name": "Kulupu",
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "laos_network",
+    "name": "LAOS Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://laos-rpc.dwellir.com"
     }
   },
   {
@@ -300,11 +299,11 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
+    "slug": "origintrail",
+    "name": "NeuroWeb Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "NA": "wss://us-ws-opal.unique.network"
+      "Dwellir": "wss://neuroweb-rpc.dwellir.com"
     }
   },
   {
@@ -324,6 +323,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -336,6 +343,7 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -396,6 +404,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -441,14 +457,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Syscoin": "https://rpc.syscoin.org"
-    }
-  },
-  {
-    "slug": "syscoin_evm_testnet",
-    "name": "Syscoin NEVM Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.tanenbaum.io"
     }
   },
   {
