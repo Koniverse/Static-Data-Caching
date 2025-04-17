@@ -112,16 +112,16 @@
     }
   },
   {
-    "slug": "clover",
-    "name": "Clover",
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
+    "slug": "clover",
+    "name": "Clover",
     "status": "ACTIVE",
     "errorRpcs": {
       "Clover": "wss://rpc-para.clover.finance"
@@ -242,6 +242,14 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
+    }
+  },
+  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -315,14 +323,6 @@
     }
   },
   {
-    "slug": "peaq_evm",
-    "name": "peaq EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Peaq": "https://evm.peaq.network/"
-    }
-  },
-  {
     "slug": "phala",
     "name": "Phala",
     "status": "ACTIVE",
@@ -352,6 +352,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -404,19 +405,19 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
@@ -449,14 +450,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
-    }
-  },
-  {
-    "slug": "syscoin_evm",
-    "name": "Syscoin NEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Syscoin": "https://rpc.syscoin.org"
     }
   },
   {
@@ -505,6 +498,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
+    }
+  },
+  {
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
     }
   }
 ]
