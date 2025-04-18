@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -69,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Avail": "wss://zeref-api.slowops.xyz/ws"
+    }
+  },
+  {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aventus": "wss://public-rpc.mainnet.aventus.network"
     }
   },
   {
@@ -112,19 +112,12 @@
     }
   },
   {
-    "slug": "bridgeHubPolkadot",
-    "name": "Polkadot Bridge Hub",
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
-    }
-  },
-  {
-    "slug": "clover",
-    "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
@@ -132,6 +125,7 @@
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com",
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     }
   },
@@ -226,6 +220,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
     "slug": "krest_network",
     "name": "Krest Network",
     "status": "ACTIVE",
@@ -239,14 +241,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -307,6 +301,14 @@
     }
   },
   {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "NA": "wss://us-ws-opal.unique.network"
+    }
+  },
+  {
     "slug": "origintrail",
     "name": "NeuroWeb Mainnet",
     "status": "ACTIVE",
@@ -323,14 +325,6 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -343,7 +337,6 @@
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -405,19 +398,19 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
@@ -501,11 +494,11 @@
     }
   },
   {
-    "slug": "westend_assethub",
-    "name": "Westend Asset Hub",
+    "slug": "westend",
+    "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     }
   }
 ]
