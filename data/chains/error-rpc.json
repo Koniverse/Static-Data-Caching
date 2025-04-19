@@ -129,14 +129,6 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
-    }
-  },
-  {
     "slug": "collectives",
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
@@ -235,6 +227,14 @@
     }
   },
   {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kippu": "wss://kreivo.kippu.rocks/"
+    }
+  },
+  {
     "slug": "krest_network",
     "name": "Krest Network",
     "status": "ACTIVE",
@@ -248,6 +248,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -340,19 +348,10 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -414,6 +413,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -427,6 +434,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://statemine-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
     }
   },
   {
