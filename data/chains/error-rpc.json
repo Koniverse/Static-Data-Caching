@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "atletaOlympia_testnet",
+    "name": "Atleta Olympia",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Atleta": "wss://testnet-rpc.atleta.network"
+    }
+  },
+  {
     "slug": "atocha",
     "name": "Atocha",
     "status": "ACTIVE",
@@ -112,12 +120,11 @@
     }
   },
   {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
@@ -223,8 +230,7 @@
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/",
-      "Virto": "wss://kreivo.io/"
+      "Kippu": "wss://kreivo.kippu.rocks/"
     }
   },
   {
@@ -241,14 +247,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -309,14 +307,6 @@
     }
   },
   {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "NA": "wss://us-ws-opal.unique.network"
-    }
-  },
-  {
     "slug": "origintrail",
     "name": "NeuroWeb Mainnet",
     "status": "ACTIVE",
@@ -333,6 +323,22 @@
     }
   },
   {
+    "slug": "peaq_evm",
+    "name": "peaq EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Peaq": "https://evm.peaq.network/"
+    }
+  },
+  {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -341,18 +347,11 @@
     }
   },
   {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "polkadex_dot",
     "name": "Polkadex Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     }
   },
@@ -361,6 +360,7 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -370,14 +370,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Llamarpc": "https://polygon.llamarpc.com"
-    }
-  },
-  {
-    "slug": "quartz",
-    "name": "Quartz",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Unique US": "wss://us-ws-quartz.unique.network"
     }
   },
   {
@@ -410,14 +402,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
