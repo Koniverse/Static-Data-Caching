@@ -8,6 +8,22 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://acala.dotters.network"
+    }
+  },
+  {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://ajuna.dotters.network"
+    }
+  },
+  {
     "slug": "aleph",
     "name": "Aleph Zero",
     "status": "ACTIVE",
@@ -37,6 +53,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -112,11 +136,36 @@
     }
   },
   {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://bifrost-polkadot.dotters.network"
+    }
+  },
+  {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
+    }
+  },
+  {
     "slug": "bridgeHubPolkadot",
     "name": "Polkadot Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
+      "IBP2": "wss://bridge-hub-polkadot.dotters.network"
     }
   },
   {
@@ -125,6 +174,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
     }
   },
   {
@@ -149,6 +206,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dock Association": "wss://mainnet-node.dock.io"
+    }
+  },
+  {
+    "slug": "encointer",
+    "name": "Encointer",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://encointer-kusama.dotters.network"
     }
   },
   {
@@ -194,6 +259,22 @@
     }
   },
   {
+    "slug": "hydradx_main",
+    "name": "Hydration",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://hydration.dotters.network"
+    }
+  },
+  {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://nexus.dotters.network"
+    }
+  },
+  {
     "slug": "imbue_network",
     "name": "Imbue Kusama",
     "status": "ACTIVE",
@@ -206,7 +287,8 @@
     "name": "InvArch Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://invarch-rpc.dwellir.com"
+      "Dwellir": "wss://invarch-rpc.dwellir.com",
+      "IBP2": "wss://invarch.dotters.network"
     }
   },
   {
@@ -242,6 +324,23 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://kusama.dotters.network",
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+    }
+  },
+  {
+    "slug": "kusama_coretime",
+    "name": "Kusama Coretime",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://coretime-kusama.dotters.network"
+    }
+  },
+  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -255,6 +354,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://moonbeam.dotters.network"
     }
   },
   {
@@ -315,11 +422,19 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
+    "slug": "paseoTest",
+    "name": "Paseo Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+      "IBP-GeoDNS2": "wss://rpc.dotters.network/paseo"
+    }
+  },
+  {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://people-kusama.dotters.network"
     }
   },
   {
@@ -328,6 +443,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Phyken Testnet": "wss://rpc.testnet.metaquity.xyz"
+    }
+  },
+  {
+    "slug": "polimec",
+    "name": "Polimec",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://polimec.dotters.network"
+    }
+  },
+  {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://polkadex-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -344,7 +475,17 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP2": "wss://polkadot.dotters.network",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
+    }
+  },
+  {
+    "slug": "polkadot_people",
+    "name": "Polkadot People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dotters": "wss://people-polkadot.dotters.network",
+      "Sys Dotters": "wss://sys.dotters.network/people-polkadot"
     }
   },
   {
@@ -396,11 +537,29 @@
     }
   },
   {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
     "slug": "statemine",
     "name": "Kusama Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://statemine-rpc.dwellir.com"
+      "Dwellir": "wss://statemine-rpc.dwellir.com",
+      "IBP2": "wss://asset-hub-kusama.dotters.network"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
+      "IBP2": "wss://asset-hub-polkadot.dotters.network"
     }
   },
   {
@@ -460,6 +619,14 @@
     }
   },
   {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://unique.dotters.network"
+    }
+  },
+  {
     "slug": "watr_mainnet",
     "name": "Watr Mainnet",
     "status": "ACTIVE",
@@ -480,7 +647,15 @@
     "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
+      "IBP2": "wss://westend.dotters.network"
+    }
+  },
+  {
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
 ]
