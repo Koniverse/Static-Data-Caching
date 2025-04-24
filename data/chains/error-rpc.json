@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -112,12 +120,11 @@
     }
   },
   {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
@@ -125,15 +132,8 @@
     "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://centrifuge-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "Dwellir": "wss://centrifuge-rpc.dwellir.com",
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -173,8 +173,7 @@
     "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com",
-      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
+      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -199,6 +198,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dock Association": "wss://mainnet-node.dock.io"
+    }
+  },
+  {
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Energy Web": "wss://public-rpc.mainnet.energywebx.com/"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -260,6 +275,14 @@
     }
   },
   {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -304,7 +327,8 @@
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://kintsugi-rpc.dwellir.com"
+      "Dwellir": "wss://kintsugi-rpc.dwellir.com",
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
     }
   },
   {
@@ -332,14 +356,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -361,14 +377,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://litentry-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "moonbeam",
-    "name": "Moonbeam",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://moonbeam.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -429,11 +437,12 @@
     }
   },
   {
-    "slug": "peaq_evm",
-    "name": "peaq EVM",
+    "slug": "phala",
+    "name": "Phala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Peaq": "https://evm.peaq.network/"
+      "OnFinality": "wss://phala.api.onfinality.io/public-ws",
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -474,7 +483,6 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
     }
   },
@@ -527,11 +535,18 @@
     }
   },
   {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "statemine",
     "name": "Kusama Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
       "Dwellir": "wss://statemine-rpc.dwellir.com"
     }
   },
@@ -637,6 +652,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "zeitgeist",
+    "name": "Zeitgeist",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
