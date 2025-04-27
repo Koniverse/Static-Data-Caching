@@ -120,21 +120,20 @@
     }
   },
   {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
     "slug": "centrifuge",
     "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://centrifuge-rpc.dwellir.com",
       "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -158,6 +157,7 @@
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com",
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     }
   },
@@ -268,6 +268,14 @@
     }
   },
   {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -338,6 +346,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -426,7 +442,8 @@
     "name": "Phala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
+      "OnFinality": "wss://phala.api.onfinality.io/public-ws",
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -468,6 +485,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
+    }
+  },
+  {
+    "slug": "polkadot_people",
+    "name": "Polkadot People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -516,6 +541,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
@@ -620,14 +653,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Watr": "wss://watr-rpc.watr-api.network"
-    }
-  },
-  {
-    "slug": "zeitgeist",
-    "name": "Zeitgeist",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   }
 ]
