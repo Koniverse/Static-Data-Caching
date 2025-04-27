@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -37,14 +45,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -129,27 +129,12 @@
     }
   },
   {
-    "slug": "bridgeHubPolkadot",
-    "name": "Polkadot Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
-    }
-  },
-  {
     "slug": "centrifuge",
     "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://centrifuge-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+      "Dwellir": "wss://centrifuge-rpc.dwellir.com",
+      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
     }
   },
   {
@@ -189,8 +174,7 @@
     "name": "Crust Mainnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com",
-      "OnFinality": "wss://crust.api.onfinality.io/public-ws"
+      "Dwellir": "wss://crust-mainnet-rpc.dwellir.com"
     }
   },
   {
@@ -215,6 +199,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dock Association": "wss://mainnet-node.dock.io"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "EWX Staging Parachain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -252,6 +244,14 @@
     }
   },
   {
+    "slug": "gen6_public",
+    "name": "Gen6 Public Chain",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gen6": "wss://gen6.app:443/node"
+    }
+  },
+  {
     "slug": "hashedNetwork",
     "name": "Hashed Network",
     "status": "ACTIVE",
@@ -273,6 +273,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Imbue": "wss://kusama.imbuenetwork.com"
+    }
+  },
+  {
+    "slug": "integritee",
+    "name": "Integritee Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
     }
   },
   {
@@ -345,14 +353,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -437,6 +437,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://phala.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -518,11 +526,11 @@
     }
   },
   {
-    "slug": "sakura",
-    "name": "Sakura",
+    "slug": "rootstock",
+    "name": "Rootstock",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Clover": "wss://rpc.sakura.clover.finance"
+      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
@@ -534,11 +542,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "sora_substrate",
+    "name": "SORA",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
