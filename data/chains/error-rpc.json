@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://altair.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -61,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Avail": "wss://zeref-api.slowops.xyz/ws"
     }
   },
   {
@@ -120,36 +104,19 @@
     }
   },
   {
+    "slug": "bounceBitEvmTest",
+    "name": "BounceBit Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
+    }
+  },
+  {
     "slug": "centrifuge",
     "name": "Centrifuge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://centrifuge-rpc.dwellir.com",
-      "OnFinality": "wss://centrifuge-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
-    "slug": "clover",
-    "name": "Clover",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
-    }
-  },
-  {
-    "slug": "cloverEvm",
-    "name": "Clover - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Clover": "wss://rpc-para.clover.finance"
+      "Dwellir": "wss://centrifuge-rpc.dwellir.com"
     }
   },
   {
@@ -157,7 +124,6 @@
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com",
       "OnFinality": "wss://collectives.api.onfinality.io/public-ws"
     }
   },
@@ -167,6 +133,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://composable-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "continuum_network",
+    "name": "Continuum Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Continuum RPC Node": "wss://continuum-rpc-1.metaverse.network/wss"
     }
   },
   {
@@ -268,14 +242,6 @@
     }
   },
   {
-    "slug": "integritee",
-    "name": "Integritee Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://integritee-kusama.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -296,7 +262,9 @@
     "name": "InvArch Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://invarch-rpc.dwellir.com"
+      "Dwellir": "wss://invarch-rpc.dwellir.com",
+      "IBP1": "wss://invarch.ibp.network",
+      "IBP2": "wss://invarch.dotters.network"
     }
   },
   {
@@ -305,6 +273,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Jur Mainnet": "wss://mainnet.jur.io/"
+    }
+  },
+  {
+    "slug": "kabocha",
+    "name": "Kabocha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Kabocha": "wss://kabocha.jelliedowl.net"
     }
   },
   {
@@ -320,16 +296,7 @@
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://kintsugi-rpc.dwellir.com",
-      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kippu": "wss://kreivo.kippu.rocks/"
+      "Dwellir": "wss://kintsugi-rpc.dwellir.com"
     }
   },
   {
@@ -346,14 +313,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -442,7 +401,6 @@
     "name": "Phala",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://phala.api.onfinality.io/public-ws",
       "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
     }
   },
@@ -463,6 +421,14 @@
     }
   },
   {
+    "slug": "pioneer",
+    "name": "Pioneer Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pioneer": "wss://pioneer-rpc-3.bit.country/wss"
+    }
+  },
+  {
     "slug": "polkadex",
     "name": "Polkadex",
     "status": "ACTIVE",
@@ -477,22 +443,6 @@
     "errorRpcs": {
       "Dwellir": "wss://polkadex-parachain-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
-    }
-  },
-  {
-    "slug": "polkadot_people",
-    "name": "Polkadot People",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -536,6 +486,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -544,11 +502,11 @@
     }
   },
   {
-    "slug": "sora_substrate",
-    "name": "SORA",
+    "slug": "siliconZkEvm",
+    "name": "Silicon zkEVM",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+      "Nodeinfra": "https://silicon-mainnet.nodeinfra.com/"
     }
   },
   {
