@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -101,6 +109,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
     }
   },
   {
@@ -316,6 +333,14 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+    }
+  },
+  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -394,14 +419,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    }
-  },
-  {
-    "slug": "phala",
-    "name": "Phala",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -486,27 +503,11 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "siliconZkEvm",
-    "name": "Silicon zkEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Nodeinfra": "https://silicon-mainnet.nodeinfra.com/"
     }
   },
   {
