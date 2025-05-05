@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "arbitrum_one",
+    "name": "Arbitrum One",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -487,27 +495,11 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "siliconZkEvm",
-    "name": "Silicon zkEVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Nodeinfra": "https://silicon-mainnet.nodeinfra.com/"
     }
   },
   {
