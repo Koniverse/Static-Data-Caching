@@ -112,15 +112,6 @@
     }
   },
   {
-    "slug": "bifrost_testnet",
-    "name": "Bifrost Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
-      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
-    }
-  },
-  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
@@ -430,6 +421,14 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -508,6 +507,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
