@@ -112,6 +112,15 @@
     }
   },
   {
+    "slug": "bifrost_testnet",
+    "name": "Bifrost Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Pilab #1": "wss://public-01.testnet.bifrostnetwork.com/wss",
+      "Pilab #2": "wss://public-02.testnet.bifrostnetwork.com/wss"
+    }
+  },
+  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
@@ -125,6 +134,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://centrifuge-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -181,14 +198,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dock Association": "wss://mainnet-node.dock.io"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -308,14 +317,6 @@
     }
   },
   {
-    "slug": "kreivo",
-    "name": "Kreivo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
     "slug": "krest_network",
     "name": "Krest Network",
     "status": "ACTIVE",
@@ -329,14 +330,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -421,11 +414,11 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
+    "slug": "parallel",
+    "name": "Parallel",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+      "Gatotech": "wss://parallel.gatotech.network"
     }
   },
   {
@@ -507,14 +500,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
