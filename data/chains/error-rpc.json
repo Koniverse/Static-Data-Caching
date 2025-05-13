@@ -137,14 +137,6 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
     "slug": "collectives",
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
@@ -293,14 +285,6 @@
     }
   },
   {
-    "slug": "kabocha",
-    "name": "Kabocha",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Kabocha": "wss://kabocha.jelliedowl.net"
-    }
-  },
-  {
     "slug": "kilt",
     "name": "KILT Spiritnet",
     "status": "ACTIVE",
@@ -309,11 +293,27 @@
     }
   },
   {
+    "slug": "kilt_peregrine",
+    "name": "KILT Peregrine",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "kilt": "wss://peregrine.kilt.io/parachain-public-ws/"
+    }
+  },
+  {
     "slug": "kintsugi",
     "name": "Kintsugi",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://kintsugi-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "kreivo",
+    "name": "Kreivo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Virto": "wss://kreivo.io/"
     }
   },
   {
@@ -330,6 +330,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Kulupu": "wss://rpc.kulupu.corepaper.org/ws"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -471,6 +479,14 @@
     }
   },
   {
+    "slug": "quartz",
+    "name": "Quartz",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Unique Europe": "wss://eu-ws-quartz.unique.network"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -484,14 +500,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Parity": "wss://rococo-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "rollux_evm",
-    "name": "Rollux",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Rollux": "https://rpc.rollux.com"
     }
   },
   {
@@ -548,6 +556,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+    }
+  },
+  {
+    "slug": "ternoa",
+    "name": "Ternoa",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "ternoa": "wss://mainnet.ternoa.network"
     }
   },
   {
