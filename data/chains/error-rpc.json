@@ -121,6 +121,14 @@
     }
   },
   {
+    "slug": "bitgreen",
+    "name": "Bitgreen",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "viaBitgreen": "wss://mainnet.bitgreen.org"
+    }
+  },
+  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
@@ -134,6 +142,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://centrifuge-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -479,14 +495,6 @@
     }
   },
   {
-    "slug": "quartz",
-    "name": "Quartz",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Unique Europe": "wss://eu-ws-quartz.unique.network"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -508,6 +516,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "sakura",
+    "name": "Sakura",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Clover": "wss://rpc.sakura.clover.finance"
     }
   },
   {
@@ -559,14 +575,6 @@
     }
   },
   {
-    "slug": "ternoa",
-    "name": "Ternoa",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "ternoa": "wss://mainnet.ternoa.network"
-    }
-  },
-  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
@@ -588,14 +596,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "TomoChain": "https://rpc.tomochain.com"
-    }
-  },
-  {
-    "slug": "turing",
-    "name": "Turing",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://turing-rpc.dwellir.com"
     }
   },
   {
