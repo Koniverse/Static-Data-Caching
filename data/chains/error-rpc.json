@@ -137,6 +137,14 @@
     }
   },
   {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
+    }
+  },
+  {
     "slug": "collectives",
     "name": "Polkadot Collectives",
     "status": "ACTIVE",
@@ -190,14 +198,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dock Association": "wss://mainnet-node.dock.io"
-    }
-  },
-  {
-    "slug": "energy_web_x_testnet",
-    "name": "EWX Staging Parachain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -306,6 +306,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://kilt-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "kilt_peregrine",
+    "name": "KILT Peregrine",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "kilt": "wss://peregrine.kilt.io/parachain-public-ws/"
     }
   },
   {
@@ -422,6 +430,14 @@
     }
   },
   {
+    "slug": "parallel",
+    "name": "Parallel",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Gatotech": "wss://parallel.gatotech.network"
+    }
+  },
+  {
     "slug": "phykenTest",
     "name": "Phyken Network Testnet",
     "status": "ACTIVE",
@@ -487,19 +503,19 @@
     }
   },
   {
-    "slug": "rollux_evm",
-    "name": "Rollux",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Rollux": "https://rpc.rollux.com"
-    }
-  },
-  {
     "slug": "rollux_testnet",
     "name": "Rollux Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
