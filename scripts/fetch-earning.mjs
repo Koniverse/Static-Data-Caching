@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://89848fa6.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://1f92b630.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -28,7 +28,16 @@ const runBrowser = async () => {
       koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
 
       await koniState.eventService.waitChainReady;
-      await koniState.chainService.enableChains(['mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet', 'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel', 'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet']);
+      await koniState.chainService.enableChains([
+        'mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet',
+        'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest',
+        'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet',
+        'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet',
+        'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude',
+        'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel',
+        'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet',
+        'polkadot_people', 'peopleKusama'
+      ]);
 
       await new Promise((resolve) => {
         setTimeout(resolve, 180000);
@@ -57,11 +66,11 @@ const runBrowser = async () => {
   for (const [slug, value] of Object.entries(poolInfo)) {
   if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
     const newValue = structuredClone(value);
-  
+
     if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApy) { // Sometime, bittensor native staking can't get totalApy
       newValue.statistic.totalApy = finalData[slug].statistic.totalApy;
     }
-  
+
     finalData[slug] = newValue;
   }}
 
@@ -75,7 +84,7 @@ const runBrowser = async () => {
     lastUpdatedTimestamp: updateDate.toISOString(),
     data: finalData
   });
-  
+
   const data = await page.evaluate(async () => {
     const koniState = window.SubWalletState;
     const poolInfos = await koniState.earningService.getYieldPoolInfo();
