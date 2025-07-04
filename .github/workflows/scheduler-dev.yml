@@ -20,6 +20,7 @@ jobs:
   master:
     if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     name: Earning Scheduler Dev
     steps:
       - uses: actions/checkout@v4
