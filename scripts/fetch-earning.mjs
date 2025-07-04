@@ -2,7 +2,7 @@ import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
 import {writeJSONFile} from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://1f92b630.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://70b7e588.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -25,19 +25,34 @@ const runBrowser = async () => {
       });
 
       // Disable online cache only
-      koniState.earningService.disableOnlineCacheOnly && koniState.earningService.disableOnlineCacheOnly();
+      koniState.earningService.disableOnlineCacheOnly?.();
+
+      const _STAKING_CHAIN_GROUP = {
+        relay: ['polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest', 'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet', 'availTuringTest', 'avail_mainnet', 'vara_testnet', 'dentnet', 'cere', 'statemine', 'statemint', 'westend_assethub'],
+        assetHub: ['statemine', 'statemint', 'westend_assethub'],
+        para: ['moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet', 'calamari_test', 'calamari', 'manta_network', 'polimec'],
+        astar: ['astar', 'shiden', 'shibuya'],
+        amplitude: ['amplitude', 'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'krest_network'], // amplitude and kilt only share some common logic
+        kilt: ['kilt', 'kilt_peregrine'],
+        nominationPool: ['polkadot', 'kusama', 'westend', 'alephTest', 'aleph', 'kate', 'vara_network', 'goldberg_testnet', 'availTuringTest', 'avail_mainnet', 'vara_testnet', 'cere', 'analog_timechain'],
+        bifrost: ['bifrost', 'bifrost_testnet'],
+        aleph: ['aleph', 'alephTest'], // A0 has distinct tokenomics
+        ternoa: ['ternoa'],
+        liquidStaking: ['bifrost_dot', 'acala', 'parallel', 'moonbeam'],
+        lending: ['interlay'],
+        krest_network: ['krest_network'],
+        manta: ['manta_network'],
+        bittensor: ['bittensor', 'bittensor_testnet'],
+        mythos: ['mythos', 'muse_testnet']
+      }
+
+      const enableChains = Array.from(new Set([
+        ...Object.values(_STAKING_CHAIN_GROUP).flat(), // staking chains
+        'polkadot_people', 'peopleKusama', // people chains
+      ]))
 
       await koniState.eventService.waitChainReady;
-      await koniState.chainService.enableChains([
-        'mythos', 'muse_testnet', 'analog_timechain', 'cere', 'bittensor', 'bittensor_testnet',
-        'polkadot', 'kusama', 'aleph', 'polkadex', 'ternoa', 'alephTest', 'polkadexTest',
-        'westend', 'kate', 'edgeware', 'creditcoin', 'vara_network', 'goldberg_testnet',
-        'moonbeam', 'moonriver', 'moonbase', 'turing', 'turingStaging', 'bifrost', 'bifrost_testnet',
-        'calamari_test', 'calamari', 'manta_network', 'astar', 'shiden', 'shibuya', 'amplitude',
-        'amplitude_test', 'kilt', 'kilt_peregrine', 'pendulum', 'bifrost_dot', 'acala', 'parallel',
-        'interlay', 'krest_network', 'polimec', 'availTuringTest', 'avail_mainnet', 'dentnet',
-        'polkadot_people', 'peopleKusama'
-      ]);
+      await koniState.chainService.enableChains(enableChains);
 
       await new Promise((resolve) => {
         setTimeout(resolve, 180000);
