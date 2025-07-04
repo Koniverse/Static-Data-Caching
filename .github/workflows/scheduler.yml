@@ -16,7 +16,7 @@ concurrency: 'main'
 
 jobs:
   master:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
+    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/master'"
     runs-on: ubuntu-latest
     name: Earning Scheduler
     steps:
@@ -30,6 +30,7 @@ jobs:
         env:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
           PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
+          PUPPETEER_SKIP_CONSOLE: true
         run: |
           yarn install
           NODE_ENV=production yarn fetch-data

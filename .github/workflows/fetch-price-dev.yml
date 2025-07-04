@@ -1,39 +1,26 @@
-name: RPC Health Check Main
+name: Fetch Price Dev
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     branches:
-      - main
-    inputs:
-      note:
-        description: 'Health check'
-        required: false
-        default: ''
+      - dev
+      - price
 
-concurrency: 'main'
+concurrency: 'dev'
 
 jobs:
   health-check:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/master'"
+    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/dev'"
     runs-on: ubuntu-22.04
     timeout-minutes: 10
-    name: RPC Health Check
+    name: Fetch Price Rate
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: dev
           fetch-depth: 0
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
-
-      - name: Set input data
-        id: input_data
-        run: |
-          if [[ ${{ github.ref }} == 'refs/heads/master' ]]; then
-            echo "target=latest" >> $GITHUB_OUTPUT
-          else
-            echo "target=beta" >> $GITHUB_OUTPUT
-          fi
 
       - uses: actions/setup-node@v3
         with:
@@ -42,11 +29,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn install
+          yarn install 
 
       - name: Run scripts
         run: |
-          NODE_ENV=production yarn export-error-rpc
+          NODE_ENV=development yarn fetch-price
 
       - name: Commit changes
         id: commit_changes
@@ -54,7 +41,7 @@ jobs:
         with:
           author_name: Github-Bot
           author_email: scheduler@github.io
-          message: '[CI Skip] Update error rpcs'
+          message: '[CI Skip] Fetch Price (dev)'
 
       - name: Log commit changes
         run: |
@@ -69,6 +56,6 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'sw-static-cache'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: main
+          branch: dev
           directory: './data'
           wranglerVersion: '3'
