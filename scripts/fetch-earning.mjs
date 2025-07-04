@@ -24,6 +24,8 @@ const runBrowser = async () => {
         }
       });
 
+      koniState.wakeup(true);
+
       // Disable online cache only
       koniState.earningService.disableOnlineCacheOnly?.();
 
