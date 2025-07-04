@@ -53,6 +53,7 @@ const runBrowser = async () => {
 
       await koniState.eventService.waitChainReady;
       await koniState.chainService.enableChains(enableChains);
+      await koniState.earningService.reloadEarning();
 
       await new Promise((resolve) => {
         setTimeout(resolve, 180000);
