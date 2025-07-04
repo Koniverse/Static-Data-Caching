@@ -8,6 +8,7 @@ console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
+
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
     try {
@@ -58,7 +59,19 @@ const runBrowser = async () => {
       await koniState.earningService.reloadEarning();
 
       await new Promise((resolve) => {
-        setTimeout(resolve, 180000);
+        setTimeout(resolve, 5000);
+      });
+
+      await koniState.sleep();
+
+      await new Promise((resolve) => {
+        setTimeout(resolve, 5000);
+      });
+
+      await koniState.wakeup(true);
+
+      await new Promise((resolve) => {
+        setTimeout(resolve, 60000);
       });
 
       return await koniState.earningService.getYieldPoolInfo();
