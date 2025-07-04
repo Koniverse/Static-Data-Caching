@@ -16,8 +16,9 @@ concurrency: 'dev'
 
 jobs:
   exchange-rate:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
+    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/dev'"
     runs-on: ubuntu-22.04
+    timeout-minutes: 10
     name: Fetch Exchange Rate
     steps:
       - uses: actions/checkout@v4

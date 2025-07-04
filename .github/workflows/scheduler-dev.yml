@@ -18,7 +18,7 @@ concurrency: 'dev'
 
 jobs:
   master:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]')"
+    if: "!startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/dev'"
     runs-on: ubuntu-latest
     timeout-minutes: 10
     name: Earning Scheduler Dev
