@@ -15,7 +15,7 @@ concurrency: 'main'
 
 jobs:
   exchange-rate:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref_name == 'master'"
+    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref_name == 'main'"
     runs-on: ubuntu-22.04
     timeout-minutes: 10
     name: Fetch Exchange Rate
