@@ -1,0 +1,36 @@
+name: Scheduler Dev
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  push:
+    branches:
+      - dev
+  workflow_dispatch:
+    branches:
+      - dev
+    inputs:
+      note:
+        description: 'Note'
+        required: false
+        default: ''
+
+concurrency: 'dev'
+
+jobs:
+  master:
+    if: "!startsWith(github.event.head_commit.message, '[CI Skip]')"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    name: Earning Scheduler Dev
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+          fetch-depth: 0
+          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+
+      - name: Update data
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          echo "The BRANCH_NAME is: $BRANCH_NAME"
