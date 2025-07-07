@@ -15,7 +15,7 @@ concurrency: 'main'
 
 jobs:
   health-check:
-    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref == 'refs/heads/master'"
+    if: "! startsWith(github.event.head_commit.message, '[CI Skip]') && github.ref_name == 'master'"
     runs-on: ubuntu-22.04
     timeout-minutes: 10
     name: RPC Health Check
