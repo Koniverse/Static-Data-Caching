@@ -14,10 +14,11 @@
     "export-error-rpc": "node ./scripts/export-error-rpc.js"
   },
   "dependencies": {
-    "@polkadot/api": "^11.2.1",
-    "axios": "^1.7.2",
+    "@polkadot/api": "^16.4.1",
+    "axios": "^1.10.0",
     "bluebird": "^3.7.2",
-    "puppeteer": "^21.9.0",
-    "web3": "^4.9.0"
-  }
+    "puppeteer": "^24.14.0",
+    "web3": "^4.16.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
