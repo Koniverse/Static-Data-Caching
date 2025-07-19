@@ -52,8 +52,7 @@
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
-      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
     }
   },
   {
@@ -197,6 +196,14 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+    }
+  },
+  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -209,7 +216,8 @@
     "name": "Heima",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://litentry-rpc.dwellir.com"
+      "Dwellir": "wss://litentry-rpc.dwellir.com",
+      "Litentry": "wss://rpc.heima-parachain.heima.network"
     }
   },
   {
@@ -315,6 +323,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     }
   },
   {
