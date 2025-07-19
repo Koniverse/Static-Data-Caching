@@ -1,6 +1,6 @@
 {
-  "lastUpdated": 1752963919229,
-  "lastUpdatedTimestamp": "2025-07-19T22:25:19.229Z",
+  "lastUpdated": 1752965107949,
+  "lastUpdatedTimestamp": "2025-07-19T22:45:07.949Z",
   "data": {
     "DOT___native_staking___polkadot": {
       "group": "DOT-Polkadot",
@@ -30,7 +30,7 @@
         "assetEarning": [
           {
             "slug": "polkadot-NATIVE-DOT",
-            "apy": 13.027576275497553
+            "apy": 13.027576275542781
           }
         ],
         "maxCandidatePerFarmer": 16,
@@ -40,15 +40,15 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 30579,
+        "farmerCount": 30580,
         "era": 1874,
         "eraTime": 24,
         "tvl": "8068591780663221248",
-        "totalApy": 13.027576275497553,
+        "totalApy": 13.027576275542781,
         "unstakingPeriod": 672,
         "inflation": 7.546340000000002
       },
-      "lastUpdated": 1752963859859
+      "lastUpdated": 1752965048213
     },
     "DOT___nomination_pool___polkadot": {
       "group": "DOT-Polkadot",
@@ -78,7 +78,7 @@
         "assetEarning": [
           {
             "slug": "polkadot-NATIVE-DOT",
-            "apy": 13.027576275497553
+            "apy": 13.027576275542781
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -92,11 +92,11 @@
         "era": 1874,
         "eraTime": 24,
         "tvl": "8068591780663221248",
-        "totalApy": 13.027576275497553,
+        "totalApy": 13.027576275542781,
         "unstakingPeriod": 672,
         "inflation": 7.546340000000002
       },
-      "lastUpdated": 1752963859833
+      "lastUpdated": 1752965048162
     },
     "KSM___native_staking___kusama": {
       "group": "KSM-Kusama",
@@ -120,31 +120,31 @@
           "claimReward": false,
           "changeValidator": true
         },
-        "description": "Start staking with just 0.52 KSM"
+        "description": "Start staking with just 0.1 KSM"
       },
       "statistic": {
         "assetEarning": [
           {
             "slug": "kusama-NATIVE-KSM",
-            "apy": 15.576558241893116
+            "apy": 15.575027787769434
           }
         ],
         "maxCandidatePerFarmer": 24,
         "maxWithdrawalRequestPerFarmer": 32,
         "earningThreshold": {
-          "join": "521690108361",
+          "join": "100000000000",
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "farmerCount": 14000,
+        "farmerCount": 13926,
         "era": 8343,
         "eraTime": 6,
         "tvl": "7900951664659038873",
-        "totalApy": 15.576558241893116,
+        "totalApy": 15.575027787769434,
         "unstakingPeriod": 168,
-        "inflation": 8.038098047273126
+        "inflation": 8.1383404630984
       },
-      "lastUpdated": 1752963859634
+      "lastUpdated": 1752965049350
     },
     "KSM___nomination_pool___kusama": {
       "group": "KSM-Kusama",
@@ -174,7 +174,7 @@
         "assetEarning": [
           {
             "slug": "kusama-NATIVE-KSM",
-            "apy": 15.576558241893116
+            "apy": 15.575027787769434
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -188,11 +188,11 @@
         "era": 8343,
         "eraTime": 6,
         "tvl": "7900951664659038873",
-        "totalApy": 15.576558241893116,
+        "totalApy": 15.575027787769434,
         "unstakingPeriod": 168,
-        "inflation": 8.038098047273126
+        "inflation": 8.1383404630984
       },
-      "lastUpdated": 1752963859633
+      "lastUpdated": 1752965049160
     },
     "GLMR___native_staking___moonbeam": {
       "group": "GLMR-Moonbeam",
@@ -234,12 +234,12 @@
         "farmerCount": 0,
         "era": 5111,
         "eraTime": 6,
-        "tvl": "343659833868461873169831317",
+        "tvl": "343659834266461873169831317",
         "unstakingPeriod": 168,
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1752963859295
+      "lastUpdated": 1752965048667
     },
     "xcDOT___liquid_staking___stellaswap": {
       "group": "DOT-Polkadot",
@@ -341,7 +341,7 @@
         "unstakingPeriod": 336,
         "inflation": 7.594184884557189
       },
-      "lastUpdated": 1752963859880
+      "lastUpdated": 1752965048503
     },
     "AZERO___nomination_pool___aleph": {
       "group": "AZERO-AlephZero",
@@ -389,7 +389,7 @@
         "unstakingPeriod": 336,
         "inflation": 7.594184884557189
       },
-      "lastUpdated": 1752963859815
+      "lastUpdated": 1752965048406
     },
     "ASTR___native_staking___astar": {
       "group": "ASTR-Astar",
@@ -488,7 +488,7 @@
         "totalApy": 12.869945700118034,
         "tvl": "42210506769517543"
       },
-      "lastUpdated": 1752963859710
+      "lastUpdated": 1752965049277
     },
     "TZERO___native_staking___alephTest": {
       "group": "alephTest-NATIVE-TZERO",
@@ -536,7 +536,7 @@
         "unstakingPeriod": 336,
         "inflation": 0.24589111601069744
       },
-      "lastUpdated": 1752958678362
+      "lastUpdated": 1752965039959
     },
     "TZERO___nomination_pool___alephTest": {
       "group": "alephTest-NATIVE-TZERO",
@@ -584,7 +584,7 @@
         "unstakingPeriod": 336,
         "inflation": 0.24589111601069744
       },
-      "lastUpdated": 1752958678295
+      "lastUpdated": 1752965039503
     },
     "SDN___native_staking___shiden": {
       "group": "SDN-Shiden",
@@ -864,7 +864,7 @@
         "inflation": 5
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1752963860285
+      "lastUpdated": 1752965048662
     },
     "TUR___native_staking___turingStaging": {
       "group": "turingStaging-NATIVE-TUR",
@@ -996,14 +996,14 @@
           "fastUnstake": "0"
         },
         "farmerCount": 0,
-        "era": 37963,
+        "era": 37964,
         "eraTime": 2.1666666666666665,
         "tvl": "1212795016087462773",
         "unstakingPeriod": 182,
         "inflation": 0
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1752963873762
+      "lastUpdated": 1752965056044
     },
     "DOT___liquid_staking___bifrost_dot": {
       "group": "DOT-Polkadot",
@@ -1060,7 +1060,7 @@
         "totalApy": 10.55,
         "tvl": "191445204341861900"
       },
-      "lastUpdated": 1752963866739
+      "lastUpdated": 1752965049688
     },
     "BNC___native_staking___bifrost_testnet": {
       "group": "bifrost_testnet-NATIVE-BNC",
@@ -1192,13 +1192,13 @@
           "fastUnstake": "0"
         },
         "farmerCount": 64,
-        "era": 9473,
+        "era": 9474,
         "eraTime": 2,
         "tvl": "1384351350668520541",
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1752963864589
+      "lastUpdated": 1752965050217
     },
     "AMPE___native_staking___amplitude_test": {
       "group": "amplitude_test-NATIVE-AMPE",
@@ -1244,7 +1244,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1752963866555
+      "lastUpdated": 1752965054757
     },
     "DOT___liquid_staking___parallel": {
       "group": "DOT-Polkadot",
@@ -1384,7 +1384,7 @@
         "assetEarning": [
           {
             "slug": "interlay-LOCAL-DOT",
-            "exchangeRate": 0.02248008556934403
+            "exchangeRate": 0.022480173837012816
           }
         ],
         "maxCandidatePerFarmer": 1,
@@ -1396,7 +1396,7 @@
         },
         "tvl": "291890000000000"
       },
-      "lastUpdated": 1752963861247
+      "lastUpdated": 1752965054189
     },
     "PDEX___native_staking___polkadex": {
       "group": "polkadex-NATIVE-PDEX",
@@ -1445,7 +1445,7 @@
         "inflation": 7.650970000000001
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1752963862922
+      "lastUpdated": 1752965052803
     },
     "KILT___native_staking___kilt": {
       "group": "KILT-KILTProtocol",
@@ -1491,7 +1491,7 @@
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 35,
-      "lastUpdated": 1752963863372
+      "lastUpdated": 1752965052670
     },
     "CAPS___native_staking___ternoa": {
       "group": "CAPS-Ternoa",
@@ -1540,7 +1540,7 @@
         "inflation": 8.501785
       },
       "maxPoolMembers": 256,
-      "lastUpdated": 1752963864586
+      "lastUpdated": 1752965051198
     },
     "PEN___native_staking___pendulum": {
       "group": "pendulum-NATIVE-PEN",
@@ -1580,13 +1580,13 @@
           "fastUnstake": "0"
         },
         "farmerCount": 165,
-        "era": 9220,
+        "era": 9221,
         "eraTime": 2,
         "tvl": "8607687201079132192",
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 40,
-      "lastUpdated": 1752962359295
+      "lastUpdated": 1752965050839
     },
     "KMA___native_staking___calamari_test": {
       "group": "calamari_test-NATIVE-KMA",
@@ -1678,7 +1678,7 @@
         "unstakingPeriod": 0.0033333333333333335
       },
       "maxPoolMembers": 35,
-      "lastUpdated": 1752963864135
+      "lastUpdated": 1752965052855
     },
     "CTC___native_staking___creditcoin": {
       "group": "CTC-Creditcoin",
@@ -1774,7 +1774,7 @@
         "unstakingPeriod": 168,
         "inflation": 6.367778125000001
       },
-      "lastUpdated": 1752963861983
+      "lastUpdated": 1752965051056
     },
     "VARA___nomination_pool___vara_network": {
       "group": "vara_network-NATIVE-VARA",
@@ -1823,7 +1823,7 @@
         "inflation": 6.367778125000001
       },
       "maxPoolMembers": 50000,
-      "lastUpdated": 1752963861974
+      "lastUpdated": 1752965051013
     },
     "MANTA___native_staking___manta_network": {
       "group": "MANTA-MantaAtlantic",
@@ -1870,7 +1870,7 @@
         "inflation": 2
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1752963867124
+      "lastUpdated": 1752965054188
     },
     "AVL___native_staking___goldberg_testnet": {
       "group": "goldberg_testnet-NATIVE-AVL",
@@ -2006,13 +2006,13 @@
           "fastUnstake": "0"
         },
         "farmerCount": 561,
-        "era": 81696,
+        "era": 81697,
         "eraTime": 4,
         "tvl": "8926321182540513709809806",
         "unstakingPeriod": 168
       },
       "maxPoolMembers": 25,
-      "lastUpdated": 1752963860424
+      "lastUpdated": 1752965051199
     },
     "MANTA___liquid_staking___bifrost_dot": {
       "group": "MANTA-MantaAtlantic",
@@ -2115,7 +2115,7 @@
         "inflation": 1.1
       },
       "maxPoolMembers": 300,
-      "lastUpdated": 1752963865823
+      "lastUpdated": 1752965052884
     },
     "AVAIL___native_staking___availTuringTest": {
       "group": "AVAIL-AvailTuringTestnet",
@@ -2163,7 +2163,7 @@
         "unstakingPeriod": 672,
         "inflation": 9.48544
       },
-      "lastUpdated": 1752963860445
+      "lastUpdated": 1752965054107
     },
     "AVAIL___nomination_pool___availTuringTest": {
       "group": "AVAIL-AvailTuringTestnet",
@@ -2212,7 +2212,7 @@
         "inflation": 9.48544
       },
       "maxPoolMembers": 100,
-      "lastUpdated": 1752963860404
+      "lastUpdated": 1752965054100
     },
     "AVAIL___native_staking___avail_mainnet": {
       "group": "AVAIL-Avail",
@@ -2260,7 +2260,7 @@
         "unstakingPeriod": 672,
         "inflation": 4.94972
       },
-      "lastUpdated": 1752963863986
+      "lastUpdated": 1752965051866
     },
     "AVAIL___nomination_pool___avail_mainnet": {
       "group": "AVAIL-Avail",
@@ -2309,7 +2309,7 @@
         "inflation": 4.94972
       },
       "maxPoolMembers": 5000,
-      "lastUpdated": 1752963863986
+      "lastUpdated": 1752965051785
     },
     "DENTX___native_staking___dentnet": {
       "group": "dentnet-NATIVE-DENTX",
@@ -2357,7 +2357,7 @@
         "unstakingPeriod": 168,
         "inflation": 4.77712
       },
-      "lastUpdated": 1752963865594
+      "lastUpdated": 1752965054782
     },
     "TAO___native_staking___bittensor_devnet": {
       "group": "bittensor_devnet-NATIVE-TAO",
@@ -2441,10 +2441,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6120507225700429",
+        "tvl": "6120507561434693",
         "totalApy": 10.760918119424637
       },
-      "lastUpdated": 1752963891008
+      "lastUpdated": 1752965083476
     },
     "CERE___native_staking___cere": {
       "group": "CERE-CereNetwork",
@@ -2492,7 +2492,7 @@
         "unstakingPeriod": 72,
         "inflation": 3.535435
       },
-      "lastUpdated": 1752963861179
+      "lastUpdated": 1752965050033
     },
     "CERE___nomination_pool___cere": {
       "group": "CERE-CereNetwork",
@@ -2541,7 +2541,7 @@
         "inflation": 3.535435
       },
       "maxPoolMembers": 32,
-      "lastUpdated": 1752963861180
+      "lastUpdated": 1752965050033
     },
     "ANLOG___nomination_pool___analog_timechain": {
       "group": "analog_timechain-NATIVE-ANLOG",
@@ -2589,7 +2589,7 @@
         "unstakingPeriod": 504,
         "inflation": 2.9162500000000002
       },
-      "lastUpdated": 1752963862939
+      "lastUpdated": 1752965054189
     },
     "MYTH___native_staking___mythos": {
       "group": "MYTH-Mythos",
@@ -2673,13 +2673,13 @@
           "defaultUnstake": "0",
           "fastUnstake": "0"
         },
-        "era": 112568,
+        "era": 112574,
         "eraTime": 0.041666666666666664,
         "unstakingPeriod": 0,
         "totalApy": 3681.6507972364893
       },
       "maxPoolMembers": 200000,
-      "lastUpdated": 1752963862174
+      "lastUpdated": 1752965053169
     },
     "TAO___subnet_staking___bittensor__subnet_01": {
       "group": "bittensor-NATIVE-TAO",
@@ -2725,10 +2725,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "20070273321178",
-        "totalApy": 1.6527001
+        "tvl": "20069151681248",
+        "totalApy": 1.6525032
       },
-      "lastUpdated": 1752963889268
+      "lastUpdated": 1752965078013
     },
     "TAO___subnet_staking___bittensor__subnet_02": {
       "group": "bittensor-NATIVE-TAO",
@@ -2774,10 +2774,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4572044624764",
-        "totalApy": 0.4831679
+        "tvl": "4571597780620",
+        "totalApy": 0.4830955
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078013
     },
     "TAO___subnet_staking___bittensor__subnet_03": {
       "group": "bittensor-NATIVE-TAO",
@@ -2823,10 +2823,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "50427739396941",
-        "totalApy": 5.6938116
+        "tvl": "50434800959646",
+        "totalApy": 5.6956832
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078013
     },
     "TAO___subnet_staking___bittensor__subnet_04": {
       "group": "bittensor-NATIVE-TAO",
@@ -2872,10 +2872,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "65500742128669",
-        "totalApy": 5.1101172
+        "tvl": "65506570606200",
+        "totalApy": 5.1092231
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_05": {
       "group": "bittensor-NATIVE-TAO",
@@ -2921,10 +2921,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "21880943574762",
-        "totalApy": 2.3390028
+        "tvl": "21882809798134",
+        "totalApy": 2.3386335
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_06": {
       "group": "bittensor-NATIVE-TAO",
@@ -2970,10 +2970,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4802050455717",
-        "totalApy": 0.4094342
+        "tvl": "4801898831386",
+        "totalApy": 0.4092012
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_07": {
       "group": "bittensor-NATIVE-TAO",
@@ -3019,10 +3019,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1951933040136",
-        "totalApy": 0.2091551
+        "tvl": "1952099770387",
+        "totalApy": 0.2090935
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_08": {
       "group": "bittensor-NATIVE-TAO",
@@ -3068,10 +3068,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "48691264507280",
-        "totalApy": 3.7893727
+        "tvl": "48694937773643",
+        "totalApy": 3.7888401
       },
-      "lastUpdated": 1752963889269
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_09": {
       "group": "bittensor-NATIVE-TAO",
@@ -3117,10 +3117,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "21481894810170",
-        "totalApy": 2.5589874
+        "tvl": "21484525103741",
+        "totalApy": 2.5591712
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_10": {
       "group": "bittensor-NATIVE-TAO",
@@ -3166,10 +3166,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "11519579353988",
-        "totalApy": 0.9744559
+        "tvl": "11520358884535",
+        "totalApy": 0.9738632
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_11": {
       "group": "bittensor-NATIVE-TAO",
@@ -3215,10 +3215,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "9115031465519",
-        "totalApy": 0.9606213
+        "tvl": "9115796000234",
+        "totalApy": 0.960703
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078014
     },
     "TAO___subnet_staking___bittensor__subnet_12": {
       "group": "bittensor-NATIVE-TAO",
@@ -3264,10 +3264,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "8223710459977",
-        "totalApy": 1.0163069
+        "tvl": "8224517500155",
+        "totalApy": 1.0166635
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_13": {
       "group": "bittensor-NATIVE-TAO",
@@ -3313,10 +3313,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "18741637291570",
-        "totalApy": 1.5406305
+        "tvl": "18742864303202",
+        "totalApy": 1.5404753
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_14": {
       "group": "bittensor-NATIVE-TAO",
@@ -3362,10 +3362,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "19460789290337",
-        "totalApy": 2.0729458
+        "tvl": "19462084729625",
+        "totalApy": 2.0726857
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_15": {
       "group": "bittensor-NATIVE-TAO",
@@ -3411,10 +3411,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2512865884945",
-        "totalApy": 0.2578954
+        "tvl": "2513071547456",
+        "totalApy": 0.2578764
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_16": {
       "group": "bittensor-NATIVE-TAO",
@@ -3460,10 +3460,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3029060208402",
-        "totalApy": 0.256746
+        "tvl": "3030161718384",
+        "totalApy": 0.2566899
       },
-      "lastUpdated": 1752963889270
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_17": {
       "group": "bittensor-NATIVE-TAO",
@@ -3509,10 +3509,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "18419458412038",
-        "totalApy": 2.1528073
+        "tvl": "18421622528669",
+        "totalApy": 2.152284
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_18": {
       "group": "bittensor-NATIVE-TAO",
@@ -3558,10 +3558,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3431507160882",
-        "totalApy": 0.3157945
+        "tvl": "3431581675052",
+        "totalApy": 0.3156595
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_19": {
       "group": "bittensor-NATIVE-TAO",
@@ -3607,10 +3607,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "23786364962879",
-        "totalApy": 1.7408506
+        "tvl": "23787742273014",
+        "totalApy": 1.7407699
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_20": {
       "group": "bittensor-NATIVE-TAO",
@@ -3656,10 +3656,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3982440798772",
-        "totalApy": 0.3377054
+        "tvl": "3982708677998",
+        "totalApy": 0.3376742
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078015
     },
     "TAO___subnet_staking___bittensor__subnet_21": {
       "group": "bittensor-NATIVE-TAO",
@@ -3705,10 +3705,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2802470940511",
-        "totalApy": 0.2454732
+        "tvl": "2802666260732",
+        "totalApy": 0.2454673
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_22": {
       "group": "bittensor-NATIVE-TAO",
@@ -3754,10 +3754,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3412312722218",
-        "totalApy": 0.3123627
+        "tvl": "3412660862942",
+        "totalApy": 0.3123886
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_23": {
       "group": "bittensor-NATIVE-TAO",
@@ -3803,10 +3803,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2398302411896",
-        "totalApy": 0.2359214
+        "tvl": "2398489692366",
+        "totalApy": 0.235943
       },
-      "lastUpdated": 1752963889271
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_24": {
       "group": "bittensor-NATIVE-TAO",
@@ -3852,10 +3852,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2257977890115",
-        "totalApy": 0.1912384
+        "tvl": "2258130414594",
+        "totalApy": 0.1912092
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_25": {
       "group": "bittensor-NATIVE-TAO",
@@ -3901,10 +3901,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6876334503784",
-        "totalApy": 0.5150924
+        "tvl": "6876745418955",
+        "totalApy": 0.515014
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_26": {
       "group": "bittensor-NATIVE-TAO",
@@ -3950,10 +3950,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2258009811220",
-        "totalApy": 0.1966578
+        "tvl": "2258315397806",
+        "totalApy": 0.1966502
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_27": {
       "group": "bittensor-NATIVE-TAO",
@@ -3999,10 +3999,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3057222505247",
-        "totalApy": 0.265253
+        "tvl": "3057434333481",
+        "totalApy": 0.2651897
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_28": {
       "group": "bittensor-NATIVE-TAO",
@@ -4048,10 +4048,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2246476523499",
-        "totalApy": 0.2301251
+        "tvl": "2246659562076",
+        "totalApy": 0.2301577
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_29": {
       "group": "bittensor-NATIVE-TAO",
@@ -4097,10 +4097,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3328570132781",
-        "totalApy": 0.2798595
+        "tvl": "3328738416631",
+        "totalApy": 0.279918
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_30": {
       "group": "bittensor-NATIVE-TAO",
@@ -4146,10 +4146,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "5048960005584",
-        "totalApy": 0.4706102
+        "tvl": "5049333216659",
+        "totalApy": 0.4708384
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078016
     },
     "TAO___subnet_staking___bittensor__subnet_31": {
       "group": "bittensor-NATIVE-TAO",
@@ -4195,10 +4195,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2335848338521",
-        "totalApy": 0.2849399
+        "tvl": "2336079851426",
+        "totalApy": 0.2846193
       },
-      "lastUpdated": 1752963889273
+      "lastUpdated": 1752965078017
     },
     "TAO___subnet_staking___bittensor__subnet_32": {
       "group": "bittensor-NATIVE-TAO",
@@ -4244,10 +4244,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3130635250918",
-        "totalApy": 0.2546817
+        "tvl": "3130838090153",
+        "totalApy": 0.2546627
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078017
     },
     "TAO___subnet_staking___bittensor__subnet_33": {
       "group": "bittensor-NATIVE-TAO",
@@ -4293,10 +4293,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "14110981705662",
-        "totalApy": 1.8754036
+        "tvl": "14113918965610",
+        "totalApy": 1.8758034
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078017
     },
     "TAO___subnet_staking___bittensor__subnet_34": {
       "group": "bittensor-NATIVE-TAO",
@@ -4342,10 +4342,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "23607231433760",
-        "totalApy": 1.7075094
+        "tvl": "23609181848034",
+        "totalApy": 1.7074719
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_35": {
       "group": "bittensor-NATIVE-TAO",
@@ -4391,10 +4391,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1771387452119",
-        "totalApy": 0.1615958
+        "tvl": "1771536591556",
+        "totalApy": 0.1615696
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_36": {
       "group": "bittensor-NATIVE-TAO",
@@ -4440,10 +4440,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2745599158473",
-        "totalApy": 0.3396504
+        "tvl": "2746285660334",
+        "totalApy": 0.3396182
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_37": {
       "group": "bittensor-NATIVE-TAO",
@@ -4489,10 +4489,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4470236016780",
-        "totalApy": 0.4646646
+        "tvl": "4470607254470",
+        "totalApy": 0.4644992
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_38": {
       "group": "bittensor-NATIVE-TAO",
@@ -4538,10 +4538,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2132023734219",
-        "totalApy": 0.1931155
+        "tvl": "2129025809216",
+        "totalApy": 0.1930534
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_39": {
       "group": "bittensor-NATIVE-TAO",
@@ -4587,10 +4587,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6813295960041",
-        "totalApy": 1.5846442
+        "tvl": "6814052080527",
+        "totalApy": 1.5842389
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_40": {
       "group": "bittensor-NATIVE-TAO",
@@ -4636,10 +4636,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2826135619607",
-        "totalApy": 0.2374489
+        "tvl": "2826324894792",
+        "totalApy": 0.2374234
       },
-      "lastUpdated": 1752963889274
+      "lastUpdated": 1752965078018
     },
     "TAO___subnet_staking___bittensor__subnet_41": {
       "group": "bittensor-NATIVE-TAO",
@@ -4685,10 +4685,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6772645456258",
-        "totalApy": 0.6246562
+        "tvl": "6773293325728",
+        "totalApy": 0.624405
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_42": {
       "group": "bittensor-NATIVE-TAO",
@@ -4734,10 +4734,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "5337755241539",
-        "totalApy": 0.3589339
+        "tvl": "5338040442756",
+        "totalApy": 0.3588403
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_43": {
       "group": "bittensor-NATIVE-TAO",
@@ -4783,10 +4783,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "9365639597539",
-        "totalApy": 0.8876077
+        "tvl": "9366347049568",
+        "totalApy": 0.8875589
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_44": {
       "group": "bittensor-NATIVE-TAO",
@@ -4832,10 +4832,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "19306364648654",
-        "totalApy": 2.4671353
+        "tvl": "19304837796592",
+        "totalApy": 2.4665762
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_45": {
       "group": "bittensor-NATIVE-TAO",
@@ -4881,10 +4881,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4992693016956",
-        "totalApy": 0.4091562
+        "tvl": "4993020002387",
+        "totalApy": 0.4089878
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_46": {
       "group": "bittensor-NATIVE-TAO",
@@ -4930,10 +4930,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3173344584072",
-        "totalApy": 0.2585938
+        "tvl": "3173547835806",
+        "totalApy": 0.2589321
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_47": {
       "group": "bittensor-NATIVE-TAO",
@@ -4979,10 +4979,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2128653012635",
-        "totalApy": 0.2006925
+        "tvl": "2128812212097",
+        "totalApy": 0.2007458
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_48": {
       "group": "bittensor-NATIVE-TAO",
@@ -5028,10 +5028,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4963122322215",
-        "totalApy": 0.5261421
+        "tvl": "4963249705290",
+        "totalApy": 0.526603
       },
-      "lastUpdated": 1752963889275
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_49": {
       "group": "bittensor-NATIVE-TAO",
@@ -5077,10 +5077,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1388614586177",
-        "totalApy": 0.1410147
+        "tvl": "1391253070087",
+        "totalApy": 0.1409968
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_50": {
       "group": "bittensor-NATIVE-TAO",
@@ -5126,10 +5126,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6011335434034",
-        "totalApy": 0.7333102
+        "tvl": "6012518575552",
+        "totalApy": 0.7330725
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078019
     },
     "TAO___subnet_staking___bittensor__subnet_51": {
       "group": "bittensor-NATIVE-TAO",
@@ -5175,10 +5175,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "61092693978545",
-        "totalApy": 6.3639212
+        "tvl": "61096559036891",
+        "totalApy": 6.3618067
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_52": {
       "group": "bittensor-NATIVE-TAO",
@@ -5224,10 +5224,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "12623502081866",
-        "totalApy": 0.9939335
+        "tvl": "12624588974164",
+        "totalApy": 0.9937437
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_53": {
       "group": "bittensor-NATIVE-TAO",
@@ -5273,10 +5273,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "10570488041311",
-        "totalApy": 0.9429777
+        "tvl": "10571538711862",
+        "totalApy": 0.9429856
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_54": {
       "group": "bittensor-NATIVE-TAO",
@@ -5322,10 +5322,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1820979017717",
-        "totalApy": 0.1962052
+        "tvl": "1821134150986",
+        "totalApy": 0.1962601
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_55": {
       "group": "bittensor-NATIVE-TAO",
@@ -5371,10 +5371,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2745025546446",
-        "totalApy": 0.263664
+        "tvl": "2745239622322",
+        "totalApy": 0.2628199
       },
-      "lastUpdated": 1752963889276
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_56": {
       "group": "bittensor-NATIVE-TAO",
@@ -5420,10 +5420,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "53991584594773",
-        "totalApy": 6.1837553
+        "tvl": "53999106873123",
+        "totalApy": 6.1906354
       },
-      "lastUpdated": 1752963889277
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_57": {
       "group": "bittensor-NATIVE-TAO",
@@ -5469,10 +5469,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4342730253463",
-        "totalApy": 0.4756712
+        "tvl": "4343075464084",
+        "totalApy": 0.4755174
       },
-      "lastUpdated": 1752963889277
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_58": {
       "group": "bittensor-NATIVE-TAO",
@@ -5518,10 +5518,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2665356496017",
-        "totalApy": 0.2588606
+        "tvl": "2665562569916",
+        "totalApy": 0.2588832
       },
-      "lastUpdated": 1752963889277
+      "lastUpdated": 1752965078020
     },
     "TAO___subnet_staking___bittensor__subnet_59": {
       "group": "bittensor-NATIVE-TAO",
@@ -5567,10 +5567,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1937505854364",
-        "totalApy": 0.1766022
+        "tvl": "1937646470661",
+        "totalApy": 0.1765881
       },
-      "lastUpdated": 1752963889277
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_60": {
       "group": "bittensor-NATIVE-TAO",
@@ -5616,10 +5616,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2171735664956",
-        "totalApy": 0.1944639
+        "tvl": "2171889915299",
+        "totalApy": 0.1944455
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_61": {
       "group": "bittensor-NATIVE-TAO",
@@ -5665,10 +5665,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2829958743712",
-        "totalApy": 0.2436062
+        "tvl": "2830177418086",
+        "totalApy": 0.2435823
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_62": {
       "group": "bittensor-NATIVE-TAO",
@@ -5714,10 +5714,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "5296285148684",
-        "totalApy": 0.919592
+        "tvl": "5300181006541",
+        "totalApy": 0.9191933
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_63": {
       "group": "bittensor-NATIVE-TAO",
@@ -5763,10 +5763,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "9148538829928",
-        "totalApy": 2.6864587
+        "tvl": "9140500055129",
+        "totalApy": 2.6903586
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_64": {
       "group": "bittensor-NATIVE-TAO",
@@ -5812,10 +5812,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "137902843189914",
-        "totalApy": 13.3191411
+        "tvl": "137903476941233",
+        "totalApy": 13.3153264
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_65": {
       "group": "bittensor-NATIVE-TAO",
@@ -5861,10 +5861,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2321372405229",
-        "totalApy": 0.2234876
+        "tvl": "2321548310587",
+        "totalApy": 0.2233896
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_66": {
       "group": "bittensor-NATIVE-TAO",
@@ -5910,10 +5910,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1923295239644",
-        "totalApy": 0.2267427
+        "tvl": "1923475718544",
+        "totalApy": 0.2265522
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_67": {
       "group": "bittensor-NATIVE-TAO",
@@ -5959,10 +5959,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1088719176512",
-        "totalApy": 0.2386113
+        "tvl": "1088594732066",
+        "totalApy": 0.2391446
       },
-      "lastUpdated": 1752963889278
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_68": {
       "group": "bittensor-NATIVE-TAO",
@@ -6008,10 +6008,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "18313773352900",
-        "totalApy": 1.7780819
+        "tvl": "18315720990172",
+        "totalApy": 1.7783627
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078021
     },
     "TAO___subnet_staking___bittensor__subnet_69": {
       "group": "bittensor-NATIVE-TAO",
@@ -6057,10 +6057,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2429489949406",
-        "totalApy": 0.2928845
+        "tvl": "2429722027332",
+        "totalApy": 0.2927727
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_70": {
       "group": "bittensor-NATIVE-TAO",
@@ -6106,10 +6106,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1924208434607",
-        "totalApy": 0.160678
+        "tvl": "1924334191872",
+        "totalApy": 0.1606537
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_71": {
       "group": "bittensor-NATIVE-TAO",
@@ -6155,10 +6155,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "436681412815",
-        "totalApy": 0.101801
+        "tvl": "436760723426",
+        "totalApy": 0.1018514
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_72": {
       "group": "bittensor-NATIVE-TAO",
@@ -6204,10 +6204,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4117278159852",
-        "totalApy": 0.3380409
+        "tvl": "4117552401500",
+        "totalApy": 0.3380007
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_73": {
       "group": "bittensor-NATIVE-TAO",
@@ -6253,10 +6253,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3445669063401",
-        "totalApy": 0.6676865
+        "tvl": "3443957791041",
+        "totalApy": 0.6680309
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_74": {
       "group": "bittensor-NATIVE-TAO",
@@ -6302,10 +6302,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1169807342558",
-        "totalApy": 0.1504345
+        "tvl": "1169923912996",
+        "totalApy": 0.1503882
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_75": {
       "group": "bittensor-NATIVE-TAO",
@@ -6351,10 +6351,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "9245773179824",
-        "totalApy": 0.9435477
+        "tvl": "9246895284667",
+        "totalApy": 0.9434526
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_76": {
       "group": "bittensor-NATIVE-TAO",
@@ -6400,10 +6400,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2068542964896",
-        "totalApy": 0.2127677
+        "tvl": "2068707544975",
+        "totalApy": 0.2126908
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078022
     },
     "TAO___subnet_staking___bittensor__subnet_77": {
       "group": "bittensor-NATIVE-TAO",
@@ -6449,10 +6449,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "5550685975101",
-        "totalApy": 0.6646378
+        "tvl": "5551345783348",
+        "totalApy": 0.6645611
       },
-      "lastUpdated": 1752963889279
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_78": {
       "group": "bittensor-NATIVE-TAO",
@@ -6498,10 +6498,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1284005085311",
-        "totalApy": 0.1946259
+        "tvl": "1284154606830",
+        "totalApy": 0.1945997
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_79": {
       "group": "bittensor-NATIVE-TAO",
@@ -6547,10 +6547,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1968564463908",
-        "totalApy": 0.2206682
+        "tvl": "1968731639356",
+        "totalApy": 0.2206397
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_80": {
       "group": "bittensor-NATIVE-TAO",
@@ -6596,10 +6596,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1202977731270",
-        "totalApy": 0.1639888
+        "tvl": "1205383983916",
+        "totalApy": 0.1638527
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_81": {
       "group": "bittensor-NATIVE-TAO",
@@ -6645,10 +6645,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "6903592543527",
-        "totalApy": 0.6986952
+        "tvl": "6904114831206",
+        "totalApy": 0.6984747
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_82": {
       "group": "bittensor-NATIVE-TAO",
@@ -6694,10 +6694,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1037612084253",
-        "totalApy": 0.1746821
+        "tvl": "1037744675605",
+        "totalApy": 0.1746079
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_83": {
       "group": "bittensor-NATIVE-TAO",
@@ -6746,7 +6746,7 @@
         "tvl": "5425584565",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_84": {
       "group": "bittensor-NATIVE-TAO",
@@ -6792,10 +6792,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1192238841107",
-        "totalApy": 0.2073989
+        "tvl": "1192390969115",
+        "totalApy": 0.2073655
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_85": {
       "group": "bittensor-NATIVE-TAO",
@@ -6841,10 +6841,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "4126690121530",
-        "totalApy": 0.532234
+        "tvl": "4126790421609",
+        "totalApy": 0.5319503
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_86": {
       "group": "bittensor-NATIVE-TAO",
@@ -6890,10 +6890,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "701069036357",
-        "totalApy": 0.1381903
+        "tvl": "700886152043",
+        "totalApy": 0.1381463
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_87": {
       "group": "bittensor-NATIVE-TAO",
@@ -6939,10 +6939,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "688481688726",
-        "totalApy": 0.1373738
+        "tvl": "691400465175",
+        "totalApy": 0.1375456
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_88": {
       "group": "bittensor-NATIVE-TAO",
@@ -6988,10 +6988,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1757355317941",
-        "totalApy": 0.2563263
+        "tvl": "1757281063019",
+        "totalApy": 0.2563181
       },
-      "lastUpdated": 1752963889280
+      "lastUpdated": 1752965078023
     },
     "TAO___subnet_staking___bittensor__subnet_89": {
       "group": "bittensor-NATIVE-TAO",
@@ -7037,10 +7037,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1148205961286",
-        "totalApy": 0.796244
+        "tvl": "1158812344526",
+        "totalApy": 0.7932241
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_90": {
       "group": "bittensor-NATIVE-TAO",
@@ -7086,10 +7086,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "644659404302",
-        "totalApy": 0.2219876
+        "tvl": "644811027472",
+        "totalApy": 0.221307
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_91": {
       "group": "bittensor-NATIVE-TAO",
@@ -7135,10 +7135,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1113616884624",
-        "totalApy": 0.1540434
+        "tvl": "1113728210900",
+        "totalApy": 0.1540175
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_92": {
       "group": "bittensor-NATIVE-TAO",
@@ -7184,10 +7184,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1044994183272",
-        "totalApy": 0.1975645
+        "tvl": "1045129579943",
+        "totalApy": 0.1980593
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_93": {
       "group": "bittensor-NATIVE-TAO",
@@ -7233,10 +7233,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1750781292948",
-        "totalApy": 0.4705383
+        "tvl": "1751110766090",
+        "totalApy": 0.4706929
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_94": {
       "group": "bittensor-NATIVE-TAO",
@@ -7282,10 +7282,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1020726817892",
-        "totalApy": 0.1816024
+        "tvl": "1020855653370",
+        "totalApy": 0.1816159
       },
-      "lastUpdated": 1752963889281
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_95": {
       "group": "bittensor-NATIVE-TAO",
@@ -7334,7 +7334,7 @@
         "tvl": "5561073908",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078024
     },
     "TAO___subnet_staking___bittensor__subnet_96": {
       "group": "bittensor-NATIVE-TAO",
@@ -7380,10 +7380,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "2023529570761",
-        "totalApy": 0.2989926
+        "tvl": "2025214192133",
+        "totalApy": 0.2989326
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_97": {
       "group": "bittensor-NATIVE-TAO",
@@ -7429,10 +7429,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "567190881934",
-        "totalApy": 0.1674608
+        "tvl": "565728422186",
+        "totalApy": 0.1672212
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_98": {
       "group": "bittensor-NATIVE-TAO",
@@ -7478,10 +7478,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "1334820586514",
-        "totalApy": 0.4328119
+        "tvl": "1334468483355",
+        "totalApy": 0.4325953
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_99": {
       "group": "bittensor-NATIVE-TAO",
@@ -7527,10 +7527,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "31973641292",
-        "totalApy": 0.2684855
+        "tvl": "32065987666",
+        "totalApy": 0.2691308
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_100": {
       "group": "bittensor-NATIVE-TAO",
@@ -7579,7 +7579,7 @@
         "tvl": "4788632192",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_101": {
       "group": "bittensor-NATIVE-TAO",
@@ -7628,7 +7628,7 @@
         "tvl": "3551640146",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078025
     },
     "TAO___subnet_staking___bittensor__subnet_102": {
       "group": "bittensor-NATIVE-TAO",
@@ -7674,10 +7674,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "87279534484",
-        "totalApy": 0.1914378
+        "tvl": "85009515840",
+        "totalApy": 0.1914876
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_103": {
       "group": "bittensor-NATIVE-TAO",
@@ -7723,10 +7723,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "38669851830",
-        "totalApy": 0.1206027
+        "tvl": "38539523911",
+        "totalApy": 0.1206709
       },
-      "lastUpdated": 1752963889282
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_104": {
       "group": "bittensor-NATIVE-TAO",
@@ -7772,10 +7772,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "602709411138",
-        "totalApy": 0.1523998
+        "tvl": "602811922208",
+        "totalApy": 0.152503
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_105": {
       "group": "bittensor-NATIVE-TAO",
@@ -7821,10 +7821,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "473579806145",
-        "totalApy": 0.1314993
+        "tvl": "474521747968",
+        "totalApy": 0.1315793
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_106": {
       "group": "bittensor-NATIVE-TAO",
@@ -7870,10 +7870,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "3436262288672",
-        "totalApy": 1.1628739
+        "tvl": "3436998024319",
+        "totalApy": 1.1656774
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_107": {
       "group": "bittensor-NATIVE-TAO",
@@ -7919,10 +7919,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "488134810105",
-        "totalApy": 0.1584564
+        "tvl": "488238465880",
+        "totalApy": 0.1584068
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_108": {
       "group": "bittensor-NATIVE-TAO",
@@ -7968,10 +7968,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "489462063489",
-        "totalApy": 0.1502871
+        "tvl": "490443068900",
+        "totalApy": 0.1503629
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_109": {
       "group": "bittensor-NATIVE-TAO",
@@ -8017,10 +8017,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "163286434127",
-        "totalApy": 0.1900845
+        "tvl": "163398965946",
+        "totalApy": 0.1899123
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_110": {
       "group": "bittensor-NATIVE-TAO",
@@ -8069,7 +8069,7 @@
         "tvl": "2223290248",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078026
     },
     "TAO___subnet_staking___bittensor__subnet_111": {
       "group": "bittensor-NATIVE-TAO",
@@ -8115,10 +8115,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "453195397256",
-        "totalApy": 0.186795
+        "tvl": "453310928964",
+        "totalApy": 0.1867446
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_112": {
       "group": "bittensor-NATIVE-TAO",
@@ -8167,7 +8167,7 @@
         "tvl": "2111008436",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889283
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_113": {
       "group": "bittensor-NATIVE-TAO",
@@ -8213,10 +8213,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "618751257586",
-        "totalApy": 0.226843
+        "tvl": "618897534271",
+        "totalApy": 0.2268193
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_114": {
       "group": "bittensor-NATIVE-TAO",
@@ -8262,10 +8262,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "500587389205",
-        "totalApy": 0.2009823
+        "tvl": "500713584592",
+        "totalApy": 0.2008965
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_115": {
       "group": "bittensor-NATIVE-TAO",
@@ -8314,7 +8314,7 @@
         "tvl": "4079464582",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_116": {
       "group": "bittensor-NATIVE-TAO",
@@ -8363,7 +8363,7 @@
         "tvl": "3045480076",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_117": {
       "group": "bittensor-NATIVE-TAO",
@@ -8412,7 +8412,7 @@
         "tvl": "3253727648",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_118": {
       "group": "bittensor-NATIVE-TAO",
@@ -8461,7 +8461,7 @@
         "tvl": "1889898134",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_119": {
       "group": "bittensor-NATIVE-TAO",
@@ -8510,7 +8510,7 @@
         "tvl": "2031660888",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_120": {
       "group": "bittensor-NATIVE-TAO",
@@ -8559,7 +8559,7 @@
         "tvl": "7782699890",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_121": {
       "group": "bittensor-NATIVE-TAO",
@@ -8605,10 +8605,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "294874196662",
-        "totalApy": 0.1685592
+        "tvl": "294972624659",
+        "totalApy": 0.1685754
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_122": {
       "group": "bittensor-NATIVE-TAO",
@@ -8654,10 +8654,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "109687816918",
-        "totalApy": 0.1401214
+        "tvl": "110258150262",
+        "totalApy": 0.140079
       },
-      "lastUpdated": 1752963889284
+      "lastUpdated": 1752965078027
     },
     "TAO___subnet_staking___bittensor__subnet_123": {
       "group": "bittensor-NATIVE-TAO",
@@ -8703,10 +8703,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "919327817608",
-        "totalApy": 0.5966236
+        "tvl": "919635322445",
+        "totalApy": 0.5967965
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TAO___subnet_staking___bittensor__subnet_124": {
       "group": "bittensor-NATIVE-TAO",
@@ -8752,10 +8752,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "433448947432",
-        "totalApy": 0.3016255
+        "tvl": "433629485377",
+        "totalApy": 0.3012833
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TAO___subnet_staking___bittensor__subnet_125": {
       "group": "bittensor-NATIVE-TAO",
@@ -8801,10 +8801,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "66236925135",
-        "totalApy": 0.1254485
+        "tvl": "66302616513",
+        "totalApy": 0.1254898
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TAO___subnet_staking___bittensor__subnet_126": {
       "group": "bittensor-NATIVE-TAO",
@@ -8853,7 +8853,7 @@
         "tvl": "3331899920",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TAO___subnet_staking___bittensor__subnet_127": {
       "group": "bittensor-NATIVE-TAO",
@@ -8899,10 +8899,10 @@
         "eraTime": 24,
         "era": 0,
         "unstakingPeriod": 1.2,
-        "tvl": "85482689803",
-        "totalApy": 0.1371862
+        "tvl": "85556151825",
+        "totalApy": 0.1371718
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TAO___subnet_staking___bittensor__subnet_128": {
       "group": "bittensor-NATIVE-TAO",
@@ -8951,7 +8951,7 @@
         "tvl": "2379375169",
         "totalApy": 0
       },
-      "lastUpdated": 1752963889285
+      "lastUpdated": 1752965078028
     },
     "TVARA___nomination_pool___vara_testnet": {
       "group": "vara_testnet-NATIVE-TVARA",
@@ -8999,7 +8999,7 @@
         "unstakingPeriod": 168,
         "inflation": 2.50076875
       },
-      "lastUpdated": 1752963864284
+      "lastUpdated": 1752965053870
     },
     "TVARA___native_staking___vara_testnet": {
       "group": "vara_testnet-NATIVE-TVARA",
@@ -9047,7 +9047,7 @@
         "unstakingPeriod": 168,
         "inflation": 2.50076875
       },
-      "lastUpdated": 1752963864374
+      "lastUpdated": 1752965054089
     },
     "WND___nomination_pool___westend_assethub": {
       "group": "westend_assethub-NATIVE-WND",
@@ -9095,7 +9095,7 @@
         "unstakingPeriod": 48,
         "inflation": 2.515435
       },
-      "lastUpdated": 1752963863361
+      "lastUpdated": 1752965054669
     },
     "WND___native_staking___westend_assethub": {
       "group": "westend_assethub-NATIVE-WND",
@@ -9143,7 +9143,7 @@
         "unstakingPeriod": 48,
         "inflation": 2.515435
       },
-      "lastUpdated": 1752963863486
+      "lastUpdated": 1752965054790
     },
     "TAO___subnet_staking___bittensor_testnet__subnet_256": {
       "group": "bittensor_testnet-NATIVE-TAO",
