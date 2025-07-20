@@ -180,6 +180,14 @@
     }
   },
   {
+    "slug": "interlay",
+    "name": "Interlay",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
+    }
+  },
+  {
     "slug": "kintsugi_test",
     "name": "Kintsugi Testnet",
     "status": "ACTIVE",
@@ -196,14 +204,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
-    }
-  },
-  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -216,8 +216,7 @@
     "name": "Heima",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://litentry-rpc.dwellir.com",
-      "Litentry": "wss://rpc.heima-parachain.heima.network"
+      "Dwellir": "wss://litentry-rpc.dwellir.com"
     }
   },
   {
@@ -323,14 +322,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
-    }
-  },
-  {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     }
   },
   {
