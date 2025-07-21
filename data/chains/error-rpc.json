@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -133,6 +125,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS network": "wss://testnet-rpc.cess.network/ws/"
     }
   },
   {
@@ -325,6 +325,14 @@
     }
   },
   {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "subsocial_x",
     "name": "Subsocial",
     "status": "ACTIVE",
@@ -362,6 +370,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "watr": "https://rpc.dev.watr.org"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://westend.dotters.network"
+    }
+  },
+  {
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
 ]
