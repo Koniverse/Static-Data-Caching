@@ -32,6 +32,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -128,14 +136,6 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "CESS network": "wss://testnet-rpc.cess.network/ws/"
-    }
-  },
-  {
     "slug": "composableFinance",
     "name": "Composable Finance",
     "status": "ACTIVE",
@@ -177,14 +177,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://integritee-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "interlay",
-    "name": "Interlay",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LuckyFriday": "wss://rpc-interlay.luckyfriday.io/"
     }
   },
   {
@@ -325,14 +317,6 @@
     }
   },
   {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "subsocial_x",
     "name": "Subsocial",
     "status": "ACTIVE",
@@ -377,6 +361,7 @@
     "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://rpc.ibp.network/westend",
       "IBP2": "wss://westend.dotters.network"
     }
   },
@@ -385,6 +370,7 @@
     "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://sys.ibp.network/asset-hub-westend",
       "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
