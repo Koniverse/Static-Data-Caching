@@ -24,19 +24,19 @@
     }
   },
   {
+    "slug": "altair",
+    "name": "Altair",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://amplitude-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
     }
   },
   {
@@ -125,6 +125,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bittensor_testnet",
+    "name": "Bittensor Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Testnet": "wss://test.finney.opentensor.ai:443"
     }
   },
   {
@@ -253,6 +261,14 @@
     }
   },
   {
+    "slug": "polkadex",
+    "name": "Polkadex",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Polkadex": "wss://so.polkadex.ee"
+    }
+  },
+  {
     "slug": "polygon",
     "name": "Polygon",
     "status": "ACTIVE",
@@ -314,6 +330,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
+    }
+  },
+  {
+    "slug": "sora_substrate",
+    "name": "SORA",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     }
   },
   {
