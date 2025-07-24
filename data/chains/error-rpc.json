@@ -128,19 +128,19 @@
     }
   },
   {
-    "slug": "bittensor_testnet",
-    "name": "Bittensor Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Testnet": "wss://test.finney.opentensor.ai:443"
-    }
-  },
-  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "BounceBit Api": "https://fullnode-testnet.bouncebitapi.com/"
+    }
+  },
+  {
+    "slug": "cess_testnet",
+    "name": "CESS Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
     }
   },
   {
@@ -177,6 +177,14 @@
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet",
       "BlastApi": "https://fantom-testnet.public.blastapi.io/"
+    }
+  },
+  {
+    "slug": "hyperEvm",
+    "name": "HyperEVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hypurrscan": "https://rpc.hypurrscan.io"
     }
   },
   {
@@ -220,6 +228,22 @@
     }
   },
   {
+    "slug": "manta_network",
+    "name": "Manta Atlantic",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Manta Network": "wss://ws.manta.systems"
+    }
+  },
+  {
+    "slug": "moonriver",
+    "name": "Moonriver",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "UnitedBloc": "wss://moonriver.unitedbloc.com"
+    }
+  },
+  {
     "slug": "okxTest",
     "name": "X Layer testnet",
     "status": "ACTIVE",
@@ -253,19 +277,19 @@
     }
   },
   {
+    "slug": "phala",
+    "name": "Phala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "picasso",
     "name": "Picasso",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "polkadex",
-    "name": "Polkadex",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Polkadex": "wss://so.polkadex.ee"
     }
   },
   {
@@ -330,14 +354,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
-    }
-  },
-  {
-    "slug": "sora_substrate",
-    "name": "SORA",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     }
   },
   {
