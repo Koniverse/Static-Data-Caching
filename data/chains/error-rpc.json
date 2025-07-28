@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "altair",
-    "name": "Altair",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Centrifuge": "wss://fullnode.altair.centrifuge.io"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -61,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "AllNodes": "wss://avail-turing-rpc.publicnode.com/"
     }
   },
   {
@@ -128,6 +112,14 @@
     }
   },
   {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws"
+    }
+  },
+  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
@@ -180,14 +172,6 @@
     }
   },
   {
-    "slug": "hyperEvm",
-    "name": "HyperEVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hypurrscan": "https://rpc.hypurrscan.io"
-    }
-  },
-  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -228,22 +212,6 @@
     }
   },
   {
-    "slug": "manta_network",
-    "name": "Manta Atlantic",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Manta Network": "wss://ws.manta.systems"
-    }
-  },
-  {
-    "slug": "moonriver",
-    "name": "Moonriver",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "UnitedBloc": "wss://moonriver.unitedbloc.com"
-    }
-  },
-  {
     "slug": "okxTest",
     "name": "X Layer testnet",
     "status": "ACTIVE",
@@ -277,11 +245,11 @@
     }
   },
   {
-    "slug": "phala",
-    "name": "Phala",
+    "slug": "peaq_evm",
+    "name": "peaq EVM",
     "status": "ACTIVE",
     "errorRpcs": {
-      "RadiumBlock": "wss://phala.public.curie.radiumblock.co/ws"
+      "Peaq": "https://evm.peaq.network/"
     }
   },
   {
