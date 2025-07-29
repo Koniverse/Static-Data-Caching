@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "aleph_testnet_evm",
-    "name": "Aleph Zero Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Sepolia": "https://alephzero-sepolia.drpc.org/"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -45,6 +37,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -109,14 +109,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
-    }
-  },
-  {
-    "slug": "bifrost_dot",
-    "name": "Bifrost Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liebi": "wss://hk.p.bifrost-rpc.liebi.com/ws"
     }
   },
   {
@@ -196,6 +188,14 @@
     }
   },
   {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
+    }
+  },
+  {
     "slug": "laos_network",
     "name": "LAOS Network",
     "status": "ACTIVE",
@@ -245,14 +245,6 @@
     }
   },
   {
-    "slug": "peaq_evm",
-    "name": "peaq EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Peaq": "https://evm.peaq.network/"
-    }
-  },
-  {
     "slug": "picasso",
     "name": "Picasso",
     "status": "ACTIVE",
@@ -282,14 +274,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
