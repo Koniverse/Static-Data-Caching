@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "automata",
     "name": "Automata",
     "status": "ACTIVE",
@@ -60,7 +52,8 @@
     "name": "Avail",
     "status": "ACTIVE",
     "errorRpcs": {
-      "GlobalStake": "wss://rpc-avail.globalstake.io/"
+      "GlobalStake": "wss://rpc-avail.globalstake.io/",
+      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -253,6 +246,14 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
+    }
+  },
+  {
     "slug": "polygon",
     "name": "Polygon",
     "status": "ACTIVE",
@@ -353,7 +354,6 @@
     "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
-      "IBP1": "wss://rpc.ibp.network/westend",
       "IBP2": "wss://westend.dotters.network"
     }
   },
@@ -362,7 +362,6 @@
     "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "IBP1": "wss://sys.ibp.network/asset-hub-westend",
       "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
