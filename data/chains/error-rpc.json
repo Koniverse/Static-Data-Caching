@@ -48,15 +48,6 @@
     }
   },
   {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "GlobalStake": "wss://rpc-avail.globalstake.io/",
-      "RadiumBlock": "wss://avail.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "aventus",
     "name": "Aventus Polkadot",
     "status": "ACTIVE",
@@ -125,6 +116,7 @@
     "name": "Composable Finance",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Composable": "wss://rpc.composable.finance",
       "Dwellir": "wss://composable-rpc.dwellir.com"
     }
   },
@@ -154,6 +146,14 @@
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet",
       "BlastApi": "https://fantom-testnet.public.blastapi.io/"
+    }
+  },
+  {
+    "slug": "hyperEvm",
+    "name": "HyperEVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io"
     }
   },
   {
@@ -278,6 +278,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -354,6 +362,7 @@
     "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://rpc.ibp.network/westend",
       "IBP2": "wss://westend.dotters.network"
     }
   },
@@ -362,6 +371,7 @@
     "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://sys.ibp.network/asset-hub-westend",
       "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
