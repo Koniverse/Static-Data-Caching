@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "aleph_testnet_evm",
+    "name": "Aleph Zero Testnet - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Sepolia": "https://alephzero-sepolia.drpc.org/"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -278,19 +286,19 @@
     }
   },
   {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
-    }
-  },
-  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
