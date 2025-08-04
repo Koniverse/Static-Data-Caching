@@ -1,5 +1,5 @@
-import {VirtualBrowser} from "./lib/VirtualBrowser.mjs";
-import {writeJSONFile} from "./lib/utils.mjs";
+import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
+import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
 const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://459b2f70.swwrc.pages.dev/';
@@ -95,15 +95,16 @@ const runBrowser = async () => {
   const finalData = structuredClone(oldData.data);
 
   for (const [slug, value] of Object.entries(poolInfo)) {
-  if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
-    const newValue = structuredClone(value);
+    if (!finalData[slug] || value.lastUpdated > finalData[slug].lastUpdated) {
+      const newValue = structuredClone(value);
 
-    if (slug === 'TAO___native_staking___bittensor' && !newValue.statistic.totalApy) { // Sometime, bittensor native staking can't get totalApy
-      newValue.statistic.totalApy = finalData[slug].statistic.totalApy;
+      if ((newValue.chain === 'bittensor' || newValue.chain === 'bittensor_testnet') && !newValue.metadata.minValidate) { // Avoid Bittensor metadata without minValidate
+        newValue.metadata.minValidate = finalData[slug].metadata.minValidate;
+      }
+
+      finalData[slug] = newValue;
     }
-
-    finalData[slug] = newValue;
-  }}
+  }
 
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
