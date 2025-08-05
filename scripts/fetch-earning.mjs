@@ -2,7 +2,7 @@ import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://6854bb1a.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://0ff820a8.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -100,7 +100,7 @@ const runBrowser = async () => {
 
       if ((newValue.chain === 'bittensor' || newValue.chain === 'bittensor_testnet') && !newValue.metadata.minValidate) { // Avoid Bittensor metadata without minValidate
         newValue.metadata.minValidate = finalData[slug].metadata.minValidate;
-      }
+      } 
 
       finalData[slug] = newValue;
     }
