@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "aleph_testnet_evm",
-    "name": "Aleph Zero Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Sepolia": "https://alephzero-sepolia.drpc.org/"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -61,14 +53,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Aventus": "wss://public-rpc.mainnet.aventus.network"
-    }
-  },
-  {
-    "slug": "aventus_testnet",
-    "name": "Aventus Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aventus": "wss://public-rpc.testnet.aventus.network"
     }
   },
   {
@@ -129,16 +113,6 @@
     }
   },
   {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl London": "wss://edgeware-rpc1.jelliedowl.net",
-      "JelliedOwl New York": "wss://edgeware-rpc0.jelliedowl.net",
-      "JelliedOwl Singapore": "wss://edgeware-rpc2.jelliedowl.net"
-    }
-  },
-  {
     "slug": "fantom",
     "name": "Fantom",
     "status": "ACTIVE",
@@ -186,14 +160,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-ksm.w3node.com/polka-public-ksm/ws"
     }
   },
   {
@@ -254,14 +220,6 @@
     }
   },
   {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RockX": "wss://rockx-dot.w3node.com/polka-public-dot/ws"
-    }
-  },
-  {
     "slug": "polygon",
     "name": "Polygon",
     "status": "ACTIVE",
@@ -294,19 +252,19 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
     "slug": "shibuyaEvm",
     "name": "Shibuya Testnet - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "BlastAPI": "https://shibuya.public.blastapi.io"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://shiden.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -326,10 +284,19 @@
     }
   },
   {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "subsocial_x",
     "name": "Subsocial",
     "status": "ACTIVE",
     "errorRpcs": {
+      "Dappforce": "wss://para.subsocial.network",
       "Dwellir": "wss://subsocial-rpc.dwellir.com"
     }
   },
