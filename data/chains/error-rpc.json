@@ -40,14 +40,6 @@
     }
   },
   {
-    "slug": "automata",
-    "name": "Automata",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://automata.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "aventus",
     "name": "Aventus Polkadot",
     "status": "ACTIVE",
@@ -104,15 +96,6 @@
     }
   },
   {
-    "slug": "composableFinance",
-    "name": "Composable Finance",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Composable": "wss://rpc.composable.finance",
-      "Dwellir": "wss://composable-rpc.dwellir.com"
-    }
-  },
-  {
     "slug": "fantom",
     "name": "Fantom",
     "status": "ACTIVE",
@@ -128,15 +111,6 @@
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet",
       "BlastApi": "https://fantom-testnet.public.blastapi.io/"
-    }
-  },
-  {
-    "slug": "hyperEvm",
-    "name": "HyperEVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io",
-      "Hypurrscan": "https://rpc.hypurrscan.io"
     }
   },
   {
@@ -197,35 +171,11 @@
     }
   },
   {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    }
-  },
-  {
     "slug": "parallel",
     "name": "Parallel",
     "status": "ACTIVE",
     "errorRpcs": {
       "Gatotech": "wss://parallel.gatotech.network"
-    }
-  },
-  {
-    "slug": "picasso",
-    "name": "Picasso",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://picasso-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "polygon",
-    "name": "Polygon",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Llamarpc": "https://polygon.llamarpc.com"
     }
   },
   {
@@ -242,6 +192,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
+    }
+  },
+  {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
@@ -286,27 +244,11 @@
     }
   },
   {
-    "slug": "tangle",
-    "name": "Tangle Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "wss://rpc.tangle.tools"
-    }
-  },
-  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
-    }
-  },
-  {
-    "slug": "ternoa_alphanet",
-    "name": "Ternoa Alphanet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "ternoa": "wss://alphanet.ternoa.com"
     }
   },
   {
@@ -323,24 +265,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "watr": "https://rpc.dev.watr.org"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP1": "wss://rpc.ibp.network/westend",
-      "IBP2": "wss://westend.dotters.network"
-    }
-  },
-  {
-    "slug": "westend_assethub",
-    "name": "Westend Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP1": "wss://sys.ibp.network/asset-hub-westend",
-      "IBP2": "wss://asset-hub-westend.dotters.network"
     }
   }
 ]
