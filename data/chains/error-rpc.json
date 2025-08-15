@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -163,6 +171,17 @@
     }
   },
   {
+    "slug": "opal",
+    "name": "Opal",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Asia": "wss://asia-ws-opal.unique.network",
+      "Europe": "wss://eu-ws-opal.unique.network",
+      "NA": "wss://us-ws-opal.unique.network",
+      "Unique": "wss://ws-opal.unique.network"
+    }
+  },
+  {
     "slug": "origintrail",
     "name": "NeuroWeb Mainnet",
     "status": "ACTIVE",
@@ -192,14 +211,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
