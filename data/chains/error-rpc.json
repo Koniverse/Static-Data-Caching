@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -146,14 +154,6 @@
     }
   },
   {
-    "slug": "layerEdge_testnet",
-    "name": "LayerEdge Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "LayerEdge Testnet": "https://testnet-rpc.layeredge.io"
-    }
-  },
-  {
     "slug": "litentry",
     "name": "Heima",
     "status": "ACTIVE",
@@ -243,6 +243,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     }
   },
   {
