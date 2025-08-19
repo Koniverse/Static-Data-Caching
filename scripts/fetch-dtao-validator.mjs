@@ -9,7 +9,7 @@ const CACHE_DURATION = 2 * 60 * 60 * 1000; // 2 hours
 const API_URL = "https://api.taostats.io/api/dtao/validator/latest/v1";
 const API_HEADERS = {
   accept: "application/json",
-  Authorization: process.env.BITTENSOR_API_KEY,
+  Authorization: process.env.BITTENSOR_API_KEY || '',
 };
 
 // Load cache
@@ -51,7 +51,7 @@ async function fetchValidatorFromAPI() {
     throw new Error(`API request failed: ${validatorResponse.message}`);
   }
 
-  return validatorResponse.data;
+  return validatorResponse.data.data;
 }
 
 export async function fetchDtaoValidatorData() {
