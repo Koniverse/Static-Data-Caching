@@ -2,6 +2,9 @@ import path from "path";
 import createApiRequest from "../utils/baseApi.js";
 import writeFileSync from "../utils/writeFile.js";
 import cachedFile from "../data/earning/dtao/validator.json" assert { type: "json" };
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const CACHE_PATH = path.resolve("./data/earning/dtao/validator.json");
 const CACHE_DURATION = 2 * 60 * 60 * 1000; // 2 hours
@@ -9,7 +12,7 @@ const CACHE_DURATION = 2 * 60 * 60 * 1000; // 2 hours
 const API_URL = "https://api.taostats.io/api/dtao/validator/latest/v1";
 const API_HEADERS = {
   accept: "application/json",
-  Authorization: process.env.BITTENSOR_API_KEY || '',
+  Authorization: process.env.BITTENSOR_API_KEY || "",
 };
 
 // Load cache
