@@ -1,13 +1,12 @@
-import path from "path";
 import createApiRequest from "../utils/baseApi.js";
 import writeFileSync from "../utils/writeFile.js";
-import cachedFile from "../data/earning/dtao/validator.json" assert { type: "json" };
+import cachedFile from "../data/earning/dtao/validator.json" with { type: "json" };
 import dotenv from "dotenv";
+import path from "path";
 
 dotenv.config();
 
 const CACHE_PATH = path.resolve("./data/earning/dtao/validator.json");
-const CACHE_DURATION = 2 * 60 * 60 * 1000; // 2 hours
 
 const API_URL = "https://api.taostats.io/api/dtao/validator/latest/v1";
 const API_HEADERS = {
@@ -16,7 +15,7 @@ const API_HEADERS = {
 };
 
 // Load cache
-function loadCache() {
+function loadFile() {
   try {
     if (
       cachedFile.lastUpdated &&
@@ -32,13 +31,16 @@ function loadCache() {
 }
 
 // Save cache
-function saveCache(data) {
+function saveFile(data) {
   const payload = {
     lastUpdated: Date.now(),
     lastUpdatedTimestamp: new Date().toISOString(),
     data,
   };
   writeFileSync(payload, CACHE_PATH);
+
+  console.log(`Save dtao validator data to cache file (${data.length} items)`);
+
   return payload;
 }
 
@@ -46,6 +48,9 @@ function saveCache(data) {
 async function fetchValidatorFromAPI() {
   const validatorResponse = await createApiRequest({
     url: API_URL,
+    params: {
+      limit: 200, // Adjust limit as needed
+    },
     method: "GET",
     headers: API_HEADERS,
   });
@@ -58,9 +63,6 @@ async function fetchValidatorFromAPI() {
 }
 
 export async function fetchDtaoValidatorData() {
-  const cached = loadCache();
-  if (cached) return cached;
-
   const freshData = await fetchValidatorFromAPI();
-  return saveCache(freshData);
+  return saveFile(freshData);
 }
