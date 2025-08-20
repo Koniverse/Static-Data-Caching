@@ -99,7 +99,7 @@ const runBrowser = async () => {
       const newValue = structuredClone(value);
 
       if ((newValue.chain === 'bittensor' || newValue.chain === 'bittensor_testnet') && !newValue.metadata.minValidate) { // Avoid Bittensor metadata without minValidate
-        newValue.metadata.minValidate = finalData[slug].metadata.minValidate;
+        newValue.metadata.minValidate = finalData[slug]?.metadata?.minValidate;
       } 
 
       finalData[slug] = newValue;
