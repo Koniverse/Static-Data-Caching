@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -122,6 +114,14 @@
     }
   },
   {
+    "slug": "hyperEvm",
+    "name": "HyperEVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io"
+    }
+  },
+  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -198,6 +198,14 @@
     }
   },
   {
+    "slug": "polkadot_people",
+    "name": "Polkadot People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -243,14 +251,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
-    }
-  },
-  {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     }
   },
   {
