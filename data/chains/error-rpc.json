@@ -114,14 +114,6 @@
     }
   },
   {
-    "slug": "hyperEvm",
-    "name": "HyperEVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Hyperliquid Stakely": "https://hyperliquid-json-rpc.stakely.io"
-    }
-  },
-  {
     "slug": "integriteePolkadot",
     "name": "Integritee Shell",
     "status": "ACTIVE",
@@ -198,14 +190,6 @@
     }
   },
   {
-    "slug": "polkadot_people",
-    "name": "Polkadot People",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
     "slug": "robonomics",
     "name": "Robonomics",
     "status": "ACTIVE",
@@ -254,12 +238,36 @@
     }
   },
   {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "subsocial_x",
     "name": "Subsocial",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dappforce": "wss://para.subsocial.network",
       "Dwellir": "wss://subsocial-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "tangle",
+    "name": "Tangle Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "wss://rpc.tangle.tools"
+    }
+  },
+  {
+    "slug": "tangle_evm",
+    "name": "Tangle EVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
