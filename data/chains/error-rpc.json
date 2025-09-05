@@ -24,6 +24,14 @@
     }
   },
   {
+    "slug": "amplitude_test",
+    "name": "Amplitude Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -37,6 +45,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -122,14 +138,6 @@
     }
   },
   {
-    "slug": "kintsugi_test",
-    "name": "Kintsugi Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "testnet": "wss://api-dev-kintsugi.interlay.io/parachain"
-    }
-  },
-  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
@@ -160,17 +168,6 @@
     "errorRpcs": {
       "Testrpc": "https://testrpc.x1.tech/",
       "X1testrpc": "https://x1testrpc.okx.com/"
-    }
-  },
-  {
-    "slug": "opal",
-    "name": "Opal",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Asia": "wss://asia-ws-opal.unique.network",
-      "Europe": "wss://eu-ws-opal.unique.network",
-      "NA": "wss://us-ws-opal.unique.network",
-      "Unique": "wss://ws-opal.unique.network"
     }
   },
   {
@@ -252,22 +249,6 @@
     "errorRpcs": {
       "Dappforce": "wss://para.subsocial.network",
       "Dwellir": "wss://subsocial-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "tangle",
-    "name": "Tangle Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "wss://rpc.tangle.tools"
-    }
-  },
-  {
-    "slug": "tangle_evm",
-    "name": "Tangle EVM Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
