@@ -24,14 +24,6 @@
     }
   },
   {
-    "slug": "amplitude_test",
-    "name": "Amplitude Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-foucoco.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_one",
     "name": "Arbitrum One",
     "status": "ACTIVE",
@@ -48,19 +40,19 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "aventus",
     "name": "Aventus Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
       "Aventus": "wss://public-rpc.mainnet.aventus.network"
+    }
+  },
+  {
+    "slug": "aventus_testnet",
+    "name": "AvN Paseo",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aventus": "wss://public-rpc.testnet.aventus.io"
     }
   },
   {
@@ -135,6 +127,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "wss://integritee-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "ipci",
+    "name": "DAO IPCI",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Airalab": "wss://ipci.rpc.robonomics.network"
     }
   },
   {
@@ -232,14 +232,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
-    }
-  },
-  {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-asset-hub-rpc.polkadot.io"
     }
   },
   {
