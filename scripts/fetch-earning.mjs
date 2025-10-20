@@ -2,7 +2,7 @@ import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://454e31ba.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://df499171.swwrc.pages.dev/';
 
 console.log('Fetching data from', webRunnerURL);
 
@@ -46,7 +46,8 @@ const runBrowser = async () => {
         manta: ['manta_network'],
         bittensor: ['bittensor', 'bittensor_testnet'],
         energy: ['energy_web_x_testnet', 'energy_web_x'],
-        mythos: ['mythos', 'muse_testnet']
+        mythos: ['mythos', 'muse_testnet'],
+        tanssi: ['tanssi', 'dancelight']
       };
 
       const enableChains = Array.from(new Set([
