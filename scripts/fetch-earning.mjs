@@ -110,6 +110,10 @@ const runBrowser = async () => {
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
 
+  // Force remove DOT___native_staking___polkadot, DOT___nomination_pool___polkadot
+  finalData['DOT___native_staking___polkadot'] && delete finalData['DOT___native_staking___polkadot'];
+  finalData['DOT___nomination_pool___polkadot'] && delete finalData['DOT___nomination_pool___polkadot'];
+
   const updateDate = new Date();
 
   await writeJSONFile('earning/yield-pools.json', {
@@ -145,7 +149,15 @@ const runBrowser = async () => {
     return await Promise.all(promiseList);
   });
 
+  console.log()
+
   data.forEach(([slug, targets]) => {
+
+    // Force remove DOT___native_staking___polkadot, DOT___nomination_pool___polkadot
+    if (slug === 'DOT___native_staking___polkadot' || slug === 'DOT___nomination_pool___polkadot') {
+      return;
+    }
+
     if (targets.length > 0) {
       writeJSONFile(`earning/targets/${slug}.json`, targets);
     }
