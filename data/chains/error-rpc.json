@@ -4,7 +4,15 @@
     "name": "3DPass",
     "status": "ACTIVE",
     "errorRpcs": {
-      "3dpscan": "wss://rpc.3dpscan.io"
+      "3dpass": "wss://rpc.3dpass.org"
+    }
+  },
+  {
+    "slug": "5irechain_mainnet",
+    "name": "5ireChain Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "5fire": "https://rpc.5ire.network/"
     }
   },
   {
@@ -12,23 +20,7 @@
     "name": "Aleph Zero Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://aleph-zero-testnet-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://amplitude-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "arbitrum_one",
-    "name": "Arbitrum One",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public"
+      "Aleph Zero Foundation": "wss://ws.test.azero.dev"
     }
   },
   {
@@ -40,11 +32,27 @@
     }
   },
   {
+    "slug": "astarEvm",
+    "name": "Astar - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "https://astar-rpc.dwellir.com"
+    }
+  },
+  {
+    "slug": "avail_mainnet",
+    "name": "Avail",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
+    }
+  },
+  {
     "slug": "aventus",
     "name": "Aventus Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Aventus": "wss://public-rpc.mainnet.aventus.network"
+      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -53,6 +61,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Aventus": "wss://public-rpc.testnet.aventus.io"
+    }
+  },
+  {
+    "slug": "b2_testnet",
+    "name": "B² Network Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt Technology": "https://b2-testnet.alt.technology/"
     }
   },
   {
@@ -69,6 +85,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Berachain": "https://bartio.rpc.berachain.com/"
+    }
+  },
+  {
+    "slug": "bevm",
+    "name": "BEVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet 1": "https://rpc-mainnet-1.bevm.io",
+      "Mainnet 2": "https://rpc-mainnet-2.bevm.io"
     }
   },
   {
@@ -96,20 +121,51 @@
     }
   },
   {
-    "slug": "cess_testnet",
-    "name": "CESS Testnet",
+    "slug": "bridgeHubKusama",
+    "name": "Kusama Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "CESS Testnet": "wss://testnet-rpc.cess.cloud/ws/"
+      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
     }
   },
   {
-    "slug": "fantom",
-    "name": "Fantom",
+    "slug": "bridgeHubPolkadot",
+    "name": "Polkadot Bridge Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom",
-      "FTM_TOOLS": "https://rpc.ftm.tools"
+      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "celo_alfajores",
+    "name": "Celo Alfajores",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Celo Alfajores": "https://alfajores-forno.celo-testnet.org/"
+    }
+  },
+  {
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "curio",
+    "name": "Curio",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Curio": "wss://parachain.curioinvest.com/"
+    }
+  },
+  {
+    "slug": "energy_web_x",
+    "name": "Energy Web X",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "WNP": "wss://wnp-rpc.mainnet.energywebx.com/"
     }
   },
   {
@@ -117,24 +173,7 @@
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom_testnet",
-      "BlastApi": "https://fantom-testnet.public.blastapi.io/"
-    }
-  },
-  {
-    "slug": "integriteePolkadot",
-    "name": "Integritee Shell",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://integritee-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "ipci",
-    "name": "DAO IPCI",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Airalab": "wss://ipci.rpc.robonomics.network"
+      "Ankr": "https://rpc.ankr.com/fantom_testnet"
     }
   },
   {
@@ -146,19 +185,20 @@
     }
   },
   {
-    "slug": "laos_network",
-    "name": "LAOS Network",
+    "slug": "kusama",
+    "name": "Kusama",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://laos-rpc.dwellir.com"
+      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
-    "slug": "litentry",
-    "name": "Heima",
+    "slug": "mangatax_para",
+    "name": "Mangata X",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://litentry-rpc.dwellir.com"
+      "Mangata Archive": "wss://kusama-archive.mangata.online",
+      "mangata": "wss://kusama-rpc.mangata.online"
     }
   },
   {
@@ -171,27 +211,35 @@
     }
   },
   {
-    "slug": "origintrail",
-    "name": "NeuroWeb Mainnet",
+    "slug": "optimism",
+    "name": "Optimism",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir": "wss://neuroweb-rpc.dwellir.com"
+      "1RPC": "https://1rpc.io/op"
     }
   },
   {
-    "slug": "parallel",
-    "name": "Parallel",
+    "slug": "polkadex",
+    "name": "Polkadex",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Gatotech": "wss://parallel.gatotech.network"
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
     }
   },
   {
-    "slug": "robonomics",
-    "name": "Robonomics",
+    "slug": "polkadot",
+    "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Samsara": "wss://robonomics.0xsamsara.com"
+      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "polygonzkEvm_cardona",
+    "name": "Polygon zkEVM Cardona Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
     }
   },
   {
@@ -211,22 +259,6 @@
     }
   },
   {
-    "slug": "shibuyaEvm",
-    "name": "Shibuya Testnet - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BlastAPI": "https://shibuya.public.blastapi.io"
-    }
-  },
-  {
-    "slug": "shidenEvm",
-    "name": "Shiden - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Blast": "https://shiden.public.blastapi.io"
-    }
-  },
-  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -235,12 +267,27 @@
     }
   },
   {
-    "slug": "subsocial_x",
-    "name": "Subsocial",
+    "slug": "sora_substrate",
+    "name": "SORA",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dappforce": "wss://para.subsocial.network",
-      "Dwellir": "wss://subsocial-rpc.dwellir.com"
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
     }
   },
   {
@@ -252,19 +299,19 @@
     }
   },
   {
-    "slug": "watr_mainnet_evm",
-    "name": "Watr Mainnet - EVM",
+    "slug": "westend",
+    "name": "Westend",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Watr": "wss://watr-rpc.watr-api.network"
+      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     }
   },
   {
-    "slug": "watr_network_evm",
-    "name": "Watr Testnet - EVM",
+    "slug": "westend_assethub",
+    "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "watr": "https://rpc.dev.watr.org"
+      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
     }
   }
 ]
