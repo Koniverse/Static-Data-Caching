@@ -20,7 +20,7 @@
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
+      "Azero Fans": "wss://mainnet.azero.fans"
     }
   },
   {
@@ -28,7 +28,7 @@
     "name": "Aleph Zero Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.test.azero.dev"
+      "Azero Fans": "wss://testnet.azero.fans"
     }
   },
   {
@@ -129,22 +129,6 @@
     }
   },
   {
-    "slug": "bridgeHubKusama",
-    "name": "Kusama Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-bridge-hub-rpc-tn.dwellir.com"
-    }
-  },
-  {
-    "slug": "bridgeHubPolkadot",
-    "name": "Polkadot Bridge Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-bridge-hub-rpc-tn.dwellir.com"
-    }
-  },
-  {
     "slug": "celo_alfajores",
     "name": "Celo Alfajores",
     "status": "ACTIVE",
@@ -153,11 +137,11 @@
     }
   },
   {
-    "slug": "collectives",
-    "name": "Polkadot Collectives",
+    "slug": "crabParachain",
+    "name": "Crab2 Parachain",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-collectives-rpc-tn.dwellir.com"
+      "Crab": "wss://crab-rpc.darwinia.network/"
     }
   },
   {
@@ -166,14 +150,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Curio": "wss://parachain.curioinvest.com/"
-    }
-  },
-  {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
     }
   },
   {
@@ -198,14 +174,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Virto": "wss://kreivo.io/"
-    }
-  },
-  {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com"
     }
   },
   {
@@ -235,11 +203,19 @@
     }
   },
   {
-    "slug": "passetHub",
-    "name": "passet-hub",
+    "slug": "paseo_assethub",
+    "name": "Paseo Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "IBP": "wss://passet-hub-paseo.ibp.network"
+      "Stake World": "wss://pas-rpc.stakeworld.io/assethub"
+    }
+  },
+  {
+    "slug": "passetHub_evm",
+    "name": "Passet Hub EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
     }
   },
   {
@@ -248,14 +224,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws"
-    }
-  },
-  {
-    "slug": "polkadot",
-    "name": "Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com"
     }
   },
   {
@@ -283,6 +251,14 @@
     }
   },
   {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -299,35 +275,11 @@
     }
   },
   {
-    "slug": "statemine",
-    "name": "Kusama Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
-    }
-  },
-  {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
-    }
-  },
-  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
-    }
-  },
-  {
-    "slug": "westend",
-    "name": "Westend",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir Tunisia": "wss://westend-rpc-tn.dwellir.com"
     }
   },
   {
