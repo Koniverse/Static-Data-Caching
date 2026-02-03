@@ -40,6 +40,14 @@
     }
   },
   {
+    "slug": "availTuringTest",
+    "name": "Avail Turing Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BountyBlok": "wss://avail-turing.bountyblok.io/"
+    }
+  },
+  {
     "slug": "avail_mainnet",
     "name": "Avail",
     "status": "ACTIVE",
@@ -211,6 +219,14 @@
     }
   },
   {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+    }
+  },
+  {
     "slug": "polygonzkEvm_cardona",
     "name": "Polygon zkEVM Cardona Testnet",
     "status": "ACTIVE",
@@ -251,6 +267,23 @@
     }
   },
   {
+    "slug": "stable_testnet",
+    "name": "Stable Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "JsonRPC": "https://stable-jsonrpc.testnet.chain0.dev/",
+      "Stable": "https://stable-jsonrpc-ar.testnet.chain0.dev/"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
+    }
+  },
+  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
@@ -264,6 +297,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
+    }
+  },
+  {
+    "slug": "zircuit",
+    "name": "Zircuit",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Zircuit Liquify": "https://zircuit1-mainnet.liquify.com/"
     }
   }
 ]
