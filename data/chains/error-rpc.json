@@ -20,7 +20,15 @@
     "name": "Aleph Zero",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
+      "Azero Fans": "wss://mainnet.azero.fans"
+    }
+  },
+  {
+    "slug": "alephTest",
+    "name": "Aleph Zero Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Azero Fans": "wss://testnet.azero.fans"
     }
   },
   {
@@ -28,7 +36,8 @@
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public"
+      "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
+      "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
     }
   },
   {
@@ -53,22 +62,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
-    }
-  },
-  {
-    "slug": "aventus",
-    "name": "Aventus Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
-    }
-  },
-  {
-    "slug": "aventus_testnet",
-    "name": "AvN Paseo",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aventus": "wss://public-rpc.testnet.aventus.io"
     }
   },
   {
@@ -199,7 +192,8 @@
     "name": "Optimism",
     "status": "ACTIVE",
     "errorRpcs": {
-      "1RPC": "https://1rpc.io/op"
+      "1RPC": "https://1rpc.io/op",
+      "Mainnet": "https://endpoints.omniatech.io/v1/op/mainnet/public"
     }
   },
   {
@@ -232,6 +226,15 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Cardona": "https://etherscan.cardona.zkevm-rpc.com/"
+    }
+  },
+  {
+    "slug": "quartz",
+    "name": "Quartz",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Unique Europe": "wss://eu-ws-quartz.unique.network",
+      "Unique US": "wss://us-ws-quartz.unique.network"
     }
   },
   {
@@ -284,11 +287,27 @@
     }
   },
   {
+    "slug": "tangleTest",
+    "name": "Tangle Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Webb": "wss://testnet-rpc.tangle.tools"
+    }
+  },
+  {
     "slug": "ternoaZkEvm_testnet",
     "name": "Ternoa zkEVM+ Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
+    }
+  },
+  {
+    "slug": "unique_evm",
+    "name": "Unique - EVM",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EU": "https://eu-rpc.unique.network"
     }
   },
   {
