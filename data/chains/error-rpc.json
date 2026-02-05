@@ -16,22 +16,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Azero Fans": "wss://mainnet.azero.fans"
-    }
-  },
-  {
-    "slug": "alephTest",
-    "name": "Aleph Zero Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Azero Fans": "wss://testnet.azero.fans"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -62,6 +46,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
+    }
+  },
+  {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -138,6 +130,14 @@
     }
   },
   {
+    "slug": "crust_mainnet",
+    "name": "Crust Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust Network": "wss://rpc.crust.network"
+    }
+  },
+  {
     "slug": "curio",
     "name": "Curio",
     "status": "ACTIVE",
@@ -151,6 +151,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "WNP": "wss://wnp-rpc.mainnet.energywebx.com/"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "Energy Web X Argon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
@@ -205,6 +213,14 @@
     }
   },
   {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-people-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "polkadex",
     "name": "Polkadex",
     "status": "ACTIVE",
@@ -218,6 +234,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+    }
+  },
+  {
+    "slug": "polkadot_people",
+    "name": "Polkadot People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "PolkadotPeople": "wss://polkadot-people-rpc.polkadot.io"
     }
   },
   {
@@ -251,6 +275,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shadow",
+    "name": "Crust Shadow",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust": "wss://rpc-shadow.crust.network/"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
@@ -300,14 +340,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
-    }
-  },
-  {
-    "slug": "unique_evm",
-    "name": "Unique - EVM",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "EU": "https://eu-rpc.unique.network"
     }
   },
   {
