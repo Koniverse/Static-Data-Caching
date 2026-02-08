@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -122,19 +114,19 @@
     }
   },
   {
+    "slug": "collectives",
+    "name": "Polkadot Collectives",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "crabParachain",
     "name": "Crab2 Parachain",
     "status": "ACTIVE",
     "errorRpcs": {
       "Crab": "wss://crab-rpc.darwinia.network/"
-    }
-  },
-  {
-    "slug": "crust_mainnet",
-    "name": "Crust Mainnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust Network": "wss://rpc.crust.network"
     }
   },
   {
@@ -179,6 +171,14 @@
     }
   },
   {
+    "slug": "mythos",
+    "name": "Mythos",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
+    }
+  },
+  {
     "slug": "okxTest",
     "name": "X Layer testnet",
     "status": "ACTIVE",
@@ -202,6 +202,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "peopleKusama",
+    "name": "Kusama People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://kusama-people-rpc.polkadot.io"
     }
   },
   {
@@ -262,14 +270,6 @@
     }
   },
   {
-    "slug": "shadow",
-    "name": "Crust Shadow",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust": "wss://rpc-shadow.crust.network/"
-    }
-  },
-  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -323,7 +323,16 @@
     "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com",
+      "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
+    }
+  },
+  {
+    "slug": "xcavate",
+    "name": "Xcavate",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Xcavate": "wss://rpc1-polkadot.xcavate.io"
     }
   },
   {
