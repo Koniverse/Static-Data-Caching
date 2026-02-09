@@ -49,6 +49,14 @@
     }
   },
   {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
+    }
+  },
+  {
     "slug": "b2_testnet",
     "name": "B² Network Testnet",
     "status": "ACTIVE",
@@ -114,14 +122,6 @@
     }
   },
   {
-    "slug": "collectives",
-    "name": "Polkadot Collectives",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "viaParity": "wss://polkadot-collectives-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "crabParachain",
     "name": "Crab2 Parachain",
     "status": "ACTIVE",
@@ -135,6 +135,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Curio": "wss://parachain.curioinvest.com/"
+    }
+  },
+  {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
     }
   },
   {
@@ -171,14 +179,6 @@
     }
   },
   {
-    "slug": "mythos",
-    "name": "Mythos",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://polkadot-mythos-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "okxTest",
     "name": "X Layer testnet",
     "status": "ACTIVE",
@@ -197,19 +197,19 @@
     }
   },
   {
+    "slug": "paseo_assethub",
+    "name": "Paseo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Stake World": "wss://pas-rpc.stakeworld.io/assethub"
+    }
+  },
+  {
     "slug": "passetHub_evm",
     "name": "Passet Hub EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Passet": "https://testnet-passet-hub-eth-rpc.polkadot.io"
-    }
-  },
-  {
-    "slug": "peopleKusama",
-    "name": "Kusama People",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://kusama-people-rpc.polkadot.io"
     }
   },
   {
@@ -251,14 +251,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Rollux": "https://rpc-tanenbaum.rollux.com"
-    }
-  },
-  {
-    "slug": "rootstock",
-    "name": "Rootstock",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "DRPC": "https://rootstock.drpc.org"
     }
   },
   {
@@ -323,8 +315,7 @@
     "name": "Westend Asset Hub",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com",
-      "Parity": "wss://westend-asset-hub-rpc.polkadot.io"
+      "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
     }
   },
   {
