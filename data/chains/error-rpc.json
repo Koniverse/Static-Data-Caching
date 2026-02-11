@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -54,6 +46,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
+    }
+  },
+  {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -106,14 +106,6 @@
     }
   },
   {
-    "slug": "bifrost",
-    "name": "Bifrost Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liebi 0": "wss://bifrost-rpc.liebi.com/ws"
-    }
-  },
-  {
     "slug": "bounceBitEvmTest",
     "name": "BounceBit Testnet",
     "status": "ACTIVE",
@@ -162,6 +154,22 @@
     }
   },
   {
+    "slug": "joystream",
+    "name": "Joystream",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Joyutils": "wss://rpc.joyutils.org"
+    }
+  },
+  {
+    "slug": "kilt",
+    "name": "KILT Spiritnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP1": "wss://kilt.ibp.network"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
@@ -176,14 +184,6 @@
     "errorRpcs": {
       "Mangata Archive": "wss://kusama-archive.mangata.online",
       "mangata": "wss://kusama-rpc.mangata.online"
-    }
-  },
-  {
-    "slug": "muse_testnet",
-    "name": "Muse Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Parity": "wss://paseo-muse-rpc.polkadot.io"
     }
   },
   {
@@ -237,14 +237,6 @@
     }
   },
   {
-    "slug": "polkadot_people",
-    "name": "Polkadot People",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "PolkadotPeople": "wss://polkadot-people-rpc.polkadot.io"
-    }
-  },
-  {
     "slug": "polygonzkEvm_cardona",
     "name": "Polygon zkEVM Cardona Testnet",
     "status": "ACTIVE",
@@ -275,6 +267,22 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
