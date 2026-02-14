@@ -1,4 +1,988 @@
 {
+  "polkadex": {
+    "cached_at": 1771061462275,
+    "current_price": 0.03586442,
+    "price_change_24h": 0.00262875,
+    "last_updated_at": "2026-02-14T09:30:53.261Z",
+    "market_cap": 288228,
+    "market_cap_rank": 4372
+  },
+  "tangle-network": {
+    "cached_at": 1761227685669,
+    "current_price": null,
+    "price_change_24h": null,
+    "last_updated_at": null,
+    "market_cap": null,
+    "market_cap_rank": null
+  },
+  "curio-gas-token": {
+    "cached_at": 1770993662821,
+    "current_price": 0.00100548,
+    "price_change_24h": 0.00002877,
+    "last_updated_at": "2026-02-13T14:40:10.120Z",
+    "market_cap": 100548,
+    "market_cap_rank": 5772
+  },
+  "flare-networks": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0096886,
+    "price_change_24h": 0.0002836,
+    "last_updated_at": "2026-02-14T09:32:55.935Z",
+    "market_cap": 821357966,
+    "market_cap_rank": 75
+  },
+  "liberland-lld": {
+    "cached_at": 1771061582625,
+    "current_price": 0.63891,
+    "price_change_24h": 0.02918921,
+    "last_updated_at": "2026-02-14T09:32:56.481Z",
+    "market_cap": 1703423,
+    "market_cap_rank": 2509
+  },
+  "g-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00415879,
+    "price_change_24h": 0.00009867,
+    "last_updated_at": "2026-02-14T09:32:56.563Z",
+    "market_cap": 30063319,
+    "market_cap_rank": 647
+  },
+  "rio-defi": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00064294,
+    "price_change_24h": 0.00002419,
+    "last_updated_at": "2026-02-14T09:29:49.653Z",
+    "market_cap": 144369,
+    "market_cap_rank": 5295
+  },
+  "mainframe-2": {
+    "cached_at": 1771061582625,
+    "current_price": 1.022,
+    "price_change_24h": 0.244093,
+    "last_updated_at": "2026-02-14T09:32:58.559Z",
+    "market_cap": 4049708,
+    "market_cap_rank": 1785
+  },
+  "binance-usd": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999833,
+    "price_change_24h": -0.00168478906104208,
+    "last_updated_at": "2026-02-14T09:32:54.009Z",
+    "market_cap": 40019603,
+    "market_cap_rank": 521
+  },
+  "billicat": {
+    "cached_at": 1771061462275,
+    "current_price": 0.0059021,
+    "price_change_24h": 0.00034082,
+    "last_updated_at": "2026-02-14T09:29:08.910Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "polariscloud-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.22,
+    "price_change_24h": 0.269018,
+    "last_updated_at": "2026-02-14T09:31:40.831Z",
+    "market_cap": 687481,
+    "market_cap_rank": 3351
+  },
+  "robonomics-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.088323,
+    "price_change_24h": 0.01055782,
+    "last_updated_at": "2026-02-14T09:31:21.458Z",
+    "market_cap": 254834,
+    "market_cap_rank": 4510
+  },
+  "centrifuge": {
+    "cached_at": 1771061582625,
+    "current_price": 0.083332,
+    "price_change_24h": 0.00564681,
+    "last_updated_at": "2026-02-14T09:31:42.546Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "wormhole-bridged-sol": {
+    "cached_at": 1771061582625,
+    "current_price": 85.66,
+    "price_change_24h": 6.3,
+    "last_updated_at": "2026-02-14T09:31:42.822Z",
+    "market_cap": 273575,
+    "market_cap_rank": null
+  },
+  "ai-factory": {
+    "cached_at": 1771061582625,
+    "current_price": 0.706366,
+    "price_change_24h": 0.165757,
+    "last_updated_at": "2026-02-14T09:31:40.756Z",
+    "market_cap": 247808,
+    "market_cap_rank": 4544
+  },
+  "omega-labs": {
+    "cached_at": 1771061582625,
+    "current_price": 1.23,
+    "price_change_24h": 0.269729,
+    "last_updated_at": "2026-02-14T09:33:00.234Z",
+    "market_cap": 4999968,
+    "market_cap_rank": 1638
+  },
+  "merit-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.89846,
+    "price_change_24h": 0.208788,
+    "last_updated_at": "2026-02-14T09:32:58.919Z",
+    "market_cap": 3260798,
+    "market_cap_rank": 1951
+  },
+  "theta-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.219339,
+    "price_change_24h": 0.01155692,
+    "last_updated_at": "2026-02-14T09:32:58.202Z",
+    "market_cap": 219635320,
+    "market_cap_rank": 163
+  },
+  "my-paqman-coin": {
+    "cached_at": 1771061343044,
+    "current_price": 0.00000202,
+    "price_change_24h": 1.00514e-7,
+    "last_updated_at": "2026-02-14T09:27:55.500Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "wrapped-ehmnd": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00319142,
+    "price_change_24h": -0.000054864767636253,
+    "last_updated_at": "2026-02-14T09:31:19.711Z",
+    "market_cap": 594888,
+    "market_cap_rank": null
+  },
+  "dogecoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.097467,
+    "price_change_24h": 0.00390254,
+    "last_updated_at": "2026-02-14T09:32:55.618Z",
+    "market_cap": 16448652122,
+    "market_cap_rank": 9
+  },
+  "acurast": {
+    "cached_at": 1771061582625,
+    "current_price": 0.115955,
+    "price_change_24h": -0.016811295727017242,
+    "last_updated_at": "2026-02-14T09:32:56.171Z",
+    "market_cap": 25981593,
+    "market_cap_rank": 709
+  },
+  "eastworld": {
+    "cached_at": 1771061582625,
+    "current_price": 0.940262,
+    "price_change_24h": 0.244856,
+    "last_updated_at": "2026-02-14T09:31:39.922Z",
+    "market_cap": 375446,
+    "market_cap_rank": 4024
+  },
+  "cougar-token": {
+    "cached_at": 1766361482605,
+    "current_price": 0.00014854,
+    "price_change_24h": -5.44198070483e-7,
+    "last_updated_at": "2025-12-21T23:57:56.220Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "savings-dai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.17,
+    "price_change_24h": -0.000030441347695698,
+    "last_updated_at": "2026-02-14T09:32:53.323Z",
+    "market_cap": 171674990,
+    "market_cap_rank": null
+  },
+  "binance-peg-xrp": {
+    "cached_at": 1771061582625,
+    "current_price": 1.45,
+    "price_change_24h": 0.084712,
+    "last_updated_at": "2026-02-14T09:32:54.046Z",
+    "market_cap": 473227946,
+    "market_cap_rank": null
+  },
+  "moonbeans": {
+    "cached_at": 1770139922692,
+    "current_price": 0.00406955,
+    "price_change_24h": -0.000037224453159624,
+    "last_updated_at": "2026-02-03T17:32:00.388Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "bouncebit-btc": {
+    "cached_at": 1771061582625,
+    "current_price": 69055,
+    "price_change_24h": 2127.24,
+    "last_updated_at": "2026-02-14T09:31:58.474Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "aave": {
+    "cached_at": 1771061582625,
+    "current_price": 126.81,
+    "price_change_24h": 14.36,
+    "last_updated_at": "2026-02-14T09:32:56.414Z",
+    "market_cap": 1926520785,
+    "market_cap_rank": 42
+  },
+  "redbelly-network-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00678532,
+    "price_change_24h": -0.000196833970554701,
+    "last_updated_at": "2026-02-14T09:32:52.926Z",
+    "market_cap": 16534960,
+    "market_cap_rank": 904
+  },
+  "dai": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999973,
+    "price_change_24h": -0.000002048734414117,
+    "last_updated_at": "2026-02-14T09:32:55.226Z",
+    "market_cap": 4145304453,
+    "market_cap_rank": 26
+  },
+  "wrapped-steth": {
+    "cached_at": 1771061582625,
+    "current_price": 2546.2,
+    "price_change_24h": 145.08,
+    "last_updated_at": "2026-02-14T09:33:01.744Z",
+    "market_cap": 9133108597,
+    "market_cap_rank": null
+  },
+  "midnight-3": {
+    "cached_at": 1771061582625,
+    "current_price": 0.056723,
+    "price_change_24h": 0.00579014,
+    "last_updated_at": "2026-02-14T09:32:59.153Z",
+    "market_cap": 942025046,
+    "market_cap_rank": 70
+  },
+  "chainx": {
+    "cached_at": 1769432642772,
+    "current_price": 0.00500337,
+    "price_change_24h": -0.002354347505873038,
+    "last_updated_at": "2026-01-26T13:02:37.097Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "dog-go-to-the-moon-rune": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0009907,
+    "price_change_24h": 0.00004122,
+    "last_updated_at": "2026-02-14T09:32:55.341Z",
+    "market_cap": 99069527,
+    "market_cap_rank": 283
+  },
+  "ausd-seed-karura": {
+    "cached_at": 1771061343044,
+    "current_price": 0.063212,
+    "price_change_24h": 0.00359947,
+    "last_updated_at": "2026-02-14T09:28:37.963Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "voucher-bnc": {
+    "cached_at": 1771061582625,
+    "current_price": 0.054897,
+    "price_change_24h": 0.00030114,
+    "last_updated_at": "2026-02-14T09:32:51.361Z",
+    "market_cap": 391079,
+    "market_cap_rank": null
+  },
+  "quant-network": {
+    "cached_at": 1771061582625,
+    "current_price": 74.14,
+    "price_change_24h": 6.7,
+    "last_updated_at": "2026-02-14T09:32:52.922Z",
+    "market_cap": 1078376770,
+    "market_cap_rank": 65
+  },
+  "zeus-5": {
+    "cached_at": 1771061582625,
+    "current_price": 1.22,
+    "price_change_24h": 0.276512,
+    "last_updated_at": "2026-02-14T09:33:02.066Z",
+    "market_cap": 5005016,
+    "market_cap_rank": 1635
+  },
+  "liquid-crypto": {
+    "cached_at": 1771037882265,
+    "current_price": 0.0004748,
+    "price_change_24h": -0.000002325763650096,
+    "last_updated_at": "2026-02-14T02:56:52.696Z",
+    "market_cap": 57446,
+    "market_cap_rank": 6758
+  },
+  "polkadot": {
+    "cached_at": 1771061582625,
+    "current_price": 1.36,
+    "price_change_24h": 0.089117,
+    "last_updated_at": "2026-02-14T09:33:01.736Z",
+    "market_cap": 2271727946,
+    "market_cap_rank": 38
+  },
+  "efinity": {
+    "cached_at": 1771061582625,
+    "current_price": 0.05999,
+    "price_change_24h": -0.022185034037411955,
+    "last_updated_at": "2026-02-14T09:32:59.311Z",
+    "market_cap": 5239201,
+    "market_cap_rank": 1607
+  },
+  "polymesh": {
+    "cached_at": 1771061582625,
+    "current_price": 0.04682868,
+    "price_change_24h": 0.002772,
+    "last_updated_at": "2026-02-14T09:33:01.699Z",
+    "market_cap": 58363719,
+    "market_cap_rank": 411
+  },
+  "tomochain": {
+    "cached_at": 1771061582625,
+    "current_price": 0.053895,
+    "price_change_24h": 0.0021436,
+    "last_updated_at": "2026-02-14T09:32:58.747Z",
+    "market_cap": 6751871,
+    "market_cap_rank": 1439
+  },
+  "story-2": {
+    "cached_at": 1771061582625,
+    "current_price": 1.14,
+    "price_change_24h": 0.00879699,
+    "last_updated_at": "2026-02-14T09:32:56.268Z",
+    "market_cap": 400345732,
+    "market_cap_rank": 115
+  },
+  "cumulus-encrypted-storage-system": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00145363,
+    "price_change_24h": -0.000023520787588517,
+    "last_updated_at": "2026-02-14T09:32:54.975Z",
+    "market_cap": 3859135,
+    "market_cap_rank": 1822
+  },
+  "iotex": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00553416,
+    "price_change_24h": 0.00010817,
+    "last_updated_at": "2026-02-14T09:32:57.361Z",
+    "market_cap": 52301112,
+    "market_cap_rank": 440
+  },
+  "storb": {
+    "cached_at": 1771061582625,
+    "current_price": 1.35,
+    "price_change_24h": 0.292334,
+    "last_updated_at": "2026-02-14T09:32:56.205Z",
+    "market_cap": 5005410,
+    "market_cap_rank": 1634
+  },
+  "ordinals": {
+    "cached_at": 1771061582625,
+    "current_price": 2.88,
+    "price_change_24h": 0.119287,
+    "last_updated_at": "2026-02-14T09:33:00.462Z",
+    "market_cap": 60621746,
+    "market_cap_rank": 399
+  },
+  "taonado": {
+    "cached_at": 1771061582625,
+    "current_price": 0.858928,
+    "price_change_24h": 0.198445,
+    "last_updated_at": "2026-02-14T09:31:39.998Z",
+    "market_cap": 311355,
+    "market_cap_rank": 4271
+  },
+  "coldint": {
+    "cached_at": 1771061582625,
+    "current_price": 3.06,
+    "price_change_24h": 0.735405,
+    "last_updated_at": "2026-02-14T09:32:54.899Z",
+    "market_cap": 11279523,
+    "market_cap_rank": 1105
+  },
+  "voucher-ksm": {
+    "cached_at": 1771061462275,
+    "current_price": 7.95,
+    "price_change_24h": 0.153302,
+    "last_updated_at": "2026-02-14T09:29:22.387Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "reinforced-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 0.758962,
+    "price_change_24h": 0.184612,
+    "last_updated_at": "2026-02-14T09:31:39.375Z",
+    "market_cap": 314922,
+    "market_cap_rank": 4258
+  },
+  "apex-5": {
+    "cached_at": 1771061582625,
+    "current_price": 2.18,
+    "price_change_24h": 0.494676,
+    "last_updated_at": "2026-02-14T09:32:52.070Z",
+    "market_cap": 8358733,
+    "market_cap_rank": 1298
+  },
+  "basilisk": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0000159,
+    "price_change_24h": -0.000001004528677601,
+    "last_updated_at": "2026-02-14T09:31:43.178Z",
+    "market_cap": 374736,
+    "market_cap_rank": 4072
+  },
+  "cardano": {
+    "cached_at": 1771061582625,
+    "current_price": 0.278566,
+    "price_change_24h": 0.0159219,
+    "last_updated_at": "2026-02-14T09:32:54.902Z",
+    "market_cap": 10250147971,
+    "market_cap_rank": 13
+  },
+  "router-protocol-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.001193,
+    "price_change_24h": 0.00011416,
+    "last_updated_at": "2026-02-14T09:31:07.756Z",
+    "market_cap": 775231,
+    "market_cap_rank": 3230
+  },
+  "usd-coin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999924,
+    "price_change_24h": 0.00008436,
+    "last_updated_at": "2026-02-14T09:33:00.009Z",
+    "market_cap": 73485586416,
+    "market_cap_rank": 6
+  },
+  "chiliz": {
+    "cached_at": 1771061582625,
+    "current_price": 0.04263901,
+    "price_change_24h": 0.00217495,
+    "last_updated_at": "2026-02-14T09:32:54.826Z",
+    "market_cap": 437967548,
+    "market_cap_rank": 107
+  },
+  "tether-gold": {
+    "cached_at": 1771061582625,
+    "current_price": 5000.18,
+    "price_change_24h": 47.62,
+    "last_updated_at": "2026-02-14T09:32:57.984Z",
+    "market_cap": 2604230368,
+    "market_cap_rank": 35
+  },
+  "cognify": {
+    "cached_at": 1771061582625,
+    "current_price": 1.47,
+    "price_change_24h": 0.356368,
+    "last_updated_at": "2026-02-14T09:31:39.583Z",
+    "market_cap": 1649328,
+    "market_cap_rank": 2540
+  },
+  "5ire": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00014266,
+    "price_change_24h": 0.000003,
+    "last_updated_at": "2026-02-14T09:31:07.186Z",
+    "market_cap": 91452,
+    "market_cap_rank": 6005
+  },
+  "venus-busd": {
+    "cached_at": 1771061462275,
+    "current_price": 0.02227698,
+    "price_change_24h": -0.00001484079552563,
+    "last_updated_at": "2026-02-14T09:30:06.152Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "bifrost-voucher-manta": {
+    "cached_at": 1770802382932,
+    "current_price": 0.093521,
+    "price_change_24h": 0.00024,
+    "last_updated_at": "2026-02-11T09:32:32.657Z",
+    "market_cap": 381279,
+    "market_cap_rank": 3952
+  },
+  "aria-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01164778,
+    "price_change_24h": 0.00011043,
+    "last_updated_at": "2026-02-14T09:32:52.397Z",
+    "market_cap": 3878631,
+    "market_cap_rank": 1818
+  },
+  "cel-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.14,
+    "price_change_24h": 0.249531,
+    "last_updated_at": "2026-02-14T09:31:42.561Z",
+    "market_cap": 2202494,
+    "market_cap_rank": 2278
+  },
+  "wbnb": {
+    "cached_at": 1771061582625,
+    "current_price": 626.45,
+    "price_change_24h": 24.77,
+    "last_updated_at": "2026-02-14T09:33:01.331Z",
+    "market_cap": 1049321029,
+    "market_cap_rank": null
+  },
+  "solmev": {
+    "cached_at": 1771061582625,
+    "current_price": 0.773991,
+    "price_change_24h": 0.187367,
+    "last_updated_at": "2026-02-14T09:31:40.807Z",
+    "market_cap": 1354287,
+    "market_cap_rank": 2707
+  },
+  "pax-gold": {
+    "cached_at": 1771061582625,
+    "current_price": 5028.23,
+    "price_change_24h": 53.66,
+    "last_updated_at": "2026-02-14T09:33:00.826Z",
+    "market_cap": 2308000198,
+    "market_cap_rank": 37
+  },
+  "3dpass": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00017991,
+    "price_change_24h": -0.000005041830803077,
+    "last_updated_at": "2026-02-14T09:29:19.939Z",
+    "market_cap": 76383,
+    "market_cap_rank": 6296
+  },
+  "uncommon-goods": {
+    "cached_at": 1771061462275,
+    "current_price": 0.01374972,
+    "price_change_24h": 0.00046161,
+    "last_updated_at": "2026-02-14T09:30:04.199Z",
+    "market_cap": 982638,
+    "market_cap_rank": 3004
+  },
+  "arthswap": {
+    "cached_at": 1766237523005,
+    "current_price": 0.0000095,
+    "price_change_24h": 7.9332e-8,
+    "last_updated_at": "2025-12-20T13:31:35.147Z",
+    "market_cap": 9408.73,
+    "market_cap_rank": 11297
+  },
+  "kusama": {
+    "cached_at": 1771061582625,
+    "current_price": 4.67,
+    "price_change_24h": 0.259328,
+    "last_updated_at": "2026-02-14T09:32:58.012Z",
+    "market_cap": 82959048,
+    "market_cap_rank": 318
+  },
+  "bitagent-rizzo": {
+    "cached_at": 1771061582625,
+    "current_price": 0.929646,
+    "price_change_24h": 0.218788,
+    "last_updated_at": "2026-02-14T09:32:54.013Z",
+    "market_cap": 3869921,
+    "market_cap_rank": 1820
+  },
+  "altair": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00104322,
+    "price_change_24h": 0.00006522,
+    "last_updated_at": "2026-02-14T09:31:42.260Z",
+    "market_cap": 411162,
+    "market_cap_rank": 3918
+  },
+  "ares-protocol": {
+    "cached_at": 1770051604256,
+    "current_price": 0.00047232,
+    "price_change_24h": 0.00001209,
+    "last_updated_at": "2026-02-02T16:59:36.067Z",
+    "market_cap": 139403,
+    "market_cap_rank": 6276
+  },
+  "bitcoin-wizards": {
+    "cached_at": 1769570582963,
+    "current_price": 0.056913,
+    "price_change_24h": -0.000004581575572121,
+    "last_updated_at": "2026-01-28T03:22:24.117Z",
+    "market_cap": 1195218,
+    "market_cap_rank": 3551
+  },
+  "wrapped-fantom": {
+    "cached_at": 1771061582625,
+    "current_price": 0.04964328,
+    "price_change_24h": -0.000356720035443042,
+    "last_updated_at": "2026-02-14T09:32:59.479Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "omega-any-to-any": {
+    "cached_at": 1771061582625,
+    "current_price": 0.98074,
+    "price_change_24h": 0.214339,
+    "last_updated_at": "2026-02-14T09:33:00.158Z",
+    "market_cap": 3851332,
+    "market_cap_rank": 1824
+  },
+  "wrapped-astar": {
+    "cached_at": 1771061236074,
+    "current_price": 0.00779279,
+    "price_change_24h": -0.000044395969271744,
+    "last_updated_at": "2026-02-14T09:26:00.353Z",
+    "market_cap": 1169591,
+    "market_cap_rank": null
+  },
+  "neural3d": {
+    "cached_at": 1771061582625,
+    "current_price": 1.049,
+    "price_change_24h": 0.252738,
+    "last_updated_at": "2026-02-14T09:32:59.726Z",
+    "market_cap": 3813007,
+    "market_cap_rank": 1831
+  },
+  "paydon": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00709255,
+    "price_change_24h": -0.000003848969530382,
+    "last_updated_at": "2026-02-14T09:32:59.233Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "interbtc": {
+    "cached_at": 1771061462275,
+    "current_price": 77529,
+    "price_change_24h": 3990.99,
+    "last_updated_at": "2026-02-14T09:29:46.171Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "staked-ether": {
+    "cached_at": 1771061582625,
+    "current_price": 2075.26,
+    "price_change_24h": 114.27,
+    "last_updated_at": "2026-02-14T09:32:55.740Z",
+    "market_cap": 19819564666,
+    "market_cap_rank": null
+  },
+  "distributed-training": {
+    "cached_at": 1771061462275,
+    "current_price": 0.703477,
+    "price_change_24h": 0.176695,
+    "last_updated_at": "2026-02-14T09:30:16.533Z",
+    "market_cap": 104995,
+    "market_cap_rank": 5783
+  },
+  "moonwell": {
+    "cached_at": 1770566643721,
+    "current_price": 0.00004959,
+    "price_change_24h": -1.68204826508e-7,
+    "last_updated_at": "2026-02-08T16:03:06.549Z",
+    "market_cap": 30583,
+    "market_cap_rank": 7822
+  },
+  "bifrost": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01676467,
+    "price_change_24h": 0.00063768,
+    "last_updated_at": "2026-02-14T09:32:53.922Z",
+    "market_cap": 23382027,
+    "market_cap_rank": 748
+  },
+  "joystream": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00010371,
+    "price_change_24h": -0.000004452158444492,
+    "last_updated_at": "2026-02-14T09:31:17.865Z",
+    "market_cap": 116063,
+    "market_cap_rank": 5614
+  },
+  "sophon": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01003844,
+    "price_change_24h": 0.00000699,
+    "last_updated_at": "2026-02-14T09:32:53.646Z",
+    "market_cap": 20076321,
+    "market_cap_rank": 810
+  },
+  "gala": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0041731,
+    "price_change_24h": 0.00025597,
+    "last_updated_at": "2026-02-14T09:32:56.292Z",
+    "market_cap": 197424142,
+    "market_cap_rank": 183
+  },
+  "oneoneone": {
+    "cached_at": 1771061582625,
+    "current_price": 0.771195,
+    "price_change_24h": 0.181167,
+    "last_updated_at": "2026-02-14T09:31:40.105Z",
+    "market_cap": 1995024,
+    "market_cap_rank": 2364
+  },
+  "zircuit-bridged-weth-zircuit": {
+    "cached_at": 1771061582625,
+    "current_price": 2068.61,
+    "price_change_24h": 126,
+    "last_updated_at": "2026-02-14T09:31:41.724Z",
+    "market_cap": 1107609,
+    "market_cap_rank": null
+  },
+  "stafi": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01745533,
+    "price_change_24h": 0.00042874,
+    "last_updated_at": "2026-02-14T09:32:53.786Z",
+    "market_cap": 2716534,
+    "market_cap_rank": 2106
+  },
+  "susds": {
+    "cached_at": 1771061582625,
+    "current_price": 1.082,
+    "price_change_24h": -0.004126289213904899,
+    "last_updated_at": "2026-02-14T09:32:56.774Z",
+    "market_cap": 4844459606,
+    "market_cap_rank": null
+  },
+  "merlin-chain": {
+    "cached_at": 1771061582625,
+    "current_price": 0.054705,
+    "price_change_24h": -0.000548428752700052,
+    "last_updated_at": "2026-02-14T09:32:58.986Z",
+    "market_cap": 61800450,
+    "market_cap_rank": 396
+  },
+  "shiden": {
+    "cached_at": 1771061462275,
+    "current_price": 0.01367994,
+    "price_change_24h": -0.001855289295137268,
+    "last_updated_at": "2026-02-14T09:30:06.803Z",
+    "market_cap": 933296,
+    "market_cap_rank": 3046
+  },
+  "staking-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.857394,
+    "price_change_24h": 0.186248,
+    "last_updated_at": "2026-02-14T09:32:55.889Z",
+    "market_cap": 2980477,
+    "market_cap_rank": 2026
+  },
+  "beam-bridged-usdt-beam": {
+    "cached_at": 1771061582625,
+    "current_price": 0.996969,
+    "price_change_24h": -0.005137256642682941,
+    "last_updated_at": "2026-02-14T09:31:19.407Z",
+    "market_cap": 235828,
+    "market_cap_rank": null
+  },
+  "syscoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01429111,
+    "price_change_24h": 0.00045606,
+    "last_updated_at": "2026-02-14T09:32:57.190Z",
+    "market_cap": 12133210,
+    "market_cap_rank": 1059
+  },
+  "autonomys-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01111006,
+    "price_change_24h": 0.00090141,
+    "last_updated_at": "2026-02-14T09:32:59.702Z",
+    "market_cap": 969484,
+    "market_cap_rank": 3018
+  },
+  "connect-token-wct": {
+    "cached_at": 1771061582625,
+    "current_price": 0.066679,
+    "price_change_24h": 0.00307696,
+    "last_updated_at": "2026-02-14T09:32:54.856Z",
+    "market_cap": 12421739,
+    "market_cap_rank": 1052
+  },
+  "openkaito": {
+    "cached_at": 1771061582625,
+    "current_price": 3.35,
+    "price_change_24h": 0.811947,
+    "last_updated_at": "2026-02-14T09:33:00.295Z",
+    "market_cap": 11056906,
+    "market_cap_rank": 1121
+  },
+  "near": {
+    "cached_at": 1771061582625,
+    "current_price": 1.042,
+    "price_change_24h": 0.059517,
+    "last_updated_at": "2026-02-14T09:33:00.182Z",
+    "market_cap": 1341314455,
+    "market_cap_rank": 57
+  },
+  "crowns": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02365575,
+    "price_change_24h": -0.007666445616376309,
+    "last_updated_at": "2026-02-14T09:31:07.190Z",
+    "market_cap": 181521,
+    "market_cap_rank": 4998
+  },
+  "ethereum-name-service": {
+    "cached_at": 1771061582625,
+    "current_price": 6.88,
+    "price_change_24h": 1.039,
+    "last_updated_at": "2026-02-14T09:32:55.811Z",
+    "market_cap": 262904069,
+    "market_cap_rank": 154
+  },
+  "better-therapy": {
+    "cached_at": 1771061582625,
+    "current_price": 0.824475,
+    "price_change_24h": 0.197432,
+    "last_updated_at": "2026-02-14T09:31:39.468Z",
+    "market_cap": 1835403,
+    "market_cap_rank": 2439
+  },
+  "moonriver": {
+    "cached_at": 1771061582625,
+    "current_price": 1.5,
+    "price_change_24h": 0.04268879,
+    "last_updated_at": "2026-02-14T09:32:59.427Z",
+    "market_cap": 16565070,
+    "market_cap_rank": 902
+  },
+  "torus": {
+    "cached_at": 1771061582625,
+    "current_price": 0.080689,
+    "price_change_24h": 0.00312254,
+    "last_updated_at": "2026-02-14T09:32:58.485Z",
+    "market_cap": 5676285,
+    "market_cap_rank": 1552
+  },
+  "subvortex": {
+    "cached_at": 1771061582625,
+    "current_price": 0.807969,
+    "price_change_24h": 0.182702,
+    "last_updated_at": "2026-02-14T09:32:56.379Z",
+    "market_cap": 3272389,
+    "market_cap_rank": 1948
+  },
+  "nineteen-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 2.74,
+    "price_change_24h": 0.703045,
+    "last_updated_at": "2026-02-14T09:32:59.850Z",
+    "market_cap": 10411065,
+    "market_cap_rank": 1153
+  },
+  "crypto-com-chain": {
+    "cached_at": 1771061582625,
+    "current_price": 0.081617,
+    "price_change_24h": 0.0049059,
+    "last_updated_at": "2026-02-14T09:32:54.985Z",
+    "market_cap": 3252285726,
+    "market_cap_rank": 33
+  },
+  "stellar": {
+    "cached_at": 1771061582625,
+    "current_price": 0.170202,
+    "price_change_24h": 0.01304029,
+    "last_updated_at": "2026-02-14T09:32:56.447Z",
+    "market_cap": 5590935558,
+    "market_cap_rank": 21
+  },
+  "candles": {
+    "cached_at": 1771061582625,
+    "current_price": 0.785079,
+    "price_change_24h": 0.19182,
+    "last_updated_at": "2026-02-14T09:31:38.632Z",
+    "market_cap": 188468,
+    "market_cap_rank": 4943
+  },
+  "gavun-wud": {
+    "cached_at": 1771061462275,
+    "current_price": 4.53868e-7,
+    "price_change_24h": 2.1182e-8,
+    "last_updated_at": "2026-02-14T09:29:46.259Z",
+    "market_cap": 453512,
+    "market_cap_rank": 3796
+  },
+  "hydradx": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00287481,
+    "price_change_24h": 0.00012637,
+    "last_updated_at": "2026-02-14T09:32:56.961Z",
+    "market_cap": 16958697,
+    "market_cap_rank": 887
+  },
+  "gasp-2": {
+    "cached_at": 1765452722354,
+    "current_price": 0.00001323,
+    "price_change_24h": 1.934e-9,
+    "last_updated_at": "2025-12-11T11:31:58.984Z",
+    "market_cap": 836.01,
+    "market_cap_rank": 13105
+  },
+  "stargate-bridged-usdt-peaq": {
+    "cached_at": 1762864503656,
+    "current_price": 0.999855,
+    "price_change_24h": 0.00062062,
+    "last_updated_at": "2025-11-11T12:34:04.675Z",
+    "market_cap": 2062835,
+    "market_cap_rank": 3115
+  },
+  "polygon-ecosystem-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.102581,
+    "price_change_24h": 0.00699165,
+    "last_updated_at": "2026-02-14T09:33:01.501Z",
+    "market_cap": 1085491017,
+    "market_cap_rank": 64
+  },
+  "zencash": {
+    "cached_at": 1771061582625,
+    "current_price": 6.57,
+    "price_change_24h": 0.610979,
+    "last_updated_at": "2026-02-14T09:32:48.710Z",
+    "market_cap": 116945557,
+    "market_cap_rank": 249
+  },
+  "real-time-data-by-masa": {
+    "cached_at": 1771061582625,
+    "current_price": 0.892026,
+    "price_change_24h": 0.242585,
+    "last_updated_at": "2026-02-14T09:32:52.982Z",
+    "market_cap": 3637587,
+    "market_cap_rank": 1866
+  },
+  "rna-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.880492,
+    "price_change_24h": 0.202216,
+    "last_updated_at": "2026-02-14T09:31:39.755Z",
+    "market_cap": 1116655,
+    "market_cap_rank": 2883
+  },
+  "shiba-inu": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00000643,
+    "price_change_24h": 3.42876e-7,
+    "last_updated_at": "2026-02-14T09:32:53.580Z",
+    "market_cap": 3789053159,
+    "market_cap_rank": 29
+  },
+  "binance-peg-cardano": {
+    "cached_at": 1771061582625,
+    "current_price": 0.278276,
+    "price_change_24h": 0.01544465,
+    "last_updated_at": "2026-02-14T09:32:53.976Z",
+    "market_cap": 125791421,
+    "market_cap_rank": null
+  },
   "ajuna-network-2": {
     "cached_at": 1771046642067,
     "current_price": 0.00037086,
@@ -7,84 +991,388 @@
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "stafi": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01753029,
-    "price_change_24h": 0.00049139,
-    "last_updated_at": "2026-02-14T08:50:54.639Z",
-    "market_cap": 2726537,
-    "market_cap_rank": 2102
+  "logicnet": {
+    "cached_at": 1771061582625,
+    "current_price": 1.55,
+    "price_change_24h": 0.356405,
+    "last_updated_at": "2026-02-14T09:32:58.405Z",
+    "market_cap": 6405460,
+    "market_cap_rank": 1471
   },
-  "brz": {
-    "cached_at": 1771058943603,
-    "current_price": 0.190922,
-    "price_change_24h": -0.000428428351162968,
-    "last_updated_at": "2026-02-14T08:48:52.339Z",
-    "market_cap": 1692774,
-    "market_cap_rank": 2517
+  "beam-bridged-weth-beam": {
+    "cached_at": 1771061462275,
+    "current_price": 2056.41,
+    "price_change_24h": 19.06,
+    "last_updated_at": "2026-02-14T09:30:09.160Z",
+    "market_cap": 24723,
+    "market_cap_rank": null
   },
-  "omega-labs": {
-    "cached_at": 1771059063080,
+  "kintsugi-btc": {
+    "cached_at": 1770934442901,
+    "current_price": 20063,
+    "price_change_24h": -18.647592285135033,
+    "last_updated_at": "2026-02-12T22:13:49.282Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "gigaeth": {
+    "cached_at": 1771061582625,
+    "current_price": 2082.27,
+    "price_change_24h": 122.7,
+    "last_updated_at": "2026-02-14T09:32:56.256Z",
+    "market_cap": 4577498,
+    "market_cap_rank": null
+  },
+  "usdd": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999297,
+    "price_change_24h": 0.00007752,
+    "last_updated_at": "2026-02-14T09:32:59.507Z",
+    "market_cap": 691824046,
+    "market_cap_rank": 86
+  },
+  "usds": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999906,
+    "price_change_24h": 0.00021745,
+    "last_updated_at": "2026-02-14T09:32:59.587Z",
+    "market_cap": 9690423961,
+    "market_cap_rank": 14
+  },
+  "nodle-network": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00040573,
+    "price_change_24h": -0.000014833116314121,
+    "last_updated_at": "2026-02-14T09:29:54.413Z",
+    "market_cap": 491644,
+    "market_cap_rank": 3699
+  },
+  "sonic-3": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0499864,
+    "price_change_24h": 0.00564306,
+    "last_updated_at": "2026-02-14T09:32:53.785Z",
+    "market_cap": 189187333,
+    "market_cap_rank": 191
+  },
+  "precog": {
+    "cached_at": 1771061582625,
+    "current_price": 0.84206,
+    "price_change_24h": 0.263851,
+    "last_updated_at": "2026-02-14T09:33:01.240Z",
+    "market_cap": 3279478,
+    "market_cap_rank": 1946
+  },
+  "sats-ordinals": {
+    "cached_at": 1771061582625,
+    "current_price": 1.2149e-8,
+    "price_change_24h": 7.18776e-10,
+    "last_updated_at": "2026-02-14T09:32:53.333Z",
+    "market_cap": 25538175,
+    "market_cap_rank": 713
+  },
+  "pha": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02711313,
+    "price_change_24h": 0.00115975,
+    "last_updated_at": "2026-02-14T09:33:01.024Z",
+    "market_cap": 22471458,
+    "market_cap_rank": 764
+  },
+  "miao": {
+    "cached_at": 1771061582625,
+    "current_price": 0.817936,
+    "price_change_24h": 0.184835,
+    "last_updated_at": "2026-02-14T09:31:40.149Z",
+    "market_cap": 473761,
+    "market_cap_rank": 3754
+  },
+  "tezos": {
+    "cached_at": 1771061582625,
+    "current_price": 0.41661,
+    "price_change_24h": 0.01969568,
+    "last_updated_at": "2026-02-14T09:32:58.027Z",
+    "market_cap": 448165337,
+    "market_cap_rank": 105
+  },
+  "astar": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00815675,
+    "price_change_24h": 0.0003716,
+    "last_updated_at": "2026-02-14T09:32:52.822Z",
+    "market_cap": 69743281,
+    "market_cap_rank": 361
+  },
+  "bifrost-voucher-astr": {
+    "cached_at": 1771061462275,
+    "current_price": 0.01077153,
+    "price_change_24h": 0.00046615,
+    "last_updated_at": "2026-02-14T09:29:22.002Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "for-sale": {
+    "cached_at": 1771061343044,
+    "current_price": 0.761728,
+    "price_change_24h": 0.198361,
+    "last_updated_at": "2026-02-14T09:27:26.120Z",
+    "market_cap": 76782,
+    "market_cap_rank": 6285
+  },
+  "nova-3": {
+    "cached_at": 1771061582625,
+    "current_price": 2.44,
+    "price_change_24h": 0.609286,
+    "last_updated_at": "2026-02-14T09:32:59.950Z",
+    "market_cap": 9352560,
+    "market_cap_rank": 1229
+  },
+  "stellaswap-staked-dot": {
+    "cached_at": 1771010761937,
+    "current_price": 1.56,
+    "price_change_24h": 0.06722,
+    "last_updated_at": "2026-02-13T19:25:52.165Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "jpyc": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00677788,
+    "price_change_24h": -0.000045362983939035,
+    "last_updated_at": "2026-02-14T09:32:57.595Z",
+    "market_cap": 17021544,
+    "market_cap_rank": 889
+  },
+  "voucher-dot": {
+    "cached_at": 1771061462275,
+    "current_price": 2.16,
+    "price_change_24h": 0.131684,
+    "last_updated_at": "2026-02-14T09:30:07.789Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "blast": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00060752,
+    "price_change_24h": 0.00001552,
+    "last_updated_at": "2026-02-14T09:32:54.150Z",
+    "market_cap": 33831298,
+    "market_cap_rank": 591
+  },
+  "darwinia-network-native-token": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00046772,
+    "price_change_24h": 0.00002659,
+    "last_updated_at": "2026-02-14T09:29:49.207Z",
+    "market_cap": 798363,
+    "market_cap_rank": 3201
+  },
+  "score": {
+    "cached_at": 1771061582625,
+    "current_price": 7.32,
+    "price_change_24h": 1.94,
+    "last_updated_at": "2026-02-14T09:32:53.363Z",
+    "market_cap": 30001244,
+    "market_cap_rank": 649
+  },
+  "taoillium": {
+    "cached_at": 1771061582625,
+    "current_price": 0.794067,
+    "price_change_24h": 0.223626,
+    "last_updated_at": "2026-02-14T09:31:41.582Z",
+    "market_cap": 133378,
+    "market_cap_rank": 5413
+  },
+  "liquid-ksm": {
+    "cached_at": 1771061343044,
+    "current_price": 0.923881,
+    "price_change_24h": 0.04164241,
+    "last_updated_at": "2026-02-14T09:28:37.911Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "aleph-zero": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00649493,
+    "price_change_24h": -0.00016417189420941,
+    "last_updated_at": "2026-02-14T09:31:06.642Z",
+    "market_cap": 1962382,
+    "market_cap_rank": 2380
+  },
+  "subsocial": {
+    "cached_at": 1770822242512,
+    "current_price": 0.00003218,
+    "price_change_24h": -0.000001435432367285,
+    "last_updated_at": "2026-02-11T15:03:39.837Z",
+    "market_cap": 27213,
+    "market_cap_rank": 7945
+  },
+  "celium": {
+    "cached_at": 1771061582625,
+    "current_price": 8.59,
+    "price_change_24h": 2.04,
+    "last_updated_at": "2026-02-14T09:32:54.494Z",
+    "market_cap": 31311208,
+    "market_cap_rank": 628
+  },
+  "infinite-games": {
+    "cached_at": 1771061582625,
+    "current_price": 1.82,
+    "price_change_24h": 0.447713,
+    "last_updated_at": "2026-02-14T09:32:57.196Z",
+    "market_cap": 7302947,
+    "market_cap_rank": 1389
+  },
+  "creator-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.960488,
+    "price_change_24h": 0.246905,
+    "last_updated_at": "2026-02-14T09:31:39.888Z",
+    "market_cap": 2351506,
+    "market_cap_rank": 2226
+  },
+  "voucher-glmr": {
+    "cached_at": 1771002003517,
+    "current_price": 0.01798588,
+    "price_change_24h": 0.00024306,
+    "last_updated_at": "2026-02-13T16:59:51.943Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "frax-share": {
+    "cached_at": 1771061582625,
+    "current_price": 0.643448,
+    "price_change_24h": 0.00994276,
+    "last_updated_at": "2026-02-14T09:32:56.047Z",
+    "market_cap": 60904542,
+    "market_cap_rank": 398
+  },
+  "sora": {
+    "cached_at": 1771061582625,
+    "current_price": 0,
+    "price_change_24h": 0,
+    "last_updated_at": "2026-02-14T09:32:44.666Z",
+    "market_cap": 677429,
+    "market_cap_rank": 3361
+  },
+  "efficientfrontier": {
+    "cached_at": 1771061582625,
     "current_price": 1.21,
-    "price_change_24h": 0.240349,
-    "last_updated_at": "2026-02-14T08:50:52.410Z",
-    "market_cap": 4896060,
-    "market_cap_rank": 1654
+    "price_change_24h": 0.290977,
+    "last_updated_at": "2026-02-14T09:32:55.501Z",
+    "market_cap": 5219426,
+    "market_cap_rank": 1611
   },
-  "better-therapy": {
-    "cached_at": 1771059063080,
-    "current_price": 0.80702,
-    "price_change_24h": 0.182774,
-    "last_updated_at": "2026-02-14T08:50:17.875Z",
-    "market_cap": 1798961,
-    "market_cap_rank": 2461
+  "ethereum": {
+    "cached_at": 1771061582625,
+    "current_price": 2077.6,
+    "price_change_24h": 115.32,
+    "last_updated_at": "2026-02-14T09:33:00.540Z",
+    "market_cap": 250532485722,
+    "market_cap_rank": 2
   },
-  "dippy": {
-    "cached_at": 1771059063080,
-    "current_price": 1.78,
-    "price_change_24h": 0.373548,
-    "last_updated_at": "2026-02-14T08:51:00.426Z",
-    "market_cap": 6159328,
-    "market_cap_rank": 1501
+  "rmrk": {
+    "cached_at": 1770921662260,
+    "current_price": 0.02685507,
+    "price_change_24h": -0.000805671647646885,
+    "last_updated_at": "2026-02-12T18:39:51.081Z",
+    "market_cap": 235335,
+    "market_cap_rank": 4542
   },
-  "docs-insight-tatsu": {
-    "cached_at": 1771059063080,
-    "current_price": 0.771086,
-    "price_change_24h": 0.168613,
-    "last_updated_at": "2026-02-14T08:50:17.590Z",
-    "market_cap": 2314081,
-    "market_cap_rank": 2240
+  "mythos": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00597849,
+    "price_change_24h": 0.00030006,
+    "last_updated_at": "2026-02-14T09:32:59.552Z",
+    "market_cap": 4761296,
+    "market_cap_rank": 1694
   },
-  "apecoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.131434,
-    "price_change_24h": 0.00443668,
-    "last_updated_at": "2026-02-14T08:50:58.117Z",
-    "market_cap": 119377012,
-    "market_cap_rank": 245
+  "omron": {
+    "cached_at": 1771061582625,
+    "current_price": 1.86,
+    "price_change_24h": 0.491686,
+    "last_updated_at": "2026-02-14T09:33:00.208Z",
+    "market_cap": 7303322,
+    "market_cap_rank": 1388
   },
-  "internet-of-intelligence": {
-    "cached_at": 1771059063080,
-    "current_price": 0.895354,
-    "price_change_24h": 0.168505,
-    "last_updated_at": "2026-02-14T08:50:17.740Z",
-    "market_cap": 353163,
-    "market_cap_rank": 4109
+  "targon": {
+    "cached_at": 1771061582625,
+    "current_price": 8.65,
+    "price_change_24h": 2.11,
+    "last_updated_at": "2026-02-14T09:32:57.357Z",
+    "market_cap": 35499056,
+    "market_cap_rank": 566
   },
-  "desearch": {
-    "cached_at": 1771059063080,
-    "current_price": 1.081,
-    "price_change_24h": 0.257912,
-    "last_updated_at": "2026-02-14T08:51:00.309Z",
-    "market_cap": 3874627,
-    "market_cap_rank": 1815
+  "wrapped-bitcoin": {
+    "cached_at": 1771061582625,
+    "current_price": 69482,
+    "price_change_24h": 2987.45,
+    "last_updated_at": "2026-02-14T09:33:01.700Z",
+    "market_cap": 8417351843,
+    "market_cap_rank": null
   },
-  "wrapped-steth": {
-    "cached_at": 1771059063080,
-    "current_price": 2551.29,
-    "price_change_24h": 153.74,
-    "last_updated_at": "2026-02-14T08:50:57.105Z",
-    "market_cap": 9135745743,
+  "logx-2": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00009257,
+    "price_change_24h": -0.000001340436658201,
+    "last_updated_at": "2026-02-14T09:30:46.125Z",
+    "market_cap": 92568,
+    "market_cap_rank": 5979
+  },
+  "uniswap": {
+    "cached_at": 1771061582625,
+    "current_price": 3.48,
+    "price_change_24h": 0.182254,
+    "last_updated_at": "2026-02-14T09:32:59.415Z",
+    "market_cap": 2206777783,
+    "market_cap_rank": 39
+  },
+  "subsquid": {
+    "cached_at": 1771061582625,
+    "current_price": 0.04559023,
+    "price_change_24h": 0.00100081,
+    "last_updated_at": "2026-02-14T09:32:56.460Z",
+    "market_cap": 45083010,
+    "market_cap_rank": 485
+  },
+  "rats": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00004852,
+    "price_change_24h": 5.7528e-7,
+    "last_updated_at": "2026-02-14T09:30:14.948Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "itsai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.033,
+    "price_change_24h": 0.270064,
+    "last_updated_at": "2026-02-14T09:32:57.471Z",
+    "market_cap": 4496830,
+    "market_cap_rank": 1718
+  },
+  "heima": {
+    "cached_at": 1771061582625,
+    "current_price": 0.087917,
+    "price_change_24h": 0.00429087,
+    "last_updated_at": "2026-02-14T09:32:56.768Z",
+    "market_cap": 7016531,
+    "market_cap_rank": 1414
+  },
+  "xxcoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00626925,
+    "price_change_24h": -0.000101210275778381,
+    "last_updated_at": "2026-02-14T09:32:48.414Z",
+    "market_cap": 2201955,
+    "market_cap_rank": 2279
+  },
+  "binance-bitcoin": {
+    "cached_at": 1771061462275,
+    "current_price": 69569,
+    "price_change_24h": 2870.57,
+    "last_updated_at": "2026-02-14T09:30:15.592Z",
+    "market_cap": 0,
     "market_cap_rank": null
   },
   "matic-network": {
@@ -95,197 +1383,109 @@
     "market_cap": null,
     "market_cap_rank": null
   },
-  "metamask-usd": {
-    "cached_at": 1771059063080,
-    "current_price": 1.001,
-    "price_change_24h": -0.000008386225960999,
-    "last_updated_at": "2026-02-14T08:50:51.472Z",
-    "market_cap": 21594000,
-    "market_cap_rank": 785
-  },
-  "nineteen-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 2.7,
-    "price_change_24h": 0.653593,
-    "last_updated_at": "2026-02-14T08:50:52.168Z",
-    "market_cap": 10224166,
-    "market_cap_rank": 1166
-  },
-  "multibit": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00054067,
-    "price_change_24h": 0.00000798,
-    "last_updated_at": "2026-02-14T08:48:42.961Z",
-    "market_cap": 513641,
-    "market_cap_rank": 3649
-  },
-  "beam-bridged-avax-beam": {
-    "cached_at": 1771059063080,
-    "current_price": 9.23,
-    "price_change_24h": 0.293122,
-    "last_updated_at": "2026-02-14T08:49:20.456Z",
-    "market_cap": 78837,
-    "market_cap_rank": null
-  },
-  "h2o-2": {
-    "cached_at": 1771058943603,
-    "current_price": 8.21,
-    "price_change_24h": 0.078498,
-    "last_updated_at": "2026-02-14T08:48:01.934Z",
+  "quartz": {
+    "cached_at": 1770978542659,
+    "current_price": 0.00001158,
+    "price_change_24h": -9.1200848721e-8,
+    "last_updated_at": "2026-02-13T10:27:14.837Z",
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "darwinia-commitment-token": {
-    "cached_at": 1771059063080,
-    "current_price": 1.61,
-    "price_change_24h": 0.053799,
-    "last_updated_at": "2026-02-14T08:50:42.707Z",
-    "market_cap": 240660,
-    "market_cap_rank": 4580
-  },
-  "wrapped-avax": {
-    "cached_at": 1771059063080,
-    "current_price": 9.26,
-    "price_change_24h": 0.392308,
-    "last_updated_at": "2026-02-14T08:50:56.922Z",
-    "market_cap": 141882637,
-    "market_cap_rank": null
-  },
-  "mnet-continuum": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00073342,
-    "price_change_24h": 0.00005181,
-    "last_updated_at": "2026-02-14T08:48:59.288Z",
-    "market_cap": 97114,
-    "market_cap_rank": 5902
-  },
-  "voucher-ksm": {
-    "cached_at": 1771058943603,
-    "current_price": 7.9,
-    "price_change_24h": 0.102186,
-    "last_updated_at": "2026-02-14T08:48:55.881Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "verse-bitcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00002446,
-    "price_change_24h": 0.00000171,
-    "last_updated_at": "2026-02-14T08:50:57.307Z",
-    "market_cap": 1112444,
-    "market_cap_rank": 2883
-  },
-  "liquidity": {
-    "cached_at": 1771059063080,
-    "current_price": 0.949041,
-    "price_change_24h": 0.242532,
-    "last_updated_at": "2026-02-14T08:50:50.892Z",
-    "market_cap": 3563835,
-    "market_cap_rank": 1882
-  },
-  "ausd-seed-karura": {
-    "cached_at": 1771058943603,
-    "current_price": 0.062805,
-    "price_change_24h": 0.00319299,
-    "last_updated_at": "2026-02-14T08:47:08.103Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "kora": {
-    "cached_at": 1771059063080,
-    "current_price": 1.41,
-    "price_change_24h": 0.335506,
-    "last_updated_at": "2026-02-14T08:50:50.676Z",
-    "market_cap": 4988792,
-    "market_cap_rank": 1637
-  },
-  "frax-ether": {
-    "cached_at": 1771059063080,
-    "current_price": 2068.9,
-    "price_change_24h": 123.64,
-    "last_updated_at": "2026-02-14T08:51:01.336Z",
-    "market_cap": 158916242,
-    "market_cap_rank": null
-  },
-  "jpycoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0064788,
-    "price_change_24h": 0.00002769,
-    "last_updated_at": "2026-02-14T08:50:50.488Z",
-    "market_cap": 11856370,
-    "market_cap_rank": 1073
-  },
-  "dog-go-to-the-moon-rune": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00097904,
-    "price_change_24h": 0.00001858,
-    "last_updated_at": "2026-02-14T08:51:00.559Z",
-    "market_cap": 97901966,
-    "market_cap_rank": 283
-  },
-  "myria": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0000592,
-    "price_change_24h": 0.00000229,
-    "last_updated_at": "2026-02-14T08:50:43.004Z",
-    "market_cap": 1675521,
-    "market_cap_rank": 2526
-  },
-  "lido-dao": {
-    "cached_at": 1771059063080,
-    "current_price": 0.354031,
-    "price_change_24h": 0.01730858,
-    "last_updated_at": "2026-02-14T08:50:50.993Z",
-    "market_cap": 300213419,
-    "market_cap_rank": 139
+  "iota-2": {
+    "cached_at": 1771061582625,
+    "current_price": 5.25,
+    "price_change_24h": 1.24,
+    "last_updated_at": "2026-02-14T09:32:57.334Z",
+    "market_cap": 19501663,
+    "market_cap_rank": 828
   },
   "vara-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00114639,
-    "price_change_24h": 0.0000647,
-    "last_updated_at": "2026-02-14T08:50:56.101Z",
-    "market_cap": 5754716,
-    "market_cap_rank": 1543
+    "cached_at": 1771061582625,
+    "current_price": 0.00115919,
+    "price_change_24h": 0.00008727,
+    "last_updated_at": "2026-02-14T09:32:59.846Z",
+    "market_cap": 5814535,
+    "market_cap_rank": 1531
   },
-  "riverboat": {
-    "cached_at": 1770014223345,
-    "current_price": 3.12,
-    "price_change_24h": -0.21303885633747788,
-    "last_updated_at": "2026-02-02T06:35:59.784Z",
-    "market_cap": 3120.82,
-    "market_cap_rank": 13222
+  "dippy": {
+    "cached_at": 1771061582625,
+    "current_price": 1.81,
+    "price_change_24h": 0.410503,
+    "last_updated_at": "2026-02-14T09:32:55.215Z",
+    "market_cap": 6268985,
+    "market_cap_rank": 1482
   },
-  "frax-share": {
-    "cached_at": 1771059063080,
-    "current_price": 0.645708,
-    "price_change_24h": 0.01615381,
-    "last_updated_at": "2026-02-14T08:51:01.403Z",
-    "market_cap": 61074223,
-    "market_cap_rank": 398
+  "graphite": {
+    "cached_at": 1771061582625,
+    "current_price": 1.27,
+    "price_change_24h": 0.314131,
+    "last_updated_at": "2026-02-14T09:32:56.450Z",
+    "market_cap": 5004674,
+    "market_cap_rank": 1636
   },
-  "stellar": {
-    "cached_at": 1771059063080,
-    "current_price": 0.16869,
-    "price_change_24h": 0.01103421,
-    "last_updated_at": "2026-02-14T08:50:56.616Z",
-    "market_cap": 5539581057,
-    "market_cap_rank": 21
+  "automata": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01312433,
+    "price_change_24h": 0.0006046,
+    "last_updated_at": "2026-02-14T09:32:53.194Z",
+    "market_cap": 7714676,
+    "market_cap_rank": 1347
   },
-  "solana": {
-    "cached_at": 1771059063080,
-    "current_price": 86.05,
-    "price_change_24h": 6.53,
-    "last_updated_at": "2026-02-14T08:50:54.723Z",
-    "market_cap": 48872386942,
-    "market_cap_rank": 7
+  "talisman": {
+    "cached_at": 1771061343044,
+    "current_price": 0.0427805,
+    "price_change_24h": 0.00123415,
+    "last_updated_at": "2026-02-14T09:28:52.291Z",
+    "market_cap": 296862,
+    "market_cap_rank": 4327
   },
-  "zircuit-bridged-weth-zircuit": {
-    "cached_at": 1771058943603,
-    "current_price": 2053.26,
-    "price_change_24h": 107.11,
-    "last_updated_at": "2026-02-14T08:47:10.289Z",
-    "market_cap": 1099417,
-    "market_cap_rank": null
+  "avail": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00417108,
+    "price_change_24h": 0.00001678,
+    "last_updated_at": "2026-02-14T09:32:53.263Z",
+    "market_cap": 15414505,
+    "market_cap_rank": 935
+  },
+  "unique-network": {
+    "cached_at": 1771061462275,
+    "current_price": 0.000613,
+    "price_change_24h": -0.000026160294559589,
+    "last_updated_at": "2026-02-14T09:29:46.248Z",
+    "market_cap": 170403,
+    "market_cap_rank": 5080
+  },
+  "curve-dao-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.254222,
+    "price_change_24h": 0.01510697,
+    "last_updated_at": "2026-02-14T09:32:55.168Z",
+    "market_cap": 375488857,
+    "market_cap_rank": 121
+  },
+  "webgenieai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.13,
+    "price_change_24h": 0.227152,
+    "last_updated_at": "2026-02-14T09:33:00.885Z",
+    "market_cap": 4468634,
+    "market_cap_rank": 1724
+  },
+  "hosky": {
+    "cached_at": 1771061582625,
+    "current_price": 1.3363e-8,
+    "price_change_24h": 4.72497e-10,
+    "last_updated_at": "2026-02-14T09:32:56.839Z",
+    "market_cap": 13362376,
+    "market_cap_rank": 1013
+  },
+  "monad": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02326787,
+    "price_change_24h": 0.00208289,
+    "last_updated_at": "2026-02-14T09:32:59.439Z",
+    "market_cap": 251903677,
+    "market_cap_rank": 155
   },
   "bai-stablecoin": {
     "cached_at": 1771056842695,
@@ -295,1405 +1495,29 @@
     "market_cap": 230769,
     "market_cap_rank": 4641
   },
-  "router-protocol-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00119372,
-    "price_change_24h": 0.00011579,
-    "last_updated_at": "2026-02-14T08:50:27.806Z",
-    "market_cap": 776092,
-    "market_cap_rank": 3226
-  },
-  "bittensor": {
-    "cached_at": 1771059063080,
-    "current_price": 202.93,
-    "price_change_24h": 45.86,
-    "last_updated_at": "2026-02-14T08:50:59.001Z",
-    "market_cap": 1946233683,
-    "market_cap_rank": 41
-  },
-  "bitads": {
-    "cached_at": 1771059063080,
-    "current_price": 1.12,
-    "price_change_24h": 0.249806,
-    "last_updated_at": "2026-02-14T08:50:58.765Z",
-    "market_cap": 4145697,
-    "market_cap_rank": 1772
-  },
-  "creator-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.946169,
-    "price_change_24h": 0.23075,
-    "last_updated_at": "2026-02-14T08:50:18.548Z",
-    "market_cap": 2319639,
-    "market_cap_rank": 2239
-  },
-  "bouncebit-usd": {
+  "panorama-swap-token": {
     "cached_at": 1761227685669,
-    "current_price": 0.979304,
+    "current_price": null,
     "price_change_24h": null,
-    "last_updated_at": "2025-10-15T18:06:43.366Z",
-    "market_cap": 0,
+    "last_updated_at": null,
+    "market_cap": null,
     "market_cap_rank": null
-  },
-  "taonado": {
-    "cached_at": 1771059063080,
-    "current_price": 0.846134,
-    "price_change_24h": 0.183692,
-    "last_updated_at": "2026-02-14T08:50:17.841Z",
-    "market_cap": 307130,
-    "market_cap_rank": 4290
-  },
-  "weth": {
-    "cached_at": 1771059063080,
-    "current_price": 2080.72,
-    "price_change_24h": 127.26,
-    "last_updated_at": "2026-02-14T08:50:57.042Z",
-    "market_cap": 4325481535,
-    "market_cap_rank": null
-  },
-  "cougar-token": {
-    "cached_at": 1766361482605,
-    "current_price": 0.00014854,
-    "price_change_24h": -5.44198070483e-7,
-    "last_updated_at": "2025-12-21T23:57:56.220Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "dai": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": -0.000183762232542906,
-    "last_updated_at": "2026-02-14T08:51:00.341Z",
-    "market_cap": 4145998783,
-    "market_cap_rank": 26
-  },
-  "tezos": {
-    "cached_at": 1771059063080,
-    "current_price": 0.417419,
-    "price_change_24h": 0.01723857,
-    "last_updated_at": "2026-02-14T08:50:59.788Z",
-    "market_cap": 448743880,
-    "market_cap_rank": 105
-  },
-  "heima": {
-    "cached_at": 1771059063080,
-    "current_price": 0.087731,
-    "price_change_24h": 0.00423393,
-    "last_updated_at": "2026-02-14T08:50:49.684Z",
-    "market_cap": 6998487,
-    "market_cap_rank": 1414
-  },
-  "dippy-speech": {
-    "cached_at": 1771059063080,
-    "current_price": 1.19,
-    "price_change_24h": 0.328932,
-    "last_updated_at": "2026-02-14T08:51:00.435Z",
-    "market_cap": 4113185,
-    "market_cap_rank": 1776
-  },
-  "swe-rizzo": {
-    "cached_at": 1771059063080,
-    "current_price": 0.927345,
-    "price_change_24h": 0.216041,
-    "last_updated_at": "2026-02-14T08:50:55.091Z",
-    "market_cap": 3412068,
-    "market_cap_rank": 1921
-  },
-  "stargate-bridged-usdt-peaq": {
-    "cached_at": 1762864503656,
-    "current_price": 0.999855,
-    "price_change_24h": 0.00062062,
-    "last_updated_at": "2025-11-11T12:34:04.675Z",
-    "market_cap": 2062835,
-    "market_cap_rank": 3115
-  },
-  "cumulus-encrypted-storage-system": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00145366,
-    "price_change_24h": -0.000009937850770618,
-    "last_updated_at": "2026-02-14T08:51:00.107Z",
-    "market_cap": 3851252,
-    "market_cap_rank": 1822
-  },
-  "liquid-ksm": {
-    "cached_at": 1771058943603,
-    "current_price": 0.917942,
-    "price_change_24h": 0.03243811,
-    "last_updated_at": "2026-02-14T08:47:07.768Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "aura-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00133863,
-    "price_change_24h": -0.000365813984340699,
-    "last_updated_at": "2026-02-14T08:49:13.368Z",
-    "market_cap": 574784,
-    "market_cap_rank": 3531
-  },
-  "particle-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.11259,
-    "price_change_24h": 0.01285671,
-    "last_updated_at": "2026-02-14T08:50:52.981Z",
-    "market_cap": 26235318,
-    "market_cap_rank": 701
-  },
-  "agent-arena-by-masa": {
-    "cached_at": 1771059063080,
-    "current_price": 1.26,
-    "price_change_24h": 0.345267,
-    "last_updated_at": "2026-02-14T08:50:57.619Z",
-    "market_cap": 5123530,
-    "market_cap_rank": 1619
-  },
-  "beam-bridged-weth-beam": {
-    "cached_at": 1771059063080,
-    "current_price": 2054.69,
-    "price_change_24h": 17.35,
-    "last_updated_at": "2026-02-14T08:50:02.799Z",
-    "market_cap": 24682,
-    "market_cap_rank": null
-  },
-  "zircuit-bridged-usdt-zircuit": {
-    "cached_at": 1771058943603,
-    "current_price": 0.993925,
-    "price_change_24h": -0.005042201917967226,
-    "last_updated_at": "2026-02-14T08:48:05.910Z",
-    "market_cap": 277026,
-    "market_cap_rank": null
-  },
-  "picasso": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00000321,
-    "price_change_24h": 2.07018e-7,
-    "last_updated_at": "2026-02-14T08:50:12.344Z",
-    "market_cap": 29507,
-    "market_cap_rank": 7892
-  },
-  "bifrost-native-coin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04624304,
-    "price_change_24h": 0.00038066,
-    "last_updated_at": "2026-02-14T08:50:47.269Z",
-    "market_cap": 1836117,
-    "market_cap_rank": 2439
-  },
-  "taoillium": {
-    "cached_at": 1771058823612,
-    "current_price": 0.776752,
-    "price_change_24h": 0.199716,
-    "last_updated_at": "2026-02-14T08:46:57.121Z",
-    "market_cap": 131953,
-    "market_cap_rank": 5422
-  },
-  "jpyc": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0067678,
-    "price_change_24h": -0.000021280212971208,
-    "last_updated_at": "2026-02-14T08:51:01.719Z",
-    "market_cap": 16964670,
-    "market_cap_rank": 888
-  },
-  "bifrost-voucher-astr": {
-    "cached_at": 1771058943603,
-    "current_price": 0.01074169,
-    "price_change_24h": 0.00036112,
-    "last_updated_at": "2026-02-14T08:48:01.938Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "efinity": {
-    "cached_at": 1771059063080,
-    "current_price": 0.061466,
-    "price_change_24h": -0.008629254331939451,
-    "last_updated_at": "2026-02-14T08:51:00.732Z",
-    "market_cap": 5341274,
-    "market_cap_rank": 1595
-  },
-  "equilibrium-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00002133,
-    "price_change_24h": -2.54233537666e-7,
-    "last_updated_at": "2026-02-14T08:49:47.658Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "near": {
-    "cached_at": 1771059063080,
-    "current_price": 1.038,
-    "price_change_24h": 0.04942958,
-    "last_updated_at": "2026-02-14T08:50:52.202Z",
-    "market_cap": 1336041035,
-    "market_cap_rank": 57
-  },
-  "bitcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 69747,
-    "price_change_24h": 3129.68,
-    "last_updated_at": "2026-02-14T08:51:00.551Z",
-    "market_cap": 1394448987036,
-    "market_cap_rank": 1
-  },
-  "energy-web-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.455141,
-    "price_change_24h": -0.003935902560118221,
-    "last_updated_at": "2026-02-14T08:51:00.897Z",
-    "market_cap": 27555998,
-    "market_cap_rank": 683
-  },
-  "aventus": {
-    "cached_at": 1771059063080,
-    "current_price": 0.682243,
-    "price_change_24h": 0.02524537,
-    "last_updated_at": "2026-02-14T08:50:58.410Z",
-    "market_cap": 6745189,
-    "market_cap_rank": 1437
-  },
-  "deeper-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00021625,
-    "price_change_24h": 0.00000323,
-    "last_updated_at": "2026-02-14T08:50:45.647Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "arthswap": {
-    "cached_at": 1766237523005,
-    "current_price": 0.0000095,
-    "price_change_24h": 7.9332e-8,
-    "last_updated_at": "2025-12-20T13:31:35.147Z",
-    "market_cap": 9408.73,
-    "market_cap_rank": 11297
-  },
-  "basic-attention-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.13326,
-    "price_change_24h": 0.00425306,
-    "last_updated_at": "2026-02-14T08:50:58.693Z",
-    "market_cap": 199357148,
-    "market_cap_rank": 180
-  },
-  "merlin-chain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.05489,
-    "price_change_24h": -0.000093048611767663,
-    "last_updated_at": "2026-02-14T08:50:51.523Z",
-    "market_cap": 61645782,
-    "market_cap_rank": 394
-  },
-  "wrapped-rbnt": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00702719,
-    "price_change_24h": 0.000172,
-    "last_updated_at": "2026-02-14T08:50:56.879Z",
-    "market_cap": 6158871,
-    "market_cap_rank": null
-  },
-  "safe-scan": {
-    "cached_at": 1771059063080,
-    "current_price": 0.618742,
-    "price_change_24h": 0.03694729,
-    "last_updated_at": "2026-02-14T08:50:53.923Z",
-    "market_cap": 2424179,
-    "market_cap_rank": 2195
-  },
-  "joystream": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00010359,
-    "price_change_24h": -0.000004079579795061,
-    "last_updated_at": "2026-02-14T08:49:57.828Z",
-    "market_cap": 115930,
-    "market_cap_rank": 5615
-  },
-  "usds": {
-    "cached_at": 1771059063080,
-    "current_price": 0.999891,
-    "price_change_24h": 0.00054628,
-    "last_updated_at": "2026-02-14T08:50:56.097Z",
-    "market_cap": 9689233354,
-    "market_cap_rank": 14
-  },
-  "gaia-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.758661,
-    "price_change_24h": 0.168507,
-    "last_updated_at": "2026-02-14T08:51:01.373Z",
-    "market_cap": 3091152,
-    "market_cap_rank": 1998
-  },
-  "solmev": {
-    "cached_at": 1771059063080,
-    "current_price": 0.761632,
-    "price_change_24h": 0.173504,
-    "last_updated_at": "2026-02-14T08:50:18.799Z",
-    "market_cap": 1334454,
-    "market_cap_rank": 2732
-  },
-  "darwinia-network-native-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00046857,
-    "price_change_24h": 0.00002682,
-    "last_updated_at": "2026-02-14T08:50:06.680Z",
-    "market_cap": 798174,
-    "market_cap_rank": 3197
-  },
-  "usdt0": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": 0.00044091,
-    "last_updated_at": "2026-02-14T08:50:58.677Z",
-    "market_cap": 4490685075,
-    "market_cap_rank": null
-  },
-  "vidaio": {
-    "cached_at": 1771059063080,
-    "current_price": 1.97,
-    "price_change_24h": 0.544785,
-    "last_updated_at": "2026-02-14T08:50:56.299Z",
-    "market_cap": 6529419,
-    "market_cap_rank": 1460
-  },
-  "compute-horde": {
-    "cached_at": 1771059063080,
-    "current_price": 1.31,
-    "price_change_24h": 0.295363,
-    "last_updated_at": "2026-02-14T08:50:59.800Z",
-    "market_cap": 4599552,
-    "market_cap_rank": 1707
-  },
-  "infinite-games": {
-    "cached_at": 1771059063080,
-    "current_price": 1.81,
-    "price_change_24h": 0.434438,
-    "last_updated_at": "2026-02-14T08:50:50.071Z",
-    "market_cap": 7262490,
-    "market_cap_rank": 1392
-  },
-  "synth-2": {
-    "cached_at": 1771059063080,
-    "current_price": 1.89,
-    "price_change_24h": 0.432175,
-    "last_updated_at": "2026-02-14T08:50:55.171Z",
-    "market_cap": 7440698,
-    "market_cap_rank": 1371
-  },
-  "tbtc": {
-    "cached_at": 1771059063080,
-    "current_price": 69611,
-    "price_change_24h": 3088.49,
-    "last_updated_at": "2026-02-14T08:50:55.358Z",
-    "market_cap": 410258586,
-    "market_cap_rank": null
-  },
-  "solarflare": {
-    "cached_at": 1769709842328,
-    "current_price": 0.00000827,
-    "price_change_24h": -4.17629648093e-7,
-    "last_updated_at": "2026-01-29T18:03:43.158Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "clover-finance": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00491815,
-    "price_change_24h": 0.00083775,
-    "last_updated_at": "2026-02-14T08:50:59.672Z",
-    "market_cap": 6020454,
-    "market_cap_rank": 1515
-  },
-  "trust-wallet-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.516889,
-    "price_change_24h": 0.00757524,
-    "last_updated_at": "2026-02-14T08:50:55.804Z",
-    "market_cap": 215273598,
-    "market_cap_rank": 169
-  },
-  "kusama": {
-    "cached_at": 1771059063080,
-    "current_price": 4.65,
-    "price_change_24h": 0.224529,
-    "last_updated_at": "2026-02-14T08:50:50.770Z",
-    "market_cap": 82519369,
-    "market_cap_rank": 319
-  },
-  "monad": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02301884,
-    "price_change_24h": 0.00144863,
-    "last_updated_at": "2026-02-14T08:50:51.803Z",
-    "market_cap": 249307462,
-    "market_cap_rank": 156
-  },
-  "coin-capsule": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00050464,
-    "price_change_24h": 0.00002532,
-    "last_updated_at": "2026-02-14T08:50:19.958Z",
-    "market_cap": 933571,
-    "market_cap_rank": 3045
-  },
-  "neon": {
-    "cached_at": 1771059063080,
-    "current_price": 0.03244751,
-    "price_change_24h": 0.00167478,
-    "last_updated_at": "2026-02-14T08:50:52.050Z",
-    "market_cap": 7769932,
-    "market_cap_rank": 1340
-  },
-  "graphite": {
-    "cached_at": 1771059063080,
-    "current_price": 1.24,
-    "price_change_24h": 0.29129,
-    "last_updated_at": "2026-02-14T08:51:01.816Z",
-    "market_cap": 4909482,
-    "market_cap_rank": 1653
-  },
-  "dora-factory": {
-    "cached_at": 1761227685669,
-    "current_price": 1,
-    "price_change_24h": null,
-    "last_updated_at": "2025-10-02T01:26:36.699Z",
-    "market_cap": 5132504,
-    "market_cap_rank": 2275
-  },
-  "neural3d": {
-    "cached_at": 1771059063080,
-    "current_price": 1.029,
-    "price_change_24h": 0.233439,
-    "last_updated_at": "2026-02-14T08:50:52.106Z",
-    "market_cap": 3743118,
-    "market_cap_rank": 1844
-  },
-  "itsai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.014,
-    "price_change_24h": 0.251978,
-    "last_updated_at": "2026-02-14T08:51:02.584Z",
-    "market_cap": 4412766,
-    "market_cap_rank": 1732
-  },
-  "cognify": {
-    "cached_at": 1771059063080,
-    "current_price": 1.45,
-    "price_change_24h": 0.329672,
-    "last_updated_at": "2026-02-14T08:50:17.746Z",
-    "market_cap": 1625445,
-    "market_cap_rank": 2557
-  },
-  "redbelly-network-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00684604,
-    "price_change_24h": 0.00001506,
-    "last_updated_at": "2026-02-14T08:50:53.641Z",
-    "market_cap": 16648737,
-    "market_cap_rank": 900
-  },
-  "sturdy-subnet": {
-    "cached_at": 1771059063080,
-    "current_price": 1.24,
-    "price_change_24h": 0.30277,
-    "last_updated_at": "2026-02-14T08:50:54.911Z",
-    "market_cap": 5096412,
-    "market_cap_rank": 1622
-  },
-  "minswap": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0058385,
-    "price_change_24h": 0.00025994,
-    "last_updated_at": "2026-02-14T08:51:00.310Z",
-    "market_cap": 10273812,
-    "market_cap_rank": 1164
-  },
-  "voucher-dot": {
-    "cached_at": 1771059063080,
-    "current_price": 2.15,
-    "price_change_24h": 0.114449,
-    "last_updated_at": "2026-02-14T08:50:24.543Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "creditcoin-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.194286,
-    "price_change_24h": 0.01490796,
-    "last_updated_at": "2026-02-14T08:51:00.041Z",
-    "market_cap": 100826023,
-    "market_cap_rank": 279
-  },
-  "cypress": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01317014,
-    "price_change_24h": -0.000082147908586605,
-    "last_updated_at": "2026-02-14T08:49:39.227Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "binance-usd": {
-    "cached_at": 1771059063080,
-    "current_price": 1.001,
-    "price_change_24h": -0.000302616266740996,
-    "last_updated_at": "2026-02-14T08:50:58.747Z",
-    "market_cap": 40067982,
-    "market_cap_rank": 520
-  },
-  "the-open-network": {
-    "cached_at": 1771059063080,
-    "current_price": 1.46,
-    "price_change_24h": 0.060223,
-    "last_updated_at": "2026-02-14T08:50:55.682Z",
-    "market_cap": 3577301864,
-    "market_cap_rank": 31
-  },
-  "polymesh": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04684403,
-    "price_change_24h": 0.00272967,
-    "last_updated_at": "2026-02-14T08:50:53.381Z",
-    "market_cap": 58331362,
-    "market_cap_rank": 410
-  },
-  "bitcoin-wizards": {
-    "cached_at": 1769570582963,
-    "current_price": 0.056913,
-    "price_change_24h": -0.000004581575572121,
-    "last_updated_at": "2026-01-28T03:22:24.117Z",
-    "market_cap": 1195218,
-    "market_cap_rank": 3551
-  },
-  "maker": {
-    "cached_at": 1771059063080,
-    "current_price": 1629.58,
-    "price_change_24h": 53.59,
-    "last_updated_at": "2026-02-14T08:50:59.302Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "miao": {
-    "cached_at": 1771059063080,
-    "current_price": 0.804875,
-    "price_change_24h": 0.170152,
-    "last_updated_at": "2026-02-14T08:50:17.861Z",
-    "market_cap": 466823,
-    "market_cap_rank": 3758
-  },
-  "rmrk": {
-    "cached_at": 1770921662260,
-    "current_price": 0.02685507,
-    "price_change_24h": -0.000805671647646885,
-    "last_updated_at": "2026-02-12T18:39:51.081Z",
-    "market_cap": 235335,
-    "market_cap_rank": 4542
-  },
-  "moonbeam": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01442728,
-    "price_change_24h": 0.0004073,
-    "last_updated_at": "2026-02-14T08:51:00.041Z",
-    "market_cap": 15313013,
-    "market_cap_rank": 937
-  },
-  "paypal-usd": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": 0.00084296,
-    "last_updated_at": "2026-02-14T08:50:52.912Z",
-    "market_cap": 4028684534,
-    "market_cap_rank": 27
-  },
-  "curio-gas-token": {
-    "cached_at": 1770993662821,
-    "current_price": 0.00100548,
-    "price_change_24h": 0.00002877,
-    "last_updated_at": "2026-02-13T14:40:10.120Z",
-    "market_cap": 100548,
-    "market_cap_rank": 5772
-  },
-  "silencio": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00006939,
-    "price_change_24h": 0.00000442,
-    "last_updated_at": "2026-02-14T08:49:24.087Z",
-    "market_cap": 1798740,
-    "market_cap_rank": 2462
-  },
-  "sportstensor": {
-    "cached_at": 1771059063080,
-    "current_price": 1.43,
-    "price_change_24h": 0.321125,
-    "last_updated_at": "2026-02-14T08:50:54.543Z",
-    "market_cap": 5123805,
-    "market_cap_rank": 1618
-  },
-  "bitmind": {
-    "cached_at": 1771059063080,
-    "current_price": 2.98,
-    "price_change_24h": 0.677034,
-    "last_updated_at": "2026-02-14T08:50:58.888Z",
-    "market_cap": 11491467,
-    "market_cap_rank": 1092
-  },
-  "happyai-2": {
-    "cached_at": 1771059063080,
-    "current_price": 1.017,
-    "price_change_24h": 0.297765,
-    "last_updated_at": "2026-02-14T08:50:18.462Z",
-    "market_cap": 2255795,
-    "market_cap_rank": 2263
   },
   "kava": {
-    "cached_at": 1771059063080,
-    "current_price": 0.05715,
-    "price_change_24h": 0.00303336,
-    "last_updated_at": "2026-02-14T08:50:50.546Z",
-    "market_cap": 61854996,
-    "market_cap_rank": 392
-  },
-  "enjincoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02203852,
-    "price_change_24h": 0.00087841,
-    "last_updated_at": "2026-02-14T08:51:00.953Z",
-    "market_cap": 42587233,
-    "market_cap_rank": 506
-  },
-  "beam-bridged-usdt-beam": {
-    "cached_at": 1771059063080,
-    "current_price": 0.999098,
-    "price_change_24h": 0.00080473,
-    "last_updated_at": "2026-02-14T08:49:19.905Z",
-    "market_cap": 236326,
-    "market_cap_rank": null
-  },
-  "gigaeth": {
-    "cached_at": 1771059063080,
-    "current_price": 2082.33,
-    "price_change_24h": 115.35,
-    "last_updated_at": "2026-02-14T08:51:01.545Z",
-    "market_cap": 4573369,
-    "market_cap_rank": null
-  },
-  "compound-governance-token": {
-    "cached_at": 1771059063080,
-    "current_price": 19.86,
-    "price_change_24h": 3.15,
-    "last_updated_at": "2026-02-14T08:50:59.947Z",
-    "market_cap": 192048671,
-    "market_cap_rank": 186
-  },
-  "stellaswap": {
-    "cached_at": 1771058282773,
-    "current_price": 0.00287058,
-    "price_change_24h": 0.00006784,
-    "last_updated_at": "2026-02-14T08:37:11.567Z",
-    "market_cap": 334591,
-    "market_cap_rank": 4170
-  },
-  "celium": {
-    "cached_at": 1771059063080,
-    "current_price": 8.45,
-    "price_change_24h": 1.88,
-    "last_updated_at": "2026-02-14T08:50:59.443Z",
-    "market_cap": 30812984,
-    "market_cap_rank": 637
-  },
-  "g-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00415216,
-    "price_change_24h": 0.00010848,
-    "last_updated_at": "2026-02-14T08:51:01.808Z",
-    "market_cap": 30006414,
-    "market_cap_rank": 648
-  },
-  "liquid-crypto": {
-    "cached_at": 1771037882265,
-    "current_price": 0.0004748,
-    "price_change_24h": -0.000002325763650096,
-    "last_updated_at": "2026-02-14T02:56:52.696Z",
-    "market_cap": 57446,
-    "market_cap_rank": 6758
-  },
-  "novatti-australian-digital-dollar": {
-    "cached_at": 1771059063080,
-    "current_price": 0.706565,
-    "price_change_24h": 0.0010379,
-    "last_updated_at": "2026-02-14T08:50:52.279Z",
-    "market_cap": 4780694,
-    "market_cap_rank": 1675
-  },
-  "curve-dao-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.253588,
-    "price_change_24h": 0.01419887,
-    "last_updated_at": "2026-02-14T08:51:00.408Z",
-    "market_cap": 374418553,
-    "market_cap_rank": 121
-  },
-  "neza": {
-    "cached_at": 1771058282773,
-    "current_price": 0.892784,
-    "price_change_24h": 0.259395,
-    "last_updated_at": "2026-02-14T08:37:28.523Z",
-    "market_cap": 44864,
-    "market_cap_rank": 7176
-  },
-  "mantis-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.994175,
-    "price_change_24h": 0.225096,
-    "last_updated_at": "2026-02-14T08:50:51.228Z",
-    "market_cap": 2755196,
-    "market_cap_rank": 2095
-  },
-  "usdd": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": 0.00065142,
-    "last_updated_at": "2026-02-14T08:51:00.498Z",
-    "market_cap": 692433107,
-    "market_cap_rank": 86
-  },
-  "litentry": {
-    "cached_at": 1771059063080,
-    "current_price": 0.097753,
-    "price_change_24h": 0.00929776,
-    "last_updated_at": "2026-02-14T08:50:50.967Z",
-    "market_cap": 4415182,
-    "market_cap_rank": 1731
-  },
-  "interbtc": {
-    "cached_at": 1771045922756,
-    "current_price": 76445,
-    "price_change_24h": 3529.15,
-    "last_updated_at": "2026-02-14T05:10:46.554Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "xxcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00626892,
-    "price_change_24h": -0.000061626346244225,
-    "last_updated_at": "2026-02-14T08:50:57.090Z",
-    "market_cap": 2201840,
-    "market_cap_rank": 2281
-  },
-  "voucher-glmr": {
-    "cached_at": 1771002003517,
-    "current_price": 0.01798588,
-    "price_change_24h": 0.00024306,
-    "last_updated_at": "2026-02-13T16:59:51.943Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "deeplink-protocol": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00000375,
-    "price_change_24h": -2.33656765277e-7,
-    "last_updated_at": "2026-02-14T08:50:07.972Z",
-    "market_cap": 49459,
-    "market_cap_rank": 7017
-  },
-  "satoshivm": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02581348,
-    "price_change_24h": 0.00266014,
-    "last_updated_at": "2026-02-14T08:49:27.722Z",
-    "market_cap": 185976,
-    "market_cap_rank": 4964
-  },
-  "voucher-bnc": {
-    "cached_at": 1771012082885,
-    "current_price": 0.055111,
-    "price_change_24h": 0.00012782,
-    "last_updated_at": "2026-02-13T19:47:06.868Z",
-    "market_cap": 391318,
-    "market_cap_rank": null
-  },
-  "quartz": {
-    "cached_at": 1770978542659,
-    "current_price": 0.00001158,
-    "price_change_24h": -9.1200848721e-8,
-    "last_updated_at": "2026-02-13T10:27:14.837Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "oneoneone": {
-    "cached_at": 1771059063080,
-    "current_price": 0.75888,
-    "price_change_24h": 0.167334,
-    "last_updated_at": "2026-02-14T08:50:17.652Z",
-    "market_cap": 1965809,
-    "market_cap_rank": 2381
-  },
-  "mainframe-2": {
-    "cached_at": 1771059063080,
-    "current_price": 1.003,
-    "price_change_24h": 0.219609,
-    "last_updated_at": "2026-02-14T08:50:51.146Z",
-    "market_cap": 3976109,
-    "market_cap_rank": 1795
-  },
-  "affine": {
-    "cached_at": 1771059063080,
-    "current_price": 16.11,
-    "price_change_24h": 3.94,
-    "last_updated_at": "2026-02-14T08:50:57.615Z",
-    "market_cap": 37784354,
-    "market_cap_rank": 543
-  },
-  "hosky": {
-    "cached_at": 1771059063080,
-    "current_price": 1.3373e-8,
-    "price_change_24h": 4.82877e-10,
-    "last_updated_at": "2026-02-14T08:51:00.853Z",
-    "market_cap": 13371307,
-    "market_cap_rank": 1011
-  },
-  "bifrost": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01670194,
-    "price_change_24h": 0.00056397,
-    "last_updated_at": "2026-02-14T08:50:58.661Z",
-    "market_cap": 23236912,
-    "market_cap_rank": 752
-  },
-  "chunking": {
-    "cached_at": 1771059063080,
-    "current_price": 0.758098,
-    "price_change_24h": 0.164511,
-    "last_updated_at": "2026-02-14T08:50:59.620Z",
-    "market_cap": 2712950,
-    "market_cap_rank": 2105
-  },
-  "ordinals": {
-    "cached_at": 1771059063080,
-    "current_price": 2.89,
-    "price_change_24h": 0.11372,
-    "last_updated_at": "2026-02-14T08:50:52.615Z",
-    "market_cap": 60681493,
-    "market_cap_rank": 400
-  },
-  "sonic-3": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04985522,
-    "price_change_24h": 0.00531182,
-    "last_updated_at": "2026-02-14T08:50:54.493Z",
-    "market_cap": 188690845,
-    "market_cap_rank": 190
-  },
-  "chiliz": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04244329,
-    "price_change_24h": 0.00192876,
-    "last_updated_at": "2026-02-14T08:50:59.849Z",
-    "market_cap": 436132326,
-    "market_cap_rank": 107
-  },
-  "distributed-training": {
-    "cached_at": 1771058823612,
-    "current_price": 0.689605,
-    "price_change_24h": 0.160794,
-    "last_updated_at": "2026-02-14T08:46:57.430Z",
-    "market_cap": 104044,
-    "market_cap_rank": 5791
-  },
-  "bifrost-voucher-manta": {
-    "cached_at": 1770802382932,
-    "current_price": 0.093521,
-    "price_change_24h": 0.00024,
-    "last_updated_at": "2026-02-11T09:32:32.657Z",
-    "market_cap": 381279,
-    "market_cap_rank": 3952
-  },
-  "billicat": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00593762,
-    "price_change_24h": 0.00034737,
-    "last_updated_at": "2026-02-14T08:49:52.481Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "cel-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.12,
-    "price_change_24h": 0.233247,
-    "last_updated_at": "2026-02-14T08:50:18.614Z",
-    "market_cap": 2164621,
-    "market_cap_rank": 2295
-  },
-  "webgenieai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.11,
-    "price_change_24h": 0.193948,
-    "last_updated_at": "2026-02-14T08:50:56.488Z",
-    "market_cap": 4376779,
-    "market_cap_rank": 1736
-  },
-  "pixie": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0000048,
-    "price_change_24h": 7.40863e-7,
-    "last_updated_at": "2026-02-14T08:51:01.076Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "mantle": {
-    "cached_at": 1771059063080,
-    "current_price": 0.644108,
-    "price_change_24h": 0.0341001,
-    "last_updated_at": "2026-02-14T08:50:52.169Z",
-    "market_cap": 2095236013,
-    "market_cap_rank": 40
-  },
-  "storb": {
-    "cached_at": 1771059063080,
-    "current_price": 1.32,
-    "price_change_24h": 0.267611,
-    "last_updated_at": "2026-02-14T08:50:54.940Z",
-    "market_cap": 4920786,
-    "market_cap_rank": 1649
-  },
-  "kintsugi-btc": {
-    "cached_at": 1770934442901,
-    "current_price": 20063,
-    "price_change_24h": -18.647592285135033,
-    "last_updated_at": "2026-02-12T22:13:49.282Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "bitrecs": {
-    "cached_at": 1771059063080,
-    "current_price": 1.48,
-    "price_change_24h": 0.36686,
-    "last_updated_at": "2026-02-14T08:50:17.924Z",
-    "market_cap": 406457,
-    "market_cap_rank": 3931
-  },
-  "for-sale": {
-    "cached_at": 1771058463468,
-    "current_price": 0.76698,
-    "price_change_24h": 0.202655,
-    "last_updated_at": "2026-02-14T08:40:17.801Z",
-    "market_cap": 76125,
-    "market_cap_rank": 6299
-  },
-  "pups-ordinals": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00612646,
-    "price_change_24h": 0.00034447,
-    "last_updated_at": "2026-02-14T08:50:13.826Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "pepe": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00000384,
-    "price_change_24h": 1.29265e-7,
-    "last_updated_at": "2026-02-14T08:50:53.095Z",
-    "market_cap": 1614840909,
-    "market_cap_rank": 48
-  },
-  "merit-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.885254,
-    "price_change_24h": 0.200083,
-    "last_updated_at": "2026-02-14T08:50:51.430Z",
-    "market_cap": 3210447,
-    "market_cap_rank": 1963
-  },
-  "tether-gold": {
-    "cached_at": 1771059063080,
-    "current_price": 4995.77,
-    "price_change_24h": 36.53,
-    "last_updated_at": "2026-02-14T08:50:55.221Z",
-    "market_cap": 2601848331,
-    "market_cap_rank": 35
-  },
-  "checkerchain-2": {
-    "cached_at": 1771058823612,
-    "current_price": 0.759812,
-    "price_change_24h": 0.185417,
-    "last_updated_at": "2026-02-14T08:46:57.742Z",
-    "market_cap": 158656,
-    "market_cap_rank": 5162
-  },
-  "bouncebit-btc": {
-    "cached_at": 1771057983368,
-    "current_price": 69055,
-    "price_change_24h": 1918.04,
-    "last_updated_at": "2026-02-14T08:32:22.403Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "runecoin": {
-    "cached_at": 1771058823612,
-    "current_price": 0.00006426,
-    "price_change_24h": -3.27521358499e-7,
-    "last_updated_at": "2026-02-14T08:46:31.566Z",
-    "market_cap": 1348981,
-    "market_cap_rank": 2712
-  },
-  "hydrated-dollar": {
-    "cached_at": 1771059063080,
-    "current_price": 0.996464,
-    "price_change_24h": -0.004762547732317102,
-    "last_updated_at": "2026-02-14T08:51:02.160Z",
-    "market_cap": 12548619,
-    "market_cap_rank": 1047
-  },
-  "openkaito": {
-    "cached_at": 1771059063080,
-    "current_price": 3.29,
-    "price_change_24h": 0.736332,
-    "last_updated_at": "2026-02-14T08:50:52.480Z",
-    "market_cap": 10847097,
-    "market_cap_rank": 1131
-  },
-  "rio-defi": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00064424,
-    "price_change_24h": 0.00002414,
-    "last_updated_at": "2026-02-14T08:50:43.282Z",
-    "market_cap": 144659,
-    "market_cap_rank": 5285
-  },
-  "tangle-network": {
-    "cached_at": 1761227685669,
-    "current_price": null,
-    "price_change_24h": null,
-    "last_updated_at": null,
-    "market_cap": null,
-    "market_cap_rank": null
-  },
-  "cardano": {
-    "cached_at": 1771059063080,
-    "current_price": 0.278871,
-    "price_change_24h": 0.01551246,
-    "last_updated_at": "2026-02-14T08:50:59.725Z",
-    "market_cap": 10263044991,
-    "market_cap_rank": 13
-  },
-  "moonwell": {
-    "cached_at": 1770566643721,
-    "current_price": 0.00004959,
-    "price_change_24h": -1.68204826508e-7,
-    "last_updated_at": "2026-02-08T16:03:06.549Z",
-    "market_cap": 30583,
-    "market_cap_rank": 7822
-  },
-  "pax-gold": {
-    "cached_at": 1771059063080,
-    "current_price": 5026.14,
-    "price_change_24h": 39.29,
-    "last_updated_at": "2026-02-14T08:50:52.951Z",
-    "market_cap": 2306960453,
-    "market_cap_rank": 37
-  },
-  "binance-peg-xrp": {
-    "cached_at": 1771059063080,
-    "current_price": 1.44,
-    "price_change_24h": 0.08153,
-    "last_updated_at": "2026-02-14T08:50:58.809Z",
-    "market_cap": 469307666,
-    "market_cap_rank": null
-  },
-  "omega-any-to-any": {
-    "cached_at": 1771059063080,
-    "current_price": 0.962867,
-    "price_change_24h": 0.203473,
-    "last_updated_at": "2026-02-14T08:50:52.431Z",
-    "market_cap": 3772502,
-    "market_cap_rank": 1837
-  },
-  "flock-off": {
-    "cached_at": 1771059063080,
-    "current_price": 0.755094,
-    "price_change_24h": 0.178527,
-    "last_updated_at": "2026-02-14T08:50:17.324Z",
-    "market_cap": 2322357,
-    "market_cap_rank": 2237
-  },
-  "bido-staked-bitcoin": {
-    "cached_at": 1761227685669,
-    "current_price": null,
-    "price_change_24h": null,
-    "last_updated_at": null,
-    "market_cap": null,
-    "market_cap_rank": null
-  },
-  "ridges-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 5.93,
-    "price_change_24h": 1.97,
-    "last_updated_at": "2026-02-14T08:50:53.789Z",
-    "market_cap": 24524698,
-    "market_cap_rank": 729
-  },
-  "hippius": {
-    "cached_at": 1771059063080,
-    "current_price": 5.13,
-    "price_change_24h": 1.12,
-    "last_updated_at": "2026-02-14T08:51:02.034Z",
-    "market_cap": 18654267,
-    "market_cap_rank": 858
-  },
-  "streetvision-by-natix": {
-    "cached_at": 1771059063080,
-    "current_price": 0.815855,
-    "price_change_24h": 0.200016,
-    "last_updated_at": "2026-02-14T08:50:54.952Z",
-    "market_cap": 3094296,
-    "market_cap_rank": 1997
-  },
-  "wbnb": {
-    "cached_at": 1771059063080,
-    "current_price": 626.92,
-    "price_change_24h": 23.99,
-    "last_updated_at": "2026-02-14T08:50:57.011Z",
-    "market_cap": 1050388617,
-    "market_cap_rank": null
-  },
-  "zencash": {
-    "cached_at": 1771059063080,
-    "current_price": 6.68,
-    "price_change_24h": 0.69466,
-    "last_updated_at": "2026-02-14T08:50:57.397Z",
-    "market_cap": 118908658,
-    "market_cap_rank": 246
-  },
-  "polygon-ecosystem-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.102606,
-    "price_change_24h": 0.00612746,
-    "last_updated_at": "2026-02-14T08:50:53.319Z",
-    "market_cap": 1086155903,
-    "market_cap_rank": 64
-  },
-  "readyai": {
-    "cached_at": 1771059063080,
-    "current_price": 2.13,
-    "price_change_24h": 0.482112,
-    "last_updated_at": "2026-02-14T08:50:53.637Z",
-    "market_cap": 7432855,
-    "market_cap_rank": 1373
-  },
-  "alpha-trader-exchange-atx": {
-    "cached_at": 1771059063080,
-    "current_price": 1.6,
-    "price_change_24h": 0.354115,
-    "last_updated_at": "2026-02-14T08:50:57.820Z",
-    "market_cap": 6052316,
-    "market_cap_rank": 1510
-  },
-  "shiden": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01367885,
-    "price_change_24h": -0.001848185710859046,
-    "last_updated_at": "2026-02-14T08:49:17.450Z",
-    "market_cap": 933062,
-    "market_cap_rank": 3046
-  },
-  "rats": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00004851,
-    "price_change_24h": 0.00000116,
-    "last_updated_at": "2026-02-14T08:50:20.842Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "wrapped-fantom": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0495,
-    "price_change_24h": -0.0005,
-    "last_updated_at": "2026-02-14T08:49:59.684Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "binancecoin": {
-    "cached_at": 1771059063080,
-    "current_price": 626.45,
-    "price_change_24h": 24.42,
-    "last_updated_at": "2026-02-14T08:51:00.415Z",
-    "market_cap": 85472628440,
-    "market_cap_rank": 5
-  },
-  "stakestone-ether": {
-    "cached_at": 1771058943603,
-    "current_price": 2186.09,
-    "price_change_24h": 131.57,
-    "last_updated_at": "2026-02-14T08:48:53.638Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "usd-coin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.999937,
-    "price_change_24h": 0.0000221,
-    "last_updated_at": "2026-02-14T08:50:56.525Z",
-    "market_cap": 73486786601,
-    "market_cap_rank": 6
-  },
-  "gala": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00416783,
-    "price_change_24h": 0.00025077,
-    "last_updated_at": "2026-02-14T08:51:01.508Z",
-    "market_cap": 197010531,
-    "market_cap_rank": 182
-  },
-  "staking-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.84183,
-    "price_change_24h": 0.167728,
-    "last_updated_at": "2026-02-14T08:50:54.699Z",
-    "market_cap": 2927637,
-    "market_cap_rank": 2041
-  },
-  "bitagent-rizzo": {
-    "cached_at": 1771059063080,
-    "current_price": 0.91334,
-    "price_change_24h": 0.199794,
-    "last_updated_at": "2026-02-14T08:50:58.770Z",
-    "market_cap": 3799868,
-    "market_cap_rank": 1829
-  },
-  "candles": {
-    "cached_at": 1771059063080,
-    "current_price": 0.772542,
-    "price_change_24h": 0.17665,
-    "last_updated_at": "2026-02-14T08:50:17.643Z",
-    "market_cap": 185708,
-    "market_cap_rank": 4969
-  },
-  "manta-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.081,
-    "price_change_24h": -0.000597061427521681,
-    "last_updated_at": "2026-02-14T08:50:51.309Z",
-    "market_cap": 37635210,
-    "market_cap_rank": 546
-  },
-  "virtual-protocol": {
-    "cached_at": 1771059063080,
-    "current_price": 0.65981,
-    "price_change_24h": 0.081221,
-    "last_updated_at": "2026-02-14T08:50:56.707Z",
-    "market_cap": 434089283,
-    "market_cap_rank": 109
-  },
-  "mythos": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00589001,
-    "price_change_24h": 0.0000858,
-    "last_updated_at": "2026-02-14T08:50:51.943Z",
-    "market_cap": 4771287,
-    "market_cap_rank": 1678
-  },
-  "acurast": {
-    "cached_at": 1771059063080,
-    "current_price": 0.115784,
-    "price_change_24h": -0.01805401871384381,
-    "last_updated_at": "2026-02-14T08:50:57.471Z",
-    "market_cap": 25974237,
-    "market_cap_rank": 708
-  },
-  "1inch": {
-    "cached_at": 1771059063080,
-    "current_price": 0.098409,
-    "price_change_24h": 0.00478435,
-    "last_updated_at": "2026-02-14T08:50:57.365Z",
-    "market_cap": 138628567,
-    "market_cap_rank": 223
-  },
-  "sky": {
-    "cached_at": 1771059063080,
-    "current_price": 0.068337,
-    "price_change_24h": 0.00191675,
-    "last_updated_at": "2026-02-14T08:50:54.331Z",
-    "market_cap": 1571821144,
-    "market_cap_rank": 51
-  },
-  "centrifuge": {
-    "cached_at": 1771059063080,
-    "current_price": 0.082838,
-    "price_change_24h": 0.00571197,
-    "last_updated_at": "2026-02-14T08:49:19.340Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "dojo-3": {
-    "cached_at": 1771059063080,
-    "current_price": 1.76,
-    "price_change_24h": 0.395291,
-    "last_updated_at": "2026-02-14T08:51:00.522Z",
-    "market_cap": 6604287,
-    "market_cap_rank": 1450
-  },
-  "pendulum-chain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0194673,
-    "price_change_24h": 0.00042301,
-    "last_updated_at": "2026-02-14T08:50:24.584Z",
-    "market_cap": 1649346,
-    "market_cap_rank": 2538
-  },
-  "avalanche-2": {
-    "cached_at": 1771059063080,
-    "current_price": 9.27,
-    "price_change_24h": 0.381491,
-    "last_updated_at": "2026-02-14T08:50:58.576Z",
-    "market_cap": 4001246663,
-    "market_cap_rank": 28
-  },
-  "trac": {
-    "cached_at": 1770637563712,
-    "current_price": 0.118995,
-    "price_change_24h": -0.001364837857658938,
-    "last_updated_at": "2026-02-09T11:45:16.050Z",
-    "market_cap": 2498885,
-    "market_cap_rank": 2138
-  },
-  "venus-busd": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02233132,
-    "price_change_24h": -0.000041966502721466,
-    "last_updated_at": "2026-02-14T08:50:02.380Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "liquidity-provisioning": {
-    "cached_at": 1771059063080,
-    "current_price": 1.008,
-    "price_change_24h": 0.250141,
-    "last_updated_at": "2026-02-14T08:50:51.350Z",
-    "market_cap": 2830530,
-    "market_cap_rank": 2078
-  },
-  "soundsright": {
-    "cached_at": 1771059063080,
-    "current_price": 0.76226,
-    "price_change_24h": 0.175564,
-    "last_updated_at": "2026-02-14T08:50:17.483Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "bitsec-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.42,
-    "price_change_24h": 0.316387,
-    "last_updated_at": "2026-02-14T08:50:58.933Z",
-    "market_cap": 5480526,
-    "market_cap_rank": 1582
-  },
-  "gradients": {
-    "cached_at": 1771059063080,
-    "current_price": 4.93,
-    "price_change_24h": 1.052,
-    "last_updated_at": "2026-02-14T08:51:01.729Z",
-    "market_cap": 19371449,
-    "market_cap_rank": 828
+    "cached_at": 1771061582625,
+    "current_price": 0.057212,
+    "price_change_24h": 0.00287797,
+    "last_updated_at": "2026-02-14T09:32:57.750Z",
+    "market_cap": 61952003,
+    "market_cap_rank": 394
+  },
+  "coin-capsule": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00050516,
+    "price_change_24h": 0.00002584,
+    "last_updated_at": "2026-02-14T09:30:30.912Z",
+    "market_cap": 924183,
+    "market_cap_rank": 3059
   },
   "crust-storage-market": {
     "cached_at": 1770975183064,
@@ -1703,1087 +1527,95 @@
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "zeus-5": {
-    "cached_at": 1771059063080,
-    "current_price": 1.2,
-    "price_change_24h": 0.252847,
-    "last_updated_at": "2026-02-14T08:50:57.445Z",
-    "market_cap": 4915364,
-    "market_cap_rank": 1651
-  },
-  "tether": {
-    "cached_at": 1771059063080,
-    "current_price": 0.999692,
-    "price_change_24h": 0.00030979,
-    "last_updated_at": "2026-02-14T08:50:56.028Z",
-    "market_cap": 183757675387,
-    "market_cap_rank": 3
-  },
-  "kyber-network-crystal": {
-    "cached_at": 1771059063080,
-    "current_price": 0.150568,
-    "price_change_24h": 0.00383456,
-    "last_updated_at": "2026-02-14T08:51:00.027Z",
-    "market_cap": 25619663,
-    "market_cap_rank": 711
-  },
-  "liberland-lld": {
-    "cached_at": 1771059063080,
-    "current_price": 0.639016,
-    "price_change_24h": 0.03034654,
-    "last_updated_at": "2026-02-14T08:49:24.670Z",
-    "market_cap": 1703472,
-    "market_cap_rank": 2506
-  },
-  "gaj": {
-    "cached_at": 1771058702268,
-    "current_price": 0.00278929,
-    "price_change_24h": 0.0000418,
-    "last_updated_at": "2026-02-14T08:43:24.265Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "altair": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00104317,
-    "price_change_24h": 0.00006517,
-    "last_updated_at": "2026-02-14T08:49:17.610Z",
-    "market_cap": 411097,
-    "market_cap_rank": 3920
-  },
-  "aos-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.859361,
-    "price_change_24h": 0.288716,
-    "last_updated_at": "2026-02-14T08:50:57.997Z",
-    "market_cap": 3106097,
-    "market_cap_rank": 1991
-  },
-  "analog": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00021256,
-    "price_change_24h": 0.00000659,
-    "last_updated_at": "2026-02-14T08:49:29.178Z",
-    "market_cap": 394320,
-    "market_cap_rank": 3966
-  },
-  "chainlink": {
-    "cached_at": 1771059063080,
-    "current_price": 8.96,
-    "price_change_24h": 0.522676,
-    "last_updated_at": "2026-02-14T08:50:59.876Z",
-    "market_cap": 6347889816,
-    "market_cap_rank": 18
-  },
-  "vericore": {
-    "cached_at": 1771059063080,
-    "current_price": 0.863638,
-    "price_change_24h": 0.150459,
-    "last_updated_at": "2026-02-14T08:50:56.229Z",
-    "market_cap": 3488865,
-    "market_cap_rank": 1899
-  },
-  "nodle-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00040631,
-    "price_change_24h": -0.000013564812261224,
-    "last_updated_at": "2026-02-14T08:50:51.641Z",
-    "market_cap": 492248,
-    "market_cap_rank": 3693
-  },
-  "efficientfrontier": {
-    "cached_at": 1771059063080,
-    "current_price": 1.19,
-    "price_change_24h": 0.268191,
-    "last_updated_at": "2026-02-14T08:51:00.730Z",
-    "market_cap": 5125507,
-    "market_cap_rank": 1617
-  },
-  "reinforced-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 0.746843,
-    "price_change_24h": 0.172493,
-    "last_updated_at": "2026-02-14T08:50:18.968Z",
-    "market_cap": 310311,
-    "market_cap_rank": 4275
-  },
-  "astar": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00811882,
-    "price_change_24h": 0.00031651,
-    "last_updated_at": "2026-02-14T08:50:58.294Z",
-    "market_cap": 69368386,
-    "market_cap_rank": 364
-  },
-  "hyperliquid": {
-    "cached_at": 1771059063080,
-    "current_price": 31.6,
-    "price_change_24h": 1.078,
-    "last_updated_at": "2026-02-14T08:50:52.191Z",
-    "market_cap": 7534834298,
-    "market_cap_rank": 16
-  },
-  "frax": {
-    "cached_at": 1771059063080,
-    "current_price": 0.993271,
-    "price_change_24h": 0.00185936,
-    "last_updated_at": "2026-02-14T08:51:01.555Z",
-    "market_cap": 273846697,
-    "market_cap_rank": 151
-  },
-  "unique-network": {
-    "cached_at": 1771058823612,
-    "current_price": 0.00061729,
-    "price_change_24h": -0.000021811288015894,
-    "last_updated_at": "2026-02-14T08:46:47.054Z",
-    "market_cap": 171600,
-    "market_cap_rank": 5071
-  },
-  "rna-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.866432,
-    "price_change_24h": 0.186417,
-    "last_updated_at": "2026-02-14T08:50:17.821Z",
-    "market_cap": 1100302,
-    "market_cap_rank": 2896
-  },
-  "flamewire": {
-    "cached_at": 1771059063080,
-    "current_price": 0.76881,
-    "price_change_24h": 0.153191,
-    "last_updated_at": "2026-02-14T08:50:17.491Z",
-    "market_cap": 2136176,
-    "market_cap_rank": 2307
-  },
-  "kilt-protocol-2": {
-    "cached_at": 1771051382790,
-    "current_price": 0.0001844,
-    "price_change_24h": 0.00002671,
-    "last_updated_at": "2026-02-14T06:41:37.796Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "polkadex": {
-    "cached_at": 1771059063080,
-    "current_price": 0.03863708,
-    "price_change_24h": 0.00476924,
-    "last_updated_at": "2026-02-14T08:50:28.157Z",
-    "market_cap": 288233,
-    "market_cap_rank": 4368
-  },
-  "deepbrain-chain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00028036,
-    "price_change_24h": 0.00001418,
-    "last_updated_at": "2026-02-14T08:50:41.984Z",
-    "market_cap": 897131,
-    "market_cap_rank": 3111
-  },
-  "wrapped-bitcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 69590,
-    "price_change_24h": 3110.1,
-    "last_updated_at": "2026-02-14T08:50:57.021Z",
-    "market_cap": 8433696054,
-    "market_cap_rank": null
-  },
-  "sui": {
-    "cached_at": 1771059063080,
-    "current_price": 0.981282,
-    "price_change_24h": 0.050083,
-    "last_updated_at": "2026-02-14T08:50:55.442Z",
-    "market_cap": 3771967761,
-    "market_cap_rank": 30
-  },
-  "robonomics-network": {
-    "cached_at": 1771058943603,
-    "current_price": 0.09284,
-    "price_change_24h": 0.01456441,
-    "last_updated_at": "2026-02-14T08:48:23.035Z",
-    "market_cap": 271813,
-    "market_cap_rank": 4439
-  },
-  "chainflip": {
-    "cached_at": 1771059063080,
-    "current_price": 0.317643,
-    "price_change_24h": -0.002155280437696139,
-    "last_updated_at": "2026-02-14T08:50:59.535Z",
-    "market_cap": 21036561,
-    "market_cap_rank": 794
-  },
-  "zkverify": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01970015,
-    "price_change_24h": 0.00156396,
-    "last_updated_at": "2026-02-14T08:50:57.579Z",
-    "market_cap": 6027290,
-    "market_cap_rank": 1514
-  },
-  "unit": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01031167,
-    "price_change_24h": 0.00056655,
-    "last_updated_at": "2026-02-14T08:50:47.334Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "beamswap": {
-    "cached_at": 1771054682625,
-    "current_price": 0.00002315,
-    "price_change_24h": 0.0000012,
-    "last_updated_at": "2026-02-14T07:37:27.468Z",
-    "market_cap": 41989,
-    "market_cap_rank": 7268
-  },
-  "web-agents-autoppia": {
-    "cached_at": 1771059063080,
-    "current_price": 0.92386,
-    "price_change_24h": 0.198035,
-    "last_updated_at": "2026-02-14T08:50:56.487Z",
-    "market_cap": 3545145,
-    "market_cap_rank": 1886
-  },
-  "logicnet": {
-    "cached_at": 1771059063080,
-    "current_price": 1.51,
-    "price_change_24h": 0.302534,
-    "last_updated_at": "2026-02-14T08:50:51.068Z",
-    "market_cap": 6247907,
-    "market_cap_rank": 1490
-  },
-  "interlay": {
-    "cached_at": 1771058823612,
-    "current_price": 0.00014017,
-    "price_change_24h": 0.0000231,
-    "last_updated_at": "2026-02-14T08:45:13.588Z",
-    "market_cap": 32238,
-    "market_cap_rank": 7738
-  },
-  "finetuning": {
-    "cached_at": 1771059063080,
-    "current_price": 0.938869,
-    "price_change_24h": 0.223144,
-    "last_updated_at": "2026-02-14T08:51:01.145Z",
-    "market_cap": 3465137,
-    "market_cap_rank": 1905
-  },
-  "venus-usdt": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02617161,
-    "price_change_24h": 0.00000691,
-    "last_updated_at": "2026-02-14T08:50:10.946Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "story-2": {
-    "cached_at": 1771059063080,
-    "current_price": 1.15,
-    "price_change_24h": 0.0192573,
-    "last_updated_at": "2026-02-14T08:50:54.878Z",
-    "market_cap": 402247306,
-    "market_cap_rank": 115
-  },
-  "polariscloud-ai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.2,
-    "price_change_24h": 0.251367,
-    "last_updated_at": "2026-02-14T08:50:18.106Z",
-    "market_cap": 677414,
-    "market_cap_rank": 3365
-  },
-  "5ire": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00014281,
-    "price_change_24h": 0.00000282,
-    "last_updated_at": "2026-02-14T08:49:41.478Z",
-    "market_cap": 91505,
-    "market_cap_rank": 6005
-  },
-  "rootstock": {
-    "cached_at": 1771059063080,
-    "current_price": 69120,
-    "price_change_24h": 2987.36,
-    "last_updated_at": "2026-02-14T08:50:53.935Z",
-    "market_cap": 16913881,
-    "market_cap_rank": null
-  },
-  "brain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.87334,
-    "price_change_24h": 0.1795,
-    "last_updated_at": "2026-02-14T08:50:17.595Z",
-    "market_cap": 477209,
-    "market_cap_rank": 3737
-  },
-  "shiba-inu": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00000642,
-    "price_change_24h": 3.23437e-7,
-    "last_updated_at": "2026-02-14T08:50:54.323Z",
-    "market_cap": 3779429554,
-    "market_cap_rank": 29
-  },
-  "boba-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02263274,
-    "price_change_24h": -0.00037874871902855,
-    "last_updated_at": "2026-02-14T08:50:59.048Z",
-    "market_cap": 11172357,
-    "market_cap_rank": 1110
-  },
-  "neurowebai": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00519464,
-    "price_change_24h": 0.00020568,
-    "last_updated_at": "2026-02-14T08:50:00.554Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "subsocial": {
-    "cached_at": 1770822242512,
-    "current_price": 0.00003218,
-    "price_change_24h": -0.000001435432367285,
-    "last_updated_at": "2026-02-11T15:03:39.837Z",
-    "market_cap": 27213,
-    "market_cap_rank": 7945
-  },
-  "infinitehash": {
-    "cached_at": 1771059063080,
-    "current_price": 0.86403,
-    "price_change_24h": 0.192961,
-    "last_updated_at": "2026-02-14T08:50:50.101Z",
-    "market_cap": 2630305,
-    "market_cap_rank": 2128
-  },
-  "pha": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02700394,
-    "price_change_24h": 0.00098374,
-    "last_updated_at": "2026-02-14T08:50:53.064Z",
-    "market_cap": 22377565,
-    "market_cap_rank": 768
-  },
-  "defichain": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00133494,
-    "price_change_24h": 0.00057585,
-    "last_updated_at": "2026-02-14T08:47:16.652Z",
-    "market_cap": 1220110,
-    "market_cap_rank": 2800
-  },
-  "karura": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00199731,
-    "price_change_24h": 0.0003038,
-    "last_updated_at": "2026-02-14T08:47:07.729Z",
-    "market_cap": 232504,
-    "market_cap_rank": 4634
-  },
-  "bitcast": {
-    "cached_at": 1771059063080,
-    "current_price": 2.42,
-    "price_change_24h": 0.52963,
-    "last_updated_at": "2026-02-14T08:50:58.787Z",
-    "market_cap": 6653271,
-    "market_cap_rank": 1444
-  },
-  "stellaswap-staked-dot": {
-    "cached_at": 1771010761937,
-    "current_price": 1.56,
-    "price_change_24h": 0.06722,
-    "last_updated_at": "2026-02-13T19:25:52.165Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "beam": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02513162,
-    "price_change_24h": 0.00115151,
-    "last_updated_at": "2026-02-14T08:50:58.571Z",
-    "market_cap": 4859876,
-    "market_cap_rank": 1661
-  },
-  "susds": {
-    "cached_at": 1771059063080,
-    "current_price": 1.088,
-    "price_change_24h": -0.006807937154712507,
-    "last_updated_at": "2026-02-14T08:50:57.251Z",
-    "market_cap": 4859441745,
-    "market_cap_rank": null
-  },
-  "chutes": {
-    "cached_at": 1771059063080,
-    "current_price": 20.28,
-    "price_change_24h": 4.31,
-    "last_updated_at": "2026-02-14T08:50:59.616Z",
-    "market_cap": 88043623,
-    "market_cap_rank": 302
-  },
-  "fakenews": {
-    "cached_at": 1771059063080,
-    "current_price": 0.843204,
-    "price_change_24h": 0.189366,
-    "last_updated_at": "2026-02-14T08:51:01.063Z",
-    "market_cap": 3130197,
-    "market_cap_rank": 1982
-  },
-  "dogecoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.097434,
-    "price_change_24h": 0.00385039,
-    "last_updated_at": "2026-02-14T08:51:00.872Z",
-    "market_cap": 16438731980,
-    "market_cap_rank": 9
-  },
-  "ethereum": {
-    "cached_at": 1771059063080,
-    "current_price": 2079.85,
-    "price_change_24h": 121.23,
-    "last_updated_at": "2026-02-14T08:51:00.489Z",
-    "market_cap": 251127250836,
-    "market_cap_rank": 2
-  },
-  "pancakeswap-token": {
-    "cached_at": 1771059063080,
-    "current_price": 1.32,
-    "price_change_24h": 0.060091,
-    "last_updated_at": "2026-02-14T08:50:52.981Z",
-    "market_cap": 438148437,
-    "market_cap_rank": 106
-  },
-  "bitquant": {
-    "cached_at": 1771057263081,
-    "current_price": 0.797489,
-    "price_change_24h": 0.192551,
-    "last_updated_at": "2026-02-14T08:20:35.576Z",
-    "market_cap": 47806,
-    "market_cap_rank": 7048
-  },
-  "binance-peg-cardano": {
-    "cached_at": 1771059063080,
-    "current_price": 0.279735,
-    "price_change_24h": 0.01674908,
-    "last_updated_at": "2026-02-14T08:50:58.726Z",
-    "market_cap": 126192473,
-    "market_cap_rank": null
-  },
-  "gasp-2": {
-    "cached_at": 1765452722354,
-    "current_price": 0.00001323,
-    "price_change_24h": 1.934e-9,
-    "last_updated_at": "2025-12-11T11:31:58.984Z",
-    "market_cap": 836.01,
-    "market_cap_rank": 13105
-  },
-  "chainx": {
-    "cached_at": 1769432642772,
-    "current_price": 0.00500337,
-    "price_change_24h": -0.002354347505873038,
-    "last_updated_at": "2026-01-26T13:02:37.097Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "first-digital-usd": {
-    "cached_at": 1771059063080,
-    "current_price": 0.999404,
-    "price_change_24h": 0.00098416,
-    "last_updated_at": "2026-02-14T08:51:01.292Z",
-    "market_cap": 395176460,
-    "market_cap_rank": 116
-  },
-  "quant": {
-    "cached_at": 1770551042903,
-    "current_price": 0.00001255,
-    "price_change_24h": 2.7087e-7,
-    "last_updated_at": "2026-02-08T11:43:50.477Z",
-    "market_cap": 12463.26,
-    "market_cap_rank": 9466
-  },
-  "patrol-tao-com": {
-    "cached_at": 1771059063080,
-    "current_price": 2.84,
-    "price_change_24h": 0.640001,
-    "last_updated_at": "2026-02-14T08:50:52.831Z",
-    "market_cap": 8991131,
-    "market_cap_rank": 1257
-  },
-  "eastworld": {
-    "cached_at": 1771059063080,
-    "current_price": 0.925248,
-    "price_change_24h": 0.234866,
-    "last_updated_at": "2026-02-14T08:50:17.769Z",
-    "market_cap": 369948,
-    "market_cap_rank": 4048
-  },
-  "wrapped-ehmnd": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00319137,
-    "price_change_24h": -0.000069559619429913,
-    "last_updated_at": "2026-02-14T08:49:20.717Z",
-    "market_cap": 594801,
-    "market_cap_rank": null
-  },
-  "wormhole-bridged-sol": {
-    "cached_at": 1771059063080,
-    "current_price": 85.73,
-    "price_change_24h": 6.63,
-    "last_updated_at": "2026-02-14T08:50:22.273Z",
-    "market_cap": 273479,
-    "market_cap_rank": null
-  },
-  "coredaoorg": {
-    "cached_at": 1771059063080,
-    "current_price": 0.08884,
-    "price_change_24h": 0.00389278,
-    "last_updated_at": "2026-02-14T08:50:59.946Z",
-    "market_cap": 95296365,
-    "market_cap_rank": 291
-  },
-  "wrapped-astar": {
-    "cached_at": 1771058402762,
-    "current_price": 0.0077934,
-    "price_change_24h": -0.000051795314646485,
-    "last_updated_at": "2026-02-14T08:39:23.503Z",
-    "market_cap": 1169683,
-    "market_cap_rank": null
-  },
-  "automata": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01315385,
-    "price_change_24h": 0.00054818,
-    "last_updated_at": "2026-02-14T08:50:58.445Z",
-    "market_cap": 7731820,
-    "market_cap_rank": 1346
-  },
-  "targon": {
-    "cached_at": 1771059063080,
-    "current_price": 8.51,
-    "price_change_24h": 1.94,
-    "last_updated_at": "2026-02-14T08:50:55.255Z",
-    "market_cap": 34896542,
-    "market_cap_rank": 577
-  },
-  "taohash": {
-    "cached_at": 1771059063080,
-    "current_price": 1.95,
-    "price_change_24h": 0.438591,
-    "last_updated_at": "2026-02-14T08:50:55.244Z",
-    "market_cap": 7364590,
-    "market_cap_rank": 1381
-  },
-  "tiger-alpha": {
-    "cached_at": 1770084181878,
-    "current_price": 0.497374,
-    "price_change_24h": 0.01682621,
-    "last_updated_at": "2026-02-03T02:02:42.452Z",
-    "market_cap": 0.452796,
-    "market_cap_rank": 13623
-  },
-  "connect-token-wct": {
-    "cached_at": 1771059063080,
-    "current_price": 0.066354,
-    "price_change_24h": 0.00285286,
-    "last_updated_at": "2026-02-14T08:50:59.895Z",
-    "market_cap": 12351437,
-    "market_cap_rank": 1055
-  },
-  "integritee": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01071292,
-    "price_change_24h": -0.004549607185270789,
-    "last_updated_at": "2026-02-14T08:49:21.513Z",
-    "market_cap": 42617,
-    "market_cap_rank": 7251
-  },
-  "uniswap": {
-    "cached_at": 1771059063080,
-    "current_price": 3.48,
-    "price_change_24h": 0.159092,
-    "last_updated_at": "2026-02-14T08:50:56.234Z",
-    "market_cap": 2204852678,
-    "market_cap_rank": 39
-  },
-  "3dpass": {
-    "cached_at": 1771058583193,
-    "current_price": 0.00017991,
-    "price_change_24h": -0.000005039575832491,
-    "last_updated_at": "2026-02-14T08:42:18.074Z",
-    "market_cap": 76383,
-    "market_cap_rank": 6291
-  },
-  "tanssi": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00094498,
-    "price_change_24h": -0.000026477711541964,
-    "last_updated_at": "2026-02-14T08:49:28.201Z",
-    "market_cap": 331529,
-    "market_cap_rank": 4188
-  },
-  "flare-networks": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00969817,
-    "price_change_24h": 0.00028925,
-    "last_updated_at": "2026-02-14T08:51:01.220Z",
-    "market_cap": 822263382,
-    "market_cap_rank": 75
-  },
-  "paydon": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00709844,
-    "price_change_24h": 0.00001423,
-    "last_updated_at": "2026-02-14T08:49:25.424Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "torus": {
-    "cached_at": 1771059063080,
-    "current_price": 0.080688,
-    "price_change_24h": 0.00312687,
-    "last_updated_at": "2026-02-14T08:50:55.642Z",
-    "market_cap": 5675801,
-    "market_cap_rank": 1553
-  },
-  "peaq-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0179323,
-    "price_change_24h": 0.00001814,
-    "last_updated_at": "2026-02-14T08:50:52.889Z",
-    "market_cap": 32322820,
-    "market_cap_rank": 611
-  },
-  "nova-3": {
-    "cached_at": 1771059063080,
-    "current_price": 2.4,
-    "price_change_24h": 0.562142,
-    "last_updated_at": "2026-02-14T08:50:52.240Z",
-    "market_cap": 9184268,
-    "market_cap_rank": 1242
-  },
-  "aleph-zero": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00650588,
-    "price_change_24h": -0.000348000741688973,
-    "last_updated_at": "2026-02-14T08:51:01.260Z",
-    "market_cap": 1968567,
-    "market_cap_rank": 2380
-  },
-  "zenlink-network-token": {
-    "cached_at": 1771043102284,
-    "current_price": 0.00105166,
-    "price_change_24h": -0.000012569763798101,
-    "last_updated_at": "2026-02-14T04:24:14.663Z",
-    "market_cap": 57265,
-    "market_cap_rank": 6771
-  },
-  "binance-bitcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 69726,
-    "price_change_24h": 3198.75,
-    "last_updated_at": "2026-02-14T08:50:38.823Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "ares-protocol": {
-    "cached_at": 1770051604256,
-    "current_price": 0.00047232,
-    "price_change_24h": 0.00001209,
-    "last_updated_at": "2026-02-02T16:59:36.067Z",
-    "market_cap": 139403,
-    "market_cap_rank": 6276
-  },
-  "apillon": {
-    "cached_at": 1762832282415,
-    "current_price": 0.00251814,
-    "price_change_24h": -0.000127132031978913,
-    "last_updated_at": "2025-11-11T03:37:17.158Z",
-    "market_cap": 106796,
-    "market_cap_rank": 7267
-  },
-  "krest": {
-    "cached_at": 1767002642289,
-    "current_price": 0.00118972,
-    "price_change_24h": 0.00014553,
-    "last_updated_at": "2025-12-29T10:02:57.766Z",
-    "market_cap": 0,
-    "market_cap_rank": null
-  },
-  "gavun-wud": {
-    "cached_at": 1771059063080,
-    "current_price": 4.50525e-7,
-    "price_change_24h": 1.4478e-8,
-    "last_updated_at": "2026-02-14T08:50:03.152Z",
-    "market_cap": 450833,
-    "market_cap_rank": 3805
-  },
-  "nextplace": {
-    "cached_at": 1771059063080,
-    "current_price": 1.38,
-    "price_change_24h": 0.275092,
-    "last_updated_at": "2026-02-14T08:50:52.142Z",
-    "market_cap": 4913003,
-    "market_cap_rank": 1652
-  },
-  "tao-private-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.883186,
-    "price_change_24h": 0.170588,
-    "last_updated_at": "2026-02-14T08:50:55.253Z",
-    "market_cap": 3293748,
-    "market_cap_rank": 1942
-  },
-  "savings-dai": {
-    "cached_at": 1771059063080,
-    "current_price": 1.17,
-    "price_change_24h": 0.00043289,
-    "last_updated_at": "2026-02-14T08:50:54.020Z",
-    "market_cap": 171486290,
-    "market_cap_rank": null
-  },
-  "okb": {
-    "cached_at": 1771059063080,
-    "current_price": 79.47,
-    "price_change_24h": 4.29,
-    "last_updated_at": "2026-02-14T08:50:52.505Z",
-    "market_cap": 1668543055,
-    "market_cap_rank": 47
-  },
-  "arbitrum": {
-    "cached_at": 1771059063080,
-    "current_price": 0.117279,
-    "price_change_24h": 0.00616048,
-    "last_updated_at": "2026-02-14T08:50:58.260Z",
-    "market_cap": 683243345,
-    "market_cap_rank": 87
-  },
-  "ethena": {
-    "cached_at": 1771059063080,
-    "current_price": 0.123537,
-    "price_change_24h": 0.00718515,
-    "last_updated_at": "2026-02-14T08:51:01.021Z",
-    "market_cap": 1015988513,
-    "market_cap_rank": 68
-  },
-  "redteam": {
-    "cached_at": 1771059063080,
-    "current_price": 0.885468,
-    "price_change_24h": 0.231106,
-    "last_updated_at": "2026-02-14T08:50:53.632Z",
-    "market_cap": 3462585,
-    "market_cap_rank": 1906
-  },
-  "acala": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00198298,
-    "price_change_24h": 0.00013991,
-    "last_updated_at": "2026-02-14T08:50:57.448Z",
-    "market_cap": 2324122,
-    "market_cap_rank": 2236
-  },
-  "sophon": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0100503,
-    "price_change_24h": 0.00000215,
-    "last_updated_at": "2026-02-14T08:50:54.809Z",
-    "market_cap": 20100608,
-    "market_cap_rank": 810
-  },
-  "humanode": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00317518,
-    "price_change_24h": -0.000019924452719025,
-    "last_updated_at": "2026-02-14T08:48:33.782Z",
-    "market_cap": 590823,
-    "market_cap_rank": 3497
-  },
-  "ni-compute": {
-    "cached_at": 1771059063080,
-    "current_price": 0.746613,
-    "price_change_24h": 0.171457,
-    "last_updated_at": "2026-02-14T08:50:52.165Z",
-    "market_cap": 2757586,
-    "market_cap_rank": 2094
-  },
-  "templar": {
-    "cached_at": 1771059063080,
-    "current_price": 6.72,
-    "price_change_24h": 1.48,
-    "last_updated_at": "2026-02-14T08:50:55.319Z",
-    "market_cap": 27132262,
-    "market_cap_rank": 687
-  },
-  "bettensor": {
-    "cached_at": 1771059063080,
-    "current_price": 0.760117,
-    "price_change_24h": 0.182,
-    "last_updated_at": "2026-02-14T08:50:58.665Z",
-    "market_cap": 3118423,
-    "market_cap_rank": 1985
-  },
-  "mantle-staked-ether": {
-    "cached_at": 1771059063080,
-    "current_price": 2256.45,
-    "price_change_24h": 130.01,
-    "last_updated_at": "2026-02-14T08:50:51.335Z",
-    "market_cap": 614704006,
-    "market_cap_rank": null
-  },
-  "crust-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02193279,
-    "price_change_24h": 0.00195906,
-    "last_updated_at": "2026-02-14T08:50:43.746Z",
-    "market_cap": 585950,
-    "market_cap_rank": 3510
-  },
-  "moonriver": {
-    "cached_at": 1771059063080,
-    "current_price": 1.5,
-    "price_change_24h": 0.04023222,
-    "last_updated_at": "2026-02-14T08:50:51.854Z",
-    "market_cap": 16595923,
-    "market_cap_rank": 902
-  },
-  "aave": {
-    "cached_at": 1771059063080,
-    "current_price": 125.78,
-    "price_change_24h": 13.75,
-    "last_updated_at": "2026-02-14T08:50:57.609Z",
-    "market_cap": 1911197176,
-    "market_cap_rank": 42
-  },
-  "quant-network": {
-    "cached_at": 1771059063080,
-    "current_price": 73.41,
-    "price_change_24h": 6.01,
-    "last_updated_at": "2026-02-14T08:50:53.567Z",
-    "market_cap": 1067380387,
-    "market_cap_rank": 65
-  },
-  "hyperbridge-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01597164,
-    "price_change_24h": 0.00073391,
-    "last_updated_at": "2026-02-14T08:51:02.145Z",
-    "market_cap": 2290959,
-    "market_cap_rank": 2247
-  },
-  "magic": {
-    "cached_at": 1771059063080,
-    "current_price": 0.069876,
-    "price_change_24h": 0.00192734,
-    "last_updated_at": "2026-02-14T08:50:51.262Z",
-    "market_cap": 22203691,
-    "market_cap_rank": 775
-  },
-  "arbitrum-bridged-wbtc-arbitrum-one": {
-    "cached_at": 1771059063080,
-    "current_price": 69689,
-    "price_change_24h": 3274.73,
-    "last_updated_at": "2026-02-14T08:50:58.161Z",
-    "market_cap": 544431248,
-    "market_cap_rank": null
-  },
-  "apex-5": {
-    "cached_at": 1771059063080,
-    "current_price": 2.14,
-    "price_change_24h": 0.473246,
-    "last_updated_at": "2026-02-14T08:50:58.010Z",
-    "market_cap": 8200127,
-    "market_cap_rank": 1311
-  },
-  "the-sandbox": {
-    "cached_at": 1771059063080,
-    "current_price": 0.088697,
-    "price_change_24h": 0.00504392,
-    "last_updated_at": "2026-02-14T08:50:55.800Z",
-    "market_cap": 236574735,
-    "market_cap_rank": 158
-  },
-  "origintrail": {
-    "cached_at": 1771059063080,
-    "current_price": 0.347922,
-    "price_change_24h": 0.02369077,
-    "last_updated_at": "2026-02-14T08:50:52.628Z",
-    "market_cap": 155633628,
-    "market_cap_rank": 210
-  },
-  "real-time-data-by-masa": {
-    "cached_at": 1771059063080,
-    "current_price": 0.873875,
-    "price_change_24h": 0.220021,
-    "last_updated_at": "2026-02-14T08:50:53.620Z",
-    "market_cap": 3563499,
-    "market_cap_rank": 1883
-  },
-  "dent": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00014834,
-    "price_change_24h": 0.00000722,
-    "last_updated_at": "2026-02-14T08:51:00.466Z",
-    "market_cap": 14195224,
-    "market_cap_rank": 980
-  },
-  "autonomys-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01110276,
-    "price_change_24h": 0.00087881,
-    "last_updated_at": "2026-02-14T08:49:41.282Z",
-    "market_cap": 969565,
-    "market_cap_rank": 3016
-  },
-  "syscoin": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01428604,
-    "price_change_24h": 0.00037082,
-    "last_updated_at": "2026-02-14T08:50:59.726Z",
-    "market_cap": 12126003,
-    "market_cap_rank": 1059
-  },
-  "basilisk": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00001541,
-    "price_change_24h": -0.00000148660695774,
-    "last_updated_at": "2026-02-14T08:49:22.146Z",
-    "market_cap": 363354,
-    "market_cap_rank": 4076
-  },
-  "subvortex": {
-    "cached_at": 1771059063080,
-    "current_price": 0.802745,
-    "price_change_24h": 0.177871,
-    "last_updated_at": "2026-02-14T08:50:54.949Z",
-    "market_cap": 3249373,
-    "market_cap_rank": 1952
-  },
-  "sats-ordinals": {
-    "cached_at": 1771059063080,
-    "current_price": 1.2192e-8,
-    "price_change_24h": 7.68816e-10,
-    "last_updated_at": "2026-02-14T08:50:54.038Z",
-    "market_cap": 25602576,
-    "market_cap_rank": 713
-  },
-  "tomochain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.053868,
-    "price_change_24h": 0.00187025,
-    "last_updated_at": "2026-02-14T08:50:56.072Z",
-    "market_cap": 6748329,
-    "market_cap_rank": 1439
-  },
-  "logx-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00009288,
-    "price_change_24h": -0.000001966174993282,
-    "last_updated_at": "2026-02-14T08:50:03.235Z",
-    "market_cap": 92878,
-    "market_cap_rank": 5979
+  "energy-web-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.455258,
+    "price_change_24h": -0.003891412656623738,
+    "last_updated_at": "2026-02-14T09:32:55.577Z",
+    "market_cap": 27563241,
+    "market_cap_rank": 682
+  },
+  "creditcoin-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.188732,
+    "price_change_24h": 0.00829052,
+    "last_updated_at": "2026-02-14T09:32:54.947Z",
+    "market_cap": 97398861,
+    "market_cap_rank": 286
   },
   "binance-peg-polkadot": {
-    "cached_at": 1771059063080,
+    "cached_at": 1771061582625,
     "current_price": 1.36,
-    "price_change_24h": 0.082747,
-    "last_updated_at": "2026-02-14T08:50:58.782Z",
-    "market_cap": 21673378,
+    "price_change_24h": 0.085011,
+    "last_updated_at": "2026-02-14T09:32:54.025Z",
+    "market_cap": 21779721,
     "market_cap_rank": null
   },
-  "my-paqman-coin": {
-    "cached_at": 1771058702268,
-    "current_price": 0.00000202,
-    "price_change_24h": 1.0548e-7,
-    "last_updated_at": "2026-02-14T08:43:00.564Z",
-    "market_cap": 0,
-    "market_cap_rank": null
+  "checkerchain-2": {
+    "cached_at": 1771061462275,
+    "current_price": 0.773743,
+    "price_change_24h": 0.201533,
+    "last_updated_at": "2026-02-14T09:30:16.708Z",
+    "market_cap": 159826,
+    "market_cap_rank": 5160
   },
-  "swarm-3": {
-    "cached_at": 1771059063080,
-    "current_price": 1.31,
-    "price_change_24h": 0.27797,
-    "last_updated_at": "2026-02-14T08:50:55.551Z",
-    "market_cap": 3099511,
-    "market_cap_rank": 1994
+  "liquidity-provisioning": {
+    "cached_at": 1771061582625,
+    "current_price": 1.043,
+    "price_change_24h": 0.287021,
+    "last_updated_at": "2026-02-14T09:32:58.283Z",
+    "market_cap": 2913137,
+    "market_cap_rank": 2045
   },
-  "score": {
-    "cached_at": 1771059063080,
-    "current_price": 7.07,
-    "price_change_24h": 1.66,
-    "last_updated_at": "2026-02-14T08:50:54.054Z",
-    "market_cap": 29150839,
-    "market_cap_rank": 659
+  "sky": {
+    "cached_at": 1771061582625,
+    "current_price": 0.068708,
+    "price_change_24h": 0.00237371,
+    "last_updated_at": "2026-02-14T09:33:00.118Z",
+    "market_cap": 1580307809,
+    "market_cap_rank": 50
   },
-  "404-gen": {
-    "cached_at": 1771059063080,
-    "current_price": 2.28,
-    "price_change_24h": 0.502979,
-    "last_updated_at": "2026-02-14T08:50:57.320Z",
-    "market_cap": 9562990,
-    "market_cap_rank": 1221
+  "dojo-3": {
+    "cached_at": 1771061582625,
+    "current_price": 1.79,
+    "price_change_24h": 0.430142,
+    "last_updated_at": "2026-02-14T09:32:55.313Z",
+    "market_cap": 6732255,
+    "market_cap_rank": 1441
   },
-  "axlusdc": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": -0.000827734849399464,
-    "last_updated_at": "2026-02-14T08:50:50.105Z",
-    "market_cap": 0,
-    "market_cap_rank": null
+  "zkverify": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01967092,
+    "price_change_24h": 0.00149579,
+    "last_updated_at": "2026-02-14T09:32:48.805Z",
+    "market_cap": 6019684,
+    "market_cap_rank": 1513
   },
-  "sundae-bar": {
-    "cached_at": 1771059063080,
-    "current_price": 1.49,
-    "price_change_24h": 0.314178,
-    "last_updated_at": "2026-02-14T08:50:54.993Z",
-    "market_cap": 3107639,
-    "market_cap_rank": 1989
+  "the-open-network": {
+    "cached_at": 1771061582625,
+    "current_price": 1.47,
+    "price_change_24h": 0.064711,
+    "last_updated_at": "2026-02-14T09:32:58.439Z",
+    "market_cap": 3596737369,
+    "market_cap_rank": 31
   },
-  "solarbeam": {
-    "cached_at": 1770988262713,
-    "current_price": 0.00043487,
-    "price_change_24h": 0.00000172,
-    "last_updated_at": "2026-02-13T13:10:55.184Z",
-    "market_cap": 16472.94,
-    "market_cap_rank": 8832
+  "the-sandbox": {
+    "cached_at": 1771061582625,
+    "current_price": 0.088905,
+    "price_change_24h": 0.00537378,
+    "last_updated_at": "2026-02-14T09:32:58.246Z",
+    "market_cap": 237010943,
+    "market_cap_rank": 158
   },
-  "0x0-ai-ai-smart-contract": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00508177,
-    "price_change_24h": 0.00015494,
-    "last_updated_at": "2026-02-14T08:50:57.241Z",
-    "market_cap": 4525319,
-    "market_cap_rank": 1716
+  "myria": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00005952,
+    "price_change_24h": 0.00000342,
+    "last_updated_at": "2026-02-14T09:30:17.989Z",
+    "market_cap": 1684012,
+    "market_cap_rank": 2527
   },
-  "ai-factory": {
-    "cached_at": 1771059063080,
-    "current_price": 0.695083,
-    "price_change_24h": 0.153105,
-    "last_updated_at": "2026-02-14T08:50:18.349Z",
-    "market_cap": 244178,
-    "market_cap_rank": 4563
-  },
-  "tensorprox": {
-    "cached_at": 1771059063080,
-    "current_price": 0.805083,
-    "price_change_24h": 0.15293,
-    "last_updated_at": "2026-02-14T08:50:55.330Z",
-    "market_cap": 2685605,
-    "market_cap_rank": 2114
-  },
-  "blast": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00060712,
-    "price_change_24h": 0.00001473,
-    "last_updated_at": "2026-02-14T08:50:59.079Z",
-    "market_cap": 33688561,
-    "market_cap_rank": 591
-  },
-  "gigadot": {
-    "cached_at": 1771059063080,
-    "current_price": 1.36,
-    "price_change_24h": 0.077984,
-    "last_updated_at": "2026-02-14T08:51:01.540Z",
-    "market_cap": 11921506,
-    "market_cap_rank": null
-  },
-  "panorama-swap-token": {
+  "bido-staked-bitcoin": {
     "cached_at": 1761227685669,
     "current_price": null,
     "price_change_24h": null,
@@ -2791,37 +1623,197 @@
     "market_cap": null,
     "market_cap_rank": null
   },
-  "zksync": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02272361,
-    "price_change_24h": 0.00048448,
-    "last_updated_at": "2026-02-14T08:50:57.648Z",
-    "market_cap": 249026975,
-    "market_cap_rank": 155
+  "jpycoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0064819,
+    "price_change_24h": 0.00003476,
+    "last_updated_at": "2026-02-14T09:32:57.640Z",
+    "market_cap": 11861572,
+    "market_cap_rank": 1071
   },
-  "aria-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01154838,
-    "price_change_24h": -0.000181312011761083,
-    "last_updated_at": "2026-02-14T08:50:58.185Z",
-    "market_cap": 3856711,
-    "market_cap_rank": 1820
+  "basic-attention-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.134229,
+    "price_change_24h": 0.00584252,
+    "last_updated_at": "2026-02-14T09:32:54.034Z",
+    "market_cap": 200612428,
+    "market_cap_rank": 178
   },
-  "staked-ether": {
-    "cached_at": 1771059063080,
-    "current_price": 2077.89,
-    "price_change_24h": 122.41,
-    "last_updated_at": "2026-02-14T08:50:54.703Z",
-    "market_cap": 19842197939,
+  "finetuning": {
+    "cached_at": 1771061582625,
+    "current_price": 0.954013,
+    "price_change_24h": 0.237996,
+    "last_updated_at": "2026-02-14T09:32:56.050Z",
+    "market_cap": 3528632,
+    "market_cap_rank": 1892
+  },
+  "bitsec-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 1.45,
+    "price_change_24h": 0.346498,
+    "last_updated_at": "2026-02-14T09:32:54.115Z",
+    "market_cap": 5577761,
+    "market_cap_rank": 1565
+  },
+  "unit": {
+    "cached_at": 1771061462275,
+    "current_price": 0.01029016,
+    "price_change_24h": 0.00053816,
+    "last_updated_at": "2026-02-14T09:30:41.634Z",
+    "market_cap": 0,
     "market_cap_rank": null
   },
-  "uncommon-goods": {
-    "cached_at": 1771059063080,
-    "current_price": 0.01375041,
-    "price_change_24h": 0.0016304,
-    "last_updated_at": "2026-02-14T08:49:49.143Z",
-    "market_cap": 982698,
-    "market_cap_rank": 3005
+  "compound-governance-token": {
+    "cached_at": 1771061582625,
+    "current_price": 20.66,
+    "price_change_24h": 3.83,
+    "last_updated_at": "2026-02-14T09:32:54.919Z",
+    "market_cap": 200358473,
+    "market_cap_rank": 177
+  },
+  "acala": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00200198,
+    "price_change_24h": -0.000089485299924208,
+    "last_updated_at": "2026-02-14T09:32:51.542Z",
+    "market_cap": 2328937,
+    "market_cap_rank": 2234
+  },
+  "vidaio": {
+    "cached_at": 1771061582625,
+    "current_price": 2.05,
+    "price_change_24h": 0.605786,
+    "last_updated_at": "2026-02-14T09:33:00.311Z",
+    "market_cap": 6835635,
+    "market_cap_rank": 1430
+  },
+  "wrapped-avax": {
+    "cached_at": 1771061582625,
+    "current_price": 9.24,
+    "price_change_24h": 0.373396,
+    "last_updated_at": "2026-02-14T09:33:01.692Z",
+    "market_cap": 141491510,
+    "market_cap_rank": null
+  },
+  "hyperliquid": {
+    "cached_at": 1771061582625,
+    "current_price": 31.56,
+    "price_change_24h": 1.24,
+    "last_updated_at": "2026-02-14T09:32:57.071Z",
+    "market_cap": 7523931978,
+    "market_cap_rank": 16
+  },
+  "metamask-usd": {
+    "cached_at": 1771061582625,
+    "current_price": 1,
+    "price_change_24h": 0.00029552,
+    "last_updated_at": "2026-02-14T09:32:58.963Z",
+    "market_cap": 21580716,
+    "market_cap_rank": 785
+  },
+  "tensorplex-staked-tao": {
+    "cached_at": 1771061582625,
+    "current_price": 251.94,
+    "price_change_24h": 21.25,
+    "last_updated_at": "2026-02-14T09:31:15.560Z",
+    "market_cap": 1817986,
+    "market_cap_rank": null
+  },
+  "brz": {
+    "cached_at": 1771061582625,
+    "current_price": 0.190911,
+    "price_change_24h": -0.000382348738268284,
+    "last_updated_at": "2026-02-14T09:31:10.645Z",
+    "market_cap": 1692774,
+    "market_cap_rank": 2517
+  },
+  "fusotao": {
+    "cached_at": 1771061042125,
+    "current_price": 0.00028009,
+    "price_change_24h": 0,
+    "last_updated_at": "2026-02-14T09:23:18.345Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "nextplace": {
+    "cached_at": 1771061582625,
+    "current_price": 1.41,
+    "price_change_24h": 0.298117,
+    "last_updated_at": "2026-02-14T09:32:59.797Z",
+    "market_cap": 4997750,
+    "market_cap_rank": 1639
+  },
+  "arbitrum-bridged-wbtc-arbitrum-one": {
+    "cached_at": 1771061582625,
+    "current_price": 69457,
+    "price_change_24h": 2917.61,
+    "last_updated_at": "2026-02-14T09:32:52.571Z",
+    "market_cap": 543634587,
+    "market_cap_rank": null
+  },
+  "gradients": {
+    "cached_at": 1771061582625,
+    "current_price": 5.02,
+    "price_change_24h": 1.16,
+    "last_updated_at": "2026-02-14T09:32:56.469Z",
+    "market_cap": 19746215,
+    "market_cap_rank": 820
+  },
+  "hippius": {
+    "cached_at": 1771061582625,
+    "current_price": 5.21,
+    "price_change_24h": 1.2,
+    "last_updated_at": "2026-02-14T09:32:56.772Z",
+    "market_cap": 19066161,
+    "market_cap_rank": 846
+  },
+  "liquidity": {
+    "cached_at": 1771061582625,
+    "current_price": 0.965882,
+    "price_change_24h": 0.261739,
+    "last_updated_at": "2026-02-14T09:32:58.424Z",
+    "market_cap": 3632822,
+    "market_cap_rank": 1869
+  },
+  "usdt0": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999505,
+    "price_change_24h": 0.00034466,
+    "last_updated_at": "2026-02-14T09:33:00.036Z",
+    "market_cap": 4490607484,
+    "market_cap_rank": null
+  },
+  "swe-rizzo": {
+    "cached_at": 1771061582625,
+    "current_price": 0.943763,
+    "price_change_24h": 0.232124,
+    "last_updated_at": "2026-02-14T09:32:56.924Z",
+    "market_cap": 3474464,
+    "market_cap_rank": 1906
+  },
+  "brain": {
+    "cached_at": 1771061582625,
+    "current_price": 0.887512,
+    "price_change_24h": 0.195453,
+    "last_updated_at": "2026-02-14T09:31:39.156Z",
+    "market_cap": 484302,
+    "market_cap_rank": 3722
+  },
+  "wrapped-rbnt": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00702714,
+    "price_change_24h": 0.00017185,
+    "last_updated_at": "2026-02-14T09:33:01.610Z",
+    "market_cap": 6157074,
+    "market_cap_rank": null
+  },
+  "fantom": {
+    "cached_at": 1771061582625,
+    "current_price": 0.0497511,
+    "price_change_24h": 0.00397322,
+    "last_updated_at": "2026-02-14T09:31:36.976Z",
+    "market_cap": 0,
+    "market_cap_rank": null
   },
   "standard-protocol": {
     "cached_at": 1762957983313,
@@ -2831,61 +1823,917 @@
     "market_cap": 14552.49,
     "market_cap_rank": 10687
   },
-  "w-ai-parked": {
-    "cached_at": 1771059063080,
-    "current_price": 3.08,
-    "price_change_24h": 0.800685,
-    "last_updated_at": "2026-02-14T08:50:56.478Z",
-    "market_cap": 10552572,
-    "market_cap_rank": 1146
+  "bitcoin": {
+    "cached_at": 1771061582625,
+    "current_price": 69617,
+    "price_change_24h": 2784.01,
+    "last_updated_at": "2026-02-14T09:33:00.584Z",
+    "market_cap": 1390573184296,
+    "market_cap_rank": 1
   },
-  "proprietary-trading-network": {
-    "cached_at": 1771059063080,
-    "current_price": 8.81,
-    "price_change_24h": 1.89,
-    "last_updated_at": "2026-02-14T08:50:53.249Z",
-    "market_cap": 35969684,
-    "market_cap_rank": 561
+  "trac": {
+    "cached_at": 1770637563712,
+    "current_price": 0.118995,
+    "price_change_24h": -0.001364837857658938,
+    "last_updated_at": "2026-02-09T11:45:16.050Z",
+    "market_cap": 2498885,
+    "market_cap_rank": 2138
   },
-  "avail": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00418149,
-    "price_change_24h": 0.00003172,
-    "last_updated_at": "2026-02-14T08:50:58.424Z",
-    "market_cap": 15451947,
-    "market_cap_rank": 933
+  "internet-of-intelligence": {
+    "cached_at": 1771061582625,
+    "current_price": 0.909883,
+    "price_change_24h": 0.191699,
+    "last_updated_at": "2026-02-14T09:31:39.544Z",
+    "market_cap": 358411,
+    "market_cap_rank": 4090
   },
-  "theta-token": {
-    "cached_at": 1771059063080,
-    "current_price": 0.219603,
-    "price_change_24h": 0.01128859,
-    "last_updated_at": "2026-02-14T08:50:55.552Z",
-    "market_cap": 219591674,
-    "market_cap_rank": 163
+  "interlay": {
+    "cached_at": 1771061236074,
+    "current_price": 0.00014017,
+    "price_change_24h": 0.0000231,
+    "last_updated_at": "2026-02-14T09:25:22.640Z",
+    "market_cap": 32238,
+    "market_cap_rank": 7737
   },
-  "ethereum-name-service": {
-    "cached_at": 1771059063080,
-    "current_price": 6.87,
-    "price_change_24h": 1.017,
-    "last_updated_at": "2026-02-14T08:51:01.042Z",
-    "market_cap": 262235530,
-    "market_cap_rank": 154
+  "mnet-continuum": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00073553,
+    "price_change_24h": 0.00005384,
+    "last_updated_at": "2026-02-14T09:30:19.837Z",
+    "market_cap": 97585,
+    "market_cap_rank": 5892
+  },
+  "bifrost-native-coin": {
+    "cached_at": 1771061462275,
+    "current_price": 0.04622335,
+    "price_change_24h": 0.00029262,
+    "last_updated_at": "2026-02-14T09:30:43.618Z",
+    "market_cap": 1836219,
+    "market_cap_rank": 2438
+  },
+  "bitads": {
+    "cached_at": 1771061582625,
+    "current_price": 1.14,
+    "price_change_24h": 0.271826,
+    "last_updated_at": "2026-02-14T09:32:54.015Z",
+    "market_cap": 4221663,
+    "market_cap_rank": 1760
+  },
+  "synth-2": {
+    "cached_at": 1771061582625,
+    "current_price": 1.92,
+    "price_change_24h": 0.464798,
+    "last_updated_at": "2026-02-14T09:32:57.134Z",
+    "market_cap": 7577079,
+    "market_cap_rank": 1359
+  },
+  "chunking": {
+    "cached_at": 1771061582625,
+    "current_price": 0.78639,
+    "price_change_24h": 0.194973,
+    "last_updated_at": "2026-02-14T09:32:54.896Z",
+    "market_cap": 2799102,
+    "market_cap_rank": 2087
+  },
+  "happyai-2": {
+    "cached_at": 1771061582625,
+    "current_price": 1.036,
+    "price_change_24h": 0.326247,
+    "last_updated_at": "2026-02-14T09:31:40.073Z",
+    "market_cap": 2292091,
+    "market_cap_rank": 2246
+  },
+  "rocket-pool-eth": {
+    "cached_at": 1771061582625,
+    "current_price": 2402.7,
+    "price_change_24h": 136.93,
+    "last_updated_at": "2026-02-14T09:32:53.203Z",
+    "market_cap": 825690544,
+    "market_cap_rank": null
+  },
+  "flamewire": {
+    "cached_at": 1771061582625,
+    "current_price": 0.785445,
+    "price_change_24h": 0.171405,
+    "last_updated_at": "2026-02-14T09:31:40.192Z",
+    "market_cap": 2179463,
+    "market_cap_rank": 2289
+  },
+  "venus-usdt": {
+    "cached_at": 1771061462275,
+    "current_price": 0.02616801,
+    "price_change_24h": 0.00000953,
+    "last_updated_at": "2026-02-14T09:30:10.935Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "arbitrum": {
+    "cached_at": 1771061582625,
+    "current_price": 0.117374,
+    "price_change_24h": 0.00668751,
+    "last_updated_at": "2026-02-14T09:32:52.829Z",
+    "market_cap": 683914116,
+    "market_cap_rank": 87
+  },
+  "kyber-network-crystal": {
+    "cached_at": 1771061582625,
+    "current_price": 0.150464,
+    "price_change_24h": 0.00357065,
+    "last_updated_at": "2026-02-14T09:32:58.070Z",
+    "market_cap": 25601097,
+    "market_cap_rank": 712
   },
   "runes-x-bitcoin": {
-    "cached_at": 1771059063080,
-    "current_price": 3.5982e-7,
-    "price_change_24h": 9.8682e-11,
-    "last_updated_at": "2026-02-14T08:49:11.502Z",
+    "cached_at": 1771061462275,
+    "current_price": 3.59825e-7,
+    "price_change_24h": 1.09846e-10,
+    "last_updated_at": "2026-02-14T09:30:55.223Z",
     "market_cap": 75562,
-    "market_cap_rank": 6314
+    "market_cap_rank": 6310
+  },
+  "pancakeswap-token": {
+    "cached_at": 1771061582625,
+    "current_price": 1.32,
+    "price_change_24h": 0.06285,
+    "last_updated_at": "2026-02-14T09:33:00.879Z",
+    "market_cap": 438526014,
+    "market_cap_rank": 106
+  },
+  "manta-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.081251,
+    "price_change_24h": 0.00079773,
+    "last_updated_at": "2026-02-14T09:32:58.675Z",
+    "market_cap": 37779845,
+    "market_cap_rank": 545
+  },
+  "tao-private-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.906822,
+    "price_change_24h": 0.193776,
+    "last_updated_at": "2026-02-14T09:32:57.316Z",
+    "market_cap": 3383830,
+    "market_cap_rank": 1925
+  },
+  "sui": {
+    "cached_at": 1771061582625,
+    "current_price": 0.985171,
+    "price_change_24h": 0.057481,
+    "last_updated_at": "2026-02-14T09:32:56.841Z",
+    "market_cap": 3789126672,
+    "market_cap_rank": 30
+  },
+  "apecoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.131316,
+    "price_change_24h": 0.00472389,
+    "last_updated_at": "2026-02-14T09:32:52.093Z",
+    "market_cap": 119338340,
+    "market_cap_rank": 244
+  },
+  "athene-network-2": {
+    "cached_at": 1771061343044,
+    "current_price": 0.00000333,
+    "price_change_24h": -0.000003029205062426,
+    "last_updated_at": "2026-02-14T09:27:51.995Z",
+    "market_cap": 32.73,
+    "market_cap_rank": 12671
+  },
+  "apillon": {
+    "cached_at": 1762832282415,
+    "current_price": 0.00251814,
+    "price_change_24h": -0.000127132031978913,
+    "last_updated_at": "2025-11-11T03:37:17.158Z",
+    "market_cap": 106796,
+    "market_cap_rank": 7267
+  },
+  "sundae-bar": {
+    "cached_at": 1771061582625,
+    "current_price": 1.51,
+    "price_change_24h": 0.342448,
+    "last_updated_at": "2026-02-14T09:32:56.527Z",
+    "market_cap": 3164551,
+    "market_cap_rank": 1974
+  },
+  "gaia-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.773014,
+    "price_change_24h": 0.182488,
+    "last_updated_at": "2026-02-14T09:32:56.060Z",
+    "market_cap": 3151434,
+    "market_cap_rank": 1980
+  },
+  "euro-coin": {
+    "cached_at": 1771061582625,
+    "current_price": 1.18,
+    "price_change_24h": -0.001493358314274218,
+    "last_updated_at": "2026-02-14T09:32:55.767Z",
+    "market_cap": 462206231,
+    "market_cap_rank": 104
+  },
+  "multibit": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00054368,
+    "price_change_24h": 0.00002395,
+    "last_updated_at": "2026-02-14T09:31:17.475Z",
+    "market_cap": 515505,
+    "market_cap_rank": 3649
+  },
+  "mantle-staked-ether": {
+    "cached_at": 1771061582625,
+    "current_price": 2253.78,
+    "price_change_24h": 131.98,
+    "last_updated_at": "2026-02-14T09:32:58.690Z",
+    "market_cap": 612365730,
+    "market_cap_rank": null
+  },
+  "chutes": {
+    "cached_at": 1771061582625,
+    "current_price": 20.65,
+    "price_change_24h": 4.75,
+    "last_updated_at": "2026-02-14T09:32:54.620Z",
+    "market_cap": 89540396,
+    "market_cap_rank": 300
+  },
+  "pepe": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00000383,
+    "price_change_24h": 1.23001e-7,
+    "last_updated_at": "2026-02-14T09:33:00.988Z",
+    "market_cap": 1611426366,
+    "market_cap_rank": 48
+  },
+  "solana": {
+    "cached_at": 1771061582625,
+    "current_price": 85.94,
+    "price_change_24h": 6.28,
+    "last_updated_at": "2026-02-14T09:32:53.953Z",
+    "market_cap": 48812605435,
+    "market_cap_rank": 7
+  },
+  "streetvision-by-natix": {
+    "cached_at": 1771061582625,
+    "current_price": 0.830451,
+    "price_change_24h": 0.214301,
+    "last_updated_at": "2026-02-14T09:32:56.333Z",
+    "market_cap": 3153143,
+    "market_cap_rank": 1979
+  },
+  "h2o-2": {
+    "cached_at": 1771061462275,
+    "current_price": 8.22,
+    "price_change_24h": 0.16654,
+    "last_updated_at": "2026-02-14T09:29:46.203Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "aventus": {
+    "cached_at": 1771061582625,
+    "current_price": 0.682225,
+    "price_change_24h": 0.02180376,
+    "last_updated_at": "2026-02-14T09:32:53.415Z",
+    "market_cap": 6747369,
+    "market_cap_rank": 1440
+  },
+  "tensorprox": {
+    "cached_at": 1771061582625,
+    "current_price": 0.823751,
+    "price_change_24h": 0.173267,
+    "last_updated_at": "2026-02-14T09:32:57.651Z",
+    "market_cap": 2749449,
+    "market_cap_rank": 2100
+  },
+  "hydrated-dollar": {
+    "cached_at": 1771061582625,
+    "current_price": 0.996221,
+    "price_change_24h": 0.00016961,
+    "last_updated_at": "2026-02-14T09:32:56.991Z",
+    "market_cap": 12545727,
+    "market_cap_rank": 1044
+  },
+  "humanode": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00318809,
+    "price_change_24h": -0.000003902351854476,
+    "last_updated_at": "2026-02-14T09:31:07.137Z",
+    "market_cap": 593219,
+    "market_cap_rank": 3494
+  },
+  "integritee": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01071256,
+    "price_change_24h": -0.004551086998467038,
+    "last_updated_at": "2026-02-14T09:31:43.093Z",
+    "market_cap": 42615,
+    "market_cap_rank": 7242
+  },
+  "chainlink": {
+    "cached_at": 1771061582625,
+    "current_price": 8.97,
+    "price_change_24h": 0.516942,
+    "last_updated_at": "2026-02-14T09:32:54.924Z",
+    "market_cap": 6354098072,
+    "market_cap_rank": 18
+  },
+  "compute-horde": {
+    "cached_at": 1771061582625,
+    "current_price": 1.33,
+    "price_change_24h": 0.322937,
+    "last_updated_at": "2026-02-14T09:32:54.789Z",
+    "market_cap": 4682646,
+    "market_cap_rank": 1691
+  },
+  "templar": {
+    "cached_at": 1771061582625,
+    "current_price": 6.84,
+    "price_change_24h": 1.65,
+    "last_updated_at": "2026-02-14T09:32:57.560Z",
+    "market_cap": 27657943,
+    "market_cap_rank": 680
+  },
+  "redteam": {
+    "cached_at": 1771061582625,
+    "current_price": 0.901014,
+    "price_change_24h": 0.244351,
+    "last_updated_at": "2026-02-14T09:32:52.959Z",
+    "market_cap": 3525392,
+    "market_cap_rank": 1893
+  },
+  "beam-bridged-avax-beam": {
+    "cached_at": 1771061462275,
+    "current_price": 9.23,
+    "price_change_24h": 0.35357,
+    "last_updated_at": "2026-02-14T09:30:58.336Z",
+    "market_cap": 78872,
+    "market_cap_rank": null
+  },
+  "aos-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.874965,
+    "price_change_24h": 0.29651,
+    "last_updated_at": "2026-02-14T09:32:51.925Z",
+    "market_cap": 3164307,
+    "market_cap_rank": 1975
+  },
+  "runecoin": {
+    "cached_at": 1771061343044,
+    "current_price": 0.00006421,
+    "price_change_24h": -5.84224178329e-7,
+    "last_updated_at": "2026-02-14T09:28:10.002Z",
+    "market_cap": 1348399,
+    "market_cap_rank": 2713
+  },
+  "frax-ether": {
+    "cached_at": 1771061582625,
+    "current_price": 2065.18,
+    "price_change_24h": 114.08,
+    "last_updated_at": "2026-02-14T09:32:56.024Z",
+    "market_cap": 158961956,
+    "market_cap_rank": null
+  },
+  "okb": {
+    "cached_at": 1771061582625,
+    "current_price": 79.5,
+    "price_change_24h": 4.3,
+    "last_updated_at": "2026-02-14T09:33:00.250Z",
+    "market_cap": 1664425241,
+    "market_cap_rank": 47
+  },
+  "origintrail": {
+    "cached_at": 1771061582625,
+    "current_price": 0.345991,
+    "price_change_24h": 0.02042882,
+    "last_updated_at": "2026-02-14T09:33:00.533Z",
+    "market_cap": 155211138,
+    "market_cap_rank": 210
+  },
+  "beamswap": {
+    "cached_at": 1771054682625,
+    "current_price": 0.00002315,
+    "price_change_24h": 0.0000012,
+    "last_updated_at": "2026-02-14T07:37:27.468Z",
+    "market_cap": 41989,
+    "market_cap_rank": 7268
+  },
+  "data-universe": {
+    "cached_at": 1771061582625,
+    "current_price": 1.79,
+    "price_change_24h": 0.433894,
+    "last_updated_at": "2026-02-14T09:32:55.042Z",
+    "market_cap": 7541951,
+    "market_cap_rank": 1363
+  },
+  "neza": {
+    "cached_at": 1771061236074,
+    "current_price": 0.907273,
+    "price_change_24h": 0.288538,
+    "last_updated_at": "2026-02-14T09:25:13.652Z",
+    "market_cap": 45895,
+    "market_cap_rank": 7144
+  },
+  "hyperbridge-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01599203,
+    "price_change_24h": 0.00067425,
+    "last_updated_at": "2026-02-14T09:32:57.011Z",
+    "market_cap": 2293883,
+    "market_cap_rank": 2244
+  },
+  "agent-arena-by-masa": {
+    "cached_at": 1771061582625,
+    "current_price": 1.3,
+    "price_change_24h": 0.379425,
+    "last_updated_at": "2026-02-14T09:32:51.642Z",
+    "market_cap": 5251713,
+    "market_cap_rank": 1606
+  },
+  "cypress": {
+    "cached_at": 1771060862472,
+    "current_price": 0.01314688,
+    "price_change_24h": -0.000115246803620963,
+    "last_updated_at": "2026-02-14T09:20:08.377Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "aura-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00124434,
+    "price_change_24h": -0.000458069394169517,
+    "last_updated_at": "2026-02-14T09:31:17.314Z",
+    "market_cap": 518222,
+    "market_cap_rank": 3641
   },
   "moonwell-artemis": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00492803,
-    "price_change_24h": 0.00063682,
-    "last_updated_at": "2026-02-14T08:50:51.930Z",
-    "market_cap": 22297060,
-    "market_cap_rank": 772
+    "cached_at": 1771061582625,
+    "current_price": 0.00487424,
+    "price_change_24h": 0.00058378,
+    "last_updated_at": "2026-02-14T09:32:59.420Z",
+    "market_cap": 22079017,
+    "market_cap_rank": 776
+  },
+  "rootstock": {
+    "cached_at": 1771061582625,
+    "current_price": 69627,
+    "price_change_24h": 2995.71,
+    "last_updated_at": "2026-02-14T09:32:53.227Z",
+    "market_cap": 17037588,
+    "market_cap_rank": null
+  },
+  "bettensor": {
+    "cached_at": 1771061582625,
+    "current_price": 0.772793,
+    "price_change_24h": 0.197256,
+    "last_updated_at": "2026-02-14T09:32:53.903Z",
+    "market_cap": 3175479,
+    "market_cap_rank": 1969
+  },
+  "dora-factory": {
+    "cached_at": 1761227685669,
+    "current_price": 1,
+    "price_change_24h": null,
+    "last_updated_at": "2025-10-02T01:26:36.699Z",
+    "market_cap": 5132504,
+    "market_cap_rank": 2275
+  },
+  "frax": {
+    "cached_at": 1771061582625,
+    "current_price": 0.993009,
+    "price_change_24h": 0.00139966,
+    "last_updated_at": "2026-02-14T09:32:56.042Z",
+    "market_cap": 274065793,
+    "market_cap_rank": 151
+  },
+  "centrifuge-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.083455,
+    "price_change_24h": 0.00605185,
+    "last_updated_at": "2026-02-14T09:32:54.573Z",
+    "market_cap": 48080593,
+    "market_cap_rank": 459
+  },
+  "quant": {
+    "cached_at": 1770551042903,
+    "current_price": 0.00001255,
+    "price_change_24h": 2.7087e-7,
+    "last_updated_at": "2026-02-08T11:43:50.477Z",
+    "market_cap": 12463.26,
+    "market_cap_rank": 9466
+  },
+  "celo": {
+    "cached_at": 1771061582625,
+    "current_price": 0.088195,
+    "price_change_24h": 0.00515574,
+    "last_updated_at": "2026-02-14T09:32:54.617Z",
+    "market_cap": 52458306,
+    "market_cap_rank": 439
+  },
+  "tether": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999644,
+    "price_change_24h": 0.00033069,
+    "last_updated_at": "2026-02-14T09:32:58.429Z",
+    "market_cap": 183753017273,
+    "market_cap_rank": 3
+  },
+  "boba-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02263633,
+    "price_change_24h": -0.00036998044831996,
+    "last_updated_at": "2026-02-14T09:32:54.219Z",
+    "market_cap": 11177335,
+    "market_cap_rank": 1113
+  },
+  "bouncebit": {
+    "cached_at": 1771061582625,
+    "current_price": 0.03303666,
+    "price_change_24h": 0.00127854,
+    "last_updated_at": "2026-02-14T09:32:55.697Z",
+    "market_cap": 13533161,
+    "market_cap_rank": 1008
+  },
+  "analog": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00021423,
+    "price_change_24h": 0.0000052,
+    "last_updated_at": "2026-02-14T09:31:26.310Z",
+    "market_cap": 397845,
+    "market_cap_rank": 3958
+  },
+  "tbtc": {
+    "cached_at": 1771061582625,
+    "current_price": 69338,
+    "price_change_24h": 2853.21,
+    "last_updated_at": "2026-02-14T09:32:57.470Z",
+    "market_cap": 408975249,
+    "market_cap_rank": null
+  },
+  "swarm-3": {
+    "cached_at": 1771061582625,
+    "current_price": 1.33,
+    "price_change_24h": 0.3038,
+    "last_updated_at": "2026-02-14T09:32:56.813Z",
+    "market_cap": 3155877,
+    "market_cap_rank": 1978
+  },
+  "zircuit-bridged-usdt-zircuit": {
+    "cached_at": 1771061462275,
+    "current_price": 0.997505,
+    "price_change_24h": -0.001702903439861791,
+    "last_updated_at": "2026-02-14T09:30:02.936Z",
+    "market_cap": 278023,
+    "market_cap_rank": null
+  },
+  "w-ai-parked": {
+    "cached_at": 1771061582625,
+    "current_price": 3.13,
+    "price_change_24h": 0.872411,
+    "last_updated_at": "2026-02-14T09:33:00.597Z",
+    "market_cap": 10736799,
+    "market_cap_rank": 1139
+  },
+  "mantle": {
+    "cached_at": 1771061582625,
+    "current_price": 0.647658,
+    "price_change_24h": 0.03629889,
+    "last_updated_at": "2026-02-14T09:32:58.815Z",
+    "market_cap": 2106272991,
+    "market_cap_rank": 40
+  },
+  "404-gen": {
+    "cached_at": 1771061582625,
+    "current_price": 2.32,
+    "price_change_24h": 0.542361,
+    "last_updated_at": "2026-02-14T09:32:51.451Z",
+    "market_cap": 9738221,
+    "market_cap_rank": 1207
+  },
+  "gaj": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00278933,
+    "price_change_24h": 0.00004184,
+    "last_updated_at": "2026-02-14T09:31:38.137Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "bittensor": {
+    "cached_at": 1771061582625,
+    "current_price": 206.71,
+    "price_change_24h": 49.78,
+    "last_updated_at": "2026-02-14T09:32:54.160Z",
+    "market_cap": 1981452892,
+    "market_cap_rank": 41
+  },
+  "virtual-protocol": {
+    "cached_at": 1771061582625,
+    "current_price": 0.665871,
+    "price_change_24h": 0.088656,
+    "last_updated_at": "2026-02-14T09:33:00.689Z",
+    "market_cap": 435577108,
+    "market_cap_rank": 108
+  },
+  "dippy-speech": {
+    "cached_at": 1771061582625,
+    "current_price": 1.21,
+    "price_change_24h": 0.339019,
+    "last_updated_at": "2026-02-14T09:32:55.214Z",
+    "market_cap": 4188569,
+    "market_cap_rank": 1767
+  },
+  "taohash": {
+    "cached_at": 1771061582625,
+    "current_price": 1.99,
+    "price_change_24h": 0.470274,
+    "last_updated_at": "2026-02-14T09:32:57.304Z",
+    "market_cap": 7491958,
+    "market_cap_rank": 1367
+  },
+  "1inch": {
+    "cached_at": 1771061582625,
+    "current_price": 0.098424,
+    "price_change_24h": 0.00460831,
+    "last_updated_at": "2026-02-14T09:32:51.601Z",
+    "market_cap": 138649137,
+    "market_cap_rank": 223
+  },
+  "krest": {
+    "cached_at": 1767002642289,
+    "current_price": 0.00118972,
+    "price_change_24h": 0.00014553,
+    "last_updated_at": "2025-12-29T10:02:57.766Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "picasso": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00000321,
+    "price_change_24h": 2.12824e-7,
+    "last_updated_at": "2026-02-14T09:31:07.403Z",
+    "market_cap": 29567,
+    "market_cap_rank": 7879
+  },
+  "sturdy-subnet": {
+    "cached_at": 1771061582625,
+    "current_price": 1.26,
+    "price_change_24h": 0.32644,
+    "last_updated_at": "2026-02-14T09:32:56.388Z",
+    "market_cap": 5201403,
+    "market_cap_rank": 1614
+  },
+  "solarbeam": {
+    "cached_at": 1770988262713,
+    "current_price": 0.00043487,
+    "price_change_24h": 0.00000172,
+    "last_updated_at": "2026-02-13T13:10:55.184Z",
+    "market_cap": 16472.94,
+    "market_cap_rank": 8832
+  },
+  "silencio": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00006998,
+    "price_change_24h": 0.00000538,
+    "last_updated_at": "2026-02-14T09:31:08.912Z",
+    "market_cap": 1814010,
+    "market_cap_rank": 2453
+  },
+  "karura": {
+    "cached_at": 1771061246811,
+    "current_price": 0.00197445,
+    "price_change_24h": 0.00028072,
+    "last_updated_at": "2026-02-14T09:27:20.473Z",
+    "market_cap": 228803,
+    "market_cap_rank": 4668
+  },
+  "darwinia-commitment-token": {
+    "cached_at": 1771061462275,
+    "current_price": 1.61,
+    "price_change_24h": 0.0497996,
+    "last_updated_at": "2026-02-14T09:29:49.092Z",
+    "market_cap": 240810,
+    "market_cap_rank": 4586
+  },
+  "crust-network": {
+    "cached_at": 1771061462275,
+    "current_price": 0.02204556,
+    "price_change_24h": 0.00203074,
+    "last_updated_at": "2026-02-14T09:30:09.626Z",
+    "market_cap": 586072,
+    "market_cap_rank": 3506
+  },
+  "docs-insight-tatsu": {
+    "cached_at": 1771061582625,
+    "current_price": 0.786595,
+    "price_change_24h": 0.185667,
+    "last_updated_at": "2026-02-14T09:31:39.829Z",
+    "market_cap": 2357454,
+    "market_cap_rank": 2224
+  },
+  "litentry": {
+    "cached_at": 1771061582625,
+    "current_price": 0.095696,
+    "price_change_24h": 0.01088468,
+    "last_updated_at": "2026-02-14T09:32:58.340Z",
+    "market_cap": 4323122,
+    "market_cap_rank": 1742
+  },
+  "solarflare": {
+    "cached_at": 1769709842328,
+    "current_price": 0.00000827,
+    "price_change_24h": -4.17629648093e-7,
+    "last_updated_at": "2026-01-29T18:03:43.158Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "avalanche-2": {
+    "cached_at": 1771061582625,
+    "current_price": 9.24,
+    "price_change_24h": 0.376076,
+    "last_updated_at": "2026-02-14T09:32:53.434Z",
+    "market_cap": 3989970910,
+    "market_cap_rank": 28
+  },
+  "moonbeam": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01440811,
+    "price_change_24h": 0.00035821,
+    "last_updated_at": "2026-02-14T09:32:59.448Z",
+    "market_cap": 15273294,
+    "market_cap_rank": 938
+  },
+  "bitcast": {
+    "cached_at": 1771061582625,
+    "current_price": 2.46,
+    "price_change_24h": 0.577361,
+    "last_updated_at": "2026-02-14T09:32:54.094Z",
+    "market_cap": 6775185,
+    "market_cap_rank": 1438
+  },
+  "paypal-usd": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999535,
+    "price_change_24h": -0.000188339454300301,
+    "last_updated_at": "2026-02-14T09:33:00.768Z",
+    "market_cap": 4028455110,
+    "market_cap_rank": 27
+  },
+  "dent": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00014999,
+    "price_change_24h": 0.00000959,
+    "last_updated_at": "2026-02-14T09:32:55.182Z",
+    "market_cap": 14345622,
+    "market_cap_rank": 977
+  },
+  "ni-compute": {
+    "cached_at": 1771061582625,
+    "current_price": 0.75906,
+    "price_change_24h": 0.185793,
+    "last_updated_at": "2026-02-14T09:32:59.845Z",
+    "market_cap": 2809727,
+    "market_cap_rank": 2085
+  },
+  "first-digital-usd": {
+    "cached_at": 1771061582625,
+    "current_price": 0.999422,
+    "price_change_24h": 0.00100728,
+    "last_updated_at": "2026-02-14T09:32:55.976Z",
+    "market_cap": 395143730,
+    "market_cap_rank": 116
+  },
+  "maker": {
+    "cached_at": 1771061582625,
+    "current_price": 1618.08,
+    "price_change_24h": 44.64,
+    "last_updated_at": "2026-02-14T09:31:54.182Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "cere-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00029597,
+    "price_change_24h": -0.000008317326938638,
+    "last_updated_at": "2026-02-14T09:31:09.346Z",
+    "market_cap": 1964589,
+    "market_cap_rank": 2379
+  },
+  "proprietary-trading-network": {
+    "cached_at": 1771061582625,
+    "current_price": 8.96,
+    "price_change_24h": 2.06,
+    "last_updated_at": "2026-02-14T09:33:01.329Z",
+    "market_cap": 36605918,
+    "market_cap_rank": 559
+  },
+  "stellaswap": {
+    "cached_at": 1771060982193,
+    "current_price": 0.00288923,
+    "price_change_24h": 0.00009025,
+    "last_updated_at": "2026-02-14T09:22:50.531Z",
+    "market_cap": 335815,
+    "market_cap_rank": 4174
+  },
+  "0x0-ai-ai-smart-contract": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00516638,
+    "price_change_24h": 0.00025421,
+    "last_updated_at": "2026-02-14T09:32:51.441Z",
+    "market_cap": 4604533,
+    "market_cap_rank": 1707
+  },
+  "xdai": {
+    "cached_at": 1771061582625,
+    "current_price": 1,
+    "price_change_24h": -0.000015309154286713,
+    "last_updated_at": "2026-02-14T09:32:48.394Z",
+    "market_cap": 94117649,
+    "market_cap_rank": 294
+  },
+  "trust-wallet-token": {
+    "cached_at": 1771061582625,
+    "current_price": 0.518907,
+    "price_change_24h": 0.01070983,
+    "last_updated_at": "2026-02-14T09:32:58.954Z",
+    "market_cap": 216202328,
+    "market_cap_rank": 167
+  },
+  "web-agents-autoppia": {
+    "cached_at": 1771061582625,
+    "current_price": 0.94025,
+    "price_change_24h": 0.217705,
+    "last_updated_at": "2026-02-14T09:33:00.763Z",
+    "market_cap": 3610107,
+    "market_cap_rank": 1874
+  },
+  "immutable-x": {
+    "cached_at": 1771061582625,
+    "current_price": 0.169113,
+    "price_change_24h": 0.00624243,
+    "last_updated_at": "2026-02-14T09:32:57.341Z",
+    "market_cap": 142568332,
+    "market_cap_rank": 220
+  },
+  "zenlink-network-token": {
+    "cached_at": 1771043102284,
+    "current_price": 0.00105166,
+    "price_change_24h": -0.000012569763798101,
+    "last_updated_at": "2026-02-14T04:24:14.663Z",
+    "market_cap": 57265,
+    "market_cap_rank": 6771
+  },
+  "alpha-trader-exchange-atx": {
+    "cached_at": 1771061582625,
+    "current_price": 1.63,
+    "price_change_24h": 0.385819,
+    "last_updated_at": "2026-02-14T09:32:51.955Z",
+    "market_cap": 6163289,
+    "market_cap_rank": 1499
+  },
+  "soundsright": {
+    "cached_at": 1771061582625,
+    "current_price": 0.774629,
+    "price_change_24h": 0.189433,
+    "last_updated_at": "2026-02-14T09:31:39.491Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "tanssi": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00094423,
+    "price_change_24h": -0.000018340606357344,
+    "last_updated_at": "2026-02-14T09:30:19.706Z",
+    "market_cap": 331420,
+    "market_cap_rank": 4189
+  },
+  "fakenews": {
+    "cached_at": 1771061582625,
+    "current_price": 0.850754,
+    "price_change_24h": 0.190553,
+    "last_updated_at": "2026-02-14T09:32:55.717Z",
+    "market_cap": 3165665,
+    "market_cap_rank": 1972
+  },
+  "pups-ordinals": {
+    "cached_at": 1771060622500,
+    "current_price": 0.00610971,
+    "price_change_24h": 0.00033581,
+    "last_updated_at": "2026-02-14T09:15:20.796Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "bitquant": {
+    "cached_at": 1771061462275,
+    "current_price": 0.833605,
+    "price_change_24h": 0.226366,
+    "last_updated_at": "2026-02-14T09:29:16.167Z",
+    "market_cap": 47806,
+    "market_cap_rank": 7073
+  },
+  "zksync": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02275634,
+    "price_change_24h": 0.00051116,
+    "last_updated_at": "2026-02-14T09:32:48.868Z",
+    "market_cap": 249026975,
+    "market_cap_rank": 156
   },
   "commune-ai": {
     "cached_at": 1771021142359,
@@ -2895,29 +2743,85 @@
     "market_cap": 230726,
     "market_cap_rank": 4638
   },
-  "omron": {
-    "cached_at": 1771059063080,
-    "current_price": 1.8,
-    "price_change_24h": 0.418197,
-    "last_updated_at": "2026-02-14T08:50:52.429Z",
-    "market_cap": 7089713,
-    "market_cap_rank": 1409
+  "magic": {
+    "cached_at": 1771061582625,
+    "current_price": 0.069912,
+    "price_change_24h": 0.00201275,
+    "last_updated_at": "2026-02-14T09:32:58.589Z",
+    "market_cap": 22219850,
+    "market_cap_rank": 775
   },
-  "polkadot": {
-    "cached_at": 1771059063080,
-    "current_price": 1.36,
-    "price_change_24h": 0.081601,
-    "last_updated_at": "2026-02-14T08:50:53.196Z",
-    "market_cap": 2264952809,
-    "market_cap_rank": 38
+  "defichain": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00127918,
+    "price_change_24h": 0.00043985,
+    "last_updated_at": "2026-02-14T09:30:08.407Z",
+    "market_cap": 1169183,
+    "market_cap_rank": 2844
   },
-  "precog": {
-    "cached_at": 1771059063080,
-    "current_price": 0.824233,
-    "price_change_24h": 0.249646,
-    "last_updated_at": "2026-02-14T08:50:53.237Z",
-    "market_cap": 3208212,
-    "market_cap_rank": 1964
+  "ethena": {
+    "cached_at": 1771061582625,
+    "current_price": 0.123785,
+    "price_change_24h": 0.00783787,
+    "last_updated_at": "2026-02-14T09:32:55.808Z",
+    "market_cap": 1017986711,
+    "market_cap_rank": 68
+  },
+  "infinitehash": {
+    "cached_at": 1771061582625,
+    "current_price": 0.879386,
+    "price_change_24h": 0.210028,
+    "last_updated_at": "2026-02-14T09:32:57.197Z",
+    "market_cap": 2678514,
+    "market_cap_rank": 2114
+  },
+  "bitrecs": {
+    "cached_at": 1771061582625,
+    "current_price": 1.51,
+    "price_change_24h": 0.399482,
+    "last_updated_at": "2026-02-14T09:31:40.257Z",
+    "market_cap": 414067,
+    "market_cap_rank": 3908
+  },
+  "deeplink-protocol": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00000389,
+    "price_change_24h": 8.5148e-8,
+    "last_updated_at": "2026-02-14T09:31:27.704Z",
+    "market_cap": 51331,
+    "market_cap_rank": 6963
+  },
+  "beam": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02509492,
+    "price_change_24h": 0.00126473,
+    "last_updated_at": "2026-02-14T09:32:53.862Z",
+    "market_cap": 4855935,
+    "market_cap_rank": 1658
+  },
+  "bitmind": {
+    "cached_at": 1771061582625,
+    "current_price": 3.04,
+    "price_change_24h": 0.729244,
+    "last_updated_at": "2026-02-14T09:32:54.111Z",
+    "market_cap": 11713898,
+    "market_cap_rank": 1081
+  },
+  "axlusdc": {
+    "cached_at": 1771061462275,
+    "current_price": 1,
+    "price_change_24h": 0.00042694,
+    "last_updated_at": "2026-02-14T09:30:35.743Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "particle-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.113049,
+    "price_change_24h": 0.01343665,
+    "last_updated_at": "2026-02-14T09:33:00.664Z",
+    "market_cap": 26393827,
+    "market_cap_rank": 701
   },
   "meridian-mst": {
     "cached_at": 1769233143404,
@@ -2927,236 +2831,332 @@
     "market_cap": 194437,
     "market_cap_rank": 6045
   },
-  "kintsugi": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00866457,
-    "price_change_24h": 0.00497557,
-    "last_updated_at": "2026-02-14T08:47:08.229Z",
-    "market_cap": 32026,
-    "market_cap_rank": 7743
+  "satoshivm": {
+    "cached_at": 1771061462275,
+    "current_price": 0.02514734,
+    "price_change_24h": 0.0016841,
+    "last_updated_at": "2026-02-14T09:29:55.760Z",
+    "market_cap": 189759,
+    "market_cap_rank": 4927
   },
-  "optimism": {
-    "cached_at": 1771059063080,
-    "current_price": 0.193089,
-    "price_change_24h": 0.01050455,
-    "last_updated_at": "2026-02-14T08:50:52.716Z",
-    "market_cap": 408905452,
-    "market_cap_rank": 113
-  },
-  "coldint": {
-    "cached_at": 1771059063080,
-    "current_price": 3.01,
-    "price_change_24h": 0.672989,
-    "last_updated_at": "2026-02-14T08:50:59.750Z",
-    "market_cap": 11065541,
-    "market_cap_rank": 1117
-  },
-  "truth": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00006804,
-    "price_change_24h": -7.17654536456e-7,
-    "last_updated_at": "2026-02-14T08:49:28.978Z",
+  "neurowebai": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00519458,
+    "price_change_24h": 0.00021559,
+    "last_updated_at": "2026-02-14T09:31:20.485Z",
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "cere-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00029598,
-    "price_change_24h": -0.00000843618479057,
-    "last_updated_at": "2026-02-14T08:50:46.680Z",
-    "market_cap": 1964834,
-    "market_cap_rank": 2382
+  "chainflip": {
+    "cached_at": 1771061582625,
+    "current_price": 0.317418,
+    "price_change_24h": -0.002084779478515653,
+    "last_updated_at": "2026-02-14T09:32:54.547Z",
+    "market_cap": 21022649,
+    "market_cap_rank": 795
   },
-  "talisman": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04296701,
-    "price_change_24h": 0.0017135,
-    "last_updated_at": "2026-02-14T08:49:29.408Z",
-    "market_cap": 298003,
-    "market_cap_rank": 4327
+  "vericore": {
+    "cached_at": 1771061582625,
+    "current_price": 0.88073,
+    "price_change_24h": 0.172704,
+    "last_updated_at": "2026-02-14T09:33:00.170Z",
+    "market_cap": 3559991,
+    "market_cap_rank": 1884
   },
-  "rocket-pool-eth": {
-    "cached_at": 1771059063080,
-    "current_price": 2407.59,
-    "price_change_24h": 147.77,
-    "last_updated_at": "2026-02-14T08:51:00.033Z",
-    "market_cap": 825403241,
+  "sportstensor": {
+    "cached_at": 1771061582625,
+    "current_price": 1.46,
+    "price_change_24h": 0.356339,
+    "last_updated_at": "2026-02-14T09:32:53.716Z",
+    "market_cap": 5218121,
+    "market_cap_rank": 1612
+  },
+  "riverboat": {
+    "cached_at": 1770014223345,
+    "current_price": 3.12,
+    "price_change_24h": -0.21303885633747788,
+    "last_updated_at": "2026-02-02T06:35:59.784Z",
+    "market_cap": 3120.82,
+    "market_cap_rank": 13222
+  },
+  "mantis-2": {
+    "cached_at": 1771061582625,
+    "current_price": 1.011,
+    "price_change_24h": 0.245091,
+    "last_updated_at": "2026-02-14T09:32:58.650Z",
+    "market_cap": 2805255,
+    "market_cap_rank": 2086
+  },
+  "lido-dao": {
+    "cached_at": 1771061582625,
+    "current_price": 0.353811,
+    "price_change_24h": 0.01654118,
+    "last_updated_at": "2026-02-14T09:32:58.337Z",
+    "market_cap": 300085935,
+    "market_cap_rank": 139
+  },
+  "equilibrium-token": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00002128,
+    "price_change_24h": -2.97961175427e-7,
+    "last_updated_at": "2026-02-14T09:29:55.312Z",
+    "market_cap": 0,
     "market_cap_rank": null
   },
-  "tensorplex-staked-tao": {
-    "cached_at": 1771058702268,
-    "current_price": 245.39,
-    "price_change_24h": 14.69,
-    "last_updated_at": "2026-02-14T08:43:10.566Z",
-    "market_cap": 1758116,
+  "kora": {
+    "cached_at": 1771061582625,
+    "current_price": 1.44,
+    "price_change_24h": 0.368842,
+    "last_updated_at": "2026-02-14T09:32:57.916Z",
+    "market_cap": 5116376,
+    "market_cap_rank": 1623
+  },
+  "verse-bitcoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00002444,
+    "price_change_24h": 0.00000165,
+    "last_updated_at": "2026-02-14T09:31:06.668Z",
+    "market_cap": 1113242,
+    "market_cap_rank": 2888
+  },
+  "coredaoorg": {
+    "cached_at": 1771061582625,
+    "current_price": 0.088816,
+    "price_change_24h": 0.00377318,
+    "last_updated_at": "2026-02-14T09:32:54.874Z",
+    "market_cap": 95243443,
+    "market_cap_rank": 293
+  },
+  "ridges-ai": {
+    "cached_at": 1771061582625,
+    "current_price": 6.09,
+    "price_change_24h": 2.02,
+    "last_updated_at": "2026-02-14T09:32:53.075Z",
+    "market_cap": 25194049,
+    "market_cap_rank": 720
+  },
+  "deeper-network": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00021623,
+    "price_change_24h": 0.00000465,
+    "last_updated_at": "2026-02-14T09:31:09.378Z",
+    "market_cap": 0,
     "market_cap_rank": null
   },
-  "euro-coin": {
-    "cached_at": 1771059063080,
-    "current_price": 1.19,
-    "price_change_24h": -0.000311026685306803,
-    "last_updated_at": "2026-02-14T08:51:01.087Z",
-    "market_cap": 462927149,
-    "market_cap_rank": 104
+  "binancecoin": {
+    "cached_at": 1771061582625,
+    "current_price": 626.54,
+    "price_change_24h": 25.62,
+    "last_updated_at": "2026-02-14T09:33:00.310Z",
+    "market_cap": 85425529376,
+    "market_cap_rank": 5
   },
-  "data-universe": {
-    "cached_at": 1771059063080,
-    "current_price": 1.74,
-    "price_change_24h": 0.378321,
-    "last_updated_at": "2026-02-14T08:51:00.181Z",
-    "market_cap": 7356672,
-    "market_cap_rank": 1384
+  "novatti-australian-digital-dollar": {
+    "cached_at": 1771061582625,
+    "current_price": 0.705835,
+    "price_change_24h": -0.00012042163671433,
+    "last_updated_at": "2026-02-14T09:32:59.970Z",
+    "market_cap": 4776017,
+    "market_cap_rank": 1675
   },
-  "midnight-3": {
-    "cached_at": 1771059063080,
-    "current_price": 0.056714,
-    "price_change_24h": 0.00562362,
-    "last_updated_at": "2026-02-14T08:50:51.718Z",
-    "market_cap": 941612611,
-    "market_cap_rank": 70
+  "deepbrain-chain": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00028006,
+    "price_change_24h": 0.00001827,
+    "last_updated_at": "2026-02-14T09:29:47.351Z",
+    "market_cap": 896204,
+    "market_cap_rank": 3087
   },
-  "celo": {
-    "cached_at": 1771059063080,
-    "current_price": 0.088458,
-    "price_change_24h": 0.00527719,
-    "last_updated_at": "2026-02-14T08:50:59.591Z",
-    "market_cap": 52647122,
-    "market_cap_rank": 437
+  "pendulum-chain": {
+    "cached_at": 1771061462275,
+    "current_price": 0.01829867,
+    "price_change_24h": -0.000735930713597104,
+    "last_updated_at": "2026-02-14T09:29:46.264Z",
+    "market_cap": 1550206,
+    "market_cap_rank": 2588
   },
-  "iota-2": {
-    "cached_at": 1771059063080,
-    "current_price": 5.09,
-    "price_change_24h": 1.085,
-    "last_updated_at": "2026-02-14T08:50:50.165Z",
-    "market_cap": 19022485,
-    "market_cap_rank": 843
+  "pixie": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00000443,
+    "price_change_24h": 1.81268e-7,
+    "last_updated_at": "2026-02-14T09:29:56.518Z",
+    "market_cap": 0,
+    "market_cap_rank": null
   },
-  "bouncebit": {
-    "cached_at": 1771059063080,
-    "current_price": 0.03289464,
-    "price_change_24h": 0.00097161,
-    "last_updated_at": "2026-02-14T08:50:59.079Z",
-    "market_cap": 13467669,
-    "market_cap_rank": 1009
-  },
-  "athene-network-2": {
-    "cached_at": 1771058823612,
-    "current_price": 0.00000332,
-    "price_change_24h": -0.000003039113032837,
-    "last_updated_at": "2026-02-14T08:45:26.651Z",
-    "market_cap": 32.63,
-    "market_cap_rank": 12684
-  },
-  "hydradx": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00286769,
-    "price_change_24h": 0.00009331,
-    "last_updated_at": "2026-02-14T08:51:02.135Z",
-    "market_cap": 16916733,
-    "market_cap_rank": 889
+  "affine": {
+    "cached_at": 1771061582625,
+    "current_price": 16.4,
+    "price_change_24h": 4.23,
+    "last_updated_at": "2026-02-14T09:32:51.578Z",
+    "market_cap": 38564858,
+    "market_cap_rank": 540
   },
   "exosama-network": {
-    "cached_at": 1771059063080,
-    "current_price": 0.0014738,
-    "price_change_24h": 0.00008859,
-    "last_updated_at": "2026-02-14T08:50:03.445Z",
-    "market_cap": 1472693,
-    "market_cap_rank": 2623
+    "cached_at": 1771061462275,
+    "current_price": 0.0014734,
+    "price_change_24h": 0.00008942,
+    "last_updated_at": "2026-02-14T09:30:18.181Z",
+    "market_cap": 1473403,
+    "market_cap_rank": 2622
+  },
+  "minswap": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00587232,
+    "price_change_24h": 0.00028231,
+    "last_updated_at": "2026-02-14T09:32:59.244Z",
+    "market_cap": 10335580,
+    "market_cap_rank": 1158
+  },
+  "peaq-2": {
+    "cached_at": 1771061582625,
+    "current_price": 0.01812221,
+    "price_change_24h": 0.0003105,
+    "last_updated_at": "2026-02-14T09:33:00.754Z",
+    "market_cap": 32683535,
+    "market_cap_rank": 605
+  },
+  "kilt-protocol-2": {
+    "cached_at": 1771051382790,
+    "current_price": 0.0001844,
+    "price_change_24h": 0.00002671,
+    "last_updated_at": "2026-02-14T06:41:37.796Z",
+    "market_cap": 0,
+    "market_cap_rank": null
+  },
+  "readyai": {
+    "cached_at": 1771061582625,
+    "current_price": 2.16,
+    "price_change_24h": 0.524724,
+    "last_updated_at": "2026-02-14T09:32:52.917Z",
+    "market_cap": 7553825,
+    "market_cap_rank": 1362
+  },
+  "clover-finance": {
+    "cached_at": 1771061582625,
+    "current_price": 0.00501108,
+    "price_change_24h": 0.00093936,
+    "last_updated_at": "2026-02-14T09:32:54.665Z",
+    "market_cap": 6060360,
+    "market_cap_rank": 1507
   },
   "nuance-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.944877,
-    "price_change_24h": 0.233956,
-    "last_updated_at": "2026-02-14T08:50:52.251Z",
-    "market_cap": 3388717,
-    "market_cap_rank": 1925
+    "cached_at": 1771061582625,
+    "current_price": 0.958908,
+    "price_change_24h": 0.255071,
+    "last_updated_at": "2026-02-14T09:32:59.963Z",
+    "market_cap": 3444530,
+    "market_cap_rank": 1913
   },
-  "xdai": {
-    "cached_at": 1771059063080,
-    "current_price": 1,
-    "price_change_24h": 0.00017559,
-    "last_updated_at": "2026-02-14T08:50:57.086Z",
-    "market_cap": 94171698,
-    "market_cap_rank": 294
+  "gigadot": {
+    "cached_at": 1771061582625,
+    "current_price": 1.36,
+    "price_change_24h": 0.090095,
+    "last_updated_at": "2026-02-14T09:32:56.236Z",
+    "market_cap": 11966669,
+    "market_cap_rank": null
   },
-  "subsquid": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04542205,
-    "price_change_24h": 0.00076429,
-    "last_updated_at": "2026-02-14T08:50:54.948Z",
-    "market_cap": 44915358,
-    "market_cap_rank": 488
-  },
-  "crowns": {
-    "cached_at": 1771059063080,
-    "current_price": 0.02344638,
-    "price_change_24h": -0.007687176692164163,
-    "last_updated_at": "2026-02-14T08:50:43.909Z",
-    "market_cap": 178971,
-    "market_cap_rank": 5019
-  },
-  "iotex": {
-    "cached_at": 1771059063080,
-    "current_price": 0.00554968,
-    "price_change_24h": 0.00010465,
-    "last_updated_at": "2026-02-14T08:50:50.232Z",
-    "market_cap": 52410981,
-    "market_cap_rank": 440
-  },
-  "fantom": {
-    "cached_at": 1771059063080,
-    "current_price": 0.04973684,
-    "price_change_24h": 0.0040101,
-    "last_updated_at": "2026-02-14T08:50:13.611Z",
+  "stakestone-ether": {
+    "cached_at": 1771061462275,
+    "current_price": 2195.24,
+    "price_change_24h": 129.84,
+    "last_updated_at": "2026-02-14T09:30:52.420Z",
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "immutable-x": {
-    "cached_at": 1771059063080,
-    "current_price": 0.168013,
-    "price_change_24h": 0.0044725,
-    "last_updated_at": "2026-02-14T08:50:59.768Z",
-    "market_cap": 141508073,
-    "market_cap_rank": 220
+  "safe-scan": {
+    "cached_at": 1771061582625,
+    "current_price": 0.642437,
+    "price_change_24h": 0.060923,
+    "last_updated_at": "2026-02-14T09:32:53.235Z",
+    "market_cap": 2503514,
+    "market_cap_rank": 2176
   },
-  "fusotao": {
-    "cached_at": 1771058943603,
-    "current_price": 0.00028009,
-    "price_change_24h": 0,
-    "last_updated_at": "2026-02-14T08:47:27.054Z",
+  "flock-off": {
+    "cached_at": 1771061582625,
+    "current_price": 0.767347,
+    "price_change_24h": 0.192254,
+    "last_updated_at": "2026-02-14T09:31:39.541Z",
+    "market_cap": 2373321,
+    "market_cap_rank": 2218
+  },
+  "neon": {
+    "cached_at": 1771061582625,
+    "current_price": 0.03239962,
+    "price_change_24h": 0.00172714,
+    "last_updated_at": "2026-02-14T09:32:59.678Z",
+    "market_cap": 7758588,
+    "market_cap_rank": 1339
+  },
+  "weth": {
+    "cached_at": 1771061582625,
+    "current_price": 2076.27,
+    "price_change_24h": 116.59,
+    "last_updated_at": "2026-02-14T09:33:01.500Z",
+    "market_cap": 4315543089,
+    "market_cap_rank": null
+  },
+  "bouncebit-usd": {
+    "cached_at": 1761227685669,
+    "current_price": 0.979304,
+    "price_change_24h": null,
+    "last_updated_at": "2025-10-15T18:06:43.366Z",
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "sora": {
-    "cached_at": 1771058103514,
-    "current_price": 0,
-    "price_change_24h": 0,
-    "last_updated_at": "2026-02-14T08:33:22.823Z",
-    "market_cap": 677429,
-    "market_cap_rank": 3363
-  },
-  "moonbeans": {
-    "cached_at": 1770139922692,
-    "current_price": 0.00406955,
-    "price_change_24h": -0.000037224453159624,
-    "last_updated_at": "2026-02-03T17:32:00.388Z",
+  "truth": {
+    "cached_at": 1771061462275,
+    "current_price": 0.00006574,
+    "price_change_24h": -0.000003032285268199,
+    "last_updated_at": "2026-02-14T09:29:56.790Z",
     "market_cap": 0,
     "market_cap_rank": null
   },
-  "centrifuge-2": {
-    "cached_at": 1771059063080,
-    "current_price": 0.083337,
-    "price_change_24h": 0.00579941,
-    "last_updated_at": "2026-02-14T08:50:59.520Z",
-    "market_cap": 48021872,
-    "market_cap_rank": 460
+  "tiger-alpha": {
+    "cached_at": 1770084181878,
+    "current_price": 0.497374,
+    "price_change_24h": 0.01682621,
+    "last_updated_at": "2026-02-03T02:02:42.452Z",
+    "market_cap": 0.452796,
+    "market_cap_rank": 13623
   },
-  "crypto-com-chain": {
-    "cached_at": 1771059063080,
-    "current_price": 0.081608,
-    "price_change_24h": 0.00488989,
-    "last_updated_at": "2026-02-14T08:51:00.142Z",
-    "market_cap": 3253061838,
-    "market_cap_rank": 33
+  "optimism": {
+    "cached_at": 1771061582625,
+    "current_price": 0.193053,
+    "price_change_24h": 0.0112649,
+    "last_updated_at": "2026-02-14T09:33:00.496Z",
+    "market_cap": 408876419,
+    "market_cap_rank": 113
+  },
+  "kintsugi": {
+    "cached_at": 1771061343044,
+    "current_price": 0.00530996,
+    "price_change_24h": 0.00162095,
+    "last_updated_at": "2026-02-14T09:28:38.285Z",
+    "market_cap": 19626.64,
+    "market_cap_rank": 8570
+  },
+  "patrol-tao-com": {
+    "cached_at": 1771061582625,
+    "current_price": 2.9,
+    "price_change_24h": 0.694382,
+    "last_updated_at": "2026-02-14T09:33:00.645Z",
+    "market_cap": 9156755,
+    "market_cap_rank": 1242
+  },
+  "enjincoin": {
+    "cached_at": 1771061582625,
+    "current_price": 0.02204458,
+    "price_change_24h": 0.0008892,
+    "last_updated_at": "2026-02-14T09:32:55.620Z",
+    "market_cap": 42630872,
+    "market_cap_rank": 505
+  },
+  "desearch": {
+    "cached_at": 1771061582625,
+    "current_price": 1.094,
+    "price_change_24h": 0.275012,
+    "last_updated_at": "2026-02-14T09:32:55.129Z",
+    "market_cap": 3925767,
+    "market_cap_rank": 1806
   }
 }
