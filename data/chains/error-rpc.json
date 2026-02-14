@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -54,14 +46,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
-    }
-  },
-  {
-    "slug": "aventus",
-    "name": "Aventus Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -183,6 +167,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
+    "slug": "kusama",
+    "name": "Kusama",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama"
     }
   },
   {
@@ -316,14 +308,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Webb": "wss://testnet-rpc.tangle.tools"
-    }
-  },
-  {
-    "slug": "ternoa",
-    "name": "Ternoa",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "ternoa": "wss://mainnet.ternoa.network"
     }
   },
   {
