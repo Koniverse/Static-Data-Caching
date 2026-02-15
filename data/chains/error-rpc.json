@@ -16,12 +16,36 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aleph Zero Foundation": "wss://ws.azero.dev"
+    }
+  },
+  {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
       "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -170,14 +194,6 @@
     }
   },
   {
-    "slug": "kusama",
-    "name": "Kusama",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/kusama"
-    }
-  },
-  {
     "slug": "mangatax_para",
     "name": "Mangata X",
     "status": "ACTIVE",
@@ -270,6 +286,22 @@
     }
   },
   {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
+    }
+  },
+  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -339,7 +371,8 @@
     "name": "Zircuit",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Zircuit Liquify": "https://zircuit1-mainnet.liquify.com/"
+      "Zircuit Liquify": "https://zircuit1-mainnet.liquify.com/",
+      "Zircuit1": "https://zircuit1-mainnet.p2pify.com/"
     }
   }
 ]
