@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
+    }
+  },
+  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -33,6 +41,14 @@
     }
   },
   {
+    "slug": "aura",
+    "name": "Aura Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aura Network": "https://jsonrpc.aura.network"
+    }
+  },
+  {
     "slug": "availTuringTest",
     "name": "Avail Turing Testnet",
     "status": "ACTIVE",
@@ -46,6 +62,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
+    }
+  },
+  {
+    "slug": "aventus",
+    "name": "Aventus Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -197,14 +221,6 @@
     }
   },
   {
-    "slug": "paseo_assethub",
-    "name": "Paseo Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Stake World": "wss://pas-rpc.stakeworld.io/assethub"
-    }
-  },
-  {
     "slug": "passetHub_evm",
     "name": "Passet Hub EVM",
     "status": "ACTIVE",
@@ -262,19 +278,19 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
     "errorRpcs": {
       "Unifra": "https://sophon-mainnet-public.unifra.io/"
+    }
+  },
+  {
+    "slug": "sophon_testnet",
+    "name": "Sophon Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Sophon": "https://rpc.testnet.sophon.xyz/"
     }
   },
   {
