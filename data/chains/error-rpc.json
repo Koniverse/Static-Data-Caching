@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aleph Zero Foundation": "wss://ws.azero.dev"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -77,7 +85,8 @@
     "name": "B² Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Alt Technology": "https://b2-testnet.alt.technology/"
+      "Alt Technology": "https://b2-testnet.alt.technology/",
+      "Ankr": "https://rpc.ankr.com/b2_testnet"
     }
   },
   {
@@ -221,6 +230,14 @@
     }
   },
   {
+    "slug": "passetHub",
+    "name": "passet-hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Passet": "wss://testnet-passet-hub.polkadot.io"
+    }
+  },
+  {
     "slug": "passetHub_evm",
     "name": "Passet Hub EVM",
     "status": "ACTIVE",
@@ -242,6 +259,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+    }
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Polygon Scan": "https://polygon-rpc.com/"
     }
   },
   {
@@ -308,14 +333,6 @@
     "errorRpcs": {
       "JsonRPC": "https://stable-jsonrpc.testnet.chain0.dev/",
       "Stable": "https://stable-jsonrpc-ar.testnet.chain0.dev/"
-    }
-  },
-  {
-    "slug": "statemint",
-    "name": "Polkadot Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
     }
   },
   {
