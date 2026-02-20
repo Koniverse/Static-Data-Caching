@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -70,14 +62,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BountyBlok": "wss://avail.rpc.bountyblok.io/"
-    }
-  },
-  {
-    "slug": "aventus",
-    "name": "Aventus Polkadot",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Mainnet": "wss://public-rpc.mainnet.aventus.io"
     }
   },
   {
@@ -168,6 +152,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "WNP": "wss://wnp-rpc.mainnet.energywebx.com/"
+    }
+  },
+  {
+    "slug": "energy_web_x_testnet",
+    "name": "Energy Web X Argon",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
     }
   },
   {
