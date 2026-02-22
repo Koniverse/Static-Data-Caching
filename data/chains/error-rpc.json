@@ -41,14 +41,6 @@
     }
   },
   {
-    "slug": "aura",
-    "name": "Aura Network",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aura Network": "https://jsonrpc.aura.network"
-    }
-  },
-  {
     "slug": "availTuringTest",
     "name": "Avail Turing Testnet",
     "status": "ACTIVE",
@@ -155,11 +147,11 @@
     }
   },
   {
-    "slug": "energy_web_x_testnet",
-    "name": "Energy Web X Argon",
+    "slug": "fantom",
+    "name": "Fantom",
     "status": "ACTIVE",
     "errorRpcs": {
-      "EWX": "wss://ewx-staging-parachain-argon-wmfbanx0xb.energyweb.org/ws"
+      "PoktNetwork": "https://fantom-pokt.nodies.app/"
     }
   },
   {
@@ -192,6 +184,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
+    "slug": "litentry",
+    "name": "Heima",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Dwellir": "wss://heima-rpc.n.dwellir.com"
     }
   },
   {
