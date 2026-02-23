@@ -139,6 +139,14 @@
     }
   },
   {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+    }
+  },
+  {
     "slug": "energy_web_x",
     "name": "Energy Web X",
     "status": "ACTIVE",
@@ -187,14 +195,6 @@
     }
   },
   {
-    "slug": "litentry",
-    "name": "Heima",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Dwellir": "wss://heima-rpc.n.dwellir.com"
-    }
-  },
-  {
     "slug": "mangatax_para",
     "name": "Mangata X",
     "status": "ACTIVE",
@@ -219,6 +219,14 @@
     "errorRpcs": {
       "1RPC": "https://1rpc.io/op",
       "Mainnet": "https://endpoints.omniatech.io/v1/op/mainnet/public"
+    }
+  },
+  {
+    "slug": "paseo_assethub",
+    "name": "Paseo Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP": "wss://sys.ibp.network/asset-hub-paseo"
     }
   },
   {
