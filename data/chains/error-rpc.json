@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "amplitude",
-    "name": "Amplitude",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-    }
-  },
-  {
     "slug": "arbitrum_sepolia",
     "name": "Arbitrum Sepolia",
     "status": "ACTIVE",
@@ -155,14 +147,6 @@
     }
   },
   {
-    "slug": "fantom",
-    "name": "Fantom",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "PoktNetwork": "https://fantom-pokt.nodies.app/"
-    }
-  },
-  {
     "slug": "fantom_testnet",
     "name": "Fantom Testnet",
     "status": "ACTIVE",
@@ -222,18 +206,11 @@
     }
   },
   {
-    "slug": "paseo_assethub",
-    "name": "Paseo Asset Hub",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "IBP": "wss://sys.ibp.network/asset-hub-paseo"
-    }
-  },
-  {
     "slug": "passetHub",
     "name": "passet-hub",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP": "wss://passet-hub-paseo.ibp.network",
       "Passet": "wss://testnet-passet-hub.polkadot.io"
     }
   },
@@ -303,6 +280,14 @@
     }
   },
   {
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Shibuya": "wss://rpc.shibuya.astar.network"
+    }
+  },
+  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -357,14 +342,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir Tunisia": "wss://westmint-rpc-tn.dwellir.com"
-    }
-  },
-  {
-    "slug": "xcavate",
-    "name": "Xcavate",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Xcavate": "wss://rpc1-polkadot.xcavate.io"
     }
   },
   {
