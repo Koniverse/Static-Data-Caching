@@ -33,6 +33,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
@@ -139,22 +147,6 @@
     }
   },
   {
-    "slug": "darwinia2",
-    "name": "Darwinia 2",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
-    }
-  },
-  {
-    "slug": "edgeware",
-    "name": "Edgeware",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
-    }
-  },
-  {
     "slug": "energy_web_x",
     "name": "Energy Web X",
     "status": "ACTIVE",
@@ -168,14 +160,6 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ankr": "https://rpc.ankr.com/fantom_testnet"
-    }
-  },
-  {
-    "slug": "gen6_public",
-    "name": "Gen6 Public Chain",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Gen6": "wss://gen6.app:443/node"
     }
   },
   {
