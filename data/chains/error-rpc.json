@@ -339,11 +339,27 @@
     }
   },
   {
+    "slug": "tangle",
+    "name": "Tangle Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "wss://rpc.tangle.tools"
+    }
+  },
+  {
     "slug": "tangleTest",
     "name": "Tangle Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Webb": "wss://testnet-rpc.tangle.tools"
+    }
+  },
+  {
+    "slug": "tangle_evm",
+    "name": "Tangle EVM Mainnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Tangle": "https://rpc.tangle.tools/"
     }
   },
   {
