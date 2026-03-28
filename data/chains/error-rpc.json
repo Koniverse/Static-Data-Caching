@@ -41,14 +41,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "OnFinality": "wss://astar.api.onfinality.io/public-ws"
-    }
-  },
-  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
@@ -160,6 +152,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Curio": "wss://parachain.curioinvest.com/"
+    }
+  },
+  {
+    "slug": "edgeware",
+    "name": "Edgeware",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "JelliedOwl Bangalore": "wss://edgeware-rpc3.jelliedowl.net"
     }
   },
   {
@@ -322,11 +322,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
