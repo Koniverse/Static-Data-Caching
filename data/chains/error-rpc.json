@@ -314,6 +314,14 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
@@ -322,11 +330,11 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
+    "slug": "shiden",
+    "name": "Shiden",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
