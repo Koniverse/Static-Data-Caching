@@ -41,6 +41,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
@@ -212,6 +220,14 @@
     }
   },
   {
+    "slug": "liberland",
+    "name": "Liberland",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Liberland": "wss://mainnet.liberland.org"
+    }
+  },
+  {
     "slug": "mandalaTest",
     "name": "Mandala Testnet",
     "status": "ACTIVE",
@@ -314,19 +330,19 @@
     }
   },
   {
+    "slug": "rootstock",
+    "name": "Rootstock",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
     "slug": "sepolia_ethereum",
     "name": "Ethereum Sepolia",
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
-    }
-  },
-  {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
@@ -351,7 +367,8 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://sora.api.onfinality.io/public-ws",
-      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org"
+      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org",
+      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     }
   },
   {
