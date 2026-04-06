@@ -16,6 +16,14 @@
     }
   },
   {
+    "slug": "aleph",
+    "name": "Aleph Zero",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Aleph Zero Foundation": "wss://ws.azero.dev"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -38,6 +46,14 @@
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
       "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+    }
+  },
+  {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -187,14 +203,6 @@
     }
   },
   {
-    "slug": "hydradx_main",
-    "name": "Hydration",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Helikon": "wss://rpc.helikon.io/hydradx"
-    }
-  },
-  {
     "slug": "joystream",
     "name": "Joystream",
     "status": "ACTIVE",
@@ -335,6 +343,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "1RPC": "https://1rpc.io/sepolia"
+    }
+  },
+  {
+    "slug": "shiden",
+    "name": "Shiden",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.shiden.astar.network"
     }
   },
   {
