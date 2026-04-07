@@ -16,14 +16,6 @@
     }
   },
   {
-    "slug": "aleph",
-    "name": "Aleph Zero",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Aleph Zero Foundation": "wss://ws.azero.dev"
-    }
-  },
-  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -46,14 +38,6 @@
     "errorRpcs": {
       "Block Pi": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public",
       "Omni Atech": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
-    }
-  },
-  {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
     }
   },
   {
@@ -203,6 +187,14 @@
     }
   },
   {
+    "slug": "hyperbridge",
+    "name": "Hyperbridge",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+    }
+  },
+  {
     "slug": "joystream",
     "name": "Joystream",
     "status": "ACTIVE",
@@ -335,6 +327,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "DRPC": "https://rootstock.drpc.org"
+    }
+  },
+  {
+    "slug": "scroll",
+    "name": "Scroll",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Scroll": "https://rpc.scroll.io/"
     }
   },
   {
