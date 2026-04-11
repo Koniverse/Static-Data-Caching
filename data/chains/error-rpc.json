@@ -16,6 +16,22 @@
     }
   },
   {
+    "slug": "acala",
+    "name": "Acala",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://acala.dotters.network"
+    }
+  },
+  {
+    "slug": "ajunaPolkadot",
+    "name": "Ajuna Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://ajuna.dotters.network"
+    }
+  },
+  {
     "slug": "amplitude",
     "name": "Amplitude",
     "status": "ACTIVE",
@@ -41,27 +57,19 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
     "errorRpcs": {
       "Dwellir": "https://astar-rpc.dwellir.com"
-    }
-  },
-  {
-    "slug": "availTuringTest",
-    "name": "Avail Turing Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BountyBlok": "wss://avail-turing.bountyblok.io/"
-    }
-  },
-  {
-    "slug": "avail_mainnet",
-    "name": "Avail",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "BountyBlok": "wss://avail.rpc.bountyblok.io/"
     }
   },
   {
@@ -112,6 +120,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "BEVM OP Testnet": "https://sepolia-wbtc-testnet.bevm.io/"
+    }
+  },
+  {
+    "slug": "bifrost_dot",
+    "name": "Bifrost Polkadot",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://bifrost-polkadot.dotters.network"
     }
   },
   {
@@ -191,7 +207,8 @@
     "name": "Hyperbridge",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network"
+      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
+      "IBP2": "wss://nexus.dotters.network"
     }
   },
   {
@@ -235,6 +252,14 @@
     "errorRpcs": {
       "Mangata Archive": "wss://kusama-archive.mangata.online",
       "mangata": "wss://kusama-rpc.mangata.online"
+    }
+  },
+  {
+    "slug": "moonbeam",
+    "name": "Moonbeam",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://moonbeam.dotters.network"
     }
   },
   {
@@ -338,14 +363,6 @@
     }
   },
   {
-    "slug": "shibuya",
-    "name": "Shibuya Testnet",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Shibuya": "wss://rpc.shibuya.astar.network"
-    }
-  },
-  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -409,6 +426,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Ternoa zkEVM": "https://rpc.zkevm.ternoa.network/"
+    }
+  },
+  {
+    "slug": "unique_network",
+    "name": "Unique",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "IBP2": "wss://unique.dotters.network"
     }
   },
   {
