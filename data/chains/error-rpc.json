@@ -57,6 +57,14 @@
     }
   },
   {
+    "slug": "astar",
+    "name": "Astar",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Astar": "wss://rpc.astar.network"
+    }
+  },
+  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
@@ -152,6 +160,17 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Crab": "wss://crab-rpc.darwinia.network/"
+    }
+  },
+  {
+    "slug": "crust",
+    "name": "Crust",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Crust APP": "wss://crust-parachain.crustnetwork.app",
+      "Crust CC": "wss://crust-parachain.crustnetwork.cc",
+      "Crust XYZ": "wss://crust-parachain.crustnetwork.xyz",
+      "Crust": "wss://crust-parachain.crustapps.net"
     }
   },
   {
