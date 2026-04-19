@@ -163,17 +163,6 @@
     }
   },
   {
-    "slug": "crust",
-    "name": "Crust",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Crust APP": "wss://crust-parachain.crustnetwork.app",
-      "Crust CC": "wss://crust-parachain.crustnetwork.cc",
-      "Crust XYZ": "wss://crust-parachain.crustnetwork.xyz",
-      "Crust": "wss://crust-parachain.crustapps.net"
-    }
-  },
-  {
     "slug": "curio",
     "name": "Curio",
     "status": "ACTIVE",
@@ -240,11 +229,27 @@
     }
   },
   {
+    "slug": "kintsugi",
+    "name": "Kintsugi",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://kintsugi.api.onfinality.io/public-ws"
+    }
+  },
+  {
     "slug": "kreivo",
     "name": "Kreivo",
     "status": "ACTIVE",
     "errorRpcs": {
       "Virto": "wss://kreivo.io/"
+    }
+  },
+  {
+    "slug": "liberland",
+    "name": "Liberland",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Liberland": "wss://mainnet.liberland.org"
     }
   },
   {
@@ -271,6 +276,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "IBP2": "wss://moonbeam.dotters.network"
+    }
+  },
+  {
+    "slug": "mosaicTest",
+    "name": "Mosaic Chain Devnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Mosaic 1": "wss://devnet-gw1.mosaicchain.io/MosaicNode1/chain"
     }
   },
   {
@@ -403,7 +416,8 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "OnFinality": "wss://sora.api.onfinality.io/public-ws",
-      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org"
+      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org",
+      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
     }
   },
   {
