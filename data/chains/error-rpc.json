@@ -245,14 +245,6 @@
     }
   },
   {
-    "slug": "liberland",
-    "name": "Liberland",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Liberland": "wss://mainnet.liberland.org"
-    }
-  },
-  {
     "slug": "mandalaTest",
     "name": "Mandala Testnet",
     "status": "ACTIVE",
@@ -387,11 +379,11 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
+    "slug": "shibuya",
+    "name": "Shibuya Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
+      "Shibuya": "wss://rpc.shibuya.astar.network"
     }
   },
   {
@@ -415,9 +407,7 @@
     "name": "SORA",
     "status": "ACTIVE",
     "errorRpcs": {
-      "OnFinality": "wss://sora.api.onfinality.io/public-ws",
-      "SORA Parliament Ministry of Finance #3": "wss://mof3.sora.org",
-      "SORA Parliament Ministry of Finance": "wss://ws.mof.sora.org"
+      "OnFinality": "wss://sora.api.onfinality.io/public-ws"
     }
   },
   {
