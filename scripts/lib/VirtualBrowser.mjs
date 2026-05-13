@@ -9,18 +9,24 @@ export class VirtualBrowser {
 
   }
 
-  async getBrowser () {
+  async getBrowser() {
     if (!this.browser) {
       this.browser = await puppeteer.launch({
         headless: 'new',
-        protocolTimeout: 600_000
+        protocolTimeout: 600_000,
+        args: [
+          "--disable-quic",
+          "--disable-http3",
+          "--no-sandbox",
+          "--disable-setuid-sandbox",
+        ],
       });
     }
 
     return this.browser;
   }
 
-  async openPage (url) {
+  async openPage(url) {
     const browser = await this.getBrowser();
     const page = await browser.newPage();
 
