@@ -20,6 +20,7 @@
     "name": "Acala",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://acala.ibp.network",
       "IBP2": "wss://acala.dotters.network"
     }
   },
@@ -28,7 +29,8 @@
     "name": "Ajuna Network",
     "status": "ACTIVE",
     "errorRpcs": {
-      "IBP2": "wss://ajuna.dotters.network"
+      "IBP2": "wss://ajuna.dotters.network",
+      "Ibp": "wss://ajuna.ibp.network"
     }
   },
   {
@@ -57,14 +59,6 @@
     }
   },
   {
-    "slug": "astar",
-    "name": "Astar",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.astar.network"
-    }
-  },
-  {
     "slug": "astarEvm",
     "name": "Astar - EVM",
     "status": "ACTIVE",
@@ -73,12 +67,21 @@
     }
   },
   {
+    "slug": "b2",
+    "name": "B² Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Alt technology": "https://b2-mainnet.alt.technology"
+    }
+  },
+  {
     "slug": "b2_testnet",
     "name": "B² Network Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
       "Alt Technology": "https://b2-testnet.alt.technology/",
-      "Ankr": "https://rpc.ankr.com/b2_testnet"
+      "Ankr": "https://rpc.ankr.com/b2_testnet",
+      "Bsquared": "https://testnet-rpc.bsquared.network"
     }
   },
   {
@@ -127,6 +130,7 @@
     "name": "Bifrost Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://bifrost-polkadot.ibp.network",
       "IBP2": "wss://bifrost-polkadot.dotters.network"
     }
   },
@@ -171,6 +175,14 @@
     }
   },
   {
+    "slug": "darwinia2",
+    "name": "Darwinia 2",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Subquery": "wss://darwinia.rpc.subquery.network/public/ws"
+    }
+  },
+  {
     "slug": "edgeware",
     "name": "Edgeware",
     "status": "ACTIVE",
@@ -199,16 +211,24 @@
     "name": "Fantom Testnet",
     "status": "ACTIVE",
     "errorRpcs": {
-      "Ankr": "https://rpc.ankr.com/fantom_testnet"
+      "Ankr": "https://rpc.ankr.com/fantom_testnet",
+      "FantomNetwork": "https://rpc.testnet.fantom.network/"
     }
   },
   {
-    "slug": "hyperbridge",
-    "name": "Hyperbridge",
+    "slug": "hydradx_main",
+    "name": "Hydration",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://hyperbridge-nexus-rpc.blockops.network",
-      "IBP2": "wss://nexus.dotters.network"
+      "Helikon": "wss://rpc.helikon.io/hydradx"
+    }
+  },
+  {
+    "slug": "ipci",
+    "name": "DAO IPCI",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Airalab": "wss://ipci.rpc.robonomics.network"
     }
   },
   {
@@ -245,6 +265,22 @@
     }
   },
   {
+    "slug": "krest_network",
+    "name": "Krest Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://krest.api.onfinality.io/public-ws"
+    }
+  },
+  {
+    "slug": "laos_network",
+    "name": "LAOS Network",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "LaosFoundation": "wss://rpc.laos.laosfoundation.io"
+    }
+  },
+  {
     "slug": "mandalaTest",
     "name": "Mandala Testnet",
     "status": "ACTIVE",
@@ -263,11 +299,28 @@
     }
   },
   {
+    "slug": "moonbase",
+    "name": "Moonbase Alpha",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://moonbase.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
     "slug": "moonbeam",
     "name": "Moonbeam",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://moonbeam.ibp.network",
       "IBP2": "wss://moonbeam.dotters.network"
+    }
+  },
+  {
+    "slug": "muse_testnet",
+    "name": "Muse Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Parity": "wss://paseo-muse-rpc.polkadot.io"
     }
   },
   {
@@ -318,7 +371,16 @@
     "name": "Polkadot",
     "status": "ACTIVE",
     "errorRpcs": {
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws",
+      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "polkadot_people",
+    "name": "Polkadot People",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://people-polkadot.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -379,14 +441,6 @@
     }
   },
   {
-    "slug": "shiden",
-    "name": "Shiden",
-    "status": "ACTIVE",
-    "errorRpcs": {
-      "Astar": "wss://rpc.shiden.astar.network"
-    }
-  },
-  {
     "slug": "sophon",
     "name": "Sophon",
     "status": "ACTIVE",
@@ -417,6 +471,22 @@
     "errorRpcs": {
       "JsonRPC": "https://stable-jsonrpc.testnet.chain0.dev/",
       "Stable": "https://stable-jsonrpc-ar.testnet.chain0.dev/"
+    }
+  },
+  {
+    "slug": "statemine",
+    "name": "Kusama Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws"
+    }
+  },
+  {
+    "slug": "statemint",
+    "name": "Polkadot Asset Hub",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Radiumblock": "wss://statemint.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -456,7 +526,24 @@
     "name": "Unique",
     "status": "ACTIVE",
     "errorRpcs": {
+      "IBP1": "wss://unique.ibp.network",
       "IBP2": "wss://unique.dotters.network"
+    }
+  },
+  {
+    "slug": "verisenseTest",
+    "name": "Verisense Beta Testnet",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "Verisense": "wss://rpc.beta.verisense.network"
+    }
+  },
+  {
+    "slug": "westend",
+    "name": "Westend",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "RadiumBlock": "wss://westend.public.curie.radiumblock.co/ws"
     }
   },
   {
@@ -473,6 +560,14 @@
     "status": "ACTIVE",
     "errorRpcs": {
       "Xcavate": "wss://rpc1-polkadot.xcavate.io"
+    }
+  },
+  {
+    "slug": "zeitgeist",
+    "name": "Zeitgeist",
+    "status": "ACTIVE",
+    "errorRpcs": {
+      "OnFinality": "wss://zeitgeist.api.onfinality.io/public-ws"
     }
   },
   {
