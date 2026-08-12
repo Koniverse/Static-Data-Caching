@@ -1,6 +1,6 @@
 import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
-import oldData from "../data/earning/yield-pools.json" assert {type: "json"};
+import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
 const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://9bb4d86b.swwrc.pages.dev/';
 
