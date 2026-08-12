@@ -20,12 +20,13 @@ jobs:
   master:
     if: "!startsWith(github.event.head_commit.message, '[CI Skip]')"
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     name: Earning Scheduler Dev
     steps:
       - uses: actions/checkout@v4
         with:
           ref: dev
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.GH_AUTOMATION_TOKEN }}
 
       - name: Update data

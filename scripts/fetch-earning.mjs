@@ -4,6 +4,13 @@ import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
 const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://9bb4d86b.swwrc.pages.dev/';
 
+// Pool targets are fetched inside a single page: running all of them at once starves the page's
+// event loop (even the per-task timers), so keep a bounded number of them in flight.
+const POOL_TARGET_CONCURRENCY = 25;
+const POOL_TARGET_TIMEOUT = 60000; // per pool
+const POOL_TARGET_BUDGET = 480000; // for the whole phase
+const FETCH_TIMEOUT = 900000;
+
 console.log('Fetching data from', webRunnerURL);
 
 const runBrowser = async () => {
@@ -122,32 +129,52 @@ const runBrowser = async () => {
     data: finalData
   });
 
-  const data = await page.evaluate(async () => {
+  const data = await page.evaluate(async (concurrency, taskTimeout, budget) => {
     const koniState = window.SubWalletState;
     const poolInfos = await koniState.earningService.getYieldPoolInfo();
 
-    const promiseList = poolInfos.map((pool) => {
-      const timeoutPromise = new Promise((resolve) => {
-        setTimeout(() => {
-          resolve([]);
-        }, 60000);
-      });
+    const deadline = Date.now() + budget;
+    const results = [];
+    let cursor = 0;
 
-      const promise = (async () => {
-        try {
-          return await koniState.earningService.getPoolTargets(pool.slug)
-        } catch (e) {
-          console.error(e);
+    const runWorker = async () => {
+      while (cursor < poolInfos.length) {
+        const index = cursor++;
+        const pool = poolInfos[index];
+        const remaining = deadline - Date.now();
 
-          return [];
+        if (remaining <= 0) { // Out of budget, give up on the rest
+          results[index] = [pool.slug, []];
+
+          continue;
         }
-      })();
 
-      return Promise.race([promise, timeoutPromise]).then((rs) => [pool.slug, rs]);
-    });
+        const timeoutPromise = new Promise((resolve) => {
+          setTimeout(() => {
+            resolve([]);
+          }, Math.min(taskTimeout, remaining));
+        });
 
-    return await Promise.all(promiseList);
-  });
+        const promise = (async () => {
+          try {
+            return await koniState.earningService.getPoolTargets(pool.slug)
+          } catch (e) {
+            console.error(e);
+
+            return [];
+          }
+        })();
+
+        results[index] = [pool.slug, await Promise.race([promise, timeoutPromise])];
+      }
+    };
+
+    const workers = Array.from({ length: Math.min(concurrency, poolInfos.length) }, runWorker);
+
+    await Promise.all(workers);
+
+    return results;
+  }, POOL_TARGET_CONCURRENCY, POOL_TARGET_TIMEOUT, POOL_TARGET_BUDGET);
 
   console.log()
 
@@ -167,21 +194,34 @@ const runBrowser = async () => {
 };
 
 export const fetchEarning = async () => {
-  try {
-    const errTimeout = setTimeout(() => {
-      throw new Error('Failed to fetch data');
-    }, 360000);
+  let errTimeout;
 
+  try {
     // Run browser
-    await runBrowser();
+    const browserPromise = runBrowser();
+
+    // The timeout below can win the race, so keep this rejection handled either way
+    browserPromise.catch(() => undefined);
+
+    await Promise.race([
+      browserPromise,
+      new Promise((_, reject) => {
+        errTimeout = setTimeout(() => {
+          reject(new Error(`Failed to fetch data: timed out after ${FETCH_TIMEOUT}ms`));
+        }, FETCH_TIMEOUT);
+      })
+    ]);
 
     // Wait for 1 second
     await new Promise((resolve) => {
       setTimeout(resolve, 1000);
     });
-
-    clearTimeout(errTimeout);
   } catch (error) {
     console.log("Fetch earning error", error)
+
+    // runBrowser() only closes the browser on its happy path
+    await VirtualBrowser.getInstance().close().catch(() => undefined);
+  } finally {
+    clearTimeout(errTimeout);
   }
 };
