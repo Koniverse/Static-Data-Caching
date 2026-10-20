@@ -2,7 +2,7 @@ import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://9bb4d86b.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://a45c80cb.swwrc.pages.dev/';
 
 // Pool targets are fetched inside a single page: running all of them at once starves the page's
 // event loop (even the per-task timers), so keep a bounded number of them in flight.
