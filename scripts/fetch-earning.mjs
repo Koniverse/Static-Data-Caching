@@ -1,8 +1,10 @@
+import fs from "fs";
 import { VirtualBrowser } from "./lib/VirtualBrowser.mjs";
+import { DATA_DIR } from "./lib/constants.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://c02c6acd.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://77abda74.swwrc.pages.dev/';
 
 // Pool targets are fetched inside a single page: running all of them at once starves the page's
 // event loop (even the per-task timers), so keep a bounded number of them in flight.
@@ -13,8 +15,29 @@ const FETCH_TIMEOUT = 900000;
 
 console.log('Fetching data from', webRunnerURL);
 
+const TESTNET_SUBNET_POOL = '___subnet_staking___bittensor_testnet__subnet_';
+
+/**
+ * Bittensor testnet lists only its first 100 subnets (dtao.ts), so the subnets it stops listing must leave the file:
+ * merged from the old file, they would stay forever. Pruned only when the testnet handler reported this run, from
+ * `runStartedAt` on, so a run without testnet keeps what it has. Returns the slugs removed from `finalData`.
+ */
+export const pruneUnlistedTestnetSubnets = (finalData, poolInfo, runStartedAt) => {
+  const slugs = Object.keys(finalData).filter((slug) => slug.includes(TESTNET_SUBNET_POOL));
+  const reported = new Set(slugs.filter((slug) => poolInfo[slug]?.lastUpdated >= runStartedAt));
+  const pruned = reported.size ? slugs.filter((slug) => !reported.has(slug)) : [];
+
+  pruned.forEach((slug) => {
+    delete finalData[slug];
+  });
+
+  return pruned;
+};
+
 const runBrowser = async () => {
   const virtualBrowser = VirtualBrowser.getInstance();
+  // The chains' pools carry a later time than this; those the page read from the old file do not
+  const runStartedAt = Date.now();
 
   const page = await virtualBrowser.openPage(webRunnerURL)
   const result = await page.evaluate(async () => {
@@ -114,6 +137,16 @@ const runBrowser = async () => {
     }
   }
 
+  const prunedSlugs = pruneUnlistedTestnetSubnets(finalData, poolInfo, runStartedAt);
+
+  prunedSlugs.forEach((slug) => {
+    fs.rmSync(`${DATA_DIR}/earning/targets/${slug}.json`, { force: true });
+  });
+
+  if (prunedSlugs.length) {
+    console.log(`Removed ${prunedSlugs.length} Bittensor testnet subnet pools the testnet no longer lists`);
+  }
+
   // Force remove CAPS___native_staking___ternoa_alphanet
   finalData['CAPS___native_staking___ternoa_alphanet'] && delete finalData['CAPS___native_staking___ternoa_alphanet'];
 
@@ -129,9 +162,11 @@ const runBrowser = async () => {
     data: finalData
   });
 
-  const data = await page.evaluate(async (concurrency, taskTimeout, budget) => {
+  const data = await page.evaluate(async (concurrency, taskTimeout, budget, skipSlugs) => {
     const koniState = window.SubWalletState;
-    const poolInfos = await koniState.earningService.getYieldPoolInfo();
+    // The page still holds the pools just pruned, read from the old file: their lists are not wanted
+    const skip = new Set(skipSlugs);
+    const poolInfos = (await koniState.earningService.getYieldPoolInfo()).filter((pool) => !skip.has(pool.slug));
 
     const deadline = Date.now() + budget;
     const results = [];
@@ -174,7 +209,7 @@ const runBrowser = async () => {
     await Promise.all(workers);
 
     return results;
-  }, POOL_TARGET_CONCURRENCY, POOL_TARGET_TIMEOUT, POOL_TARGET_BUDGET);
+  }, POOL_TARGET_CONCURRENCY, POOL_TARGET_TIMEOUT, POOL_TARGET_BUDGET, prunedSlugs);
 
   console.log()
 
