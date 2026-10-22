@@ -4,7 +4,7 @@ import { DATA_DIR } from "./lib/constants.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://cc40ae3d.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://beca453d.swwrc.pages.dev/';
 
 // Pool targets are fetched inside a single page: running all of them at once starves the page's
 // event loop (even the per-task timers), so keep a bounded number of them in flight.
@@ -226,8 +226,11 @@ const runBrowser = async () => {
   });
 
   await virtualBrowser.close();
+
+  return data;
 };
 
+/** Every pool's targets fetched this run, as `[slug, targets]`; undefined when the run failed */
 export const fetchEarning = async () => {
   let errTimeout;
 
@@ -238,7 +241,7 @@ export const fetchEarning = async () => {
     // The timeout below can win the race, so keep this rejection handled either way
     browserPromise.catch(() => undefined);
 
-    await Promise.race([
+    const poolTargets = await Promise.race([
       browserPromise,
       new Promise((_, reject) => {
         errTimeout = setTimeout(() => {
@@ -251,6 +254,8 @@ export const fetchEarning = async () => {
     await new Promise((resolve) => {
       setTimeout(resolve, 1000);
     });
+
+    return poolTargets;
   } catch (error) {
     console.log("Fetch earning error", error)
 

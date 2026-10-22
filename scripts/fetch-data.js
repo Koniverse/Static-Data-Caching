@@ -4,9 +4,9 @@ import { fetchDtaoValidatorData } from "./fetch-dtao-validator.mjs";
 
 const main = async () => {
   await Promise.all([
-    fetchEarning(),
-    fetchPrice(),
-    fetchDtaoValidatorData()
+    // validator.json is built from the Bittensor pool targets the earning run brings back
+    fetchEarning().then(fetchDtaoValidatorData),
+    fetchPrice()
   ])
 }
 
