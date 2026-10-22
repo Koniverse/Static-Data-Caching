@@ -4,7 +4,7 @@ import { DATA_DIR } from "./lib/constants.mjs";
 import { writeJSONFile } from "./lib/utils.mjs";
 import oldData from "../data/earning/yield-pools.json" with {type: "json"};
 
-const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://77abda74.swwrc.pages.dev/';
+const webRunnerURL = process.env.WEB_RUNNER_URL || 'https://cc40ae3d.swwrc.pages.dev/';
 
 // Pool targets are fetched inside a single page: running all of them at once starves the page's
 // event loop (even the per-task timers), so keep a bounded number of them in flight.
